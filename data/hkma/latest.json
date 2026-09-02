@@ -1,0 +1,116 @@
+{
+ "source": "hkma",
+ "name": "Hong Kong Monetary Authority",
+ "country": "Hong Kong",
+ "home_currency": "HKD",
+ "kind": "central_bank",
+ "date": "2026-07-31",
+ "cadence": "monthly",
+ "rates": [
+  {
+   "base": "AUD",
+   "quote": "HKD",
+   "type": "reference",
+   "value": 5.512
+  },
+  {
+   "base": "CAD",
+   "quote": "HKD",
+   "type": "reference",
+   "value": 5.594
+  },
+  {
+   "base": "CHF",
+   "quote": "HKD",
+   "type": "reference",
+   "value": 9.718
+  },
+  {
+   "base": "CNY",
+   "quote": "HKD",
+   "type": "reference",
+   "value": 1.16275
+  },
+  {
+   "base": "EUR",
+   "quote": "HKD",
+   "type": "reference",
+   "value": 9.03
+  },
+  {
+   "base": "GBP",
+   "quote": "HKD",
+   "type": "reference",
+   "value": 10.5455
+  },
+  {
+   "base": "IDR",
+   "quote": "HKD",
+   "type": "reference",
+   "value": 0.0004344
+  },
+  {
+   "base": "INR",
+   "quote": "HKD",
+   "type": "reference",
+   "value": 0.0825
+  },
+  {
+   "base": "JPY",
+   "quote": "HKD",
+   "type": "reference",
+   "value": 0.04887
+  },
+  {
+   "base": "KRW",
+   "quote": "HKD",
+   "type": "reference",
+   "value": 0.00548
+  },
+  {
+   "base": "MYR",
+   "quote": "HKD",
+   "type": "reference",
+   "value": 1.91825
+  },
+  {
+   "base": "PHP",
+   "quote": "HKD",
+   "type": "reference",
+   "value": 0.1285
+  },
+  {
+   "base": "SGD",
+   "quote": "HKD",
+   "type": "reference",
+   "value": 6.113
+  },
+  {
+   "base": "THB",
+   "quote": "HKD",
+   "type": "reference",
+   "value": 0.23525
+  },
+  {
+   "base": "TWD",
+   "quote": "HKD",
+   "type": "reference",
+   "value": 0.246
+  },
+  {
+   "base": "USD",
+   "quote": "HKD",
+   "type": "reference",
+   "value": 7.8420000000000005
+  },
+  {
+   "base": "ZAR",
+   "quote": "HKD",
+   "type": "reference",
+   "value": 0.4755
+  }
+ ],
+ "official_source": "https://api.hkma.gov.hk/public/market-data-and-statistics/monthly-statistical-bulletin/er-ir/er-eeri-daily",
+ "page": "https://allratestoday.com/central-bank-rates-api/hkma/",
+ "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
+}

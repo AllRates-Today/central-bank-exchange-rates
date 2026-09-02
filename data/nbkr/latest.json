@@ -1,0 +1,44 @@
+{
+ "source": "nbkr",
+ "name": "National Bank of the Kyrgyz Republic",
+ "country": "Kyrgyzstan",
+ "home_currency": "KGS",
+ "kind": "central_bank",
+ "date": "2026-09-02",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "CNY",
+   "quote": "KGS",
+   "type": "reference",
+   "value": 13.0125
+  },
+  {
+   "base": "EUR",
+   "quote": "KGS",
+   "type": "reference",
+   "value": 101.8312
+  },
+  {
+   "base": "KZT",
+   "quote": "KGS",
+   "type": "reference",
+   "value": 0.1881
+  },
+  {
+   "base": "RUB",
+   "quote": "KGS",
+   "type": "reference",
+   "value": 1.0172
+  },
+  {
+   "base": "USD",
+   "quote": "KGS",
+   "type": "reference",
+   "value": 87.45
+  }
+ ],
+ "official_source": "https://www.nbkr.kg/XML/daily.xml",
+ "page": "https://allratestoday.com/central-bank-rates-api/nbkr/",
+ "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
+}

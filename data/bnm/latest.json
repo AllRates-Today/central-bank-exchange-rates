@@ -1,0 +1,176 @@
+{
+ "source": "bnm",
+ "name": "Bank Negara Malaysia",
+ "country": "Malaysia",
+ "home_currency": "MYR",
+ "kind": "central_bank",
+ "date": "2026-09-02",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AED",
+   "quote": "MYR",
+   "type": "middle",
+   "value": 1.101127
+  },
+  {
+   "base": "AUD",
+   "quote": "MYR",
+   "type": "middle",
+   "value": 2.8878
+  },
+  {
+   "base": "BND",
+   "quote": "MYR",
+   "type": "middle",
+   "value": 3.1755
+  },
+  {
+   "base": "CAD",
+   "quote": "MYR",
+   "type": "middle",
+   "value": 2.9061
+  },
+  {
+   "base": "CHF",
+   "quote": "MYR",
+   "type": "middle",
+   "value": 4.9751
+  },
+  {
+   "base": "CNY",
+   "quote": "MYR",
+   "type": "middle",
+   "value": 0.6016
+  },
+  {
+   "base": "EGP",
+   "quote": "MYR",
+   "type": "middle",
+   "value": 0.0794
+  },
+  {
+   "base": "EUR",
+   "quote": "MYR",
+   "type": "middle",
+   "value": 4.683
+  },
+  {
+   "base": "GBP",
+   "quote": "MYR",
+   "type": "middle",
+   "value": 5.4604
+  },
+  {
+   "base": "HKD",
+   "quote": "MYR",
+   "type": "middle",
+   "value": 0.51576
+  },
+  {
+   "base": "IDR",
+   "quote": "MYR",
+   "type": "middle",
+   "value": 0.000228
+  },
+  {
+   "base": "INR",
+   "quote": "MYR",
+   "type": "middle",
+   "value": 0.042588999999999995
+  },
+  {
+   "base": "JPY",
+   "quote": "MYR",
+   "type": "middle",
+   "value": 0.025241
+  },
+  {
+   "base": "KHR",
+   "quote": "MYR",
+   "type": "middle",
+   "value": 0.000995
+  },
+  {
+   "base": "KRW",
+   "quote": "MYR",
+   "type": "middle",
+   "value": 0.0029509999999999996
+  },
+  {
+   "base": "MMK",
+   "quote": "MYR",
+   "type": "middle",
+   "value": 0.001931
+  },
+  {
+   "base": "NPR",
+   "quote": "MYR",
+   "type": "middle",
+   "value": 0.026618
+  },
+  {
+   "base": "NZD",
+   "quote": "MYR",
+   "type": "middle",
+   "value": 2.3625
+  },
+  {
+   "base": "PHP",
+   "quote": "MYR",
+   "type": "middle",
+   "value": 0.06453199999999999
+  },
+  {
+   "base": "PKR",
+   "quote": "MYR",
+   "type": "middle",
+   "value": 0.014561
+  },
+  {
+   "base": "SAR",
+   "quote": "MYR",
+   "type": "middle",
+   "value": 1.077107
+  },
+  {
+   "base": "SGD",
+   "quote": "MYR",
+   "type": "middle",
+   "value": 3.1753
+  },
+  {
+   "base": "THB",
+   "quote": "MYR",
+   "type": "middle",
+   "value": 0.12139099999999999
+  },
+  {
+   "base": "TWD",
+   "quote": "MYR",
+   "type": "middle",
+   "value": 0.127178
+  },
+  {
+   "base": "USD",
+   "quote": "MYR",
+   "type": "middle",
+   "value": 4.044
+  },
+  {
+   "base": "VND",
+   "quote": "MYR",
+   "type": "middle",
+   "value": 0.000155
+  },
+  {
+   "base": "XDR",
+   "quote": "MYR",
+   "type": "middle",
+   "value": 5.5336
+  }
+ ],
+ "official_source": "https://api.bnm.gov.my/public/exchange-rate",
+ "page": "https://allratestoday.com/central-bank-rates-api/bnm/",
+ "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
+}

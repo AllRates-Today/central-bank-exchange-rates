@@ -1,0 +1,884 @@
+{
+ "source": "ustreasury",
+ "name": "U.S. Department of the Treasury",
+ "country": "United States",
+ "home_currency": "USD",
+ "kind": "tax_authority",
+ "date": "2026-08-31",
+ "cadence": "quarterly",
+ "rates": [
+  {
+   "base": "USD",
+   "quote": "AED",
+   "type": "quarterly",
+   "value": 3.673
+  },
+  {
+   "base": "USD",
+   "quote": "AFN",
+   "type": "quarterly",
+   "value": 65.09
+  },
+  {
+   "base": "USD",
+   "quote": "ALL",
+   "type": "quarterly",
+   "value": 82.4
+  },
+  {
+   "base": "USD",
+   "quote": "AMD",
+   "type": "quarterly",
+   "value": 370
+  },
+  {
+   "base": "USD",
+   "quote": "AOA",
+   "type": "quarterly",
+   "value": 912.048
+  },
+  {
+   "base": "USD",
+   "quote": "ARS",
+   "type": "quarterly",
+   "value": 1495
+  },
+  {
+   "base": "USD",
+   "quote": "AUD",
+   "type": "quarterly",
+   "value": 1.451
+  },
+  {
+   "base": "USD",
+   "quote": "AZN",
+   "type": "quarterly",
+   "value": 1.7
+  },
+  {
+   "base": "USD",
+   "quote": "BAM",
+   "type": "quarterly",
+   "value": 1.716
+  },
+  {
+   "base": "USD",
+   "quote": "BBD",
+   "type": "quarterly",
+   "value": 2.02
+  },
+  {
+   "base": "USD",
+   "quote": "BDT",
+   "type": "quarterly",
+   "value": 123
+  },
+  {
+   "base": "USD",
+   "quote": "BGN",
+   "type": "quarterly",
+   "value": 0.87
+  },
+  {
+   "base": "USD",
+   "quote": "BHD",
+   "type": "quarterly",
+   "value": 0.377
+  },
+  {
+   "base": "USD",
+   "quote": "BIF",
+   "type": "quarterly",
+   "value": 3443
+  },
+  {
+   "base": "USD",
+   "quote": "BMD",
+   "type": "quarterly",
+   "value": 1
+  },
+  {
+   "base": "USD",
+   "quote": "BND",
+   "type": "quarterly",
+   "value": 1.295
+  },
+  {
+   "base": "USD",
+   "quote": "BOB",
+   "type": "quarterly",
+   "value": 10.35
+  },
+  {
+   "base": "USD",
+   "quote": "BRL",
+   "type": "quarterly",
+   "value": 5.174
+  },
+  {
+   "base": "USD",
+   "quote": "BSD",
+   "type": "quarterly",
+   "value": 1
+  },
+  {
+   "base": "USD",
+   "quote": "BWP",
+   "type": "quarterly",
+   "value": 12.821
+  },
+  {
+   "base": "USD",
+   "quote": "BYN",
+   "type": "quarterly",
+   "value": 2.907
+  },
+  {
+   "base": "USD",
+   "quote": "BZD",
+   "type": "quarterly",
+   "value": 2
+  },
+  {
+   "base": "USD",
+   "quote": "CAD",
+   "type": "quarterly",
+   "value": 1.424
+  },
+  {
+   "base": "USD",
+   "quote": "CDF",
+   "type": "quarterly",
+   "value": 2277
+  },
+  {
+   "base": "USD",
+   "quote": "CHF",
+   "type": "quarterly",
+   "value": 0.809
+  },
+  {
+   "base": "USD",
+   "quote": "CLP",
+   "type": "quarterly",
+   "value": 921.6
+  },
+  {
+   "base": "USD",
+   "quote": "CNY",
+   "type": "quarterly",
+   "value": 6.785
+  },
+  {
+   "base": "USD",
+   "quote": "COP",
+   "type": "quarterly",
+   "value": 3449.19
+  },
+  {
+   "base": "USD",
+   "quote": "CRC",
+   "type": "quarterly",
+   "value": 451.95
+  },
+  {
+   "base": "USD",
+   "quote": "CUC",
+   "type": "quarterly",
+   "value": 1
+  },
+  {
+   "base": "USD",
+   "quote": "CUP",
+   "type": "quarterly",
+   "value": 24
+  },
+  {
+   "base": "USD",
+   "quote": "CVE",
+   "type": "quarterly",
+   "value": 96.77
+  },
+  {
+   "base": "USD",
+   "quote": "CZK",
+   "type": "quarterly",
+   "value": 20.716
+  },
+  {
+   "base": "USD",
+   "quote": "DJF",
+   "type": "quarterly",
+   "value": 177
+  },
+  {
+   "base": "USD",
+   "quote": "DKK",
+   "type": "quarterly",
+   "value": 6.558
+  },
+  {
+   "base": "USD",
+   "quote": "DOP",
+   "type": "quarterly",
+   "value": 59.36
+  },
+  {
+   "base": "USD",
+   "quote": "DZD",
+   "type": "quarterly",
+   "value": 132.906
+  },
+  {
+   "base": "USD",
+   "quote": "EGP",
+   "type": "quarterly",
+   "value": 49.18
+  },
+  {
+   "base": "USD",
+   "quote": "ERN",
+   "type": "quarterly",
+   "value": 15
+  },
+  {
+   "base": "USD",
+   "quote": "ETB",
+   "type": "quarterly",
+   "value": 158.48
+  },
+  {
+   "base": "USD",
+   "quote": "EUR",
+   "type": "quarterly",
+   "value": 0.877
+  },
+  {
+   "base": "USD",
+   "quote": "FJD",
+   "type": "quarterly",
+   "value": 2.22
+  },
+  {
+   "base": "USD",
+   "quote": "GBP",
+   "type": "quarterly",
+   "value": 0.756
+  },
+  {
+   "base": "USD",
+   "quote": "GEL",
+   "type": "quarterly",
+   "value": 2.607
+  },
+  {
+   "base": "USD",
+   "quote": "GHS",
+   "type": "quarterly",
+   "value": 11.3
+  },
+  {
+   "base": "USD",
+   "quote": "GMD",
+   "type": "quarterly",
+   "value": 72
+  },
+  {
+   "base": "USD",
+   "quote": "GNF",
+   "type": "quarterly",
+   "value": 8733
+  },
+  {
+   "base": "USD",
+   "quote": "GTQ",
+   "type": "quarterly",
+   "value": 7.62
+  },
+  {
+   "base": "USD",
+   "quote": "GYD",
+   "type": "quarterly",
+   "value": 215
+  },
+  {
+   "base": "USD",
+   "quote": "HKD",
+   "type": "quarterly",
+   "value": 7.842
+  },
+  {
+   "base": "USD",
+   "quote": "HNL",
+   "type": "quarterly",
+   "value": 26.668
+  },
+  {
+   "base": "USD",
+   "quote": "HTG",
+   "type": "quarterly",
+   "value": 130.252
+  },
+  {
+   "base": "USD",
+   "quote": "HUF",
+   "type": "quarterly",
+   "value": 312.34
+  },
+  {
+   "base": "USD",
+   "quote": "IDR",
+   "type": "quarterly",
+   "value": 17870.69
+  },
+  {
+   "base": "USD",
+   "quote": "ILS",
+   "type": "quarterly",
+   "value": 2.977
+  },
+  {
+   "base": "USD",
+   "quote": "INR",
+   "type": "quarterly",
+   "value": 94.66
+  },
+  {
+   "base": "USD",
+   "quote": "IQD",
+   "type": "quarterly",
+   "value": 1309.55
+  },
+  {
+   "base": "USD",
+   "quote": "IRR",
+   "type": "quarterly",
+   "value": 1375055
+  },
+  {
+   "base": "USD",
+   "quote": "ISK",
+   "type": "quarterly",
+   "value": 126.22
+  },
+  {
+   "base": "USD",
+   "quote": "JMD",
+   "type": "quarterly",
+   "value": 159
+  },
+  {
+   "base": "USD",
+   "quote": "JOD",
+   "type": "quarterly",
+   "value": 0.708
+  },
+  {
+   "base": "USD",
+   "quote": "JPY",
+   "type": "quarterly",
+   "value": 162.38
+  },
+  {
+   "base": "USD",
+   "quote": "KES",
+   "type": "quarterly",
+   "value": 129.35
+  },
+  {
+   "base": "USD",
+   "quote": "KGS",
+   "type": "quarterly",
+   "value": 87.45
+  },
+  {
+   "base": "USD",
+   "quote": "KHR",
+   "type": "quarterly",
+   "value": 4020.5
+  },
+  {
+   "base": "USD",
+   "quote": "KMF",
+   "type": "quarterly",
+   "value": 431.3
+  },
+  {
+   "base": "USD",
+   "quote": "KRW",
+   "type": "quarterly",
+   "value": 1367.46
+  },
+  {
+   "base": "USD",
+   "quote": "KWD",
+   "type": "quarterly",
+   "value": 0.308
+  },
+  {
+   "base": "USD",
+   "quote": "KYD",
+   "type": "quarterly",
+   "value": 0.82
+  },
+  {
+   "base": "USD",
+   "quote": "KZT",
+   "type": "quarterly",
+   "value": 478.11
+  },
+  {
+   "base": "USD",
+   "quote": "LAK",
+   "type": "quarterly",
+   "value": 22320
+  },
+  {
+   "base": "USD",
+   "quote": "LBP",
+   "type": "quarterly",
+   "value": 89500
+  },
+  {
+   "base": "USD",
+   "quote": "LKR",
+   "type": "quarterly",
+   "value": 336
+  },
+  {
+   "base": "USD",
+   "quote": "LRD",
+   "type": "quarterly",
+   "value": 181
+  },
+  {
+   "base": "USD",
+   "quote": "LSL",
+   "type": "quarterly",
+   "value": 16.368
+  },
+  {
+   "base": "USD",
+   "quote": "LYD",
+   "type": "quarterly",
+   "value": 6.413
+  },
+  {
+   "base": "USD",
+   "quote": "MAD",
+   "type": "quarterly",
+   "value": 9.375
+  },
+  {
+   "base": "USD",
+   "quote": "MDL",
+   "type": "quarterly",
+   "value": 17.51
+  },
+  {
+   "base": "USD",
+   "quote": "MGA",
+   "type": "quarterly",
+   "value": 4180
+  },
+  {
+   "base": "USD",
+   "quote": "MKD",
+   "type": "quarterly",
+   "value": 53.86
+  },
+  {
+   "base": "USD",
+   "quote": "MMK",
+   "type": "quarterly",
+   "value": 3668
+  },
+  {
+   "base": "USD",
+   "quote": "MNT",
+   "type": "quarterly",
+   "value": 3579
+  },
+  {
+   "base": "USD",
+   "quote": "MRU",
+   "type": "quarterly",
+   "value": 39.9
+  },
+  {
+   "base": "USD",
+   "quote": "MUR",
+   "type": "quarterly",
+   "value": 47.04
+  },
+  {
+   "base": "USD",
+   "quote": "MVR",
+   "type": "quarterly",
+   "value": 15.42
+  },
+  {
+   "base": "USD",
+   "quote": "MWK",
+   "type": "quarterly",
+   "value": 1751
+  },
+  {
+   "base": "USD",
+   "quote": "MXN",
+   "type": "quarterly",
+   "value": 17.454
+  },
+  {
+   "base": "USD",
+   "quote": "MYR",
+   "type": "quarterly",
+   "value": 4.082
+  },
+  {
+   "base": "USD",
+   "quote": "MZN",
+   "type": "quarterly",
+   "value": 63.3
+  },
+  {
+   "base": "USD",
+   "quote": "NAD",
+   "type": "quarterly",
+   "value": 16.368
+  },
+  {
+   "base": "USD",
+   "quote": "NGN",
+   "type": "quarterly",
+   "value": 1380.08
+  },
+  {
+   "base": "USD",
+   "quote": "NIO",
+   "type": "quarterly",
+   "value": 36.6
+  },
+  {
+   "base": "USD",
+   "quote": "NOK",
+   "type": "quarterly",
+   "value": 9.916
+  },
+  {
+   "base": "USD",
+   "quote": "NPR",
+   "type": "quarterly",
+   "value": 151.46
+  },
+  {
+   "base": "USD",
+   "quote": "NZD",
+   "type": "quarterly",
+   "value": 1.767
+  },
+  {
+   "base": "USD",
+   "quote": "OMR",
+   "type": "quarterly",
+   "value": 0.385
+  },
+  {
+   "base": "USD",
+   "quote": "PEN",
+   "type": "quarterly",
+   "value": 3.414
+  },
+  {
+   "base": "USD",
+   "quote": "PGK",
+   "type": "quarterly",
+   "value": 4.228
+  },
+  {
+   "base": "USD",
+   "quote": "PHP",
+   "type": "quarterly",
+   "value": 61.322
+  },
+  {
+   "base": "USD",
+   "quote": "PKR",
+   "type": "quarterly",
+   "value": 277.7
+  },
+  {
+   "base": "USD",
+   "quote": "PLN",
+   "type": "quarterly",
+   "value": 3.768
+  },
+  {
+   "base": "USD",
+   "quote": "PYG",
+   "type": "quarterly",
+   "value": 6069.32
+  },
+  {
+   "base": "USD",
+   "quote": "QAR",
+   "type": "quarterly",
+   "value": 3.64
+  },
+  {
+   "base": "USD",
+   "quote": "RON",
+   "type": "quarterly",
+   "value": 4.6
+  },
+  {
+   "base": "USD",
+   "quote": "RSD",
+   "type": "quarterly",
+   "value": 102.89
+  },
+  {
+   "base": "USD",
+   "quote": "RUB",
+   "type": "quarterly",
+   "value": 86.6
+  },
+  {
+   "base": "USD",
+   "quote": "RWF",
+   "type": "quarterly",
+   "value": 1450
+  },
+  {
+   "base": "USD",
+   "quote": "SAR",
+   "type": "quarterly",
+   "value": 3.75
+  },
+  {
+   "base": "USD",
+   "quote": "SBD",
+   "type": "quarterly",
+   "value": 7.8
+  },
+  {
+   "base": "USD",
+   "quote": "SCR",
+   "type": "quarterly",
+   "value": 13.756
+  },
+  {
+   "base": "USD",
+   "quote": "SDG",
+   "type": "quarterly",
+   "value": 3550
+  },
+  {
+   "base": "USD",
+   "quote": "SEK",
+   "type": "quarterly",
+   "value": 9.725
+  },
+  {
+   "base": "USD",
+   "quote": "SGD",
+   "type": "quarterly",
+   "value": 1.295
+  },
+  {
+   "base": "USD",
+   "quote": "SLE",
+   "type": "quarterly",
+   "value": 24.6
+  },
+  {
+   "base": "USD",
+   "quote": "SOS",
+   "type": "quarterly",
+   "value": 568
+  },
+  {
+   "base": "USD",
+   "quote": "SRD",
+   "type": "quarterly",
+   "value": 37.325
+  },
+  {
+   "base": "USD",
+   "quote": "SSP",
+   "type": "quarterly",
+   "value": 5700
+  },
+  {
+   "base": "USD",
+   "quote": "STN",
+   "type": "quarterly",
+   "value": 21.501
+  },
+  {
+   "base": "USD",
+   "quote": "SYP",
+   "type": "quarterly",
+   "value": 112.5
+  },
+  {
+   "base": "USD",
+   "quote": "SZL",
+   "type": "quarterly",
+   "value": 16.368
+  },
+  {
+   "base": "USD",
+   "quote": "THB",
+   "type": "quarterly",
+   "value": 33.2
+  },
+  {
+   "base": "USD",
+   "quote": "TJS",
+   "type": "quarterly",
+   "value": 9.22
+  },
+  {
+   "base": "USD",
+   "quote": "TMT",
+   "type": "quarterly",
+   "value": 3.491
+  },
+  {
+   "base": "USD",
+   "quote": "TND",
+   "type": "quarterly",
+   "value": 2.934
+  },
+  {
+   "base": "USD",
+   "quote": "TOP",
+   "type": "quarterly",
+   "value": 2.327
+  },
+  {
+   "base": "USD",
+   "quote": "TRY",
+   "type": "quarterly",
+   "value": 46.656
+  },
+  {
+   "base": "USD",
+   "quote": "TTD",
+   "type": "quarterly",
+   "value": 6.749
+  },
+  {
+   "base": "USD",
+   "quote": "TWD",
+   "type": "quarterly",
+   "value": 31.834
+  },
+  {
+   "base": "USD",
+   "quote": "TZS",
+   "type": "quarterly",
+   "value": 2610
+  },
+  {
+   "base": "USD",
+   "quote": "UAH",
+   "type": "quarterly",
+   "value": 44.735
+  },
+  {
+   "base": "USD",
+   "quote": "UGX",
+   "type": "quarterly",
+   "value": 3660
+  },
+  {
+   "base": "USD",
+   "quote": "UYU",
+   "type": "quarterly",
+   "value": 40.12
+  },
+  {
+   "base": "USD",
+   "quote": "UZS",
+   "type": "quarterly",
+   "value": 12000
+  },
+  {
+   "base": "USD",
+   "quote": "VES",
+   "type": "quarterly",
+   "value": 723.933
+  },
+  {
+   "base": "USD",
+   "quote": "VND",
+   "type": "quarterly",
+   "value": 26255
+  },
+  {
+   "base": "USD",
+   "quote": "VUV",
+   "type": "quarterly",
+   "value": 118.3
+  },
+  {
+   "base": "USD",
+   "quote": "WST",
+   "type": "quarterly",
+   "value": 2.672
+  },
+  {
+   "base": "USD",
+   "quote": "XAF",
+   "type": "quarterly",
+   "value": 575.55
+  },
+  {
+   "base": "USD",
+   "quote": "XCD",
+   "type": "quarterly",
+   "value": 2.7
+  },
+  {
+   "base": "USD",
+   "quote": "XCG",
+   "type": "quarterly",
+   "value": 1.78
+  },
+  {
+   "base": "USD",
+   "quote": "XOF",
+   "type": "quarterly",
+   "value": 571.5
+  },
+  {
+   "base": "USD",
+   "quote": "YER",
+   "type": "quarterly",
+   "value": 528
+  },
+  {
+   "base": "USD",
+   "quote": "ZAR",
+   "type": "quarterly",
+   "value": 16.368
+  },
+  {
+   "base": "USD",
+   "quote": "ZMW",
+   "type": "quarterly",
+   "value": 18
+  },
+  {
+   "base": "USD",
+   "quote": "ZWG",
+   "type": "quarterly",
+   "value": 25.833
+  }
+ ],
+ "official_source": "https://fiscaldata.treasury.gov/datasets/treasury-reporting-rates-exchange/",
+ "page": "https://allratestoday.com/central-bank-rates-api/ustreasury/",
+ "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
+}

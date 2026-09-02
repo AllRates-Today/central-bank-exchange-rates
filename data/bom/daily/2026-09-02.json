@@ -1,0 +1,242 @@
+{
+ "source": "bom",
+ "name": "Bank of Mongolia",
+ "country": "Mongolia",
+ "home_currency": "MNT",
+ "kind": "central_bank",
+ "date": "2026-09-02",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AED",
+   "quote": "MNT",
+   "type": "reference",
+   "value": 978.65
+  },
+  {
+   "base": "AUD",
+   "quote": "MNT",
+   "type": "reference",
+   "value": 2567.76
+  },
+  {
+   "base": "BGN",
+   "quote": "MNT",
+   "type": "reference",
+   "value": 2158.73
+  },
+  {
+   "base": "CAD",
+   "quote": "MNT",
+   "type": "reference",
+   "value": 2580.9
+  },
+  {
+   "base": "CHF",
+   "quote": "MNT",
+   "type": "reference",
+   "value": 4416.13
+  },
+  {
+   "base": "CNY",
+   "quote": "MNT",
+   "type": "reference",
+   "value": 534.69
+  },
+  {
+   "base": "CZK",
+   "quote": "MNT",
+   "type": "reference",
+   "value": 171.92
+  },
+  {
+   "base": "DKK",
+   "quote": "MNT",
+   "type": "reference",
+   "value": 556.71
+  },
+  {
+   "base": "EGP",
+   "quote": "MNT",
+   "type": "reference",
+   "value": 70.21
+  },
+  {
+   "base": "EUR",
+   "quote": "MNT",
+   "type": "reference",
+   "value": 4161.47
+  },
+  {
+   "base": "GBP",
+   "quote": "MNT",
+   "type": "reference",
+   "value": 4856.07
+  },
+  {
+   "base": "HKD",
+   "quote": "MNT",
+   "type": "reference",
+   "value": 458.34
+  },
+  {
+   "base": "HUF",
+   "quote": "MNT",
+   "type": "reference",
+   "value": 11.27
+  },
+  {
+   "base": "IDR",
+   "quote": "MNT",
+   "type": "reference",
+   "value": 0.2
+  },
+  {
+   "base": "INR",
+   "quote": "MNT",
+   "type": "reference",
+   "value": 37.85
+  },
+  {
+   "base": "JPY",
+   "quote": "MNT",
+   "type": "reference",
+   "value": 22.51
+  },
+  {
+   "base": "KPW",
+   "quote": "MNT",
+   "type": "reference",
+   "value": 27.65
+  },
+  {
+   "base": "KRW",
+   "quote": "MNT",
+   "type": "reference",
+   "value": 2.63
+  },
+  {
+   "base": "KWD",
+   "quote": "MNT",
+   "type": "reference",
+   "value": 11702.07
+  },
+  {
+   "base": "KZT",
+   "quote": "MNT",
+   "type": "reference",
+   "value": 7.88
+  },
+  {
+   "base": "MYR",
+   "quote": "MNT",
+   "type": "reference",
+   "value": 889.02
+  },
+  {
+   "base": "NOK",
+   "quote": "MNT",
+   "type": "reference",
+   "value": 385.41
+  },
+  {
+   "base": "NPR",
+   "quote": "MNT",
+   "type": "reference",
+   "value": 23.66
+  },
+  {
+   "base": "NZD",
+   "quote": "MNT",
+   "type": "reference",
+   "value": 2095.29
+  },
+  {
+   "base": "PLN",
+   "quote": "MNT",
+   "type": "reference",
+   "value": 960.69
+  },
+  {
+   "base": "RUB",
+   "quote": "MNT",
+   "type": "reference",
+   "value": 41.55
+  },
+  {
+   "base": "SEK",
+   "quote": "MNT",
+   "type": "reference",
+   "value": 373.27
+  },
+  {
+   "base": "SGD",
+   "quote": "MNT",
+   "type": "reference",
+   "value": 2823.15
+  },
+  {
+   "base": "THB",
+   "quote": "MNT",
+   "type": "reference",
+   "value": 107.95
+  },
+  {
+   "base": "TRY",
+   "quote": "MNT",
+   "type": "reference",
+   "value": 74.42
+  },
+  {
+   "base": "TWD",
+   "quote": "MNT",
+   "type": "reference",
+   "value": 113.06
+  },
+  {
+   "base": "UAH",
+   "quote": "MNT",
+   "type": "reference",
+   "value": 80.65
+  },
+  {
+   "base": "USD",
+   "quote": "MNT",
+   "type": "reference",
+   "value": 3594.29
+  },
+  {
+   "base": "VND",
+   "quote": "MNT",
+   "type": "reference",
+   "value": 0.14
+  },
+  {
+   "base": "XAG",
+   "quote": "MNT",
+   "type": "reference",
+   "value": 230088.83
+  },
+  {
+   "base": "XAU",
+   "quote": "MNT",
+   "type": "reference",
+   "value": 15539463.53
+  },
+  {
+   "base": "XDR",
+   "quote": "MNT",
+   "type": "reference",
+   "value": 4918.28
+  },
+  {
+   "base": "ZAR",
+   "quote": "MNT",
+   "type": "reference",
+   "value": 222.58
+  }
+ ],
+ "official_source": "https://www.mongolbank.mn/mn/currency-rates/data",
+ "page": "https://allratestoday.com/central-bank-rates-api/bom/",
+ "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
+}

@@ -1,0 +1,62 @@
+{
+ "source": "pma",
+ "name": "Palestine Monetary Authority",
+ "country": "Palestine",
+ "home_currency": "ILS",
+ "kind": "central_bank",
+ "date": "2026-09-02",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "EGP",
+   "quote": "ILS",
+   "type": "buy",
+   "value": 0.0595
+  },
+  {
+   "base": "EGP",
+   "quote": "ILS",
+   "type": "sell",
+   "value": 0.0597
+  },
+  {
+   "base": "EUR",
+   "quote": "ILS",
+   "type": "buy",
+   "value": 3.5131
+  },
+  {
+   "base": "EUR",
+   "quote": "ILS",
+   "type": "sell",
+   "value": 3.5174
+  },
+  {
+   "base": "JOD",
+   "quote": "ILS",
+   "type": "buy",
+   "value": 4.273
+  },
+  {
+   "base": "JOD",
+   "quote": "ILS",
+   "type": "sell",
+   "value": 4.2898
+  },
+  {
+   "base": "USD",
+   "quote": "ILS",
+   "type": "buy",
+   "value": 3.0338
+  },
+  {
+   "base": "USD",
+   "quote": "ILS",
+   "type": "sell",
+   "value": 3.0372
+  }
+ ],
+ "official_source": "https://www.pma.ps/en/exchange-rates-live",
+ "page": "https://allratestoday.com/central-bank-rates-api/pma/",
+ "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
+}

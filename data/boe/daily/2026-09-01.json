@@ -1,0 +1,152 @@
+{
+ "source": "boe",
+ "name": "Bank of England",
+ "country": "United Kingdom",
+ "home_currency": "GBP",
+ "kind": "central_bank",
+ "date": "2026-09-01",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "GBP",
+   "quote": "AUD",
+   "type": "reference",
+   "value": 1.8924
+  },
+  {
+   "base": "GBP",
+   "quote": "CAD",
+   "type": "reference",
+   "value": 1.8823
+  },
+  {
+   "base": "GBP",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 1.0995
+  },
+  {
+   "base": "GBP",
+   "quote": "CNY",
+   "type": "reference",
+   "value": 9.0998
+  },
+  {
+   "base": "GBP",
+   "quote": "DKK",
+   "type": "reference",
+   "value": 8.7266
+  },
+  {
+   "base": "GBP",
+   "quote": "EUR",
+   "type": "reference",
+   "value": 1.1675
+  },
+  {
+   "base": "GBP",
+   "quote": "HKD",
+   "type": "reference",
+   "value": 10.6154
+  },
+  {
+   "base": "GBP",
+   "quote": "ILS",
+   "type": "reference",
+   "value": 4.0944
+  },
+  {
+   "base": "GBP",
+   "quote": "INR",
+   "type": "reference",
+   "value": 128.5548
+  },
+  {
+   "base": "GBP",
+   "quote": "JPY",
+   "type": "reference",
+   "value": 216.7243
+  },
+  {
+   "base": "GBP",
+   "quote": "KRW",
+   "type": "reference",
+   "value": 1858.0237
+  },
+  {
+   "base": "GBP",
+   "quote": "MYR",
+   "type": "reference",
+   "value": 5.4689
+  },
+  {
+   "base": "GBP",
+   "quote": "NOK",
+   "type": "reference",
+   "value": 12.615
+  },
+  {
+   "base": "GBP",
+   "quote": "NZD",
+   "type": "reference",
+   "value": 2.2933
+  },
+  {
+   "base": "GBP",
+   "quote": "PLN",
+   "type": "reference",
+   "value": 5.0533
+  },
+  {
+   "base": "GBP",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 5.083
+  },
+  {
+   "base": "GBP",
+   "quote": "SEK",
+   "type": "reference",
+   "value": 12.9791
+  },
+  {
+   "base": "GBP",
+   "quote": "SGD",
+   "type": "reference",
+   "value": 1.7231
+  },
+  {
+   "base": "GBP",
+   "quote": "THB",
+   "type": "reference",
+   "value": 45.0291
+  },
+  {
+   "base": "GBP",
+   "quote": "TRY",
+   "type": "reference",
+   "value": 65.3575
+  },
+  {
+   "base": "GBP",
+   "quote": "TWD",
+   "type": "reference",
+   "value": 42.8913
+  },
+  {
+   "base": "GBP",
+   "quote": "USD",
+   "type": "reference",
+   "value": 1.3538
+  },
+  {
+   "base": "GBP",
+   "quote": "ZAR",
+   "type": "reference",
+   "value": 21.804
+  }
+ ],
+ "official_source": "https://www.bankofengland.co.uk/boeapps/database/",
+ "page": "https://allratestoday.com/central-bank-rates-api/boe/",
+ "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
+}

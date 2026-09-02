@@ -1,0 +1,194 @@
+{
+ "source": "dnb",
+ "name": "Danmarks Nationalbank",
+ "country": "Denmark",
+ "home_currency": "DKK",
+ "kind": "central_bank",
+ "date": "2026-09-02",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AUD",
+   "quote": "DKK",
+   "type": "reference",
+   "value": 4.6145
+  },
+  {
+   "base": "BRL",
+   "quote": "DKK",
+   "type": "reference",
+   "value": 1.2534999999999998
+  },
+  {
+   "base": "CAD",
+   "quote": "DKK",
+   "type": "reference",
+   "value": 4.6365
+  },
+  {
+   "base": "CHF",
+   "quote": "DKK",
+   "type": "reference",
+   "value": 7.931900000000001
+  },
+  {
+   "base": "CNY",
+   "quote": "DKK",
+   "type": "reference",
+   "value": 0.9605
+  },
+  {
+   "base": "CZK",
+   "quote": "DKK",
+   "type": "reference",
+   "value": 0.309
+  },
+  {
+   "base": "EUR",
+   "quote": "DKK",
+   "type": "reference",
+   "value": 7.475
+  },
+  {
+   "base": "GBP",
+   "quote": "DKK",
+   "type": "reference",
+   "value": 8.705
+  },
+  {
+   "base": "HKD",
+   "quote": "DKK",
+   "type": "reference",
+   "value": 0.8231999999999999
+  },
+  {
+   "base": "HUF",
+   "quote": "DKK",
+   "type": "reference",
+   "value": 0.0203
+  },
+  {
+   "base": "IDR",
+   "quote": "DKK",
+   "type": "reference",
+   "value": 0.000364
+  },
+  {
+   "base": "ILS",
+   "quote": "DKK",
+   "type": "reference",
+   "value": 2.1318
+  },
+  {
+   "base": "INR",
+   "quote": "DKK",
+   "type": "reference",
+   "value": 0.068
+  },
+  {
+   "base": "ISK",
+   "quote": "DKK",
+   "type": "reference",
+   "value": 0.05317
+  },
+  {
+   "base": "JPY",
+   "quote": "DKK",
+   "type": "reference",
+   "value": 0.040454
+  },
+  {
+   "base": "KRW",
+   "quote": "DKK",
+   "type": "reference",
+   "value": 0.004738
+  },
+  {
+   "base": "MXN",
+   "quote": "DKK",
+   "type": "reference",
+   "value": 0.37979999999999997
+  },
+  {
+   "base": "MYR",
+   "quote": "DKK",
+   "type": "reference",
+   "value": 1.5959
+  },
+  {
+   "base": "NOK",
+   "quote": "DKK",
+   "type": "reference",
+   "value": 0.6916
+  },
+  {
+   "base": "NZD",
+   "quote": "DKK",
+   "type": "reference",
+   "value": 3.7623
+  },
+  {
+   "base": "PHP",
+   "quote": "DKK",
+   "type": "reference",
+   "value": 0.1032
+  },
+  {
+   "base": "PLN",
+   "quote": "DKK",
+   "type": "reference",
+   "value": 1.7277
+  },
+  {
+   "base": "RON",
+   "quote": "DKK",
+   "type": "reference",
+   "value": 1.4222
+  },
+  {
+   "base": "SEK",
+   "quote": "DKK",
+   "type": "reference",
+   "value": 0.67
+  },
+  {
+   "base": "SGD",
+   "quote": "DKK",
+   "type": "reference",
+   "value": 5.0709
+  },
+  {
+   "base": "THB",
+   "quote": "DKK",
+   "type": "reference",
+   "value": 0.1943
+  },
+  {
+   "base": "TRY",
+   "quote": "DKK",
+   "type": "reference",
+   "value": 0.13369999999999999
+  },
+  {
+   "base": "USD",
+   "quote": "DKK",
+   "type": "reference",
+   "value": 6.4562
+  },
+  {
+   "base": "XDR",
+   "quote": "DKK",
+   "type": "reference",
+   "value": 8.830599999999999
+  },
+  {
+   "base": "ZAR",
+   "quote": "DKK",
+   "type": "reference",
+   "value": 0.4011
+  }
+ ],
+ "official_source": "https://www.nationalbanken.dk/api/currencyratesxml",
+ "page": "https://allratestoday.com/central-bank-rates-api/dnb/",
+ "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
+}

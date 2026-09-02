@@ -1,0 +1,146 @@
+{
+ "source": "fed",
+ "name": "US Federal Reserve (H.10)",
+ "country": "United States",
+ "home_currency": "USD",
+ "kind": "central_bank",
+ "date": "2026-08-28",
+ "cadence": "weekly",
+ "rates": [
+  {
+   "base": "AUD",
+   "quote": "USD",
+   "type": "reference",
+   "value": 0.7166
+  },
+  {
+   "base": "EUR",
+   "quote": "USD",
+   "type": "reference",
+   "value": 1.1598
+  },
+  {
+   "base": "GBP",
+   "quote": "USD",
+   "type": "reference",
+   "value": 1.3555
+  },
+  {
+   "base": "NZD",
+   "quote": "USD",
+   "type": "reference",
+   "value": 0.5915
+  },
+  {
+   "base": "USD",
+   "quote": "BRL",
+   "type": "reference",
+   "value": 5.2168
+  },
+  {
+   "base": "USD",
+   "quote": "CAD",
+   "type": "reference",
+   "value": 1.3895
+  },
+  {
+   "base": "USD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.8085
+  },
+  {
+   "base": "USD",
+   "quote": "CNY",
+   "type": "reference",
+   "value": 6.726
+  },
+  {
+   "base": "USD",
+   "quote": "DKK",
+   "type": "reference",
+   "value": 6.4445
+  },
+  {
+   "base": "USD",
+   "quote": "HKD",
+   "type": "reference",
+   "value": 7.84
+  },
+  {
+   "base": "USD",
+   "quote": "INR",
+   "type": "reference",
+   "value": 95.38
+  },
+  {
+   "base": "USD",
+   "quote": "JPY",
+   "type": "reference",
+   "value": 159.97
+  },
+  {
+   "base": "USD",
+   "quote": "KRW",
+   "type": "reference",
+   "value": 1379.41
+  },
+  {
+   "base": "USD",
+   "quote": "LKR",
+   "type": "reference",
+   "value": 327.93
+  },
+  {
+   "base": "USD",
+   "quote": "MXN",
+   "type": "reference",
+   "value": 17.043
+  },
+  {
+   "base": "USD",
+   "quote": "MYR",
+   "type": "reference",
+   "value": 4.0211
+  },
+  {
+   "base": "USD",
+   "quote": "NOK",
+   "type": "reference",
+   "value": 9.3791
+  },
+  {
+   "base": "USD",
+   "quote": "SEK",
+   "type": "reference",
+   "value": 9.5949
+  },
+  {
+   "base": "USD",
+   "quote": "SGD",
+   "type": "reference",
+   "value": 1.2744
+  },
+  {
+   "base": "USD",
+   "quote": "THB",
+   "type": "reference",
+   "value": 33.11
+  },
+  {
+   "base": "USD",
+   "quote": "TWD",
+   "type": "reference",
+   "value": 31.61
+  },
+  {
+   "base": "USD",
+   "quote": "ZAR",
+   "type": "reference",
+   "value": 16.1319
+  }
+ ],
+ "official_source": "https://www.federalreserve.gov/releases/h10/",
+ "page": "https://allratestoday.com/central-bank-rates-api/fed/",
+ "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
+}

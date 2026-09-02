@@ -1,0 +1,20 @@
+{
+ "source": "cbc",
+ "name": "Central Bank of the Republic of China (Taiwan)",
+ "country": "Taiwan",
+ "home_currency": "TWD",
+ "kind": "central_bank",
+ "date": "2026-09-02",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "USD",
+   "quote": "TWD",
+   "type": "close",
+   "value": 31.728
+  }
+ ],
+ "official_source": "https://www.cbc.gov.tw/en/lp-645-2.html",
+ "page": "https://allratestoday.com/central-bank-rates-api/cbc/",
+ "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
+}

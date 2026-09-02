@@ -1,0 +1,134 @@
+{
+ "source": "rba",
+ "name": "Reserve Bank of Australia",
+ "country": "Australia",
+ "home_currency": "AUD",
+ "kind": "central_bank",
+ "date": "2026-09-02",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AUD",
+   "quote": "CAD",
+   "type": "reference",
+   "value": 0.9939
+  },
+  {
+   "base": "AUD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.5807
+  },
+  {
+   "base": "AUD",
+   "quote": "CNY",
+   "type": "reference",
+   "value": 4.8012
+  },
+  {
+   "base": "AUD",
+   "quote": "EUR",
+   "type": "reference",
+   "value": 0.6168
+  },
+  {
+   "base": "AUD",
+   "quote": "GBP",
+   "type": "reference",
+   "value": 0.529
+  },
+  {
+   "base": "AUD",
+   "quote": "HKD",
+   "type": "reference",
+   "value": 5.6009
+  },
+  {
+   "base": "AUD",
+   "quote": "IDR",
+   "type": "reference",
+   "value": 12693
+  },
+  {
+   "base": "AUD",
+   "quote": "INR",
+   "type": "reference",
+   "value": 67.83
+  },
+  {
+   "base": "AUD",
+   "quote": "JPY",
+   "type": "reference",
+   "value": 114.17
+  },
+  {
+   "base": "AUD",
+   "quote": "KRW",
+   "type": "reference",
+   "value": 976.91
+  },
+  {
+   "base": "AUD",
+   "quote": "MYR",
+   "type": "reference",
+   "value": 2.8879
+  },
+  {
+   "base": "AUD",
+   "quote": "NZD",
+   "type": "reference",
+   "value": 1.2225
+  },
+  {
+   "base": "AUD",
+   "quote": "PGK",
+   "type": "reference",
+   "value": 3.1676
+  },
+  {
+   "base": "AUD",
+   "quote": "PHP",
+   "type": "reference",
+   "value": 44.69
+  },
+  {
+   "base": "AUD",
+   "quote": "SGD",
+   "type": "reference",
+   "value": 0.9092
+  },
+  {
+   "base": "AUD",
+   "quote": "THB",
+   "type": "reference",
+   "value": 23.79
+  },
+  {
+   "base": "AUD",
+   "quote": "TWD",
+   "type": "reference",
+   "value": 22.68
+  },
+  {
+   "base": "AUD",
+   "quote": "USD",
+   "type": "reference",
+   "value": 0.7143
+  },
+  {
+   "base": "AUD",
+   "quote": "VND",
+   "type": "reference",
+   "value": 18628
+  },
+  {
+   "base": "AUD",
+   "quote": "XDR",
+   "type": "reference",
+   "value": 0.522
+  }
+ ],
+ "official_source": "https://www.rba.gov.au/statistics/frequency/exchange-rates.html",
+ "page": "https://allratestoday.com/central-bank-rates-api/rba/",
+ "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
+}

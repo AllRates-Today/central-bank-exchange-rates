@@ -1,0 +1,20 @@
+{
+ "source": "sfc",
+ "name": "Superintendencia Financiera de Colombia",
+ "country": "Colombia",
+ "home_currency": "COP",
+ "kind": "central_bank",
+ "date": "2026-09-02",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "USD",
+   "quote": "COP",
+   "type": "reference",
+   "value": 3184
+  }
+ ],
+ "official_source": "https://www.datos.gov.co/resource/32sa-8pi3.json",
+ "page": "https://allratestoday.com/central-bank-rates-api/sfc/",
+ "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
+}

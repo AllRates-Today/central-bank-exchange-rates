@@ -1,0 +1,206 @@
+{
+ "source": "nbp",
+ "name": "Narodowy Bank Polski",
+ "country": "Poland",
+ "home_currency": "PLN",
+ "kind": "central_bank",
+ "date": "2026-09-02",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AUD",
+   "quote": "PLN",
+   "type": "middle",
+   "value": 2.6673
+  },
+  {
+   "base": "BRL",
+   "quote": "PLN",
+   "type": "middle",
+   "value": 0.7258
+  },
+  {
+   "base": "CAD",
+   "quote": "PLN",
+   "type": "middle",
+   "value": 2.6855
+  },
+  {
+   "base": "CHF",
+   "quote": "PLN",
+   "type": "middle",
+   "value": 4.5929
+  },
+  {
+   "base": "CLP",
+   "quote": "PLN",
+   "type": "middle",
+   "value": 0.003994
+  },
+  {
+   "base": "CNY",
+   "quote": "PLN",
+   "type": "middle",
+   "value": 0.5567
+  },
+  {
+   "base": "CZK",
+   "quote": "PLN",
+   "type": "middle",
+   "value": 0.1789
+  },
+  {
+   "base": "DKK",
+   "quote": "PLN",
+   "type": "middle",
+   "value": 0.5794
+  },
+  {
+   "base": "EUR",
+   "quote": "PLN",
+   "type": "middle",
+   "value": 4.3311
+  },
+  {
+   "base": "GBP",
+   "quote": "PLN",
+   "type": "middle",
+   "value": 5.0523
+  },
+  {
+   "base": "HKD",
+   "quote": "PLN",
+   "type": "middle",
+   "value": 0.4772
+  },
+  {
+   "base": "HUF",
+   "quote": "PLN",
+   "type": "middle",
+   "value": 0.011718
+  },
+  {
+   "base": "IDR",
+   "quote": "PLN",
+   "type": "middle",
+   "value": 0.00021077
+  },
+  {
+   "base": "ILS",
+   "quote": "PLN",
+   "type": "middle",
+   "value": 1.2341
+  },
+  {
+   "base": "INR",
+   "quote": "PLN",
+   "type": "middle",
+   "value": 0.0394
+  },
+  {
+   "base": "ISK",
+   "quote": "PLN",
+   "type": "middle",
+   "value": 0.030804
+  },
+  {
+   "base": "JPY",
+   "quote": "PLN",
+   "type": "middle",
+   "value": 0.023411
+  },
+  {
+   "base": "KRW",
+   "quote": "PLN",
+   "type": "middle",
+   "value": 0.002741
+  },
+  {
+   "base": "MXN",
+   "quote": "PLN",
+   "type": "middle",
+   "value": 0.2199
+  },
+  {
+   "base": "MYR",
+   "quote": "PLN",
+   "type": "middle",
+   "value": 0.9254
+  },
+  {
+   "base": "NOK",
+   "quote": "PLN",
+   "type": "middle",
+   "value": 0.4008
+  },
+  {
+   "base": "NZD",
+   "quote": "PLN",
+   "type": "middle",
+   "value": 2.1739
+  },
+  {
+   "base": "PHP",
+   "quote": "PLN",
+   "type": "middle",
+   "value": 0.0598
+  },
+  {
+   "base": "RON",
+   "quote": "PLN",
+   "type": "middle",
+   "value": 0.8241
+  },
+  {
+   "base": "SEK",
+   "quote": "PLN",
+   "type": "middle",
+   "value": 0.3879
+  },
+  {
+   "base": "SGD",
+   "quote": "PLN",
+   "type": "middle",
+   "value": 2.9377
+  },
+  {
+   "base": "THB",
+   "quote": "PLN",
+   "type": "middle",
+   "value": 0.1123
+  },
+  {
+   "base": "TRY",
+   "quote": "PLN",
+   "type": "middle",
+   "value": 0.0775
+  },
+  {
+   "base": "UAH",
+   "quote": "PLN",
+   "type": "middle",
+   "value": 0.0839
+  },
+  {
+   "base": "USD",
+   "quote": "PLN",
+   "type": "middle",
+   "value": 3.7423
+  },
+  {
+   "base": "XDR",
+   "quote": "PLN",
+   "type": "middle",
+   "value": 5.1135
+  },
+  {
+   "base": "ZAR",
+   "quote": "PLN",
+   "type": "middle",
+   "value": 0.2317
+  }
+ ],
+ "official_source": "https://api.nbp.pl/api/exchangerates/tables/A",
+ "page": "https://allratestoday.com/central-bank-rates-api/nbp/",
+ "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
+}

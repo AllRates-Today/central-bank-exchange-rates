@@ -1,0 +1,56 @@
+{
+ "source": "qcb",
+ "name": "Qatar Central Bank",
+ "country": "Qatar",
+ "home_currency": "QAR",
+ "kind": "central_bank",
+ "date": "2026-09-02",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AUD",
+   "quote": "QAR",
+   "type": "reference",
+   "value": 2.6
+  },
+  {
+   "base": "CAD",
+   "quote": "QAR",
+   "type": "reference",
+   "value": 2.619
+  },
+  {
+   "base": "CHF",
+   "quote": "QAR",
+   "type": "reference",
+   "value": 4.4845
+  },
+  {
+   "base": "EUR",
+   "quote": "QAR",
+   "type": "reference",
+   "value": 4.2211
+  },
+  {
+   "base": "GBP",
+   "quote": "QAR",
+   "type": "reference",
+   "value": 4.9197
+  },
+  {
+   "base": "HKD",
+   "quote": "QAR",
+   "type": "reference",
+   "value": 0.465
+  },
+  {
+   "base": "USD",
+   "quote": "QAR",
+   "type": "reference",
+   "value": 3.64
+  }
+ ],
+ "official_source": "https://www.qcb.gov.qa/",
+ "page": "https://allratestoday.com/central-bank-rates-api/qcb/",
+ "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
+}

@@ -1,0 +1,26 @@
+{
+ "source": "boj",
+ "name": "Bank of Japan",
+ "country": "Japan",
+ "home_currency": "JPY",
+ "kind": "central_bank",
+ "date": "2026-08-31",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "USD",
+   "quote": "JPY",
+   "type": "middle",
+   "value": 160.01
+  },
+  {
+   "base": "USD",
+   "quote": "JPY",
+   "type": "spot",
+   "value": 159.57
+  }
+ ],
+ "official_source": "https://www.stat-search.boj.or.jp/ssi/mtshtml/fm08_d_1_en.html",
+ "page": "https://allratestoday.com/central-bank-rates-api/boj/",
+ "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
+}

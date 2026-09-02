@@ -1,0 +1,20 @@
+{
+ "source": "bcn",
+ "name": "Banco Central de Nicaragua",
+ "country": "Nicaragua",
+ "home_currency": "NIO",
+ "kind": "central_bank",
+ "date": "2026-09-02",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "USD",
+   "quote": "NIO",
+   "type": "reference",
+   "value": 36.6243
+  }
+ ],
+ "official_source": "https://servicios.bcn.gob.ni/Tc_Servicio/ServicioTC.asmx",
+ "page": "https://allratestoday.com/central-bank-rates-api/bcn/",
+ "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
+}

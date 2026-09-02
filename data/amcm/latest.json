@@ -1,0 +1,116 @@
+{
+ "source": "amcm",
+ "name": "Monetary Authority of Macao",
+ "country": "Macao",
+ "home_currency": "MOP",
+ "kind": "central_bank",
+ "date": "2026-09-02",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AUD",
+   "quote": "MOP",
+   "type": "middle",
+   "value": 5.7677
+  },
+  {
+   "base": "CAD",
+   "quote": "MOP",
+   "type": "middle",
+   "value": 5.8109
+  },
+  {
+   "base": "CHF",
+   "quote": "MOP",
+   "type": "middle",
+   "value": 9.9414
+  },
+  {
+   "base": "CNY",
+   "quote": "MOP",
+   "type": "middle",
+   "value": 1.2012
+  },
+  {
+   "base": "DKK",
+   "quote": "MOP",
+   "type": "middle",
+   "value": 1.2516
+  },
+  {
+   "base": "EUR",
+   "quote": "MOP",
+   "type": "middle",
+   "value": 9.3555
+  },
+  {
+   "base": "GBP",
+   "quote": "MOP",
+   "type": "middle",
+   "value": 10.9095
+  },
+  {
+   "base": "HKD",
+   "quote": "MOP",
+   "type": "middle",
+   "value": 1.03
+  },
+  {
+   "base": "JPY",
+   "quote": "MOP",
+   "type": "middle",
+   "value": 0.050388999999999996
+  },
+  {
+   "base": "KRW",
+   "quote": "MOP",
+   "type": "middle",
+   "value": 0.0059
+  },
+  {
+   "base": "MYR",
+   "quote": "MOP",
+   "type": "middle",
+   "value": 1.9987
+  },
+  {
+   "base": "NOK",
+   "quote": "MOP",
+   "type": "middle",
+   "value": 0.866
+  },
+  {
+   "base": "NZD",
+   "quote": "MOP",
+   "type": "middle",
+   "value": 4.7585
+  },
+  {
+   "base": "SEK",
+   "quote": "MOP",
+   "type": "middle",
+   "value": 0.8389
+  },
+  {
+   "base": "SGD",
+   "quote": "MOP",
+   "type": "middle",
+   "value": 6.3415
+  },
+  {
+   "base": "TWD",
+   "quote": "MOP",
+   "type": "middle",
+   "value": 0.2548
+  },
+  {
+   "base": "USD",
+   "quote": "MOP",
+   "type": "middle",
+   "value": 8.0769
+  }
+ ],
+ "official_source": "https://www.amcm.gov.mo/en/exchange-rate",
+ "page": "https://allratestoday.com/central-bank-rates-api/amcm/",
+ "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
+}

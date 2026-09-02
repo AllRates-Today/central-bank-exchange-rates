@@ -1,0 +1,146 @@
+{
+ "source": "cbvs",
+ "name": "Central Bank of Suriname",
+ "country": "Suriname",
+ "home_currency": "SRD",
+ "kind": "central_bank",
+ "date": "2026-09-01",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AWG",
+   "quote": "SRD",
+   "type": "buy",
+   "value": 21.062
+  },
+  {
+   "base": "AWG",
+   "quote": "SRD",
+   "type": "sell",
+   "value": 21.475
+  },
+  {
+   "base": "BBD",
+   "quote": "SRD",
+   "type": "buy",
+   "value": 18.689
+  },
+  {
+   "base": "BBD",
+   "quote": "SRD",
+   "type": "sell",
+   "value": 19.055
+  },
+  {
+   "base": "BRL",
+   "quote": "SRD",
+   "type": "buy",
+   "value": 7.331
+  },
+  {
+   "base": "BRL",
+   "quote": "SRD",
+   "type": "sell",
+   "value": 7.474
+  },
+  {
+   "base": "CNY",
+   "quote": "SRD",
+   "type": "buy",
+   "value": 5.642
+  },
+  {
+   "base": "CNY",
+   "quote": "SRD",
+   "type": "sell",
+   "value": 5.752
+  },
+  {
+   "base": "EUR",
+   "quote": "SRD",
+   "type": "buy",
+   "value": 43.295
+  },
+  {
+   "base": "EUR",
+   "quote": "SRD",
+   "type": "sell",
+   "value": 44.13
+  },
+  {
+   "base": "GBP",
+   "quote": "SRD",
+   "type": "buy",
+   "value": 51.329
+  },
+  {
+   "base": "GBP",
+   "quote": "SRD",
+   "type": "sell",
+   "value": 52.335
+  },
+  {
+   "base": "GYD",
+   "quote": "SRD",
+   "type": "buy",
+   "value": 0.18015
+  },
+  {
+   "base": "GYD",
+   "quote": "SRD",
+   "type": "sell",
+   "value": 0.18367999999999998
+  },
+  {
+   "base": "TTD",
+   "quote": "SRD",
+   "type": "buy",
+   "value": 5.608
+  },
+  {
+   "base": "TTD",
+   "quote": "SRD",
+   "type": "sell",
+   "value": 5.717
+  },
+  {
+   "base": "USD",
+   "quote": "SRD",
+   "type": "buy",
+   "value": 37.912
+  },
+  {
+   "base": "USD",
+   "quote": "SRD",
+   "type": "sell",
+   "value": 37.953
+  },
+  {
+   "base": "XCD",
+   "quote": "SRD",
+   "type": "buy",
+   "value": 14.041
+  },
+  {
+   "base": "XCD",
+   "quote": "SRD",
+   "type": "sell",
+   "value": 14.317
+  },
+  {
+   "base": "XCG",
+   "quote": "SRD",
+   "type": "buy",
+   "value": 20.831
+  },
+  {
+   "base": "XCG",
+   "quote": "SRD",
+   "type": "sell",
+   "value": 21.239
+  }
+ ],
+ "official_source": "https://www.cbvs.sr/",
+ "page": "https://allratestoday.com/central-bank-rates-api/cbvs/",
+ "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
+}

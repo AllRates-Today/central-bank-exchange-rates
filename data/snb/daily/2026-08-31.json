@@ -1,0 +1,170 @@
+{
+ "source": "snb",
+ "name": "Swiss National Bank",
+ "country": "Switzerland",
+ "home_currency": "CHF",
+ "kind": "central_bank",
+ "date": "2026-08-31",
+ "cadence": "monthly_average",
+ "rates": [
+  {
+   "base": "ARS",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.00054
+  },
+  {
+   "base": "AUD",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.5734
+  },
+  {
+   "base": "BRL",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.15678910000000001
+  },
+  {
+   "base": "CAD",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.58062
+  },
+  {
+   "base": "CNY",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.1199027
+  },
+  {
+   "base": "CZK",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.0387219
+  },
+  {
+   "base": "DKK",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.1252482
+  },
+  {
+   "base": "EUR",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.93629
+  },
+  {
+   "base": "GBP",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 1.09363
+  },
+  {
+   "base": "HKD",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.10299860000000001
+  },
+  {
+   "base": "HUF",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.0025746999999999996
+  },
+  {
+   "base": "JPY",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.0050853
+  },
+  {
+   "base": "KRW",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.0005752999999999999
+  },
+  {
+   "base": "MXN",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.0473217
+  },
+  {
+   "base": "MYR",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.1987398
+  },
+  {
+   "base": "NOK",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.08566979999999999
+  },
+  {
+   "base": "NZD",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.47689
+  },
+  {
+   "base": "PLN",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.21719860000000002
+  },
+  {
+   "base": "RUB",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.00969
+  },
+  {
+   "base": "SEK",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.0848954
+  },
+  {
+   "base": "SGD",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.63279
+  },
+  {
+   "base": "THB",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.0244622
+  },
+  {
+   "base": "TRY",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.0168702
+  },
+  {
+   "base": "USD",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.80779
+  },
+  {
+   "base": "XDR",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 1.10464
+  },
+  {
+   "base": "ZAR",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.04993
+  }
+ ],
+ "official_source": "https://data.snb.ch/api/cube/devkum/data/json/en",
+ "page": "https://allratestoday.com/central-bank-rates-api/snb/",
+ "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
+}

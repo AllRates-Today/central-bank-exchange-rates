@@ -1,0 +1,134 @@
+{
+ "source": "boa",
+ "name": "Bank of Albania",
+ "country": "Albania",
+ "home_currency": "ALL",
+ "kind": "central_bank",
+ "date": "2026-09-02",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AUD",
+   "quote": "ALL",
+   "type": "reference",
+   "value": 56.72
+  },
+  {
+   "base": "CAD",
+   "quote": "ALL",
+   "type": "reference",
+   "value": 57.16
+  },
+  {
+   "base": "CHF",
+   "quote": "ALL",
+   "type": "reference",
+   "value": 97.74
+  },
+  {
+   "base": "CNH",
+   "quote": "ALL",
+   "type": "reference",
+   "value": 11.84
+  },
+  {
+   "base": "CNY",
+   "quote": "ALL",
+   "type": "reference",
+   "value": 11.85
+  },
+  {
+   "base": "CZK",
+   "quote": "ALL",
+   "type": "reference",
+   "value": 3.83
+  },
+  {
+   "base": "DKK",
+   "quote": "ALL",
+   "type": "reference",
+   "value": 12.33
+  },
+  {
+   "base": "EUR",
+   "quote": "ALL",
+   "type": "reference",
+   "value": 92.16
+  },
+  {
+   "base": "GBP",
+   "quote": "ALL",
+   "type": "reference",
+   "value": 107.48
+  },
+  {
+   "base": "HUF",
+   "quote": "ALL",
+   "type": "reference",
+   "value": 0.25370000000000004
+  },
+  {
+   "base": "JPY",
+   "quote": "ALL",
+   "type": "reference",
+   "value": 0.4982
+  },
+  {
+   "base": "MKD",
+   "quote": "ALL",
+   "type": "reference",
+   "value": 1.51
+  },
+  {
+   "base": "NOK",
+   "quote": "ALL",
+   "type": "reference",
+   "value": 8.53
+  },
+  {
+   "base": "RUB",
+   "quote": "ALL",
+   "type": "reference",
+   "value": 0.9207
+  },
+  {
+   "base": "SEK",
+   "quote": "ALL",
+   "type": "reference",
+   "value": 8.24
+  },
+  {
+   "base": "TRY",
+   "quote": "ALL",
+   "type": "reference",
+   "value": 1.65
+  },
+  {
+   "base": "USD",
+   "quote": "ALL",
+   "type": "reference",
+   "value": 79.63
+  },
+  {
+   "base": "XAG",
+   "quote": "ALL",
+   "type": "reference",
+   "value": 5068.38
+  },
+  {
+   "base": "XAU",
+   "quote": "ALL",
+   "type": "reference",
+   "value": 343096.21
+  },
+  {
+   "base": "XDR",
+   "quote": "ALL",
+   "type": "reference",
+   "value": 108.96
+  }
+ ],
+ "official_source": "https://www.bankofalbania.org/Markets/Official_exchange_rate/",
+ "page": "https://allratestoday.com/central-bank-rates-api/boa/",
+ "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
+}

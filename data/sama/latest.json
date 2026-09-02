@@ -1,0 +1,158 @@
+{
+ "source": "sama",
+ "name": "Saudi Central Bank (SAMA)",
+ "country": "Saudi Arabia",
+ "home_currency": "SAR",
+ "kind": "central_bank",
+ "date": "2026-07-31",
+ "cadence": "monthly_average",
+ "rates": [
+  {
+   "base": "AUD",
+   "quote": "SAR",
+   "type": "close",
+   "value": 2.63058047221363
+  },
+  {
+   "base": "AUD",
+   "quote": "SAR",
+   "type": "monthly_average",
+   "value": 2.61183063501772
+  },
+  {
+   "base": "BRL",
+   "quote": "SAR",
+   "type": "close",
+   "value": 0.739165577840677
+  },
+  {
+   "base": "BRL",
+   "quote": "SAR",
+   "type": "monthly_average",
+   "value": 0.734010568058027
+  },
+  {
+   "base": "CHF",
+   "quote": "SAR",
+   "type": "close",
+   "value": 4.6253693732891
+  },
+  {
+   "base": "CHF",
+   "quote": "SAR",
+   "type": "monthly_average",
+   "value": 4.62296633968702
+  },
+  {
+   "base": "CNY",
+   "quote": "SAR",
+   "type": "close",
+   "value": 0.554618414531289
+  },
+  {
+   "base": "CNY",
+   "quote": "SAR",
+   "type": "monthly_average",
+   "value": 0.553378781072114
+  },
+  {
+   "base": "EUR",
+   "quote": "SAR",
+   "type": "close",
+   "value": 4.29760140142838
+  },
+  {
+   "base": "EUR",
+   "quote": "SAR",
+   "type": "monthly_average",
+   "value": 4.28048973052737
+  },
+  {
+   "base": "GBP",
+   "quote": "SAR",
+   "type": "close",
+   "value": 5.03046195705751
+  },
+  {
+   "base": "GBP",
+   "quote": "SAR",
+   "type": "monthly_average",
+   "value": 5.01331824526424
+  },
+  {
+   "base": "INR",
+   "quote": "SAR",
+   "type": "close",
+   "value": 0.0392357079697051
+  },
+  {
+   "base": "INR",
+   "quote": "SAR",
+   "type": "monthly_average",
+   "value": 0.0391362080096797
+  },
+  {
+   "base": "JPY",
+   "quote": "SAR",
+   "type": "close",
+   "value": 0.0232939683467162
+  },
+  {
+   "base": "JPY",
+   "quote": "SAR",
+   "type": "monthly_average",
+   "value": 0.0230591741146819
+  },
+  {
+   "base": "KRW",
+   "quote": "SAR",
+   "type": "close",
+   "value": 0.0025965805007124
+  },
+  {
+   "base": "KRW",
+   "quote": "SAR",
+   "type": "monthly_average",
+   "value": 0.00250938390171408
+  },
+  {
+   "base": "THB",
+   "quote": "SAR",
+   "type": "close",
+   "value": 0.111984058708896
+  },
+  {
+   "base": "THB",
+   "quote": "SAR",
+   "type": "monthly_average",
+   "value": 0.111920065604215
+  },
+  {
+   "base": "TRY",
+   "quote": "SAR",
+   "type": "close",
+   "value": 0.0788477353462766
+  },
+  {
+   "base": "TRY",
+   "quote": "SAR",
+   "type": "monthly_average",
+   "value": 0.0797603736961918
+  },
+  {
+   "base": "USD",
+   "quote": "SAR",
+   "type": "close",
+   "value": 3.75
+  },
+  {
+   "base": "USD",
+   "quote": "SAR",
+   "type": "monthly_average",
+   "value": 3.75
+  }
+ ],
+ "official_source": "https://datasource.kapsarc.org/explore/dataset/exchange-rate/",
+ "page": "https://allratestoday.com/central-bank-rates-api/sama/",
+ "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
+}

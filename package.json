@@ -1,0 +1,10 @@
+{
+  "name": "central-bank-exchange-rates",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "update": "node scripts/update.mjs",
+    "backfill": "node scripts/backfill.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

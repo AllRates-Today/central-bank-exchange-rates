@@ -1,0 +1,884 @@
+{
+ "source": "bazg",
+ "name": "Swiss Federal Office for Customs and Border Security",
+ "country": "Switzerland",
+ "home_currency": "CHF",
+ "kind": "tax_authority",
+ "date": "2026-09-03",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AED",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.22286899999999998
+  },
+  {
+   "base": "AED",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.2236743
+  },
+  {
+   "base": "ALL",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.010181
+  },
+  {
+   "base": "ALL",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.0103704
+  },
+  {
+   "base": "ARS",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.0006
+  },
+  {
+   "base": "ARS",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.00055
+  },
+  {
+   "base": "AUD",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.5773
+  },
+  {
+   "base": "AUD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.58725
+  },
+  {
+   "base": "AZN",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.4814
+  },
+  {
+   "base": "AZN",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.48316
+  },
+  {
+   "base": "BAM",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.48290799999999995
+  },
+  {
+   "base": "BAM",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.48645580000000005
+  },
+  {
+   "base": "BDT",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.006690000000000001
+  },
+  {
+   "base": "BDT",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.0067361
+  },
+  {
+   "base": "BGN",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.4733361
+  },
+  {
+   "base": "BHD",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 2.1832
+  },
+  {
+   "base": "BHD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 2.18916
+  },
+  {
+   "base": "BRL",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.15909800000000002
+  },
+  {
+   "base": "BRL",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.1594139
+  },
+  {
+   "base": "CAD",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.5862
+  },
+  {
+   "base": "CAD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.59084
+  },
+  {
+   "base": "CLP",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.000888
+  },
+  {
+   "base": "CLP",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.0008781
+  },
+  {
+   "base": "CNY",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.12130800000000001
+  },
+  {
+   "base": "CNY",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.12219469999999999
+  },
+  {
+   "base": "COP",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.00026056
+  },
+  {
+   "base": "COP",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.00025899399999999997
+  },
+  {
+   "base": "CRC",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.0018115000000000002
+  },
+  {
+   "base": "CRC",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.00181354
+  },
+  {
+   "base": "CZK",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.039046
+  },
+  {
+   "base": "CZK",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.0393019
+  },
+  {
+   "base": "DKK",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.126283
+  },
+  {
+   "base": "DKK",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.1271792
+  },
+  {
+   "base": "DOP",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.01418
+  },
+  {
+   "base": "DOP",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.0141146
+  },
+  {
+   "base": "DZD",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.0062239999999999995
+  },
+  {
+   "base": "DZD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.0062228000000000006
+  },
+  {
+   "base": "EGP",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.016278
+  },
+  {
+   "base": "EGP",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.0161706
+  },
+  {
+   "base": "ETB",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.005084999999999999
+  },
+  {
+   "base": "ETB",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.005044300000000001
+  },
+  {
+   "base": "EUR",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.9439
+  },
+  {
+   "base": "EUR",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.95067
+  },
+  {
+   "base": "GBP",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 1.1029
+  },
+  {
+   "base": "GBP",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 1.10898
+  },
+  {
+   "base": "GEL",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.316739
+  },
+  {
+   "base": "GEL",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.3182347
+  },
+  {
+   "base": "GTQ",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.10986800000000001
+  },
+  {
+   "base": "GTQ",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.1100469
+  },
+  {
+   "base": "HKD",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.10432499999999999
+  },
+  {
+   "base": "HKD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.1047168
+  },
+  {
+   "base": "HNL",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.030908
+  },
+  {
+   "base": "HNL",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.0309768
+  },
+  {
+   "base": "HUF",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.0026009
+  },
+  {
+   "base": "HUF",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.00258143
+  },
+  {
+   "base": "IDR",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.00004574
+  },
+  {
+   "base": "IDR",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.000046322
+  },
+  {
+   "base": "ILS",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.2727
+  },
+  {
+   "base": "ILS",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.27184
+  },
+  {
+   "base": "INR",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.008566
+  },
+  {
+   "base": "INR",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.0086412
+  },
+  {
+   "base": "ISK",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.0066549999999999995
+  },
+  {
+   "base": "ISK",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.0067800000000000004
+  },
+  {
+   "base": "JPY",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.0051259999999999995
+  },
+  {
+   "base": "JPY",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.00512
+  },
+  {
+   "base": "KES",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.006389000000000001
+  },
+  {
+   "base": "KES",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.0063942
+  },
+  {
+   "base": "KHR",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.00020367
+  },
+  {
+   "base": "KHR",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.000204111
+  },
+  {
+   "base": "KRW",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.000576
+  },
+  {
+   "base": "KRW",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.0005994
+  },
+  {
+   "base": "KWD",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 2.6557
+  },
+  {
+   "base": "KWD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 2.6645
+  },
+  {
+   "base": "KYD",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.9843
+  },
+  {
+   "base": "KYD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.98706
+  },
+  {
+   "base": "KZT",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.0017507999999999998
+  },
+  {
+   "base": "KZT",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.00179314
+  },
+  {
+   "base": "LBP",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.000009139999999999999
+  },
+  {
+   "base": "LBP",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.000009171
+  },
+  {
+   "base": "LKR",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.0024514999999999997
+  },
+  {
+   "base": "LKR",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.0025026899999999997
+  },
+  {
+   "base": "LYD",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.129
+  },
+  {
+   "base": "LYD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.12973
+  },
+  {
+   "base": "MAD",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.0876
+  },
+  {
+   "base": "MAD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.08805
+  },
+  {
+   "base": "MUR",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.017775
+  },
+  {
+   "base": "MUR",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.017820100000000002
+  },
+  {
+   "base": "MXN",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.0477
+  },
+  {
+   "base": "MXN",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.04833
+  },
+  {
+   "base": "MYR",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.200807
+  },
+  {
+   "base": "MYR",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.2032195
+  },
+  {
+   "base": "NGN",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.0006024
+  },
+  {
+   "base": "NGN",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.00061598
+  },
+  {
+   "base": "NOK",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.086227
+  },
+  {
+   "base": "NOK",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.0880606
+  },
+  {
+   "base": "NZD",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.4806
+  },
+  {
+   "base": "NZD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.48421
+  },
+  {
+   "base": "OMR",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 2.1319
+  },
+  {
+   "base": "OMR",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 2.13955
+  },
+  {
+   "base": "PAB",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.8375
+  },
+  {
+   "base": "PAB",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.83878
+  },
+  {
+   "base": "PEN",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.242473
+  },
+  {
+   "base": "PEN",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.2442333
+  },
+  {
+   "base": "PHP",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.013342
+  },
+  {
+   "base": "PHP",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.0131203
+  },
+  {
+   "base": "PKR",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.0029509999999999996
+  },
+  {
+   "base": "PKR",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.0029593
+  },
+  {
+   "base": "PLN",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.219206
+  },
+  {
+   "base": "PLN",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.2194842
+  },
+  {
+   "base": "QAR",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.22470600000000002
+  },
+  {
+   "base": "QAR",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.224647
+  },
+  {
+   "base": "RON",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.180317
+  },
+  {
+   "base": "RON",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.1811616
+  },
+  {
+   "base": "RSD",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.008045
+  },
+  {
+   "base": "RSD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.0081058
+  },
+  {
+   "base": "RUB",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.010048999999999999
+  },
+  {
+   "base": "RUB",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.0094629
+  },
+  {
+   "base": "SAR",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.218118
+  },
+  {
+   "base": "SAR",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.21855560000000002
+  },
+  {
+   "base": "SEK",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.085727
+  },
+  {
+   "base": "SEK",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.08523389999999999
+  },
+  {
+   "base": "SGD",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.6391
+  },
+  {
+   "base": "SGD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.64505
+  },
+  {
+   "base": "THB",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.024669
+  },
+  {
+   "base": "THB",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.024620299999999998
+  },
+  {
+   "base": "TND",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.280789
+  },
+  {
+   "base": "TND",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.2827012
+  },
+  {
+   "base": "TRY",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.017161
+  },
+  {
+   "base": "TRY",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.0170068
+  },
+  {
+   "base": "TWD",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.025457
+  },
+  {
+   "base": "TWD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.0259279
+  },
+  {
+   "base": "TZS",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.0003096
+  },
+  {
+   "base": "TZS",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.00031112
+  },
+  {
+   "base": "UAH",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.018299
+  },
+  {
+   "base": "UAH",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.0184626
+  },
+  {
+   "base": "USD",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.8184
+  },
+  {
+   "base": "USD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.82133
+  },
+  {
+   "base": "UYU",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.020507
+  },
+  {
+   "base": "UYU",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.020490300000000003
+  },
+  {
+   "base": "VES",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.00108
+  },
+  {
+   "base": "VES",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.0010301
+  },
+  {
+   "base": "VND",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.000031219999999999996
+  },
+  {
+   "base": "VND",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.000031502000000000004
+  },
+  {
+   "base": "ZAR",
+   "quote": "CHF",
+   "type": "monthly_average",
+   "value": 0.0501
+  },
+  {
+   "base": "ZAR",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.05076
+  }
+ ],
+ "official_source": "https://www.backend-rates.bazg.admin.ch/api/xmldaily",
+ "page": "https://allratestoday.com/central-bank-rates-api/bazg/",
+ "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
+}

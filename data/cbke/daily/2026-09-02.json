@@ -1,0 +1,140 @@
+{
+ "source": "cbke",
+ "name": "Central Bank of Kenya",
+ "country": "Kenya",
+ "home_currency": "KES",
+ "kind": "central_bank",
+ "date": "2026-09-02",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AED",
+   "quote": "KES",
+   "type": "reference",
+   "value": 35.25
+  },
+  {
+   "base": "AUD",
+   "quote": "KES",
+   "type": "reference",
+   "value": 92.56
+  },
+  {
+   "base": "BIF",
+   "quote": "KES",
+   "type": "reference",
+   "value": 0.043271311120726956
+  },
+  {
+   "base": "CAD",
+   "quote": "KES",
+   "type": "reference",
+   "value": 93.23
+  },
+  {
+   "base": "CHF",
+   "quote": "KES",
+   "type": "reference",
+   "value": 159.74
+  },
+  {
+   "base": "CNY",
+   "quote": "KES",
+   "type": "reference",
+   "value": 19.26
+  },
+  {
+   "base": "DKK",
+   "quote": "KES",
+   "type": "reference",
+   "value": 20.07
+  },
+  {
+   "base": "EUR",
+   "quote": "KES",
+   "type": "reference",
+   "value": 150.08
+  },
+  {
+   "base": "GBP",
+   "quote": "KES",
+   "type": "reference",
+   "value": 175.22
+  },
+  {
+   "base": "HKD",
+   "quote": "KES",
+   "type": "reference",
+   "value": 16.51
+  },
+  {
+   "base": "INR",
+   "quote": "KES",
+   "type": "reference",
+   "value": 1.36
+  },
+  {
+   "base": "JPY",
+   "quote": "KES",
+   "type": "reference",
+   "value": 0.8087000000000001
+  },
+  {
+   "base": "NOK",
+   "quote": "KES",
+   "type": "reference",
+   "value": 13.89
+  },
+  {
+   "base": "RWF",
+   "quote": "KES",
+   "type": "reference",
+   "value": 0.08802816901408451
+  },
+  {
+   "base": "SAR",
+   "quote": "KES",
+   "type": "reference",
+   "value": 34.48
+  },
+  {
+   "base": "SEK",
+   "quote": "KES",
+   "type": "reference",
+   "value": 13.51
+  },
+  {
+   "base": "SGD",
+   "quote": "KES",
+   "type": "reference",
+   "value": 101.69
+  },
+  {
+   "base": "TZS",
+   "quote": "KES",
+   "type": "reference",
+   "value": 0.04906771344455348
+  },
+  {
+   "base": "UGX",
+   "quote": "KES",
+   "type": "reference",
+   "value": 0.03430531732418525
+  },
+  {
+   "base": "USD",
+   "quote": "KES",
+   "type": "reference",
+   "value": 129.48
+  },
+  {
+   "base": "ZAR",
+   "quote": "KES",
+   "type": "reference",
+   "value": 8.02
+  }
+ ],
+ "official_source": "https://www.centralbank.go.ke/forex/",
+ "page": "https://allratestoday.com/central-bank-rates-api/cbke/",
+ "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
+}

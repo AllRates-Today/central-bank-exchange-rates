@@ -1,0 +1,32 @@
+{
+ "source": "bogy",
+ "name": "Bank of Guyana",
+ "country": "Guyana",
+ "home_currency": "GYD",
+ "kind": "central_bank",
+ "date": "2026-08-26",
+ "cadence": "weekly",
+ "rates": [
+  {
+   "base": "USD",
+   "quote": "GYD",
+   "type": "buy",
+   "value": 214.93
+  },
+  {
+   "base": "USD",
+   "quote": "GYD",
+   "type": "middle",
+   "value": 215.07
+  },
+  {
+   "base": "USD",
+   "quote": "GYD",
+   "type": "sell",
+   "value": 215.2
+  }
+ ],
+ "official_source": "https://bankofguyana.org.gy/",
+ "page": "https://allratestoday.com/central-bank-rates-api/bogy/",
+ "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
+}

@@ -1,0 +1,818 @@
+{
+ "source": "cbk",
+ "name": "Central Bank of Kuwait",
+ "country": "Kuwait",
+ "home_currency": "KWD",
+ "kind": "central_bank",
+ "date": "2026-09-02",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AED",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.08362399999999999
+  },
+  {
+   "base": "AFN",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.004752
+  },
+  {
+   "base": "ALL",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.003853
+  },
+  {
+   "base": "AMD",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.000843
+  },
+  {
+   "base": "AOA",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.00033400000000000004
+  },
+  {
+   "base": "ARS",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.000203
+  },
+  {
+   "base": "AUD",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.21912
+  },
+  {
+   "base": "AZN",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.180677
+  },
+  {
+   "base": "BAM",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.181606
+  },
+  {
+   "base": "BBD",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.1525
+  },
+  {
+   "base": "BDT",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.002505
+  },
+  {
+   "base": "BGN",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.18303299999999997
+  },
+  {
+   "base": "BHD",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.816712
+  },
+  {
+   "base": "BIF",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.000103
+  },
+  {
+   "base": "BMD",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.30715
+  },
+  {
+   "base": "BND",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.241119
+  },
+  {
+   "base": "BOB",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.025269
+  },
+  {
+   "base": "BRL",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.0596
+  },
+  {
+   "base": "BSD",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.30715
+  },
+  {
+   "base": "BTN",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.003235
+  },
+  {
+   "base": "BWP",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.021946
+  },
+  {
+   "base": "BZD",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.15272
+  },
+  {
+   "base": "CAD",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.22064599999999998
+  },
+  {
+   "base": "CDF",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.000134
+  },
+  {
+   "base": "CHF",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.377729
+  },
+  {
+   "base": "CLP",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.000328
+  },
+  {
+   "base": "CNY",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.045689999999999995
+  },
+  {
+   "base": "COP",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.000097
+  },
+  {
+   "base": "CRC",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.0006770000000000001
+  },
+  {
+   "base": "CUP",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.012798
+  },
+  {
+   "base": "CVE",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.003216
+  },
+  {
+   "base": "CZK",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.014675
+  },
+  {
+   "base": "DJF",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.0017250000000000002
+  },
+  {
+   "base": "DKK",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.047566000000000004
+  },
+  {
+   "base": "DOP",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.005228
+  },
+  {
+   "base": "DZD",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.0023020000000000002
+  },
+  {
+   "base": "ECS",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.000012
+  },
+  {
+   "base": "EGP",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.006032
+  },
+  {
+   "base": "ERN",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.020375
+  },
+  {
+   "base": "ETB",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.001893
+  },
+  {
+   "base": "EUR",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.355588
+  },
+  {
+   "base": "FJD",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.139154
+  },
+  {
+   "base": "GBP",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.414606
+  },
+  {
+   "base": "GEL",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.117434
+  },
+  {
+   "base": "GHS",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.027242000000000002
+  },
+  {
+   "base": "GMD",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.004095
+  },
+  {
+   "base": "GNF",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.000035000000000000004
+  },
+  {
+   "base": "GTQ",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.040256
+  },
+  {
+   "base": "GYD",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.001468
+  },
+  {
+   "base": "HKD",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.039173
+  },
+  {
+   "base": "HNL",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.011448
+  },
+  {
+   "base": "HTG",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.0023490000000000004
+  },
+  {
+   "base": "HUF",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.0009649999999999999
+  },
+  {
+   "base": "IDR",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.000017
+  },
+  {
+   "base": "INR",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.003235
+  },
+  {
+   "base": "IQD",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.00023400000000000002
+  },
+  {
+   "base": "IRR",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.000007
+  },
+  {
+   "base": "ISK",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.002529
+  },
+  {
+   "base": "JMD",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.001938
+  },
+  {
+   "base": "JOD",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.433216
+  },
+  {
+   "base": "JPY",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.0019172
+  },
+  {
+   "base": "KES",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.0023740000000000002
+  },
+  {
+   "base": "KGS",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.0035110000000000002
+  },
+  {
+   "base": "KHR",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.000076
+  },
+  {
+   "base": "KMF",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.000723
+  },
+  {
+   "base": "KPW",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.002363
+  },
+  {
+   "base": "KRW",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.000224
+  },
+  {
+   "base": "KZT",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.00067
+  },
+  {
+   "base": "LAK",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.000014
+  },
+  {
+   "base": "LBP",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.000003
+  },
+  {
+   "base": "LKR",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.0009360000000000001
+  },
+  {
+   "base": "LRD",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.00175
+  },
+  {
+   "base": "LSL",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.018976
+  },
+  {
+   "base": "LYD",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.048371000000000004
+  },
+  {
+   "base": "MAD",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.032879
+  },
+  {
+   "base": "MDL",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.017899
+  },
+  {
+   "base": "MGA",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.00007099999999999999
+  },
+  {
+   "base": "MMK",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.000146
+  },
+  {
+   "base": "MNT",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.000085
+  },
+  {
+   "base": "MOP",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.038003999999999996
+  },
+  {
+   "base": "MRU",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.007644
+  },
+  {
+   "base": "MUR",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.006522999999999999
+  },
+  {
+   "base": "MVR",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.019867
+  },
+  {
+   "base": "MWK",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.000177
+  },
+  {
+   "base": "MXN",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.018058
+  },
+  {
+   "base": "MYR",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.07595199999999999
+  },
+  {
+   "base": "MZN",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.004829
+  },
+  {
+   "base": "NAD",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.018976
+  },
+  {
+   "base": "NGN",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.000231
+  },
+  {
+   "base": "NIO",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.008347
+  },
+  {
+   "base": "NOK",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.032881
+  },
+  {
+   "base": "NPR",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.002021
+  },
+  {
+   "base": "NZD",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.179191
+  },
+  {
+   "base": "OMR",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.79883
+  },
+  {
+   "base": "PAB",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.30715
+  },
+  {
+   "base": "PEN",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.091259
+  },
+  {
+   "base": "PGK",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.069262
+  },
+  {
+   "base": "PHP",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.004902
+  },
+  {
+   "base": "PKR",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.001106
+  },
+  {
+   "base": "PLN",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.081983
+  },
+  {
+   "base": "PYG",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.000052
+  },
+  {
+   "base": "QAR",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.084382
+  },
+  {
+   "base": "RON",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.067664
+  },
+  {
+   "base": "RSD",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.0030310000000000003
+  },
+  {
+   "base": "RUB",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.003539
+  },
+  {
+   "base": "RWF",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.000208
+  },
+  {
+   "base": "SAR",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.081907
+  },
+  {
+   "base": "SBD",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.038762
+  },
+  {
+   "base": "SCR",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.021842
+  },
+  {
+   "base": "SDG",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.000687
+  },
+  {
+   "base": "SEK",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.03185
+  },
+  {
+   "base": "SGD",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.241119
+  },
+  {
+   "base": "SLL",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.000014
+  },
+  {
+   "base": "SOS",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.000537
+  },
+  {
+   "base": "SRD",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.008048
+  },
+  {
+   "base": "SVC",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.035084000000000004
+  },
+  {
+   "base": "SYP",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.002518
+  },
+  {
+   "base": "SZL",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.018976
+  },
+  {
+   "base": "THB",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.009212999999999999
+  },
+  {
+   "base": "TND",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.105235
+  },
+  {
+   "base": "TRY",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.00636
+  },
+  {
+   "base": "TWD",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.009661
+  },
+  {
+   "base": "TZS",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.000116
+  },
+  {
+   "base": "UAH",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.006897
+  },
+  {
+   "base": "UGX",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.000081
+  },
+  {
+   "base": "USD",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.30715
+  },
+  {
+   "base": "UYU",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.0076289999999999995
+  },
+  {
+   "base": "UZS",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.000026
+  },
+  {
+   "base": "VEF",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.000001
+  },
+  {
+   "base": "VND",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.000012
+  },
+  {
+   "base": "WST",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.114106
+  },
+  {
+   "base": "YER",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.001296
+  },
+  {
+   "base": "ZAR",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.018976
+  },
+  {
+   "base": "ZMW",
+   "quote": "KWD",
+   "type": "reference",
+   "value": 0.016137000000000002
+  }
+ ],
+ "official_source": "https://www.cbk.gov.kw/en/monetary-policy/market-operations/exchange-rates",
+ "page": "https://allratestoday.com/central-bank-rates-api/cbk/",
+ "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
+}

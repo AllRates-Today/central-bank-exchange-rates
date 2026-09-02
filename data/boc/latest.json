@@ -1,0 +1,158 @@
+{
+ "source": "boc",
+ "name": "Bank of Canada",
+ "country": "Canada",
+ "home_currency": "CAD",
+ "kind": "central_bank",
+ "date": "2026-09-01",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AUD",
+   "quote": "CAD",
+   "type": "indicative",
+   "value": 0.9936
+  },
+  {
+   "base": "BRL",
+   "quote": "CAD",
+   "type": "indicative",
+   "value": 0.2696
+  },
+  {
+   "base": "CHF",
+   "quote": "CAD",
+   "type": "indicative",
+   "value": 1.7127
+  },
+  {
+   "base": "CNY",
+   "quote": "CAD",
+   "type": "indicative",
+   "value": 0.2067
+  },
+  {
+   "base": "EUR",
+   "quote": "CAD",
+   "type": "indicative",
+   "value": 1.6109
+  },
+  {
+   "base": "GBP",
+   "quote": "CAD",
+   "type": "indicative",
+   "value": 1.8795
+  },
+  {
+   "base": "HKD",
+   "quote": "CAD",
+   "type": "indicative",
+   "value": 0.1772
+  },
+  {
+   "base": "IDR",
+   "quote": "CAD",
+   "type": "indicative",
+   "value": 0.000078
+  },
+  {
+   "base": "INR",
+   "quote": "CAD",
+   "type": "indicative",
+   "value": 0.01463
+  },
+  {
+   "base": "JPY",
+   "quote": "CAD",
+   "type": "indicative",
+   "value": 0.00868
+  },
+  {
+   "base": "KRW",
+   "quote": "CAD",
+   "type": "indicative",
+   "value": 0.001012
+  },
+  {
+   "base": "MXN",
+   "quote": "CAD",
+   "type": "indicative",
+   "value": 0.08184
+  },
+  {
+   "base": "MYR",
+   "quote": "CAD",
+   "type": "indicative",
+   "value": 0.344
+  },
+  {
+   "base": "NOK",
+   "quote": "CAD",
+   "type": "indicative",
+   "value": 0.149
+  },
+  {
+   "base": "NZD",
+   "quote": "CAD",
+   "type": "indicative",
+   "value": 0.8195
+  },
+  {
+   "base": "PEN",
+   "quote": "CAD",
+   "type": "indicative",
+   "value": 0.4131
+  },
+  {
+   "base": "PLN",
+   "quote": "CAD",
+   "type": "indicative",
+   "value": 0.3719
+  },
+  {
+   "base": "SEK",
+   "quote": "CAD",
+   "type": "indicative",
+   "value": 0.1448
+  },
+  {
+   "base": "SGD",
+   "quote": "CAD",
+   "type": "indicative",
+   "value": 1.0915
+  },
+  {
+   "base": "THB",
+   "quote": "CAD",
+   "type": "indicative",
+   "value": 0.04176
+  },
+  {
+   "base": "TRY",
+   "quote": "CAD",
+   "type": "indicative",
+   "value": 0.0288
+  },
+  {
+   "base": "TWD",
+   "quote": "CAD",
+   "type": "indicative",
+   "value": 0.04384
+  },
+  {
+   "base": "USD",
+   "quote": "CAD",
+   "type": "indicative",
+   "value": 1.3896
+  },
+  {
+   "base": "ZAR",
+   "quote": "CAD",
+   "type": "indicative",
+   "value": 0.08609
+  }
+ ],
+ "official_source": "https://www.bankofcanada.ca/valet/observations/group/FX_RATES_DAILY/json",
+ "page": "https://allratestoday.com/central-bank-rates-api/boc/",
+ "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
+}

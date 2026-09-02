@@ -1,0 +1,134 @@
+{
+ "source": "bct",
+ "name": "Central Bank of Tunisia",
+ "country": "Tunisia",
+ "home_currency": "TND",
+ "kind": "central_bank",
+ "date": "2026-08-31",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AED",
+   "quote": "TND",
+   "type": "reference",
+   "value": 0.79617
+  },
+  {
+   "base": "BHD",
+   "quote": "TND",
+   "type": "reference",
+   "value": 7.7563
+  },
+  {
+   "base": "CAD",
+   "quote": "TND",
+   "type": "reference",
+   "value": 2.1047
+  },
+  {
+   "base": "CHF",
+   "quote": "TND",
+   "type": "reference",
+   "value": 3.6161299999999996
+  },
+  {
+   "base": "CNY",
+   "quote": "TND",
+   "type": "reference",
+   "value": 0.4351
+  },
+  {
+   "base": "DKK",
+   "quote": "TND",
+   "type": "reference",
+   "value": 0.45372100000000004
+  },
+  {
+   "base": "DZD",
+   "quote": "TND",
+   "type": "reference",
+   "value": 0.021929999999999998
+  },
+  {
+   "base": "EUR",
+   "quote": "TND",
+   "type": "reference",
+   "value": 3.3836
+  },
+  {
+   "base": "GBP",
+   "quote": "TND",
+   "type": "reference",
+   "value": 3.9587
+  },
+  {
+   "base": "JPY",
+   "quote": "TND",
+   "type": "reference",
+   "value": 0.0183105
+  },
+  {
+   "base": "KWD",
+   "quote": "TND",
+   "type": "reference",
+   "value": 9.5203
+  },
+  {
+   "base": "LYD",
+   "quote": "TND",
+   "type": "reference",
+   "value": 0.4602
+  },
+  {
+   "base": "MAD",
+   "quote": "TND",
+   "type": "reference",
+   "value": 0.31449
+  },
+  {
+   "base": "MRU",
+   "quote": "TND",
+   "type": "reference",
+   "value": 0.07281
+  },
+  {
+   "base": "NOK",
+   "quote": "TND",
+   "type": "reference",
+   "value": 0.31278
+  },
+  {
+   "base": "OMR",
+   "quote": "TND",
+   "type": "reference",
+   "value": 7.5955
+  },
+  {
+   "base": "QAR",
+   "quote": "TND",
+   "type": "reference",
+   "value": 0.8021900000000001
+  },
+  {
+   "base": "SAR",
+   "quote": "TND",
+   "type": "reference",
+   "value": 0.77884
+  },
+  {
+   "base": "SEK",
+   "quote": "TND",
+   "type": "reference",
+   "value": 0.30510000000000004
+  },
+  {
+   "base": "USD",
+   "quote": "TND",
+   "type": "reference",
+   "value": 2.9194
+  }
+ ],
+ "official_source": "https://www.bct.gov.tn/bct/siteprod/cours.jsp",
+ "page": "https://allratestoday.com/central-bank-rates-api/bct/",
+ "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
+}

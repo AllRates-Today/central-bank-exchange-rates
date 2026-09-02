@@ -1,0 +1,122 @@
+{
+ "source": "bda",
+ "name": "Bank of Algeria",
+ "country": "Algeria",
+ "home_currency": "DZD",
+ "kind": "central_bank",
+ "date": "2026-09-02",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AED",
+   "quote": "DZD",
+   "type": "reference",
+   "value": 36.2744
+  },
+  {
+   "base": "CAD",
+   "quote": "DZD",
+   "type": "reference",
+   "value": 95.9004
+  },
+  {
+   "base": "CHF",
+   "quote": "DZD",
+   "type": "reference",
+   "value": 164.4752
+  },
+  {
+   "base": "CNY",
+   "quote": "DZD",
+   "type": "reference",
+   "value": 19.8184
+  },
+  {
+   "base": "DKK",
+   "quote": "DZD",
+   "type": "reference",
+   "value": 20.6736
+  },
+  {
+   "base": "EUR",
+   "quote": "DZD",
+   "type": "reference",
+   "value": 154.5276
+  },
+  {
+   "base": "GBP",
+   "quote": "DZD",
+   "type": "reference",
+   "value": 180.3994
+  },
+  {
+   "base": "JPY",
+   "quote": "DZD",
+   "type": "reference",
+   "value": 0.832448
+  },
+  {
+   "base": "KWD",
+   "quote": "DZD",
+   "type": "reference",
+   "value": 433.7454
+  },
+  {
+   "base": "LYD",
+   "quote": "DZD",
+   "type": "reference",
+   "value": 20.9738
+  },
+  {
+   "base": "MAD",
+   "quote": "DZD",
+   "type": "reference",
+   "value": 14.3259
+  },
+  {
+   "base": "MRU",
+   "quote": "DZD",
+   "type": "reference",
+   "value": 3.3307
+  },
+  {
+   "base": "NOK",
+   "quote": "DZD",
+   "type": "reference",
+   "value": 14.3001
+  },
+  {
+   "base": "SAR",
+   "quote": "DZD",
+   "type": "reference",
+   "value": 35.4841
+  },
+  {
+   "base": "SEK",
+   "quote": "DZD",
+   "type": "reference",
+   "value": 13.9106
+  },
+  {
+   "base": "TND",
+   "quote": "DZD",
+   "type": "reference",
+   "value": 45.5454
+  },
+  {
+   "base": "USD",
+   "quote": "DZD",
+   "type": "reference",
+   "value": 133.2249
+  },
+  {
+   "base": "XDR",
+   "quote": "DZD",
+   "type": "reference",
+   "value": 182.3015
+  }
+ ],
+ "official_source": "https://www.bank-of-algeria.dz/taux-de-change-journalier/",
+ "page": "https://allratestoday.com/central-bank-rates-api/bda/",
+ "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
+}
