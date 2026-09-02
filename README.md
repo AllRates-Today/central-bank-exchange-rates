@@ -178,6 +178,10 @@ Files change at most once per publication date. Use `@main` for the live files. 
 | [U.S. Department of the Treasury](https://allratestoday.com/central-bank-rates-api/ustreasury/) | United States | `ustreasury` | USD | 145 | [latest.json](https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/ustreasury/latest.json) |
 | [US Federal Reserve (H.10)](https://allratestoday.com/central-bank-rates-api/fed/) | United States | `fed` | USD | 22 | [latest.json](https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/fed/latest.json) |
 
+## Also on Hugging Face
+
+The same data, one CSV per institution, is mirrored daily to the dataset [AllRates/central-bank-exchange-rates](https://huggingface.co/datasets/AllRates/central-bank-exchange-rates) for `load_dataset` and pandas users.
+
 ## How it is built
 
 A GitHub Action runs four times a day, reads each institution's latest table from the keyless [AllRatesToday](https://allratestoday.com/central-bank-rates-api/) open endpoints, and commits only when something changed. The upstream collector fetches each institution's own publication, checks every table against the other banks for unit and direction errors, and quarantines anything more than ten percent off. History before September 2026 was loaded once from the same collector's database; the oldest series (SNB) starts in 1914.

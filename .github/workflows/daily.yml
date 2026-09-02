@@ -22,3 +22,12 @@ jobs:
           git diff --cached --quiet && echo "no change" && exit 0
           git commit -m "rates: $(date -u +%Y-%m-%d\ %H:%M) UTC"
           git push
+          echo "changed=1" >> "$GITHUB_OUTPUT"
+        id: commit
+      - name: Mirror to Hugging Face
+        if: steps.commit.outputs.changed == '1' || github.event_name == 'workflow_dispatch'
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          pip install -q huggingface_hub
+          python scripts/hf_sync.py
