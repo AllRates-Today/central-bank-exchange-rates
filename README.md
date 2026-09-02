@@ -178,9 +178,9 @@ Files change at most once per publication date. Use `@main` for the live files. 
 | [U.S. Department of the Treasury](https://allratestoday.com/central-bank-rates-api/ustreasury/) | United States | `ustreasury` | USD | 145 | [latest.json](https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/ustreasury/latest.json) |
 | [US Federal Reserve (H.10)](https://allratestoday.com/central-bank-rates-api/fed/) | United States | `fed` | USD | 22 | [latest.json](https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/fed/latest.json) |
 
-## Also on Hugging Face
+## Also on Hugging Face and Kaggle
 
-The same data, one CSV per institution, is mirrored daily to the dataset [AllRates/central-bank-exchange-rates](https://huggingface.co/datasets/AllRates/central-bank-exchange-rates) for `load_dataset` and pandas users.
+The same data, one CSV per institution, is mirrored daily to [Hugging Face](https://huggingface.co/datasets/AllRates/central-bank-exchange-rates) for `load_dataset` users and to [Kaggle](https://www.kaggle.com/datasets/allratestoday/central-bank-exchange-rates) for notebooks.
 
 ## How it is built
 
