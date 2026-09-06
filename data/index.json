@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-05T22:59:54.128Z",
- "source_count": 106,
+ "generated_at": "2026-09-06T07:59:59.242Z",
+ "source_count": 110,
  "sources": {
   "amcm": {
    "name": "Monetary Authority of Macao",
@@ -566,6 +566,14 @@
    "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/boz/latest.json",
    "page": "https://allratestoday.com/central-bank-rates-api/boz/"
   },
+  "brh": {
+   "name": "Banque de la République d'Haïti",
+   "latest": "2026-09-05",
+   "cadence": "daily",
+   "stale": false,
+   "currencies": 3,
+   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/brh/latest.json"
+  },
   "bsp": {
    "name": "Bangko Sentral ng Pilipinas",
    "country": "Philippines",
@@ -650,6 +658,14 @@
    "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/cbe/latest.json",
    "page": "https://allratestoday.com/central-bank-rates-api/cbe/"
   },
+  "cbg": {
+   "name": "Central Bank of The Gambia",
+   "latest": "2026-09-04",
+   "cadence": "daily",
+   "stale": false,
+   "currencies": 32,
+   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/cbg/latest.json"
+  },
   "cbi": {
    "name": "Central Bank of Iceland",
    "country": "Iceland",
@@ -669,7 +685,7 @@
    "kind": "central_bank",
    "latest": "2026-09-01",
    "cadence": "daily",
-   "stale": false,
+   "stale": true,
    "currencies": 57,
    "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/cbiq/latest.json",
    "page": "https://allratestoday.com/central-bank-rates-api/cbiq/"
@@ -691,7 +707,7 @@
    "country": "Kuwait",
    "home_currency": "KWD",
    "kind": "central_bank",
-   "latest": "2026-09-03",
+   "latest": "2026-09-06",
    "cadence": "daily",
    "stale": false,
    "currencies": 134,
@@ -709,6 +725,14 @@
    "currencies": 21,
    "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/cbke/latest.json",
    "page": "https://allratestoday.com/central-bank-rates-api/cbke/"
+  },
+  "cbl": {
+   "name": "Central Bank of Libya",
+   "latest": "2026-09-03",
+   "cadence": "daily",
+   "stale": false,
+   "currencies": 60,
+   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/cbl/latest.json"
   },
   "cbm": {
    "name": "Central Bank of Myanmar",
@@ -739,7 +763,7 @@
    "country": "Oman",
    "home_currency": "OMR",
    "kind": "central_bank",
-   "latest": "2026-09-03",
+   "latest": "2026-09-06",
    "cadence": "daily",
    "stale": false,
    "currencies": 96,
@@ -835,7 +859,7 @@
    "country": "Global",
    "home_currency": "USD",
    "kind": "composite",
-   "latest": "2026-09-05",
+   "latest": "2026-09-06",
    "cadence": "daily",
    "stale": false,
    "currencies": 153,
@@ -901,6 +925,14 @@
    "currencies": 141,
    "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/hmrc/latest.json",
    "page": "https://allratestoday.com/central-bank-rates-api/hmrc/"
+  },
+  "lb": {
+   "name": "Bank of Lithuania",
+   "latest": "2026-09-05",
+   "cadence": "daily",
+   "stale": false,
+   "currencies": 87,
+   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/lb/latest.json"
   },
   "mas": {
    "name": "Monetary Authority of Singapore",
@@ -1099,7 +1131,7 @@
    "country": "Palestine",
    "home_currency": "ILS",
    "kind": "central_bank",
-   "latest": "2026-09-03",
+   "latest": "2026-09-06",
    "cadence": "daily",
    "stale": false,
    "currencies": 8,

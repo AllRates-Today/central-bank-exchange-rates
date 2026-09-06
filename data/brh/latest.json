@@ -1,0 +1,27 @@
+{
+ "source": "brh",
+ "name": "Banque de la République d'Haïti",
+ "date": "2026-09-05",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "USD",
+   "quote": "HTG",
+   "type": "buy",
+   "value": 130.3511
+  },
+  {
+   "base": "USD",
+   "quote": "HTG",
+   "type": "reference",
+   "value": 130.5307
+  },
+  {
+   "base": "USD",
+   "quote": "HTG",
+   "type": "sell",
+   "value": 131.1368
+  }
+ ],
+ "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
+}
