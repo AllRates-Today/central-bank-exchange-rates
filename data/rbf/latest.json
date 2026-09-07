@@ -1,0 +1,57 @@
+{
+ "source": "rbf",
+ "name": "Reserve Bank of Fiji",
+ "date": "2026-09-02",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "FJD",
+   "quote": "AUD",
+   "type": "reference",
+   "value": 0.6298
+  },
+  {
+   "base": "FJD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.3652
+  },
+  {
+   "base": "FJD",
+   "quote": "EUR",
+   "type": "reference",
+   "value": 0.3882
+  },
+  {
+   "base": "FJD",
+   "quote": "GBP",
+   "type": "reference",
+   "value": 0.333
+  },
+  {
+   "base": "FJD",
+   "quote": "JPY",
+   "type": "reference",
+   "value": 72.07
+  },
+  {
+   "base": "FJD",
+   "quote": "NZD",
+   "type": "reference",
+   "value": 0.764
+  },
+  {
+   "base": "FJD",
+   "quote": "USD",
+   "type": "reference",
+   "value": 0.4499
+  },
+  {
+   "base": "FJD",
+   "quote": "XDR",
+   "type": "reference",
+   "value": 0.328788
+  }
+ ],
+ "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
+}
