@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-09T12:40:39.364Z",
- "source_count": 119,
+ "generated_at": "2026-09-09T12:44:26.009Z",
+ "source_count": 120,
  "sources": {
   "amcm": {
    "name": "Monetary Authority of Macao",
@@ -1309,6 +1309,18 @@
    "currencies": 17,
    "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/rbnz/latest.json",
    "page": "https://allratestoday.com/central-bank-rates-api/rbnz/"
+  },
+  "rbz": {
+   "name": "Reserve Bank of Zimbabwe",
+   "country": "Zimbabwe",
+   "home_currency": "ZWG",
+   "kind": "central_bank",
+   "latest": "2026-09-09",
+   "cadence": "daily",
+   "stale": false,
+   "currencies": 102,
+   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/rbz/latest.json",
+   "page": "https://allratestoday.com/central-bank-rates-api/rbz/"
   },
   "riksbank": {
    "name": "Sveriges Riksbank",
