@@ -1,0 +1,33 @@
+{
+ "source": "bon",
+ "name": "Bank of Namibia",
+ "date": "2026-09-09",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AOA",
+   "quote": "NAD",
+   "type": "reference",
+   "value": 0.0172
+  },
+  {
+   "base": "EUR",
+   "quote": "NAD",
+   "type": "reference",
+   "value": 18.6066
+  },
+  {
+   "base": "GBP",
+   "quote": "NAD",
+   "type": "reference",
+   "value": 21.6738
+  },
+  {
+   "base": "USD",
+   "quote": "NAD",
+   "type": "reference",
+   "value": 15.9924
+  }
+ ],
+ "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
+}
