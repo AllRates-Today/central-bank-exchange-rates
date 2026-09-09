@@ -96,7 +96,7 @@ json.dump({
     "subtitle": f"Official rates from {banks} central banks and {taxes} tax authorities, daily",
     "description": description,
     "licenses": [{"name": "CC-BY-4.0"}],
-    "keywords": ["finance", "currencies and foreign exchange", "economics", "time series", "banking"],
+    "keywords": ["finance", "currencies and foreign exchange", "economics", "time series analysis", "banking"],
 }, open(f"{work}/dataset-metadata.json", "w"), indent=1)
 subprocess.run(["kaggle", "datasets", "version", "-p", work, "-m", f"Daily refresh, latest table {latest}, {total:,} rows"], check=True)
 print(f"pushed {total:,} rows to https://www.kaggle.com/datasets/{ID}")

@@ -63,6 +63,14 @@
   "official_source": "https://www.bcb.gob.bo/librerias/indicadores/otras/ultimo.php",
   "page": "https://allratestoday.com/central-bank-rates-api/bcbol/"
  },
+ "bcc": {
+  "country": "DR Congo",
+  "home_currency": "CDF",
+  "kind": "central_bank",
+  "name": "Banque Centrale du Congo",
+  "official_source": "https://www.bcc.cd/marche-des-changes/cours-de-change",
+  "page": "https://allratestoday.com/central-bank-rates-api/bcc/"
+ },
  "bcch": {
   "country": "Chile",
   "home_currency": "CLP",
@@ -94,6 +102,14 @@
   "name": "Banco Central de Honduras",
   "official_source": "https://www.bch.hn/",
   "page": "https://allratestoday.com/central-bank-rates-api/bch/"
+ },
+ "bcm": {
+  "country": "Mauritania",
+  "home_currency": "MRU",
+  "kind": "central_bank",
+  "name": "Banque Centrale de Mauritanie",
+  "official_source": "https://www.bcm.mr/",
+  "page": "https://allratestoday.com/central-bank-rates-api/bcm/"
  },
  "bcn": {
   "country": "Nicaragua",
@@ -343,6 +359,14 @@
   "official_source": "https://www.mongolbank.mn/mn/currency-rates/data",
   "page": "https://allratestoday.com/central-bank-rates-api/bom/"
  },
+ "bon": {
+  "country": "Namibia",
+  "home_currency": "NAD",
+  "kind": "central_bank",
+  "name": "Bank of Namibia",
+  "official_source": "https://www.bon.com.na/",
+  "page": "https://allratestoday.com/central-bank-rates-api/bon/"
+ },
  "bot": {
   "country": "Thailand",
   "home_currency": "THB",
@@ -375,13 +399,13 @@
   "official_source": "https://www.boz.zm/financial-markets/exchange-rates",
   "page": "https://allratestoday.com/central-bank-rates-api/boz/"
  },
- "bpng": {
-  "country": "Papua New Guinea",
-  "home_currency": "PGK",
+ "brh": {
+  "country": "Haiti",
+  "home_currency": "HTG",
   "kind": "central_bank",
-  "name": "Bank of Papua New Guinea",
-  "official_source": "https://www.bankpng.gov.pg/publications/foreign-exchange-rates",
-  "page": "https://allratestoday.com/central-bank-rates-api/bpng/"
+  "name": "Banque de la R\u00e9publique d'Ha\u00efti",
+  "official_source": "https://www.brh.ht/taux-du-jour/",
+  "page": "https://allratestoday.com/central-bank-rates-api/brh/"
  },
  "bsp": {
   "country": "Philippines",
@@ -415,6 +439,14 @@
   "official_source": "https://www.cbb.gov.bh/cbbapi/database/currencies/",
   "page": "https://allratestoday.com/central-bank-rates-api/cbb/"
  },
+ "cbbd": {
+  "country": "Barbados",
+  "home_currency": "BBD",
+  "kind": "central_bank",
+  "name": "Central Bank of Barbados",
+  "official_source": "https://www.centralbank.org.bb/exchange-rates",
+  "page": "https://allratestoday.com/central-bank-rates-api/cbbd/"
+ },
  "cbbh": {
   "country": "Bosnia and Herzegovina",
   "home_currency": "BAM",
@@ -422,6 +454,14 @@
   "name": "Central Bank of Bosnia and Herzegovina",
   "official_source": "https://www.cbbh.ba/CurrencyExchange/",
   "page": "https://allratestoday.com/central-bank-rates-api/cbbh/"
+ },
+ "cbbz": {
+  "country": "Belize",
+  "home_currency": "BZD",
+  "kind": "central_bank",
+  "name": "Central Bank of Belize",
+  "official_source": "https://www.centralbank.org.bz/home/statistics/rates/exchange-rates",
+  "page": "https://allratestoday.com/central-bank-rates-api/cbbz/"
  },
  "cbc": {
   "country": "Taiwan",
@@ -438,6 +478,14 @@
   "name": "Central Bank of Egypt",
   "official_source": "https://www.cbe.org.eg/en/economic-research/statistics/cbe-exchange-rates",
   "page": "https://allratestoday.com/central-bank-rates-api/cbe/"
+ },
+ "cbg": {
+  "country": "Gambia",
+  "home_currency": "GMD",
+  "kind": "central_bank",
+  "name": "Central Bank of The Gambia",
+  "official_source": "https://www.cbg.gm/indicative-exchange-rates-latest",
+  "page": "https://allratestoday.com/central-bank-rates-api/cbg/"
  },
  "cbi": {
   "country": "Iceland",
@@ -478,6 +526,14 @@
   "name": "Central Bank of Kenya",
   "official_source": "https://www.centralbank.go.ke/forex/",
   "page": "https://allratestoday.com/central-bank-rates-api/cbke/"
+ },
+ "cbl": {
+  "country": "Libya",
+  "home_currency": "LYD",
+  "kind": "central_bank",
+  "name": "Central Bank of Libya",
+  "official_source": "https://cbl.gov.ly/currency-exchange-rates/",
+  "page": "https://allratestoday.com/central-bank-rates-api/cbl/"
  },
  "cbm": {
   "country": "Myanmar",
@@ -607,6 +663,14 @@
   "official_source": "https://www.trade-tariff.service.gov.uk/exchange_rates",
   "page": "https://allratestoday.com/central-bank-rates-api/hmrc/"
  },
+ "lb": {
+  "country": "Lithuania",
+  "home_currency": "EUR",
+  "kind": "central_bank",
+  "name": "Bank of Lithuania",
+  "official_source": "https://www.lb.lt/en/currency-exchange-rates",
+  "page": "https://allratestoday.com/central-bank-rates-api/lb/"
+ },
  "mas": {
   "country": "Singapore",
   "home_currency": "SGD",
@@ -614,6 +678,14 @@
   "name": "Monetary Authority of Singapore",
   "official_source": "https://eservices.mas.gov.sg/Statistics/msb/ExchangeRates.aspx",
   "page": "https://allratestoday.com/central-bank-rates-api/mas/"
+ },
+ "mma": {
+  "country": "Maldives",
+  "home_currency": "MVR",
+  "kind": "central_bank",
+  "name": "Maldives Monetary Authority",
+  "official_source": "https://www.mma.gov.mv/#/statistics/exchangerates",
+  "page": "https://allratestoday.com/central-bank-rates-api/mma/"
  },
  "mnb": {
   "country": "Hungary",
@@ -703,6 +775,14 @@
   "official_source": "https://webappcenter.nbs.rs/ExchangeRateWebApp/ExchangeRate/IndexByDate",
   "page": "https://allratestoday.com/central-bank-rates-api/nbs/"
  },
+ "nbt": {
+  "country": "Tajikistan",
+  "home_currency": "TJS",
+  "kind": "central_bank",
+  "name": "National Bank of Tajikistan",
+  "official_source": "https://nbt.tj/en/kurs/kurs.php",
+  "page": "https://allratestoday.com/central-bank-rates-api/nbt/"
+ },
  "nbu": {
   "country": "Ukraine",
   "home_currency": "UAH",
@@ -759,6 +839,14 @@
   "official_source": "https://www.rba.gov.au/statistics/frequency/exchange-rates.html",
   "page": "https://allratestoday.com/central-bank-rates-api/rba/"
  },
+ "rbf": {
+  "country": "Fiji",
+  "home_currency": "FJD",
+  "kind": "central_bank",
+  "name": "Reserve Bank of Fiji",
+  "official_source": "https://www.rbf.gov.fj/statistics/economic-and-financial-statistics/",
+  "page": "https://allratestoday.com/central-bank-rates-api/rbf/"
+ },
  "rbi": {
   "country": "India",
   "home_currency": "INR",
@@ -783,6 +871,14 @@
   "official_source": "https://www.rbnz.govt.nz/statistics/series/exchange-and-interest-rates/exchange-rates-and-the-trade-weighted-index",
   "page": "https://allratestoday.com/central-bank-rates-api/rbnz/"
  },
+ "rbz": {
+  "country": "Zimbabwe",
+  "home_currency": "ZWG",
+  "kind": "central_bank",
+  "name": "Reserve Bank of Zimbabwe",
+  "official_source": "https://www.rbz.co.zw/index.php/research/markets/exchange-rates",
+  "page": "https://allratestoday.com/central-bank-rates-api/rbz/"
+ },
  "riksbank": {
   "country": "Sweden",
   "home_currency": "SEK",
@@ -790,6 +886,14 @@
   "name": "Sveriges Riksbank",
   "official_source": "https://api.riksbank.se/swea/v1",
   "page": "https://allratestoday.com/central-bank-rates-api/riksbank/"
+ },
+ "rma": {
+  "country": "Bhutan",
+  "home_currency": "BTN",
+  "kind": "central_bank",
+  "name": "Royal Monetary Authority of Bhutan",
+  "official_source": "https://www.rma.org.bt/exchangeRates/",
+  "page": "https://allratestoday.com/central-bank-rates-api/rma/"
  },
  "sama": {
   "country": "Saudi Arabia",
