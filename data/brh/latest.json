@@ -1,6 +1,9 @@
 {
  "source": "brh",
  "name": "Banque de la République d'Haïti",
+ "country": "Haiti",
+ "home_currency": "HTG",
+ "kind": "central_bank",
  "date": "2026-09-08",
  "cadence": "daily",
  "rates": [
@@ -23,5 +26,7 @@
    "value": 131.0921
   }
  ],
+ "official_source": "https://www.brh.ht/taux-du-jour/",
+ "page": "https://allratestoday.com/central-bank-rates-api/brh/",
  "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
 }

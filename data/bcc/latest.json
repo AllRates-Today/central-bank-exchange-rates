@@ -1,6 +1,9 @@
 {
  "source": "bcc",
  "name": "Banque Centrale du Congo",
+ "country": "DR Congo",
+ "home_currency": "CDF",
+ "kind": "central_bank",
  "date": "2026-09-09",
  "cadence": "daily",
  "rates": [
@@ -383,5 +386,7 @@
    "value": 119.84
   }
  ],
+ "official_source": "https://www.bcc.cd/marche-des-changes/cours-de-change",
+ "page": "https://allratestoday.com/central-bank-rates-api/bcc/",
  "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
 }

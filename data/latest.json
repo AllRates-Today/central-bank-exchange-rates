@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-09T12:33:45.664Z",
+ "generated_at": "2026-09-09T12:40:39.360Z",
  "sources": {
   "amcm": {
    "source": "amcm",
@@ -3440,6 +3440,9 @@
   "bcc": {
    "source": "bcc",
    "name": "Banque Centrale du Congo",
+   "country": "DR Congo",
+   "home_currency": "CDF",
+   "kind": "central_bank",
    "date": "2026-09-09",
    "cadence": "daily",
    "rates": [
@@ -3822,6 +3825,8 @@
      "value": 119.84
     }
    ],
+   "official_source": "https://www.bcc.cd/marche-des-changes/cours-de-change",
+   "page": "https://allratestoday.com/central-bank-rates-api/bcc/",
    "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
   },
   "bcch": {
@@ -4411,6 +4416,9 @@
   "bcm": {
    "source": "bcm",
    "name": "Banque Centrale de Mauritanie",
+   "country": "Mauritania",
+   "home_currency": "MRU",
+   "kind": "central_bank",
    "date": "2026-09-09",
    "cadence": "daily",
    "rates": [
@@ -4529,6 +4537,8 @@
      "value": 0.07085
     }
    ],
+   "official_source": "https://www.bcm.mr/",
+   "page": "https://allratestoday.com/central-bank-rates-api/bcm/",
    "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
   },
   "bcn": {
@@ -13080,6 +13090,9 @@
   "bon": {
    "source": "bon",
    "name": "Bank of Namibia",
+   "country": "Namibia",
+   "home_currency": "NAD",
+   "kind": "central_bank",
    "date": "2026-09-09",
    "cadence": "daily",
    "rates": [
@@ -13108,6 +13121,8 @@
      "value": 15.9924
     }
    ],
+   "official_source": "https://www.bon.com.na/",
+   "page": "https://allratestoday.com/central-bank-rates-api/bon/",
    "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
   },
   "bot": {
@@ -15065,6 +15080,9 @@
   "brh": {
    "source": "brh",
    "name": "Banque de la République d'Haïti",
+   "country": "Haiti",
+   "home_currency": "HTG",
+   "kind": "central_bank",
    "date": "2026-09-08",
    "cadence": "daily",
    "rates": [
@@ -15087,6 +15105,8 @@
      "value": 131.0921
     }
    ],
+   "official_source": "https://www.brh.ht/taux-du-jour/",
+   "page": "https://allratestoday.com/central-bank-rates-api/brh/",
    "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
   },
   "bsp": {
@@ -15940,6 +15960,9 @@
   "cbbd": {
    "source": "cbbd",
    "name": "Central Bank of Barbados",
+   "country": "Barbados",
+   "home_currency": "BBD",
+   "kind": "central_bank",
    "date": "2026-09-09",
    "cadence": "daily",
    "rates": [
@@ -16028,6 +16051,8 @@
      "value": 0.74306
     }
    ],
+   "official_source": "https://www.centralbank.org.bb/exchange-rates",
+   "page": "https://allratestoday.com/central-bank-rates-api/cbbd/",
    "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
   },
   "cbbh": {
@@ -16341,6 +16366,9 @@
   "cbbz": {
    "source": "cbbz",
    "name": "Central Bank of Belize",
+   "country": "Belize",
+   "home_currency": "BZD",
+   "kind": "central_bank",
    "date": "2026-09-08",
    "cadence": "daily",
    "rates": [
@@ -16393,6 +16421,8 @@
      "value": 2.0175
     }
    ],
+   "official_source": "https://www.centralbank.org.bz/home/statistics/rates/exchange-rates",
+   "page": "https://allratestoday.com/central-bank-rates-api/cbbz/",
    "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
   },
   "cbc": {
@@ -16648,6 +16678,9 @@
   "cbg": {
    "source": "cbg",
    "name": "Central Bank of The Gambia",
+   "country": "Gambia",
+   "home_currency": "GMD",
+   "kind": "central_bank",
    "date": "2026-09-09",
    "cadence": "daily",
    "rates": [
@@ -16844,6 +16877,8 @@
      "value": 4.55
     }
    ],
+   "official_source": "https://www.cbg.gm/indicative-exchange-rates-latest",
+   "page": "https://allratestoday.com/central-bank-rates-api/cbg/",
    "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
   },
   "cbi": {
@@ -18311,6 +18346,9 @@
   "cbl": {
    "source": "cbl",
    "name": "Central Bank of Libya",
+   "country": "Libya",
+   "home_currency": "LYD",
+   "kind": "central_bank",
    "date": "2026-09-09",
    "cadence": "daily",
    "rates": [
@@ -18675,6 +18713,8 @@
      "value": 0.0113
     }
    ],
+   "official_source": "https://cbl.gov.ly/currency-exchange-rates/",
+   "page": "https://allratestoday.com/central-bank-rates-api/cbl/",
    "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
   },
   "cbm": {
@@ -24262,6 +24302,9 @@
   "lb": {
    "source": "lb",
    "name": "Bank of Lithuania",
+   "country": "Lithuania",
+   "home_currency": "EUR",
+   "kind": "central_bank",
    "date": "2026-09-09",
    "cadence": "daily",
    "rates": [
@@ -24788,6 +24831,8 @@
      "value": 18.6103
     }
    ],
+   "official_source": "https://www.lb.lt/en/currency-exchange-rates",
+   "page": "https://allratestoday.com/central-bank-rates-api/lb/",
    "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
   },
   "mas": {
@@ -24933,6 +24978,9 @@
   "mma": {
    "source": "mma",
    "name": "Maldives Monetary Authority",
+   "country": "Maldives",
+   "home_currency": "MVR",
+   "kind": "central_bank",
    "date": "2026-09-09",
    "cadence": "daily",
    "rates": [
@@ -24943,6 +24991,8 @@
      "value": 15.42
     }
    ],
+   "official_source": "https://www.mma.gov.mv/#/statistics/exchangerates",
+   "page": "https://allratestoday.com/central-bank-rates-api/mma/",
    "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
   },
   "mnb": {
@@ -27844,6 +27894,9 @@
   "nbt": {
    "source": "nbt",
    "name": "National Bank of Tajikistan",
+   "country": "Tajikistan",
+   "home_currency": "TJS",
+   "kind": "central_bank",
    "date": "2026-09-09",
    "cadence": "daily",
    "rates": [
@@ -28064,6 +28117,8 @@
      "value": 0.000784
     }
    ],
+   "official_source": "https://nbt.tj/en/kurs/kurs.php",
+   "page": "https://allratestoday.com/central-bank-rates-api/nbt/",
    "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
   },
   "nbu": {
@@ -29283,6 +29338,9 @@
   "rbf": {
    "source": "rbf",
    "name": "Reserve Bank of Fiji",
+   "country": "Fiji",
+   "home_currency": "FJD",
+   "kind": "central_bank",
    "date": "2026-09-07",
    "cadence": "daily",
    "rates": [
@@ -29335,6 +29393,8 @@
      "value": 0.328889
     }
    ],
+   "official_source": "https://www.rbf.gov.fj/statistics/economic-and-financial-statistics/",
+   "page": "https://allratestoday.com/central-bank-rates-api/rbf/",
    "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
   },
   "rbi": {
@@ -30392,6 +30452,9 @@
   "rma": {
    "source": "rma",
    "name": "Royal Monetary Authority of Bhutan",
+   "country": "Bhutan",
+   "home_currency": "BTN",
+   "kind": "central_bank",
    "date": "2026-09-09",
    "cadence": "daily",
    "rates": [
@@ -30540,6 +30603,8 @@
      "value": 95.25
     }
    ],
+   "official_source": "https://www.rma.org.bt/exchangeRates/",
+   "page": "https://allratestoday.com/central-bank-rates-api/rma/",
    "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
   },
   "sama": {

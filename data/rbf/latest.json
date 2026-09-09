@@ -1,6 +1,9 @@
 {
  "source": "rbf",
  "name": "Reserve Bank of Fiji",
+ "country": "Fiji",
+ "home_currency": "FJD",
+ "kind": "central_bank",
  "date": "2026-09-07",
  "cadence": "daily",
  "rates": [
@@ -53,5 +56,7 @@
    "value": 0.328889
   }
  ],
+ "official_source": "https://www.rbf.gov.fj/statistics/economic-and-financial-statistics/",
+ "page": "https://allratestoday.com/central-bank-rates-api/rbf/",
  "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
 }

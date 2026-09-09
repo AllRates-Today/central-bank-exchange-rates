@@ -1,6 +1,9 @@
 {
  "source": "bcm",
  "name": "Banque Centrale de Mauritanie",
+ "country": "Mauritania",
+ "home_currency": "MRU",
+ "kind": "central_bank",
  "date": "2026-09-09",
  "cadence": "daily",
  "rates": [
@@ -119,5 +122,7 @@
    "value": 0.07085
   }
  ],
+ "official_source": "https://www.bcm.mr/",
+ "page": "https://allratestoday.com/central-bank-rates-api/bcm/",
  "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
 }

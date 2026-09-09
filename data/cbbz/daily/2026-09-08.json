@@ -1,6 +1,9 @@
 {
  "source": "cbbz",
  "name": "Central Bank of Belize",
+ "country": "Belize",
+ "home_currency": "BZD",
+ "kind": "central_bank",
  "date": "2026-09-08",
  "cadence": "daily",
  "rates": [
@@ -53,5 +56,7 @@
    "value": 2.0175
   }
  ],
+ "official_source": "https://www.centralbank.org.bz/home/statistics/rates/exchange-rates",
+ "page": "https://allratestoday.com/central-bank-rates-api/cbbz/",
  "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
 }

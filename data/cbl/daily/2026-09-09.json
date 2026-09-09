@@ -1,6 +1,9 @@
 {
  "source": "cbl",
  "name": "Central Bank of Libya",
+ "country": "Libya",
+ "home_currency": "LYD",
+ "kind": "central_bank",
  "date": "2026-09-09",
  "cadence": "daily",
  "rates": [
@@ -365,5 +368,7 @@
    "value": 0.0113
   }
  ],
+ "official_source": "https://cbl.gov.ly/currency-exchange-rates/",
+ "page": "https://allratestoday.com/central-bank-rates-api/cbl/",
  "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
 }

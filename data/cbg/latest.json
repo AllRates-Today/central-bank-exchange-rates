@@ -1,6 +1,9 @@
 {
  "source": "cbg",
  "name": "Central Bank of The Gambia",
+ "country": "Gambia",
+ "home_currency": "GMD",
+ "kind": "central_bank",
  "date": "2026-09-09",
  "cadence": "daily",
  "rates": [
@@ -197,5 +200,7 @@
    "value": 4.55
   }
  ],
+ "official_source": "https://www.cbg.gm/indicative-exchange-rates-latest",
+ "page": "https://allratestoday.com/central-bank-rates-api/cbg/",
  "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
 }

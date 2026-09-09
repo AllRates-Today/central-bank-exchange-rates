@@ -1,6 +1,9 @@
 {
  "source": "nbt",
  "name": "National Bank of Tajikistan",
+ "country": "Tajikistan",
+ "home_currency": "TJS",
+ "kind": "central_bank",
  "date": "2026-09-09",
  "cadence": "daily",
  "rates": [
@@ -221,5 +224,7 @@
    "value": 0.000784
   }
  ],
+ "official_source": "https://nbt.tj/en/kurs/kurs.php",
+ "page": "https://allratestoday.com/central-bank-rates-api/nbt/",
  "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
 }

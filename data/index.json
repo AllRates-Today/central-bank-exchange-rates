@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-09T12:33:45.668Z",
+ "generated_at": "2026-09-09T12:40:39.364Z",
  "source_count": 119,
  "sources": {
   "amcm": {
@@ -100,11 +100,15 @@
   },
   "bcc": {
    "name": "Banque Centrale du Congo",
+   "country": "DR Congo",
+   "home_currency": "CDF",
+   "kind": "central_bank",
    "latest": "2026-09-09",
    "cadence": "daily",
    "stale": false,
    "currencies": 63,
-   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/bcc/latest.json"
+   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/bcc/latest.json",
+   "page": "https://allratestoday.com/central-bank-rates-api/bcc/"
   },
   "bcch": {
    "name": "Central Bank of Chile",
@@ -156,11 +160,15 @@
   },
   "bcm": {
    "name": "Banque Centrale de Mauritanie",
+   "country": "Mauritania",
+   "home_currency": "MRU",
+   "kind": "central_bank",
    "latest": "2026-09-09",
    "cadence": "daily",
    "stale": false,
    "currencies": 19,
-   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/bcm/latest.json"
+   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/bcm/latest.json",
+   "page": "https://allratestoday.com/central-bank-rates-api/bcm/"
   },
   "bcn": {
    "name": "Banco Central de Nicaragua",
@@ -536,11 +544,15 @@
   },
   "bon": {
    "name": "Bank of Namibia",
+   "country": "Namibia",
+   "home_currency": "NAD",
+   "kind": "central_bank",
    "latest": "2026-09-09",
    "cadence": "daily",
    "stale": false,
    "currencies": 4,
-   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/bon/latest.json"
+   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/bon/latest.json",
+   "page": "https://allratestoday.com/central-bank-rates-api/bon/"
   },
   "bot": {
    "name": "Bank of Thailand",
@@ -592,11 +604,15 @@
   },
   "brh": {
    "name": "Banque de la République d'Haïti",
+   "country": "Haiti",
+   "home_currency": "HTG",
+   "kind": "central_bank",
    "latest": "2026-09-08",
    "cadence": "daily",
    "stale": false,
    "currencies": 3,
-   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/brh/latest.json"
+   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/brh/latest.json",
+   "page": "https://allratestoday.com/central-bank-rates-api/brh/"
   },
   "bsp": {
    "name": "Bangko Sentral ng Pilipinas",
@@ -648,11 +664,15 @@
   },
   "cbbd": {
    "name": "Central Bank of Barbados",
+   "country": "Barbados",
+   "home_currency": "BBD",
+   "kind": "central_bank",
    "latest": "2026-09-09",
    "cadence": "daily",
    "stale": false,
    "currencies": 14,
-   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/cbbd/latest.json"
+   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/cbbd/latest.json",
+   "page": "https://allratestoday.com/central-bank-rates-api/cbbd/"
   },
   "cbbh": {
    "name": "Central Bank of Bosnia and Herzegovina",
@@ -668,11 +688,15 @@
   },
   "cbbz": {
    "name": "Central Bank of Belize",
+   "country": "Belize",
+   "home_currency": "BZD",
+   "kind": "central_bank",
    "latest": "2026-09-08",
    "cadence": "daily",
    "stale": false,
    "currencies": 8,
-   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/cbbz/latest.json"
+   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/cbbz/latest.json",
+   "page": "https://allratestoday.com/central-bank-rates-api/cbbz/"
   },
   "cbc": {
    "name": "Central Bank of the Republic of China (Taiwan)",
@@ -700,11 +724,15 @@
   },
   "cbg": {
    "name": "Central Bank of The Gambia",
+   "country": "Gambia",
+   "home_currency": "GMD",
+   "kind": "central_bank",
    "latest": "2026-09-09",
    "cadence": "daily",
    "stale": false,
    "currencies": 32,
-   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/cbg/latest.json"
+   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/cbg/latest.json",
+   "page": "https://allratestoday.com/central-bank-rates-api/cbg/"
   },
   "cbi": {
    "name": "Central Bank of Iceland",
@@ -768,11 +796,15 @@
   },
   "cbl": {
    "name": "Central Bank of Libya",
+   "country": "Libya",
+   "home_currency": "LYD",
+   "kind": "central_bank",
    "latest": "2026-09-09",
    "cadence": "daily",
    "stale": false,
    "currencies": 60,
-   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/cbl/latest.json"
+   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/cbl/latest.json",
+   "page": "https://allratestoday.com/central-bank-rates-api/cbl/"
   },
   "cbm": {
    "name": "Central Bank of Myanmar",
@@ -968,11 +1000,15 @@
   },
   "lb": {
    "name": "Bank of Lithuania",
+   "country": "Lithuania",
+   "home_currency": "EUR",
+   "kind": "central_bank",
    "latest": "2026-09-09",
    "cadence": "daily",
    "stale": false,
    "currencies": 87,
-   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/lb/latest.json"
+   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/lb/latest.json",
+   "page": "https://allratestoday.com/central-bank-rates-api/lb/"
   },
   "mas": {
    "name": "Monetary Authority of Singapore",
@@ -988,11 +1024,15 @@
   },
   "mma": {
    "name": "Maldives Monetary Authority",
+   "country": "Maldives",
+   "home_currency": "MVR",
+   "kind": "central_bank",
    "latest": "2026-09-09",
    "cadence": "daily",
    "stale": false,
    "currencies": 1,
-   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/mma/latest.json"
+   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/mma/latest.json",
+   "page": "https://allratestoday.com/central-bank-rates-api/mma/"
   },
   "mnb": {
    "name": "Magyar Nemzeti Bank",
@@ -1128,11 +1168,15 @@
   },
   "nbt": {
    "name": "National Bank of Tajikistan",
+   "country": "Tajikistan",
+   "home_currency": "TJS",
+   "kind": "central_bank",
    "latest": "2026-09-09",
    "cadence": "daily",
    "stale": false,
    "currencies": 36,
-   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/nbt/latest.json"
+   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/nbt/latest.json",
+   "page": "https://allratestoday.com/central-bank-rates-api/nbt/"
   },
   "nbu": {
    "name": "National Bank of Ukraine",
@@ -1220,11 +1264,15 @@
   },
   "rbf": {
    "name": "Reserve Bank of Fiji",
+   "country": "Fiji",
+   "home_currency": "FJD",
+   "kind": "central_bank",
    "latest": "2026-09-07",
    "cadence": "daily",
    "stale": false,
    "currencies": 8,
-   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/rbf/latest.json"
+   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/rbf/latest.json",
+   "page": "https://allratestoday.com/central-bank-rates-api/rbf/"
   },
   "rbi": {
    "name": "Reserve Bank of India",
@@ -1276,11 +1324,15 @@
   },
   "rma": {
    "name": "Royal Monetary Authority of Bhutan",
+   "country": "Bhutan",
+   "home_currency": "BTN",
+   "kind": "central_bank",
    "latest": "2026-09-09",
    "cadence": "daily",
    "stale": false,
    "currencies": 24,
-   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/rma/latest.json"
+   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/rma/latest.json",
+   "page": "https://allratestoday.com/central-bank-rates-api/rma/"
   },
   "sama": {
    "name": "Saudi Central Bank (SAMA)",
