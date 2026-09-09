@@ -37,11 +37,17 @@ rows_by = {}
 for code in sorted(sources):
     if os.path.exists(f"{work}/{code}.csv"):
         rows_by[code] = sum(1 for _ in open(f"{work}/{code}.csv")) - 1
-banks = sum(1 for c in rows_by if sources[c].get("kind") != "tax_authority")
+banks = sum(1 for c in rows_by if sources[c].get("kind") != "tax_authority" and c != "composite")
 taxes = len(rows_by) - banks
 oldest = min((min(l.split(",")[0] for l in open(f"{work}/{c}.csv").read().split("\n")[1:] if l) for c in rows_by), default="")
+# A source can be in the CSVs (history) but absent from index.json for a run
+# (its live table failed to fetch that pass) — take the date from the file then.
+def latest_of(c):
+    if c in index["sources"]:
+        return index["sources"][c]["latest"]
+    return max(l.split(",")[0] for l in open(f"{work}/{c}.csv").read().split("\n")[1:] if l)
 src_rows = "\n".join(
-    f"| {sources[c]['name']} | {sources[c]['country']} | `{c}` | {sources[c]['home_currency']} | {index['sources'][c]['latest']} | {rows_by[c]:,} |"
+    f"| {sources[c]['name']} | {sources[c]['country']} | `{c}` | {sources[c]['home_currency']} | {latest_of(c)} | {rows_by[c]:,} |"
     for c in rows_by)
 description = f"""# Central Bank Exchange Rates
 
