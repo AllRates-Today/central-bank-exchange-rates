@@ -51,7 +51,7 @@ src_rows = "\n".join(
     for c in rows_by)
 description = f"""# Central Bank Exchange Rates
 
-Official exchange rates published by **{banks} central banks and {taxes} tax authorities**, one CSV per institution: {total:,} rows, the oldest series from {oldest[:4]}, latest table {latest}. Refreshed daily from the GitHub source repository [AllRates-Today/central-bank-exchange-rates](https://github.com/AllRates-Today/central-bank-exchange-rates).
+Official exchange rates published by **{banks} central banks and {taxes} tax authorities**, one CSV per institution: {total:,} rows, the oldest series from {oldest[:4]}, latest table {latest}. Collected and published by [AllRatesToday](https://allratestoday.com/central-bank-rates-api/), refreshed daily from the GitHub source repository [AllRates-Today/central-bank-exchange-rates](https://github.com/AllRates-Today/central-bank-exchange-rates).
 
 Every row is the figure the institution itself published for that date: the ECB euro reference rate, the Federal Reserve H.10 table, the Bank of England spot rates, RBI reference rates, PBoC central parity, HMRC monthly rates for VAT, US Treasury quarterly rates, and a hundred more. These are the rates that invoices, tax filings, customs declarations, transfer pricing and audits require, as opposed to market rates.
 
@@ -90,11 +90,21 @@ usd = ecb[(ecb.quote == "USD") & (ecb.type == "reference")].set_index("date")["v
 |---|---|---|---|---|---|
 {src_rows}
 
+## About AllRatesToday
+
+This dataset is maintained by [AllRatesToday](https://allratestoday.com/), a currency-data API for developers and finance teams. The website serves the same official tables live, with per-date lookups, time series, publication calendars and JSON/CSV/XML/XLSX output, plus real-time mid-market rates for 160+ currencies:
+
+- Website: https://allratestoday.com/
+- Central bank rates API: https://allratestoday.com/central-bank-rates-api/
+- Per-institution pages (live table, cadence, FAQ): `https://allratestoday.com/central-bank-rates-api/<code>/`
+- API documentation: https://allratestoday.com/docs/
+- npm SDK per institution (e.g. `ecb-exchange-rate`): https://www.npmjs.com/org/allratestoday
+
 ## Also available
 
-The same data as JSON/CSV over a CDN (no key): https://github.com/AllRates-Today/central-bank-exchange-rates. On Hugging Face: https://huggingface.co/datasets/AllRates/central-bank-exchange-rates. The live API with per-date lookups and SDKs: https://allratestoday.com/central-bank-rates-api/.
+The same data as JSON/CSV over a CDN (no key): https://github.com/AllRates-Today/central-bank-exchange-rates. On Hugging Face: https://huggingface.co/datasets/AllRates/central-bank-exchange-rates.
 
-License: CC BY 4.0. The underlying figures are public publications of the institutions named above.
+License: CC BY 4.0. Attribution: "AllRatesToday, https://allratestoday.com". The underlying figures are public publications of the institutions named above.
 """
 json.dump({
     "id": ID,
