@@ -52,6 +52,37 @@ usd = next(x['value'] for x in r['rates'] if x['quote'] == 'USD')
 curl -s https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/hmrc/latest.json | jq '.rates[] | select(.quote=="USD")'
 ```
 
+## Run it as an API, offline
+
+`scripts/serve.mjs` is a zero-dependency Node server over this folder, for laptops behind firewalls and CI jobs:
+
+```sh
+git clone https://github.com/AllRates-Today/central-bank-exchange-rates && cd central-bank-exchange-rates
+node scripts/serve.mjs      # http://localhost:8787
+```
+
+```
+GET /ecb/latest                        any source's latest table
+GET /latest?base=USD&symbols=GBP,JPY   ECB table re-based, exchangeratesapi.io / Frankfurter shape
+GET /2026-01-15?base=USD               ECB table for a date
+```
+
+The `/latest` and `/YYYY-MM-DD` shapes match the hosted drop-in endpoints at
+`https://allratestoday.com/api/compat/exchangeratesapi/…`, so switching between local and hosted is a hostname change.
+
+## Replacing exchangeratesapi.io, Fixer or exchangerate.host
+
+Those free APIs served this same ECB table before they went behind paid keys. AllRatesToday serves their exact JSON shapes, keyless for latest rates:
+
+```
+https://allratestoday.com/api/compat/exchangeratesapi/latest?base=USD&symbols=GBP
+https://allratestoday.com/api/compat/fixer/latest?base=EUR&symbols=USD
+https://allratestoday.com/api/compat/exchangerate-host/latest?base=USD
+https://allratestoday.com/api/compat/frankfurter/latest?from=USD&to=GBP
+```
+
+One-line migration guides: https://allratestoday.com/migrate/
+
 ## Files
 
 | Path | What it is |
