@@ -8,6 +8,30 @@
  "cadence": "daily",
  "rates": [
   {
+   "base": "CAD",
+   "quote": "MXN",
+   "type": "informational",
+   "value": 12.2835
+  },
+  {
+   "base": "EUR",
+   "quote": "MXN",
+   "type": "informational",
+   "value": 19.7266
+  },
+  {
+   "base": "JPY",
+   "quote": "MXN",
+   "type": "informational",
+   "value": 0.1104
+  },
+  {
+   "base": "USD",
+   "quote": "MXN",
+   "type": "close",
+   "value": 17.1706
+  },
+  {
    "base": "USD",
    "quote": "MXN",
    "type": "reference",
