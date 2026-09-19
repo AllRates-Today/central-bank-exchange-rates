@@ -1,0 +1,200 @@
+{
+ "generated": "2026-09-19T19:52:29.046Z",
+ "since": "2026-09-19T19:52:29.046Z",
+ "vantage": "GitHub Actions hosted runner (ubuntu-latest, US East)",
+ "method": "3 sequential GETs per provider per run, cache-busting query string, 15s timeout; median reported. Freshness = publication date in the response vs the run date (UTC). Uptime = share of hourly runs with an HTTP 2xx and a parseable body.",
+ "providers": [
+  {
+   "id": "allratestoday",
+   "name": "AllRatesToday (open central-bank endpoint)",
+   "site": "https://allratestoday.com/central-bank-rates-api/",
+   "url": "https://allratestoday.com/api/open/central-bank/ecb",
+   "kind": "official",
+   "ok": true,
+   "status": 200,
+   "ms": [
+    470,
+    25,
+    21
+   ],
+   "median_ms": 25,
+   "min_ms": 21,
+   "date": "2026-09-18",
+   "age_days": 1,
+   "currencies": 29,
+   "error": null,
+   "last_7d": {
+    "runs": 1,
+    "uptime_pct": 100,
+    "median_ms": 25,
+    "p90_ms": 25
+   },
+   "last_30d": {
+    "runs": 1,
+    "uptime_pct": 100,
+    "median_ms": 25,
+    "p90_ms": 25
+   }
+  },
+  {
+   "id": "frankfurter",
+   "name": "Frankfurter",
+   "site": "https://frankfurter.dev/",
+   "url": "https://api.frankfurter.dev/v1/latest?base=EUR",
+   "kind": "official",
+   "ok": true,
+   "status": 200,
+   "ms": [
+    369,
+    256,
+    255
+   ],
+   "median_ms": 256,
+   "min_ms": 255,
+   "date": "2026-09-18",
+   "age_days": 1,
+   "currencies": 29,
+   "error": null,
+   "last_7d": {
+    "runs": 1,
+    "uptime_pct": 100,
+    "median_ms": 256,
+    "p90_ms": 256
+   },
+   "last_30d": {
+    "runs": 1,
+    "uptime_pct": 100,
+    "median_ms": 256,
+    "p90_ms": 256
+   }
+  },
+  {
+   "id": "exchangerate-api-open",
+   "name": "ExchangeRate-API (open endpoint)",
+   "site": "https://www.exchangerate-api.com/",
+   "url": "https://open.er-api.com/v6/latest/EUR",
+   "kind": "market",
+   "ok": true,
+   "status": 200,
+   "ms": [
+    153,
+    98,
+    110
+   ],
+   "median_ms": 110,
+   "min_ms": 98,
+   "date": "2026-09-19",
+   "age_days": 0,
+   "currencies": 166,
+   "error": null,
+   "last_7d": {
+    "runs": 1,
+    "uptime_pct": 100,
+    "median_ms": 110,
+    "p90_ms": 110
+   },
+   "last_30d": {
+    "runs": 1,
+    "uptime_pct": 100,
+    "median_ms": 110,
+    "p90_ms": 110
+   }
+  },
+  {
+   "id": "fawazahmed0",
+   "name": "fawazahmed0/currency-api (jsDelivr)",
+   "site": "https://github.com/fawazahmed0/exchange-api",
+   "url": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.min.json",
+   "kind": "market",
+   "ok": true,
+   "status": 200,
+   "ms": [
+    22,
+    8,
+    9
+   ],
+   "median_ms": 9,
+   "min_ms": 8,
+   "date": "2026-09-19",
+   "age_days": 0,
+   "currencies": 341,
+   "error": null,
+   "last_7d": {
+    "runs": 1,
+    "uptime_pct": 100,
+    "median_ms": 9,
+    "p90_ms": 9
+   },
+   "last_30d": {
+    "runs": 1,
+    "uptime_pct": 100,
+    "median_ms": 9,
+    "p90_ms": 9
+   }
+  },
+  {
+   "id": "floatrates",
+   "name": "FloatRates",
+   "site": "https://www.floatrates.com/",
+   "url": "https://www.floatrates.com/daily/eur.json",
+   "kind": "market",
+   "ok": true,
+   "status": 200,
+   "ms": [
+    346,
+    223,
+    124
+   ],
+   "median_ms": 223,
+   "min_ms": 124,
+   "date": "2026-09-18",
+   "age_days": 1,
+   "currencies": 146,
+   "error": null,
+   "last_7d": {
+    "runs": 1,
+    "uptime_pct": 100,
+    "median_ms": 223,
+    "p90_ms": 223
+   },
+   "last_30d": {
+    "runs": 1,
+    "uptime_pct": 100,
+    "median_ms": 223,
+    "p90_ms": 223
+   }
+  },
+  {
+   "id": "ecb-xml",
+   "name": "ECB eurofxref-daily.xml (the source itself)",
+   "site": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+   "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+   "kind": "official",
+   "ok": true,
+   "status": 200,
+   "ms": [
+    560,
+    282,
+    90
+   ],
+   "median_ms": 282,
+   "min_ms": 90,
+   "date": "2026-09-18",
+   "age_days": 1,
+   "currencies": 29,
+   "error": null,
+   "last_7d": {
+    "runs": 1,
+    "uptime_pct": 100,
+    "median_ms": 282,
+    "p90_ms": 282
+   },
+   "last_30d": {
+    "runs": 1,
+    "uptime_pct": 100,
+    "median_ms": 282,
+    "p90_ms": 282
+   }
+  }
+ ]
+}
