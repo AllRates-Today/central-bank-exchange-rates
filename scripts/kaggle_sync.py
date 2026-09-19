@@ -90,6 +90,10 @@ usd = ecb[(ecb.quote == "USD") & (ecb.type == "reference")].set_index("date")["v
 |---|---|---|---|---|---|
 {src_rows}
 
+## Cite
+
+> AllRatesToday (2026). *Central Bank Exchange Rates: official rates from {banks} central banks and {taxes} tax authorities.* https://github.com/AllRates-Today/central-bank-exchange-rates (data via https://allratestoday.com/central-bank-rates-api/). CC BY 4.0.
+
 ## About AllRatesToday
 
 This dataset is maintained by [AllRatesToday](https://allratestoday.com/), a currency-data API for developers and finance teams. The website serves the same official tables live, with per-date lookups, time series, publication calendars and JSON/CSV/XML/XLSX output, plus real-time mid-market rates for 160+ currencies:

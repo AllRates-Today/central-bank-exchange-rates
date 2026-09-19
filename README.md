@@ -219,6 +219,33 @@ A GitHub Action runs four times a day, reads each institution's latest table fro
 
 If you need more than daily files, the [AllRatesToday API](https://allratestoday.com/central-bank-rates-api/) adds rate-on-a-date lookups with weekend and holiday fallback, pair and cross-rate resolution, publication calendars, CSV, XML and XLSX output, real-time market rates, and support. There are also per-bank npm and PyPI SDKs and an [MCP server](https://github.com/AllRates-Today/central-bank-mcp) for AI agents.
 
+## Cite this dataset
+
+If you use these files in a paper, notebook, article or product, please cite the dataset and link to it. A visible credit is also the only condition of the CC BY 4.0 licence.
+
+Plain text:
+
+> AllRatesToday (2026). *Central Bank Exchange Rates: official rates from 102 central banks and 4 tax authorities.* https://github.com/AllRates-Today/central-bank-exchange-rates (data via https://allratestoday.com/central-bank-rates-api/).
+
+BibTeX:
+
+```bibtex
+@misc{allratestoday_central_bank_exchange_rates,
+  author       = {AllRatesToday},
+  title        = {Central Bank Exchange Rates: official rates from 102 central banks and 4 tax authorities},
+  year         = {2026},
+  publisher    = {GitHub},
+  howpublished = {\url{https://github.com/AllRates-Today/central-bank-exchange-rates}},
+  note         = {Daily mirror of the AllRatesToday central bank exchange rate API, https://allratestoday.com/central-bank-rates-api/}
+}
+```
+
+In a README or blog post, one line is enough:
+
+```md
+Exchange rates: [Central Bank Exchange Rates](https://github.com/AllRates-Today/central-bank-exchange-rates) by [AllRatesToday](https://allratestoday.com/central-bank-rates-api/), CC BY 4.0.
+```
+
 ## License
 
 Data: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Use it for anything, including commercially, with a visible credit to AllRatesToday linking to https://allratestoday.com. The underlying figures are public information published by each institution.
