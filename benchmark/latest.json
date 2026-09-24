@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24T15:04:00.942Z",
+ "generated": "2026-09-24T19:08:26.178Z",
  "since": "2026-09-19T19:52:29.046Z",
  "vantage": "GitHub Actions hosted runner (ubuntu-latest, US East)",
  "method": "3 sequential GETs per provider per run, cache-busting query string, 15s timeout; median reported. Freshness = publication date in the response vs the run date (UTC). Uptime = share of hourly runs with an HTTP 2xx and a parseable body.",
@@ -13,27 +13,27 @@
    "ok": true,
    "status": 200,
    "ms": [
-    407,
-    32,
-    31
+    740,
+    72,
+    98
    ],
-   "median_ms": 32,
-   "min_ms": 31,
+   "median_ms": 98,
+   "min_ms": 72,
    "date": "2026-09-24",
    "age_days": 0,
    "currencies": 29,
    "error": null,
    "last_7d": {
-    "runs": 27,
+    "runs": 28,
     "uptime_pct": 100,
-    "median_ms": 32,
-    "p90_ms": 68
+    "median_ms": 34,
+    "p90_ms": 79
    },
    "last_30d": {
-    "runs": 27,
+    "runs": 28,
     "uptime_pct": 100,
-    "median_ms": 32,
-    "p90_ms": 68
+    "median_ms": 34,
+    "p90_ms": 79
    }
   },
   {
@@ -45,25 +45,25 @@
    "ok": true,
    "status": 200,
    "ms": [
-    354,
-    257,
-    1100
+    543,
+    424,
+    457
    ],
-   "median_ms": 354,
-   "min_ms": 257,
+   "median_ms": 457,
+   "min_ms": 424,
    "date": "2026-09-24",
    "age_days": 0,
    "currencies": 29,
    "error": null,
    "last_7d": {
-    "runs": 27,
-    "uptime_pct": 96.3,
+    "runs": 28,
+    "uptime_pct": 96.43,
     "median_ms": 373,
     "p90_ms": 580
    },
    "last_30d": {
-    "runs": 27,
-    "uptime_pct": 96.3,
+    "runs": 28,
+    "uptime_pct": 96.43,
     "median_ms": 373,
     "p90_ms": 580
    }
@@ -77,24 +77,24 @@
    "ok": true,
    "status": 200,
    "ms": [
-    205,
-    105,
-    122
+    138,
+    63,
+    74
    ],
-   "median_ms": 122,
-   "min_ms": 105,
+   "median_ms": 74,
+   "min_ms": 63,
    "date": "2026-09-24",
    "age_days": 0,
    "currencies": 166,
    "error": null,
    "last_7d": {
-    "runs": 27,
+    "runs": 28,
     "uptime_pct": 100,
     "median_ms": 112,
     "p90_ms": 134
    },
    "last_30d": {
-    "runs": 27,
+    "runs": 28,
     "uptime_pct": 100,
     "median_ms": 112,
     "p90_ms": 134
@@ -109,24 +109,24 @@
    "ok": true,
    "status": 200,
    "ms": [
+    47,
     16,
-    5,
-    4
+    15
    ],
-   "median_ms": 5,
-   "min_ms": 4,
+   "median_ms": 16,
+   "min_ms": 15,
    "date": "2026-09-24",
    "age_days": 0,
    "currencies": 340,
    "error": null,
    "last_7d": {
-    "runs": 27,
+    "runs": 28,
     "uptime_pct": 100,
     "median_ms": 11,
     "p90_ms": 28
    },
    "last_30d": {
-    "runs": 27,
+    "runs": 28,
     "uptime_pct": 100,
     "median_ms": 11,
     "p90_ms": 28
@@ -141,24 +141,24 @@
    "ok": true,
    "status": 200,
    "ms": [
-    275,
-    350,
-    104
+    439,
+    314,
+    163
    ],
-   "median_ms": 275,
-   "min_ms": 104,
+   "median_ms": 314,
+   "min_ms": 163,
    "date": "2026-09-24",
    "age_days": 0,
    "currencies": 146,
    "error": null,
    "last_7d": {
-    "runs": 27,
+    "runs": 28,
     "uptime_pct": 100,
     "median_ms": 324,
     "p90_ms": 379
    },
    "last_30d": {
-    "runs": 27,
+    "runs": 28,
     "uptime_pct": 100,
     "median_ms": 324,
     "p90_ms": 379
@@ -173,27 +173,27 @@
    "ok": true,
    "status": 200,
    "ms": [
-    428,
-    258,
-    85
+    826,
+    740,
+    146
    ],
-   "median_ms": 258,
-   "min_ms": 85,
+   "median_ms": 740,
+   "min_ms": 146,
    "date": "2026-09-24",
    "age_days": 0,
    "currencies": 29,
    "error": null,
    "last_7d": {
-    "runs": 27,
+    "runs": 28,
     "uptime_pct": 100,
-    "median_ms": 401,
-    "p90_ms": 558
+    "median_ms": 457,
+    "p90_ms": 655
    },
    "last_30d": {
-    "runs": 27,
+    "runs": 28,
     "uptime_pct": 100,
-    "median_ms": 401,
-    "p90_ms": 558
+    "median_ms": 457,
+    "p90_ms": 655
    }
   }
  ]
