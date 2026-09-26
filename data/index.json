@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-26T18:38:50.909Z",
- "source_count": 120,
+ "generated_at": "2026-09-26T23:40:41.197Z",
+ "source_count": 121,
  "sources": {
   "amcm": {
    "name": "Monetary Authority of Macao",
@@ -313,6 +313,14 @@
    "currencies": 26,
    "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/beac/latest.json",
    "page": "https://allratestoday.com/central-bank-rates-api/beac/"
+  },
+  "bfm": {
+   "name": "Central Bank of Madagascar (BFM)",
+   "latest": "2026-09-24",
+   "cadence": "daily",
+   "stale": false,
+   "currencies": 19,
+   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/bfm/latest.json"
   },
   "bi": {
    "name": "Bank Indonesia",

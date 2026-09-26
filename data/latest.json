@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-26T18:38:50.789Z",
+ "generated_at": "2026-09-26T23:40:41.192Z",
  "sources": {
   "amcm": {
    "source": "amcm",
@@ -7245,6 +7245,129 @@
    ],
    "official_source": "https://www.beac.int/",
    "page": "https://allratestoday.com/central-bank-rates-api/beac/",
+   "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
+  },
+  "bfm": {
+   "source": "bfm",
+   "name": "Central Bank of Madagascar (BFM)",
+   "date": "2026-09-24",
+   "cadence": "daily",
+   "rates": [
+    {
+     "base": "AUD",
+     "quote": "MGA",
+     "type": "reference",
+     "value": 3092.15
+    },
+    {
+     "base": "CAD",
+     "quote": "MGA",
+     "type": "reference",
+     "value": 3117.19
+    },
+    {
+     "base": "CHF",
+     "quote": "MGA",
+     "type": "reference",
+     "value": 5316.72
+    },
+    {
+     "base": "CNY",
+     "quote": "MGA",
+     "type": "reference",
+     "value": 655.55
+    },
+    {
+     "base": "DJF",
+     "quote": "MGA",
+     "type": "reference",
+     "value": 24.71
+    },
+    {
+     "base": "DKK",
+     "quote": "MGA",
+     "type": "reference",
+     "value": 669.1
+    },
+    {
+     "base": "EUR",
+     "quote": "MGA",
+     "type": "reference",
+     "value": 4974.65
+    },
+    {
+     "base": "GBP",
+     "quote": "MGA",
+     "type": "reference",
+     "value": 5817.08
+    },
+    {
+     "base": "HKD",
+     "quote": "MGA",
+     "type": "reference",
+     "value": 561.08
+    },
+    {
+     "base": "INR",
+     "quote": "MGA",
+     "type": "reference",
+     "value": 45.86
+    },
+    {
+     "base": "JPY",
+     "quote": "MGA",
+     "type": "reference",
+     "value": 27.7
+    },
+    {
+     "base": "MUR",
+     "quote": "MGA",
+     "type": "reference",
+     "value": 92.74
+    },
+    {
+     "base": "NOK",
+     "quote": "MGA",
+     "type": "reference",
+     "value": 463.68
+    },
+    {
+     "base": "NZD",
+     "quote": "MGA",
+     "type": "reference",
+     "value": 2494.8
+    },
+    {
+     "base": "SEK",
+     "quote": "MGA",
+     "type": "reference",
+     "value": 444.15
+    },
+    {
+     "base": "SGD",
+     "quote": "MGA",
+     "type": "reference",
+     "value": 3438.07
+    },
+    {
+     "base": "USD",
+     "quote": "MGA",
+     "type": "reference",
+     "value": 4400.38
+    },
+    {
+     "base": "XDR",
+     "quote": "MGA",
+     "type": "reference",
+     "value": 5990.98
+    },
+    {
+     "base": "ZAR",
+     "quote": "MGA",
+     "type": "reference",
+     "value": 267.74
+    }
+   ],
    "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
   },
   "bi": {
@@ -21888,7 +22011,7 @@
      "base": "USD",
      "quote": "AUD",
      "type": "reference",
-     "value": 1.4229481881211792
+     "value": 1.4229651056925952
     },
     {
      "base": "USD",
@@ -21996,7 +22119,7 @@
      "base": "USD",
      "quote": "CAD",
      "type": "reference",
-     "value": 1.4141009466760404
+     "value": 1.4140816170888701
     },
     {
      "base": "USD",
@@ -22008,7 +22131,7 @@
      "base": "USD",
      "quote": "CHF",
      "type": "reference",
-     "value": 0.8282514001244555
+     "value": 0.8282255775161562
     },
     {
      "base": "USD",
@@ -22026,7 +22149,7 @@
      "base": "USD",
      "quote": "CNY",
      "type": "reference",
-     "value": 6.713231749312322
+     "value": 6.713230138982445
     },
     {
      "base": "USD",
@@ -22062,13 +22185,13 @@
      "base": "USD",
      "quote": "DJF",
      "type": "reference",
-     "value": 178.0693586151231
+     "value": 178.07158760061657
     },
     {
      "base": "USD",
      "quote": "DKK",
      "type": "reference",
-     "value": 6.566005397504919
+     "value": 6.566116124335865
     },
     {
      "base": "USD",
@@ -22104,7 +22227,7 @@
      "base": "USD",
      "quote": "EUR",
      "type": "reference",
-     "value": 0.8781664656212305
+     "value": 0.8782283396722577
     },
     {
      "base": "USD",
@@ -22116,7 +22239,7 @@
      "base": "USD",
      "quote": "GBP",
      "type": "reference",
-     "value": 0.7556316285438193
+     "value": 0.7556337695469363
     },
     {
      "base": "USD",
@@ -22164,7 +22287,7 @@
      "base": "USD",
      "quote": "HKD",
      "type": "reference",
-     "value": 7.843420169902782
+     "value": 7.843410146334286
     },
     {
      "base": "USD",
@@ -22200,7 +22323,7 @@
      "base": "USD",
      "quote": "INR",
      "type": "reference",
-     "value": 95.85466377440346
+     "value": 95.86189732176717
     },
     {
      "base": "USD",
@@ -22236,7 +22359,7 @@
      "base": "USD",
      "quote": "JPY",
      "type": "reference",
-     "value": 158.15749262792679
+     "value": 158.15952629745735
     },
     {
      "base": "USD",
@@ -22338,7 +22461,7 @@
      "base": "USD",
      "quote": "MGA",
      "type": "reference",
-     "value": 4400.152769152239
+     "value": 4400.377093747259
     },
     {
      "base": "USD",
@@ -22374,7 +22497,7 @@
      "base": "USD",
      "quote": "MUR",
      "type": "reference",
-     "value": 47.49179682994044
+     "value": 47.48425852845742
     },
     {
      "base": "USD",
@@ -22428,7 +22551,7 @@
      "base": "USD",
      "quote": "NOK",
      "type": "reference",
-     "value": 9.50517389347545
+     "value": 9.504784814098205
     },
     {
      "base": "USD",
@@ -22440,7 +22563,7 @@
      "base": "USD",
      "quote": "NZD",
      "type": "reference",
-     "value": 1.7639795912281644
+     "value": 1.763979571201918
     },
     {
      "base": "USD",
@@ -22554,13 +22677,13 @@
      "base": "USD",
      "quote": "SEK",
      "type": "reference",
-     "value": 9.907693286776754
+     "value": 9.907555975821115
     },
     {
      "base": "USD",
      "quote": "SGD",
      "type": "reference",
-     "value": 1.2791252491226714
+     "value": 1.2791499206159473
     },
     {
      "base": "USD",
@@ -22734,7 +22857,7 @@
      "base": "USD",
      "quote": "XDR",
      "type": "reference",
-     "value": 0.7352508702728935
+     "value": 0.7352508689344586
     },
     {
      "base": "USD",
@@ -22758,7 +22881,7 @@
      "base": "USD",
      "quote": "ZAR",
      "type": "reference",
-     "value": 16.34419746352107
+     "value": 16.344651416630462
     },
     {
      "base": "USD",
