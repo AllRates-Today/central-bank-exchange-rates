@@ -1,0 +1,261 @@
+{
+ "source": "bcstp",
+ "name": "Banco Central de São Tomé e Príncipe",
+ "date": "2026-09-25",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "BRL",
+   "quote": "STN",
+   "type": "buy",
+   "value": 4.1603
+  },
+  {
+   "base": "BRL",
+   "quote": "STN",
+   "type": "middle",
+   "value": 4.1915
+  },
+  {
+   "base": "BRL",
+   "quote": "STN",
+   "type": "sell",
+   "value": 4.2227
+  },
+  {
+   "base": "CAD",
+   "quote": "STN",
+   "type": "buy",
+   "value": 15.2677
+  },
+  {
+   "base": "CAD",
+   "quote": "STN",
+   "type": "middle",
+   "value": 15.3822
+  },
+  {
+   "base": "CAD",
+   "quote": "STN",
+   "type": "sell",
+   "value": 15.4967
+  },
+  {
+   "base": "CHF",
+   "quote": "STN",
+   "type": "buy",
+   "value": 26.0389
+  },
+  {
+   "base": "CHF",
+   "quote": "STN",
+   "type": "middle",
+   "value": 26.2342
+  },
+  {
+   "base": "CHF",
+   "quote": "STN",
+   "type": "sell",
+   "value": 26.4295
+  },
+  {
+   "base": "CNY",
+   "quote": "STN",
+   "type": "buy",
+   "value": 3.2109
+  },
+  {
+   "base": "CNY",
+   "quote": "STN",
+   "type": "middle",
+   "value": 3.235
+  },
+  {
+   "base": "CNY",
+   "quote": "STN",
+   "type": "sell",
+   "value": 3.2591
+  },
+  {
+   "base": "DKK",
+   "quote": "STN",
+   "type": "buy",
+   "value": 3.2773
+  },
+  {
+   "base": "DKK",
+   "quote": "STN",
+   "type": "middle",
+   "value": 3.3019
+  },
+  {
+   "base": "DKK",
+   "quote": "STN",
+   "type": "sell",
+   "value": 3.3265
+  },
+  {
+   "base": "EUR",
+   "quote": "STN",
+   "type": "buy",
+   "value": 24.5
+  },
+  {
+   "base": "EUR",
+   "quote": "STN",
+   "type": "middle",
+   "value": 24.5
+  },
+  {
+   "base": "EUR",
+   "quote": "STN",
+   "type": "sell",
+   "value": 24.5
+  },
+  {
+   "base": "GBP",
+   "quote": "STN",
+   "type": "buy",
+   "value": 28.493
+  },
+  {
+   "base": "GBP",
+   "quote": "STN",
+   "type": "middle",
+   "value": 28.7067
+  },
+  {
+   "base": "GBP",
+   "quote": "STN",
+   "type": "sell",
+   "value": 28.9204
+  },
+  {
+   "base": "JPY",
+   "quote": "STN",
+   "type": "buy",
+   "value": 0.1357
+  },
+  {
+   "base": "JPY",
+   "quote": "STN",
+   "type": "middle",
+   "value": 0.1367
+  },
+  {
+   "base": "JPY",
+   "quote": "STN",
+   "type": "sell",
+   "value": 0.1377
+  },
+  {
+   "base": "NOK",
+   "quote": "STN",
+   "type": "buy",
+   "value": 2.2707
+  },
+  {
+   "base": "NOK",
+   "quote": "STN",
+   "type": "middle",
+   "value": 2.2878
+  },
+  {
+   "base": "NOK",
+   "quote": "STN",
+   "type": "sell",
+   "value": 2.3048
+  },
+  {
+   "base": "SEK",
+   "quote": "STN",
+   "type": "buy",
+   "value": 2.175
+  },
+  {
+   "base": "SEK",
+   "quote": "STN",
+   "type": "middle",
+   "value": 2.1913
+  },
+  {
+   "base": "SEK",
+   "quote": "STN",
+   "type": "sell",
+   "value": 2.2076
+  },
+  {
+   "base": "USD",
+   "quote": "STN",
+   "type": "buy",
+   "value": 21.5536
+  },
+  {
+   "base": "USD",
+   "quote": "STN",
+   "type": "middle",
+   "value": 21.7153
+  },
+  {
+   "base": "USD",
+   "quote": "STN",
+   "type": "sell",
+   "value": 21.8769
+  },
+  {
+   "base": "XAF",
+   "quote": "STN",
+   "type": "buy",
+   "value": 0.0374
+  },
+  {
+   "base": "XAF",
+   "quote": "STN",
+   "type": "middle",
+   "value": 0.0376
+  },
+  {
+   "base": "XAF",
+   "quote": "STN",
+   "type": "sell",
+   "value": 0.0379
+  },
+  {
+   "base": "XDR",
+   "quote": "STN",
+   "type": "buy",
+   "value": 29.2847
+  },
+  {
+   "base": "XDR",
+   "quote": "STN",
+   "type": "middle",
+   "value": 29.2847
+  },
+  {
+   "base": "XDR",
+   "quote": "STN",
+   "type": "sell",
+   "value": 29.2847
+  },
+  {
+   "base": "ZAR",
+   "quote": "STN",
+   "type": "buy",
+   "value": 1.3113
+  },
+  {
+   "base": "ZAR",
+   "quote": "STN",
+   "type": "middle",
+   "value": 1.3211
+  },
+  {
+   "base": "ZAR",
+   "quote": "STN",
+   "type": "sell",
+   "value": 1.331
+  }
+ ],
+ "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
+}
