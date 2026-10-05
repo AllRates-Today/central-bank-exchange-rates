@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-04T18:40:35.822Z",
+ "generated_at": "2026-10-05T00:00:39.818Z",
  "source_count": 125,
  "sources": {
   "amcm": {
@@ -513,7 +513,7 @@
    "kind": "central_bank",
    "latest": "2026-09-30",
    "cadence": "daily",
-   "stale": false,
+   "stale": true,
    "currencies": 2,
    "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/boj/latest.json",
    "page": "https://allratestoday.com/central-bank-rates-api/boj/"
@@ -1261,7 +1261,7 @@
    "kind": "central_bank",
    "latest": "2026-09-30",
    "cadence": "daily",
-   "stale": false,
+   "stale": true,
    "currencies": 25,
    "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/pboc/latest.json",
    "page": "https://allratestoday.com/central-bank-rates-api/pboc/"
