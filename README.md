@@ -1,6 +1,6 @@
 # Central Bank Exchange Rates
 
-Official exchange rates from **102 central banks and 4 tax authorities**, updated every day, as plain JSON and CSV files. No API key, no rate limit, no sign-up. Served free by jsDelivr's global CDN.
+Official exchange rates from **121 central banks and 3 tax authorities**, updated every day, as plain JSON and CSV files. No API key, no rate limit, no sign-up. Served free by jsDelivr's global CDN.
 
 Examples of what is here: the ECB euro reference rates, the Federal Reserve H.10 table, the Bank of England spot rates, RBI reference rates, PBoC central parity, the HMRC monthly rates for VAT, and the US Treasury quarterly rates. Every table is the number the institution itself published, not a market or interbank rate, so it is what you need for invoices, VAT returns, customs, transfer pricing, and audit evidence.
 
@@ -225,14 +225,14 @@ If you use these files in a paper, notebook, article or product, please cite the
 
 Plain text:
 
-> AllRatesToday (2026). *Central Bank Exchange Rates: official rates from 102 central banks and 4 tax authorities.* https://github.com/AllRates-Today/central-bank-exchange-rates (data via https://allratestoday.com/central-bank-rates-api/).
+> AllRatesToday (2026). *Central Bank Exchange Rates: official rates from 121 central banks and 3 tax authorities.* https://github.com/AllRates-Today/central-bank-exchange-rates (data via https://allratestoday.com/central-bank-rates-api/).
 
 BibTeX:
 
 ```bibtex
 @misc{allratestoday_central_bank_exchange_rates,
   author       = {AllRatesToday},
-  title        = {Central Bank Exchange Rates: official rates from 102 central banks and 4 tax authorities},
+  title        = {Central Bank Exchange Rates: official rates from 121 central banks and 3 tax authorities},
   year         = {2026},
   publisher    = {GitHub},
   howpublished = {\url{https://github.com/AllRates-Today/central-bank-exchange-rates}},
@@ -253,3 +253,7 @@ Data: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Use it for anyt
 Code in `scripts/`: MIT.
 
 Rates are provided as published. Verify against the institution before relying on a figure for a legal or tax filing.
+
+## 🔗 Links
+
+- **AI agents:** Claude Code plugin `/plugin marketplace add AllRates-Today/claude-code-plugin` · hosted MCP endpoint `https://allratestoday.com/api/mcp` (keyless)
