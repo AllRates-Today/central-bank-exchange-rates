@@ -10,7 +10,7 @@ import sys, os, tempfile
 from huggingface_hub import HfApi
 import mirror_lib as M
 
-REPO = "AllRatesToday/central-bank-exchange-rates"
+REPO = "AllRates/central-bank-exchange-rates"  # upload id: token scope follows the old owner; HF redirects to the org
 UTM = "huggingface"
 
 work = tempfile.mkdtemp()
