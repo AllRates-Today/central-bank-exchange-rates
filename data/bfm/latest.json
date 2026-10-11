@@ -1,6 +1,9 @@
 {
  "source": "bfm",
  "name": "Central Bank of Madagascar (BFM)",
+ "country": "Madagascar",
+ "home_currency": "MGA",
+ "kind": "central_bank",
  "date": "2026-10-09",
  "cadence": "daily",
  "rates": [
@@ -119,5 +122,7 @@
    "value": 273.34
   }
  ],
+ "official_source": "https://www.banky-foibe.mg/",
+ "page": "https://allratestoday.com/central-bank-rates-api/bfm/",
  "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
 }

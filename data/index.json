@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T10:09:26.054Z",
+ "generated_at": "2026-10-11T11:21:24.925Z",
  "source_count": 125,
  "sources": {
   "amcm": {
@@ -136,11 +136,15 @@
   },
   "bccu": {
    "name": "Banco Central de Cuba",
+   "country": "Cuba",
+   "home_currency": "CUP",
+   "kind": "central_bank",
    "latest": "2026-10-09",
    "cadence": "daily",
    "stale": false,
    "currencies": 13,
-   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/bccu/latest.json"
+   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/bccu/latest.json",
+   "page": "https://allratestoday.com/central-bank-rates-api/bccu/"
   },
   "bceao": {
    "name": "Central Bank of West African States (BCEAO)",
@@ -240,11 +244,15 @@
   },
   "bcstp": {
    "name": "Banco Central de São Tomé e Príncipe",
+   "country": "São Tomé and Príncipe",
+   "home_currency": "STN",
+   "kind": "central_bank",
    "latest": "2026-10-09",
    "cadence": "daily",
    "stale": false,
    "currencies": 42,
-   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/bcstp/latest.json"
+   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/bcstp/latest.json",
+   "page": "https://allratestoday.com/central-bank-rates-api/bcstp/"
   },
   "bct": {
    "name": "Central Bank of Tunisia",
@@ -332,11 +340,15 @@
   },
   "bfm": {
    "name": "Central Bank of Madagascar (BFM)",
+   "country": "Madagascar",
+   "home_currency": "MGA",
+   "kind": "central_bank",
    "latest": "2026-10-09",
    "cadence": "daily",
    "stale": false,
    "currencies": 19,
-   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/bfm/latest.json"
+   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/bfm/latest.json",
+   "page": "https://allratestoday.com/central-bank-rates-api/bfm/"
   },
   "bi": {
    "name": "Bank Indonesia",
@@ -640,11 +652,15 @@
   },
   "bsl": {
    "name": "Bank of Sierra Leone",
+   "country": "Sierra Leone",
+   "home_currency": "SLE",
+   "kind": "central_bank",
    "latest": "2026-10-09",
    "cadence": "daily",
    "stale": false,
    "currencies": 23,
-   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/bsl/latest.json"
+   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/bsl/latest.json",
+   "page": "https://allratestoday.com/central-bank-rates-api/bsl/"
   },
   "bsp": {
    "name": "Bangko Sentral ng Pilipinas",
@@ -783,9 +799,9 @@
    "country": "Iraq",
    "home_currency": "IQD",
    "kind": "central_bank",
-   "latest": "2026-10-06",
+   "latest": "2026-10-08",
    "cadence": "daily",
-   "stale": true,
+   "stale": false,
    "currencies": 57,
    "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/cbiq/latest.json",
    "page": "https://allratestoday.com/central-bank-rates-api/cbiq/"
@@ -900,11 +916,15 @@
   },
   "cbt": {
    "name": "Central Bank of Turkmenistan",
+   "country": "Turkmenistan",
+   "home_currency": "TMT",
+   "kind": "central_bank",
    "latest": "2026-10-09",
    "cadence": "daily",
    "stale": false,
    "currencies": 47,
-   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/cbt/latest.json"
+   "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/cbt/latest.json",
+   "page": "https://allratestoday.com/central-bank-rates-api/cbt/"
   },
   "cbtt": {
    "name": "Central Bank of Trinidad and Tobago",

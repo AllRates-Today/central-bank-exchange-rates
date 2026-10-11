@@ -1,6 +1,9 @@
 {
  "source": "bsl",
  "name": "Bank of Sierra Leone",
+ "country": "Sierra Leone",
+ "home_currency": "SLE",
+ "kind": "central_bank",
  "date": "2026-10-09",
  "cadence": "daily",
  "rates": [
@@ -143,5 +146,7 @@
    "value": 1.3815
   }
  ],
+ "official_source": "https://bsl.gov.sl/WAMZ_Exchange_Rates.html",
+ "page": "https://allratestoday.com/central-bank-rates-api/bsl/",
  "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
 }

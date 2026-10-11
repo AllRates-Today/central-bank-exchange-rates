@@ -1,6 +1,9 @@
 {
  "source": "cbt",
  "name": "Central Bank of Turkmenistan",
+ "country": "Turkmenistan",
+ "home_currency": "TMT",
+ "kind": "central_bank",
  "date": "2026-10-09",
  "cadence": "daily",
  "rates": [
@@ -287,5 +290,7 @@
    "value": 4.7327
   }
  ],
+ "official_source": "https://www.cbt.tm/kurs/",
+ "page": "https://allratestoday.com/central-bank-rates-api/cbt/",
  "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
 }

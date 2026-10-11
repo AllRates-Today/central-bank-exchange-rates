@@ -1,6 +1,9 @@
 {
  "source": "bcstp",
  "name": "Banco Central de São Tomé e Príncipe",
+ "country": "São Tomé and Príncipe",
+ "home_currency": "STN",
+ "kind": "central_bank",
  "date": "2026-10-09",
  "cadence": "daily",
  "rates": [
@@ -257,5 +260,7 @@
    "value": 1.3352
   }
  ],
+ "official_source": "https://www.bcstp.st/Cambio",
+ "page": "https://allratestoday.com/central-bank-rates-api/bcstp/",
  "license": "CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com"
 }
