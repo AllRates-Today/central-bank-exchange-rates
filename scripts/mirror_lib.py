@@ -141,6 +141,8 @@ def about(utm_source):
     L = lambda p: link(p, utm_source)
     return f"""## About AllRatesToday
 
+This is the most downloaded exchange-rate dataset on Hugging Face (search "exchange rate", sort by downloads; [what that number means]({L('/blog/most-downloaded-exchange-rate-dataset-hugging-face/')})).
+
 This dataset is collected and maintained by [AllRatesToday]({L('/')}), a currency-data API built for developers, finance teams and AI agents. It is the same ingest pipeline that powers the live service: it fetches each institution's own publication, checks every table against the other banks for unit and direction errors, and quarantines anything more than ten percent off, so what you load here is what the bank printed.
 
 **This mirror lags the live data by {LAG_DAYS} days.** It is meant for research, backtesting and model training. If you need today's table, a rate for a specific invoice date, or the next publication time, use the live service:
