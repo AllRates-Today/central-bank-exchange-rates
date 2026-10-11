@@ -17,7 +17,7 @@ work = tempfile.mkdtemp()
 st = M.build(work, UTM, lambda c: f"rates/{c}.csv", lambda c: f"latest/{c}.json")
 
 card = f"""---
-license: cc-by-4.0
+license: cc-by-nc-4.0
 language:
 - en
 pretty_name: Central Bank Exchange Rates

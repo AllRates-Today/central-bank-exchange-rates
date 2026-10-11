@@ -221,7 +221,7 @@ If you need more than daily files, the [AllRatesToday API](https://allratestoday
 
 ## Cite this dataset
 
-If you use these files in a paper, notebook, article or product, please cite the dataset and link to it. A visible credit is also the only condition of the CC BY 4.0 licence.
+If you use these files in a paper, notebook, article or product, please cite the dataset and link to it. A visible credit and non-commercial use are the conditions of the CC BY-NC 4.0 licence.
 
 Plain text:
 
@@ -243,12 +243,12 @@ BibTeX:
 In a README or blog post, one line is enough:
 
 ```md
-Exchange rates: [Central Bank Exchange Rates](https://github.com/AllRates-Today/central-bank-exchange-rates) by [AllRatesToday](https://allratestoday.com/central-bank-rates-api/), CC BY 4.0.
+Exchange rates: [Central Bank Exchange Rates](https://github.com/AllRates-Today/central-bank-exchange-rates) by [AllRatesToday](https://allratestoday.com/central-bank-rates-api/), CC BY-NC 4.0.
 ```
 
 ## License
 
-Data: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Use it for anything, including commercially, with a visible credit to AllRatesToday linking to https://allratestoday.com. The underlying figures are public information published by each institution.
+Data: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Free for non-commercial use (research, education, personal projects, journalism) with a visible credit to AllRatesToday linking to https://allratestoday.com. Commercial use needs a licence: the [Official Rates plan](https://allratestoday.com/pricing#official) covers it, or contact support@allratestoday.com. The underlying figures are public information published by each institution.
 
 Code in `scripts/`: MIT.
 

@@ -69,7 +69,7 @@ json.dump({
     "title": "Central Bank Exchange Rates, 1914 to today",
     "subtitle": f"Official rates from {banks} central banks and {taxes} tax authorities, daily",
     "description": description,
-    "licenses": [{"name": "CC-BY-4.0"}],
+    "licenses": [{"name": "CC-BY-NC-4.0"}],
     "keywords": ["finance", "currencies and foreign exchange", "economics", "time series analysis", "banking"],
 }, open(f"{work}/dataset-metadata.json", "w"), indent=1)
 if "--dry-run" in sys.argv:

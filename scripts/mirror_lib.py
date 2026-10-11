@@ -45,7 +45,7 @@ def build(work, utm_source, csv_path, latest_path):
     cut = cutoff()
     attribution = {
         "attribution": f"AllRatesToday, {SITE}",
-        "license": "CC-BY-4.0",
+        "license": "CC-BY-NC-4.0",
         "api": link("/central-bank-rates-api/", utm_source),
         "live_data": GITHUB,
         "lag_days": LAG_DAYS,
@@ -117,7 +117,7 @@ def build(work, utm_source, csv_path, latest_path):
     with open(f"{work}/ATTRIBUTION.txt", "w") as f:
         f.write(f"""Central Bank Exchange Rates - official rates from {banks} central banks and {stats['taxes']} tax authorities
 Collected and published by AllRatesToday, {SITE}
-License: CC BY 4.0. Credit "AllRatesToday" with a link to {SITE} in anything you build or publish from this data.
+License: CC BY-NC 4.0. Non-commercial use only; credit "AllRatesToday" with a link to {SITE} in anything you build or publish from this data. Commercial use needs a licence ({SITE}/pricing#official).
 
 This mirror ends {cut} (it lags the live source by {LAG_DAYS} days).
 Today's tables, per-date lookups, publication calendars and JSON/CSV/XML/XLSX output:
@@ -160,9 +160,9 @@ The API is free to start, with paid plans for volume and an official-rates plan 
 
 ## Cite
 
-> AllRatesToday (2026). *Central Bank Exchange Rates: official rates from central banks and tax authorities, 1914 to today.* {GITHUB} (data via {SITE}/central-bank-rates-api/). CC BY 4.0.
+> AllRatesToday (2026). *Central Bank Exchange Rates: official rates from central banks and tax authorities, 1914 to today.* {GITHUB} (data via {SITE}/central-bank-rates-api/). CC BY-NC 4.0.
 
 ## License
 
-CC BY 4.0. Free for any use, including commercial, with a visible credit to AllRatesToday linking to {SITE}. The underlying figures are public information published by each institution. Verify against the institution before relying on a figure for a legal or tax filing.
+CC BY-NC 4.0. Free for non-commercial use (research, education, personal projects, journalism) with a visible credit to AllRatesToday linking to {SITE}. Commercial use is not permitted under this licence; the Official Rates plan at {SITE}/pricing#official covers it, or contact support@allratestoday.com. The underlying figures are public information published by each institution. Verify against the institution before relying on a figure for a legal or tax filing.
 """

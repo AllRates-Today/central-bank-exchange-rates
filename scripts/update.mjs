@@ -50,7 +50,7 @@ for (const s of feed.sources) {
       rates: t.rates,
       official_source: meta.official_source,
       page: meta.page,
-      license: 'CC BY 4.0 — attribution: AllRatesToday, https://allratestoday.com',
+      license: 'CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com',
     };
     const dir = bankDir(code);
     writeJson(join(dir, 'latest.json'), table);
