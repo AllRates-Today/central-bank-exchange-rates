@@ -211,7 +211,7 @@ Files change at most once per publication date. Use `@main` for the live files. 
 
 ## Also on Hugging Face and Kaggle
 
-The same data, one CSV per institution, is mirrored daily to [Hugging Face](https://huggingface.co/datasets/AllRates/central-bank-exchange-rates) for `load_dataset` users and to [Kaggle](https://www.kaggle.com/datasets/allratestoday/central-bank-exchange-rates) for notebooks.
+The same data, one CSV per institution, is mirrored daily to [Hugging Face](https://huggingface.co/datasets/AllRatesToday/central-bank-exchange-rates) for `load_dataset` users and to [Kaggle](https://www.kaggle.com/datasets/allratestoday/central-bank-exchange-rates) for notebooks.
 
 ## How it is built
 

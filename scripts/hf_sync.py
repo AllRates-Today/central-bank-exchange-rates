@@ -1,4 +1,4 @@
-"""Mirror the data to the Hugging Face dataset AllRates/central-bank-exchange-rates.
+"""Mirror the data to the Hugging Face dataset AllRatesToday/central-bank-exchange-rates.
 
 One CSV per institution under rates/ (what the dataset viewer and pandas users
 want), the lagged latest tables under latest/, the catalogue, ATTRIBUTION.txt
@@ -10,7 +10,7 @@ import sys, os, tempfile
 from huggingface_hub import HfApi
 import mirror_lib as M
 
-REPO = "AllRates/central-bank-exchange-rates"
+REPO = "AllRatesToday/central-bank-exchange-rates"
 UTM = "huggingface"
 
 work = tempfile.mkdtemp()
@@ -73,12 +73,12 @@ Direction follows the publisher: the ECB quotes `EUR → USD`, the Reserve Bank 
 
 ```python
 from datasets import load_dataset
-ds = load_dataset("AllRates/central-bank-exchange-rates", "rates")
+ds = load_dataset("AllRatesToday/central-bank-exchange-rates", "rates")
 ```
 
 ```python
 import pandas as pd
-ecb = pd.read_csv("hf://datasets/AllRates/central-bank-exchange-rates/rates/ecb.csv", parse_dates=["date"])
+ecb = pd.read_csv("hf://datasets/AllRatesToday/central-bank-exchange-rates/rates/ecb.csv", parse_dates=["date"])
 usd = ecb[(ecb.quote == "USD") & (ecb.type == "reference")].set_index("date")["value"]
 ```
 

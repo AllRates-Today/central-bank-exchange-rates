@@ -20,7 +20,7 @@ DATA = os.path.join(ROOT, "data")
 LAG_DAYS = 2
 SITE = "https://allratestoday.com"
 GITHUB = "https://github.com/AllRates-Today/central-bank-exchange-rates"
-HF = "https://huggingface.co/datasets/AllRates/central-bank-exchange-rates"
+HF = "https://huggingface.co/datasets/AllRatesToday/central-bank-exchange-rates"
 KAGGLE = "https://www.kaggle.com/datasets/allratestoday/central-bank-exchange-rates"
 
 
