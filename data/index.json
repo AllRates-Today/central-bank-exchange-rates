@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T20:40:25.920Z",
+ "generated_at": "2026-10-12T00:38:06.620Z",
  "source_count": 125,
  "sources": {
   "amcm": {
@@ -139,7 +139,7 @@
    "country": "Cuba",
    "home_currency": "CUP",
    "kind": "central_bank",
-   "latest": "2026-10-09",
+   "latest": "2026-10-10",
    "cadence": "daily",
    "stale": false,
    "currencies": 13,
@@ -165,7 +165,7 @@
    "kind": "central_bank",
    "latest": "2026-10-07",
    "cadence": "daily",
-   "stale": false,
+   "stale": true,
    "currencies": 1,
    "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/bch/latest.json",
    "page": "https://allratestoday.com/central-bank-rates-api/bch/"
@@ -237,7 +237,7 @@
    "kind": "central_bank",
    "latest": "2026-10-07",
    "cadence": "daily",
-   "stale": false,
+   "stale": true,
    "currencies": 4,
    "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/bcrp/latest.json",
    "page": "https://allratestoday.com/central-bank-rates-api/bcrp/"
@@ -525,7 +525,7 @@
    "kind": "central_bank",
    "latest": "2026-10-07",
    "cadence": "daily",
-   "stale": false,
+   "stale": true,
    "currencies": 2,
    "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/boj/latest.json",
    "page": "https://allratestoday.com/central-bank-rates-api/boj/"
@@ -991,10 +991,10 @@
    "country": "Global",
    "home_currency": "USD",
    "kind": "composite",
-   "latest": "2026-10-11",
+   "latest": "2026-10-12",
    "cadence": "daily",
    "stale": false,
-   "currencies": 154,
+   "currencies": 56,
    "latest_url": "https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/composite/latest.json",
    "page": "https://allratestoday.com/central-bank-rates-api/composite/"
   },
@@ -1231,7 +1231,7 @@
    "country": "Tajikistan",
    "home_currency": "TJS",
    "kind": "central_bank",
-   "latest": "2026-10-09",
+   "latest": "2026-10-10",
    "cadence": "daily",
    "stale": false,
    "currencies": 36,
@@ -1459,7 +1459,7 @@
    "country": "Colombia",
    "home_currency": "COP",
    "kind": "central_bank",
-   "latest": "2026-10-09",
+   "latest": "2026-10-10",
    "cadence": "daily",
    "stale": false,
    "currencies": 1,
