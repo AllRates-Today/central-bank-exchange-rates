@@ -157,7 +157,10 @@ for f in files[:2]:
     probe2 = f"""
 from kaggle.api.kaggle_api_extended import KaggleApi
 api = KaggleApi(); api.authenticate()
-d = api.dataset_view({ID!r})
+from kagglesdk.datasets.types.dataset_api_service import ApiGetDatasetRequest
+req = ApiGetDatasetRequest(); req.owner_slug, req.dataset_slug = {ID!r}.split("/")
+with api.build_kaggle_client() as kc:
+    d = kc.datasets.dataset_api_client.get_dataset(req)
 files = d.files or []
 print("view: usability", d.usability_rating, "| licence", d.license_name, "| version", d.current_version_number, "| files", len(files),
       "| with description", sum(1 for f in files if getattr(f, "description", None)), "| with columns", sum(1 for f in files if getattr(f, "columns", None)))
