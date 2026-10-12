@@ -131,7 +131,7 @@ from kagglesdk import kaggle_http_client as H
 orig = H.KaggleHttpClient._prepare_response
 def patched(self, rt, resp):
     if resp.status_code == 200 and not resp.text.strip():
-        return None
+        return rt() if rt is not None else None
     return orig(self, rt, resp)
 H.KaggleHttpClient._prepare_response = patched
 from kaggle.api.kaggle_api_extended import KaggleApi
