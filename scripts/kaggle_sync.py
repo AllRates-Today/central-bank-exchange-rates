@@ -129,10 +129,14 @@ subprocess.run(["kaggle", "--version"])
 meta["licenses"] = [{"name": "other"}]
 json.dump(meta, open(f"{work}/dataset-metadata.json", "w"), indent=1)
 code = f"""
-import sys; sys.argv += ["--verbose"]
-from kaggle.api import kaggle_api_extended as K
-if hasattr(K, "args"): K.args = list(K.args) + ["--verbose"]
-api = K.KaggleApi(); api.authenticate()
+from kagglesdk import kaggle_http_client as H
+orig = H.KaggleHttpClient._prepare_response
+def patched(self, rt, resp):
+    print("HTTP", resp.status_code, resp.headers.get("Content-Type"), "body:", repr(resp.text[:800]), flush=True)
+    return orig(self, rt, resp)
+H.KaggleHttpClient._prepare_response = patched
+from kaggle.api.kaggle_api_extended import KaggleApi
+api = KaggleApi(); api.authenticate()
 api.dataset_metadata_update({ID!r}, {work!r})
 print("settings update returned without error")
 """
@@ -142,6 +146,9 @@ print(f"--- settings update exit {r.returncode}", flush=True)
 back = tempfile.mkdtemp()
 if subprocess.run(["kaggle", "datasets", "metadata", "-p", back, ID]).returncode == 0:
     m = json.load(open(f"{back}/dataset-metadata.json"))
+    m = m.get("info", m)
     m.pop("description", None)
-    if isinstance(m.get("resources"), list): m["resources"] = m["resources"][:2] + [f"... {len(m['resources'])} resources"]
-    print("--- metadata now:", json.dumps(m, indent=1)[:3000])
+    for k in list(m):
+        if isinstance(m[k], list) and len(m[k]) > 3:
+            m[k] = m[k][:2] + [f"... {len(m[k])} entries"]
+    print("--- metadata now:", json.dumps(m, indent=1), flush=True)
