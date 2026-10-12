@@ -26,6 +26,9 @@ jobs:
         id: commit
       - name: Mirror to Hugging Face
         if: steps.commit.outputs.changed == '1' || github.event_name == 'workflow_dispatch'
+        # Non-fatal: HF upload 403s until HF_TOKEN is an org-scoped token
+        # (AllRatesToday org). Kaggle below must still run meanwhile.
+        continue-on-error: true
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
