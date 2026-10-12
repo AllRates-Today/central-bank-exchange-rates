@@ -117,38 +117,31 @@ if "--dry-run" in sys.argv:
 if "--settings-only" not in sys.argv:
     subprocess.run(["kaggle", "datasets", "version", "-p", work, "-m", f"Daily refresh to {latest}, {total:,} rows"], check=True)
     print(f"pushed {total:,} rows to https://www.kaggle.com/datasets/{ID}")
-# File descriptions and columns travel with the version; sources + frequency
-# need the settings call. The settings endpoint has rejected the documented
-# licence id "CC-BY-NC-4.0" ("You've specified an invalid license"), so try a
-# few spellings and fall back to "other" (the description states CC BY-NC 4.0).
-# Non-fatal so a settings hiccup never fails the mirror.
-subprocess.run(["kaggle", "--version"])
-# "CC-BY-NC-4.0" (documented) is rejected by the settings endpoint; "other"
-# passes validation but the client crashes decoding the reply, so run it
-# through the Python API with verbose HTTP logging to see the actual status.
+# File descriptions and columns travel with the version; provenance sources,
+# update frequency and licence need the settings call. Two Kaggle quirks
+# (verified 2026-10-12): the settings endpoint rejects the documented licence
+# id "CC-BY-NC-4.0" ("You've specified an invalid license"), so the licence
+# is "other" and the description states CC BY-NC 4.0; and it answers
+# HTTP 200 with an empty body, which the client crashes decoding, so the
+# empty success reply is handled here. Non-fatal so it never fails the mirror.
 meta["licenses"] = [{"name": "other"}]
 json.dump(meta, open(f"{work}/dataset-metadata.json", "w"), indent=1)
 code = f"""
 from kagglesdk import kaggle_http_client as H
 orig = H.KaggleHttpClient._prepare_response
 def patched(self, rt, resp):
-    print("HTTP", resp.status_code, resp.headers.get("Content-Type"), "body:", repr(resp.text[:800]), flush=True)
+    if resp.status_code == 200 and not resp.text.strip():
+        return None
     return orig(self, rt, resp)
 H.KaggleHttpClient._prepare_response = patched
 from kaggle.api.kaggle_api_extended import KaggleApi
 api = KaggleApi(); api.authenticate()
 api.dataset_metadata_update({ID!r}, {work!r})
-print("settings update returned without error")
 """
 r = subprocess.run([sys.executable, "-c", code])
-print(f"--- settings update exit {r.returncode}", flush=True)
-# Read back what Kaggle now holds (everything but the long description).
+print("settings update", "ok" if r.returncode == 0 else f"failed (exit {r.returncode})", flush=True)
 back = tempfile.mkdtemp()
-if subprocess.run(["kaggle", "datasets", "metadata", "-p", back, ID]).returncode == 0:
-    m = json.load(open(f"{back}/dataset-metadata.json"))
-    m = m.get("info", m)
-    m.pop("description", None)
-    for k in list(m):
-        if isinstance(m[k], list) and len(m[k]) > 3:
-            m[k] = m[k][:2] + [f"... {len(m[k])} entries"]
-    print("--- metadata now:", json.dumps(m, indent=1), flush=True)
+if subprocess.run(["kaggle", "datasets", "metadata", "-p", back, ID], capture_output=True).returncode == 0:
+    m = json.load(open(f"{back}/dataset-metadata.json")).get("info", {})
+    print("Kaggle now holds:", {k: m.get(k) for k in ("licenses", "expectedUpdateFrequency", "usabilityRating")},
+          "sources:", (m.get("userSpecifiedSources") or "")[:80] + "...")
