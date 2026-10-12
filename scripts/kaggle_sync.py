@@ -154,5 +154,16 @@ for f in files[:2]:
     print("  ", f.name, "|", (f.description or "")[:100], "|", [(c.name, c.description[:30]) for c in (f.columns or [])][:5])
 """
     subprocess.run([sys.executable, "-c", probe])
+    probe2 = f"""
+from kaggle.api.kaggle_api_extended import KaggleApi
+api = KaggleApi(); api.authenticate()
+d = api.dataset_view({ID!r})
+files = d.files or []
+print("view: usability", d.usability_rating, "| licence", d.license_name, "| version", d.current_version_number, "| files", len(files),
+      "| with description", sum(1 for f in files if getattr(f, "description", None)), "| with columns", sum(1 for f in files if getattr(f, "columns", None)))
+for f in files[:2]:
+    print("  ", f.name, "|", (getattr(f, "description", "") or "")[:120], "|", [(c.name, (c.description or "")[:25]) for c in (getattr(f, "columns", None) or [])][:5])
+"""
+    subprocess.run([sys.executable, "-c", probe2])
     print("Kaggle now holds:", {k: m.get(k) for k in ("licenses", "expectedUpdateFrequency", "usabilityRating")},
           "sources:", (m.get("userSpecifiedSources") or "")[:80] + "...")
