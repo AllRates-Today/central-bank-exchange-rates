@@ -123,11 +123,25 @@ if "--settings-only" not in sys.argv:
 # few spellings and fall back to "other" (the description states CC BY-NC 4.0).
 # Non-fatal so a settings hiccup never fails the mirror.
 subprocess.run(["kaggle", "--version"])
-for lic in ("CC-BY-NC-4.0", None, "other"):
-    meta["licenses"] = [{"name": lic}] if lic else []
-    json.dump(meta, open(f"{work}/dataset-metadata.json", "w"), indent=1)
-    print(f"--- settings update with licence {lic!r}", flush=True)
-    r = subprocess.run(["kaggle", "datasets", "metadata", "--update", "-p", work, ID])
-    print(f"--- exit {r.returncode}", flush=True)
-    if r.returncode == 0:
-        break
+# "CC-BY-NC-4.0" (documented) is rejected by the settings endpoint; "other"
+# passes validation but the client crashes decoding the reply, so run it
+# through the Python API with verbose HTTP logging to see the actual status.
+meta["licenses"] = [{"name": "other"}]
+json.dump(meta, open(f"{work}/dataset-metadata.json", "w"), indent=1)
+code = f"""
+import sys; sys.argv += ["--verbose"]
+from kaggle.api import kaggle_api_extended as K
+if hasattr(K, "args"): K.args = list(K.args) + ["--verbose"]
+api = K.KaggleApi(); api.authenticate()
+api.dataset_metadata_update({ID!r}, {work!r})
+print("settings update returned without error")
+"""
+r = subprocess.run([sys.executable, "-c", code])
+print(f"--- settings update exit {r.returncode}", flush=True)
+# Read back what Kaggle now holds (everything but the long description).
+back = tempfile.mkdtemp()
+if subprocess.run(["kaggle", "datasets", "metadata", "-p", back, ID]).returncode == 0:
+    m = json.load(open(f"{back}/dataset-metadata.json"))
+    m.pop("description", None)
+    if isinstance(m.get("resources"), list): m["resources"] = m["resources"][:2] + [f"... {len(m['resources'])} resources"]
+    print("--- metadata now:", json.dumps(m, indent=1)[:3000])
