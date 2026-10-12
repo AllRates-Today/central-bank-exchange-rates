@@ -142,6 +142,10 @@ r = subprocess.run([sys.executable, "-c", code])
 print("settings update", "ok" if r.returncode == 0 else f"failed (exit {r.returncode})", flush=True)
 back = tempfile.mkdtemp()
 if subprocess.run(["kaggle", "datasets", "metadata", "-p", back, ID], capture_output=True).returncode == 0:
-    m = json.load(open(f"{back}/dataset-metadata.json")).get("info", {})
+    full = json.load(open(f"{back}/dataset-metadata.json")); m = full.get("info", {})
+    res = full.get("resources") or m.get("resources") or []
+    print("Kaggle metadata keys:", sorted(full), "| resources:", len(res))
+    for x in res[:3]:
+        print("  resource:", json.dumps(x)[:400])
     print("Kaggle now holds:", {k: m.get(k) for k in ("licenses", "expectedUpdateFrequency", "usabilityRating")},
           "sources:", (m.get("userSpecifiedSources") or "")[:80] + "...")
