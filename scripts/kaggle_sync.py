@@ -143,9 +143,16 @@ print("settings update", "ok" if r.returncode == 0 else f"failed (exit {r.return
 back = tempfile.mkdtemp()
 if subprocess.run(["kaggle", "datasets", "metadata", "-p", back, ID], capture_output=True).returncode == 0:
     full = json.load(open(f"{back}/dataset-metadata.json")); m = full.get("info", {})
-    res = full.get("resources") or m.get("resources") or []
-    print("Kaggle metadata keys:", sorted(full), "| resources:", len(res))
-    for x in res[:3]:
-        print("  resource:", json.dumps(x)[:400])
+    probe = f"""
+from kaggle.api.kaggle_api_extended import KaggleApi
+api = KaggleApi(); api.authenticate()
+r = api.dataset_list_files({ID!r}, page_size=300)
+files = r.files or []
+desc = [f for f in files if f.description]; cols = [f for f in files if f.columns]
+print("Kaggle files:", len(files), "| with description:", len(desc), "| with columns:", len(cols))
+for f in files[:2]:
+    print("  ", f.name, "|", (f.description or "")[:100], "|", [(c.name, c.description[:30]) for c in (f.columns or [])][:5])
+"""
+    subprocess.run([sys.executable, "-c", probe])
     print("Kaggle now holds:", {k: m.get(k) for k in ("licenses", "expectedUpdateFrequency", "usabilityRating")},
           "sources:", (m.get("userSpecifiedSources") or "")[:80] + "...")
