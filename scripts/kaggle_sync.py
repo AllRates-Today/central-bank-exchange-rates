@@ -10,6 +10,34 @@ import mirror_lib as M
 ID = "allratestoday/central-bank-exchange-rates"
 UTM = "kaggle"
 
+CSV_FIELDS = [
+    {"name": "date", "type": "datetime", "description": "Publication date (ISO 8601, YYYY-MM-DD). Weekends and holidays are absent, exactly as in the institution's own table."},
+    {"name": "base", "type": "string", "description": "Currency being priced (ISO 4217 code). Direction follows the publisher: the ECB prices EUR, the Reserve Bank of India prices USD."},
+    {"name": "quote", "type": "string", "description": "Currency the base is priced in (ISO 4217 code), usually the institution's home currency."},
+    {"name": "type", "type": "string", "description": "The institution's own label for the figure: reference, middle, buy, sell, spot, monthly, monthly_average, etc. Filter on it before building a series."},
+    {"name": "value", "type": "number", "description": "One unit of base costs this many units of quote, as printed by the institution. Nothing is cross-computed or rounded."},
+]
+
+
+def resources(stats):
+    """Per-file descriptions and column schemas (Kaggle 'file information' and
+    'column descriptors'); the sources' own publication pages double as provenance."""
+    src, out = stats["sources"], []
+    for code in stats["rows_by"]:
+        s = src[code]
+        who = f"{s['name']} ({s['country']}, home currency {s['home_currency']})"
+        out.append({"path": f"{code}.csv",
+                    "description": f"Full history of official exchange rates published by {who}: {stats['rows_by'][code]:,} rows up to {stats['latest_by'][code]}, one row per date, currency pair and rate type. Source: {s.get('official_source') or s['page']}",
+                    "schema": {"fields": CSV_FIELDS}})
+        out.append({"path": f"latest_{code}.json",
+                    "description": f"Most recent table from {s['name']} inside the mirror window ({stats['latest_by'][code]}): institution metadata, cadence, the list of rates (base, quote, type, value), and links to the live page and API."})
+    out += [
+        {"path": "index.json", "description": "Catalogue of every institution in the dataset: code, name, country, home currency, kind (central_bank or tax_authority), cadence, latest date in the mirror, number of currencies published, and page link."},
+        {"path": "sources.json", "description": "Institution metadata keyed by code, including official_source, the URL of the publication page or feed each table is collected from. This is the provenance of every row."},
+        {"path": "ATTRIBUTION.txt", "description": "How to credit the data (CC BY-NC 4.0, credit AllRatesToday with a link), the mirror's end date, and where the live tables are."},
+    ]
+    return out
+
 work = tempfile.mkdtemp()
 st = M.build(work, UTM, lambda c: f"{c}.csv", lambda c: f"latest_{c}.json")
 total, banks, taxes, oldest, latest = st["total"], st["banks"], st["taxes"], st["oldest"], st["latest"]
@@ -71,8 +99,23 @@ json.dump({
     "description": description,
     "licenses": [{"name": "CC-BY-NC-4.0"}],
     "keywords": ["finance", "currencies and foreign exchange", "economics", "time series analysis", "banking"],
+    "resources": resources(st),
+    # Provenance ("Sources" in the metadata tab) and update frequency are
+    # dataset settings, not version fields: pushed by `datasets metadata --update`.
+    "userSpecifiedSources": (
+        f"Official publications of {banks} central banks and {taxes} tax authorities, each fetched from the institution's own page or feed "
+        f"(exact URL per institution in sources.json, field official_source), e.g. ECB {st['sources']['ecb']['official_source']}, "
+        f"Federal Reserve H.10 {st['sources']['fed']['official_source']}, Bank of England {st['sources']['boe']['official_source']}. "
+        f"Collected daily by the AllRatesToday ingest pipeline, cross-checked across banks for unit and direction errors, "
+        f"and published with per-day snapshots at {M.GITHUB}; this mirror lags that source by {M.LAG_DAYS} days."
+    ),
+    "expectedUpdateFrequency": "daily",
 }, open(f"{work}/dataset-metadata.json", "w"), indent=1)
 if "--dry-run" in sys.argv:
     print("dry run, built in", work); sys.exit(0)
 subprocess.run(["kaggle", "datasets", "version", "-p", work, "-m", f"Daily refresh to {latest}, {total:,} rows"], check=True)
 print(f"pushed {total:,} rows to https://www.kaggle.com/datasets/{ID}")
+# File descriptions and columns travel with the version; sources + frequency
+# need the settings call. Non-fatal so a settings hiccup never fails the mirror.
+r = subprocess.run(["kaggle", "datasets", "metadata", "--update", "-p", work, ID])
+print("metadata settings", "updated" if r.returncode == 0 else f"update failed (exit {r.returncode})")
