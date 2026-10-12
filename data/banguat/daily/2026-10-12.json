@@ -1,0 +1,20 @@
+{
+ "source": "banguat",
+ "name": "Banco de Guatemala",
+ "country": "Guatemala",
+ "home_currency": "GTQ",
+ "kind": "central_bank",
+ "date": "2026-10-12",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "USD",
+   "quote": "GTQ",
+   "type": "reference",
+   "value": 7.64157
+  }
+ ],
+ "official_source": "https://banguat.gob.gt/variables/ws/TipoCambio.asmx",
+ "page": "https://allratestoday.com/central-bank-rates-api/banguat/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}
