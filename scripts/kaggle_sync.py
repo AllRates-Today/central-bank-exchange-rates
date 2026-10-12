@@ -122,11 +122,12 @@ if "--settings-only" not in sys.argv:
 # licence id "CC-BY-NC-4.0" ("You've specified an invalid license"), so try a
 # few spellings and fall back to "other" (the description states CC BY-NC 4.0).
 # Non-fatal so a settings hiccup never fails the mirror.
-for lic in ("CC-BY-NC-4.0", "cc-by-nc-4.0", "CC BY-NC 4.0", "other"):
-    meta["licenses"] = [{"name": lic}]
+subprocess.run(["kaggle", "--version"])
+for lic in ("CC-BY-NC-4.0", None, "other"):
+    meta["licenses"] = [{"name": lic}] if lic else []
     json.dump(meta, open(f"{work}/dataset-metadata.json", "w"), indent=1)
-    r = subprocess.run(["kaggle", "datasets", "metadata", "--update", "-p", work, ID], capture_output=True, text=True)
-    out = (r.stdout + r.stderr).strip()
-    print(f"settings update with licence {lic!r}: exit {r.returncode}: {out[-300:]}")
+    print(f"--- settings update with licence {lic!r}", flush=True)
+    r = subprocess.run(["kaggle", "datasets", "metadata", "--update", "-p", work, ID])
+    print(f"--- exit {r.returncode}", flush=True)
     if r.returncode == 0:
         break
