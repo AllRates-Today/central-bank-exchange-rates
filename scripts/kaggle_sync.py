@@ -15,7 +15,7 @@ CSV_FIELDS = [
     {"name": "base", "type": "string", "description": "Currency being priced (ISO 4217 code). Direction follows the publisher: the ECB prices EUR, the Reserve Bank of India prices USD."},
     {"name": "quote", "type": "string", "description": "Currency the base is priced in (ISO 4217 code), usually the institution's home currency."},
     {"name": "type", "type": "string", "description": "The institution's own label for the figure: reference, middle, buy, sell, spot, monthly, monthly_average, etc. Filter on it before building a series."},
-    {"name": "value", "type": "number", "description": "One unit of base costs this many units of quote, as printed by the institution. Nothing is cross-computed or rounded."},
+    {"name": "value", "type": "numeric", "description": "One unit of base costs this many units of quote, as printed by the institution. Nothing is cross-computed or rounded."},
 ]
 
 
@@ -111,11 +111,22 @@ json.dump({
     ),
     "expectedUpdateFrequency": "daily",
 }, open(f"{work}/dataset-metadata.json", "w"), indent=1)
+meta = json.load(open(f"{work}/dataset-metadata.json"))
 if "--dry-run" in sys.argv:
     print("dry run, built in", work); sys.exit(0)
-subprocess.run(["kaggle", "datasets", "version", "-p", work, "-m", f"Daily refresh to {latest}, {total:,} rows"], check=True)
-print(f"pushed {total:,} rows to https://www.kaggle.com/datasets/{ID}")
+if "--settings-only" not in sys.argv:
+    subprocess.run(["kaggle", "datasets", "version", "-p", work, "-m", f"Daily refresh to {latest}, {total:,} rows"], check=True)
+    print(f"pushed {total:,} rows to https://www.kaggle.com/datasets/{ID}")
 # File descriptions and columns travel with the version; sources + frequency
-# need the settings call. Non-fatal so a settings hiccup never fails the mirror.
-r = subprocess.run(["kaggle", "datasets", "metadata", "--update", "-p", work, ID])
-print("metadata settings", "updated" if r.returncode == 0 else f"update failed (exit {r.returncode})")
+# need the settings call. The settings endpoint has rejected the documented
+# licence id "CC-BY-NC-4.0" ("You've specified an invalid license"), so try a
+# few spellings and fall back to "other" (the description states CC BY-NC 4.0).
+# Non-fatal so a settings hiccup never fails the mirror.
+for lic in ("CC-BY-NC-4.0", "cc-by-nc-4.0", "CC BY-NC 4.0", "other"):
+    meta["licenses"] = [{"name": lic}]
+    json.dump(meta, open(f"{work}/dataset-metadata.json", "w"), indent=1)
+    r = subprocess.run(["kaggle", "datasets", "metadata", "--update", "-p", work, ID], capture_output=True, text=True)
+    out = (r.stdout + r.stderr).strip()
+    print(f"settings update with licence {lic!r}: exit {r.returncode}: {out[-300:]}")
+    if r.returncode == 0:
+        break

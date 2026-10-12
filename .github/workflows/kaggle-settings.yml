@@ -1,0 +1,16 @@
+name: Kaggle settings
+# Re-push dataset settings (file/column descriptions, provenance sources,
+# update frequency, licence) without uploading a new version.
+on:
+  workflow_dispatch:
+jobs:
+  settings:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update Kaggle dataset settings
+        env:
+          KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
+        run: |
+          pip install -q kaggle six
+          cd scripts && python kaggle_sync.py --settings-only
