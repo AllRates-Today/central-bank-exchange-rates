@@ -4,20 +4,20 @@
  "country": "Namibia",
  "home_currency": "NAD",
  "kind": "central_bank",
- "date": "2026-10-12",
+ "date": "2026-10-13",
  "cadence": "daily",
  "rates": [
   {
    "base": "AOA",
    "quote": "NAD",
    "type": "reference",
-   "value": 0.018
+   "value": 0.0177
   },
   {
    "base": "EUR",
    "quote": "NAD",
    "type": "reference",
-   "value": 18.4873
+   "value": 18.4671
   },
   {
    "base": "GBP",
@@ -29,7 +29,7 @@
    "base": "USD",
    "quote": "NAD",
    "type": "reference",
-   "value": 16.4984
+   "value": 16.529
   }
  ],
  "official_source": "https://www.bon.com.na/",

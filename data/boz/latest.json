@@ -4,44 +4,44 @@
  "country": "Zambia",
  "home_currency": "ZMW",
  "kind": "central_bank",
- "date": "2026-10-12",
+ "date": "2026-10-13",
  "cadence": "daily",
  "rates": [
   {
    "base": "CNY",
    "quote": "ZMW",
    "type": "buy",
+   "value": 2.968
+  },
+  {
+   "base": "CNY",
+   "quote": "ZMW",
+   "type": "middle",
    "value": 2.9718
   },
   {
    "base": "CNY",
    "quote": "ZMW",
-   "type": "middle",
-   "value": 2.9756
-  },
-  {
-   "base": "CNY",
-   "quote": "ZMW",
    "type": "sell",
-   "value": 2.9794
+   "value": 2.9755
   },
   {
    "base": "USD",
    "quote": "ZMW",
    "type": "buy",
-   "value": 19.8904
+   "value": 19.8757
   },
   {
    "base": "USD",
    "quote": "ZMW",
    "type": "middle",
-   "value": 19.9154
+   "value": 19.9007
   },
   {
    "base": "USD",
    "quote": "ZMW",
    "type": "sell",
-   "value": 19.9404
+   "value": 19.9257
   }
  ],
  "official_source": "https://www.boz.zm/financial-markets/exchange-rates",

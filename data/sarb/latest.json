@@ -4,134 +4,146 @@
  "country": "South Africa",
  "home_currency": "ZAR",
  "kind": "central_bank",
- "date": "2026-10-12",
+ "date": "2026-10-13",
  "cadence": "daily",
  "rates": [
+  {
+   "base": "EUR",
+   "quote": "ZAR",
+   "type": "reference",
+   "value": 18.409
+  },
   {
    "base": "GBP",
    "quote": "ZAR",
    "type": "reference",
-   "value": 21.902
+   "value": 21.785
+  },
+  {
+   "base": "USD",
+   "quote": "ZAR",
+   "type": "reference",
+   "value": 16.4601
   },
   {
    "base": "ZAR",
    "quote": "AUD",
    "type": "reference",
-   "value": 0.0867
+   "value": 0.0872
   },
   {
    "base": "ZAR",
    "quote": "BRL",
    "type": "reference",
-   "value": 0.3018
+   "value": 0.303
   },
   {
    "base": "ZAR",
    "quote": "BWP",
    "type": "reference",
-   "value": 0.8292
+   "value": 0.8317
   },
   {
    "base": "ZAR",
    "quote": "CAD",
    "type": "reference",
-   "value": 0.0862
+   "value": 0.0867
   },
   {
    "base": "ZAR",
    "quote": "CHF",
    "type": "reference",
-   "value": 0.0503
+   "value": 0.0506
   },
   {
    "base": "ZAR",
    "quote": "CNY",
    "type": "reference",
-   "value": 0.4046
+   "value": 0.4067
   },
   {
    "base": "ZAR",
    "quote": "DKK",
    "type": "reference",
-   "value": 0.4037
+   "value": 0.4061
   },
   {
    "base": "ZAR",
    "quote": "HKD",
    "type": "reference",
-   "value": 0.4744
+   "value": 0.4768
   },
   {
    "base": "ZAR",
    "quote": "ILS",
    "type": "reference",
-   "value": 0.1861
+   "value": 0.1867
   },
   {
    "base": "ZAR",
    "quote": "INR",
    "type": "reference",
-   "value": 5.7861
+   "value": 5.7888
   },
   {
    "base": "ZAR",
    "quote": "JPY",
    "type": "reference",
-   "value": 9.5779
+   "value": 9.6041
   },
   {
    "base": "ZAR",
    "quote": "KES",
    "type": "reference",
-   "value": 7.8435
+   "value": 7.8796
   },
   {
    "base": "ZAR",
    "quote": "KRW",
    "type": "reference",
-   "value": 80.4646
+   "value": 81.5272
   },
   {
    "base": "ZAR",
    "quote": "MWK",
    "type": "reference",
-   "value": 104.8228
+   "value": 105.346
   },
   {
    "base": "ZAR",
    "quote": "NOK",
    "type": "reference",
-   "value": 0.5792
+   "value": 0.5805
   },
   {
    "base": "ZAR",
    "quote": "NZD",
    "type": "reference",
-   "value": 0.1079
+   "value": 0.1084
   },
   {
    "base": "ZAR",
    "quote": "SEK",
    "type": "reference",
-   "value": 0.6053
+   "value": 0.6074
   },
   {
    "base": "ZAR",
    "quote": "THB",
    "type": "reference",
-   "value": 2.0309
+   "value": 2.038
   },
   {
    "base": "ZAR",
    "quote": "TWD",
    "type": "reference",
-   "value": 1.93
+   "value": 1.9539
   },
   {
    "base": "ZAR",
    "quote": "ZMW",
    "type": "reference",
-   "value": 1.2003
+   "value": 1.2093
   }
  ],
  "official_source": "https://custom.resbank.co.za/SarbWebApi/WebIndicators/HomePageRates",
