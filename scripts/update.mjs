@@ -60,7 +60,7 @@ for (const s of feed.sources) {
     index[code] = {
       name: meta.name, country: meta.country, home_currency: meta.home_currency, kind: meta.kind,
       latest: t.rate_date, cadence: s.cadence, stale: !!s.stale, currencies: t.rates.length,
-      latest_url: `https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/${code}/latest.json`,
+      latest_url: `https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/${code}/latest.json`,
       page: meta.page,
     };
   } catch (e) {
