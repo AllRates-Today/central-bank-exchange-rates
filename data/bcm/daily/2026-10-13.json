@@ -1,0 +1,128 @@
+{
+ "source": "bcm",
+ "name": "Banque Centrale de Mauritanie",
+ "country": "Mauritania",
+ "home_currency": "MRU",
+ "kind": "central_bank",
+ "date": "2026-10-13",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AED",
+   "quote": "MRU",
+   "type": "reference",
+   "value": 10.91
+  },
+  {
+   "base": "CAD",
+   "quote": "MRU",
+   "type": "reference",
+   "value": 28.11
+  },
+  {
+   "base": "CHF",
+   "quote": "MRU",
+   "type": "reference",
+   "value": 48.146499999999996
+  },
+  {
+   "base": "CNY",
+   "quote": "MRU",
+   "type": "reference",
+   "value": 5.99
+  },
+  {
+   "base": "DKK",
+   "quote": "MRU",
+   "type": "reference",
+   "value": 5.9986
+  },
+  {
+   "base": "DZD",
+   "quote": "MRU",
+   "type": "reference",
+   "value": 0.3
+  },
+  {
+   "base": "EUR",
+   "quote": "MRU",
+   "type": "reference",
+   "value": 44.84
+  },
+  {
+   "base": "GBP",
+   "quote": "MRU",
+   "type": "reference",
+   "value": 53.08
+  },
+  {
+   "base": "JPY",
+   "quote": "MRU",
+   "type": "reference",
+   "value": 0.25355
+  },
+  {
+   "base": "KWD",
+   "quote": "MRU",
+   "type": "reference",
+   "value": 130
+  },
+  {
+   "base": "LYD",
+   "quote": "MRU",
+   "type": "reference",
+   "value": 6.24
+  },
+  {
+   "base": "MAD",
+   "quote": "MRU",
+   "type": "reference",
+   "value": 4.0988
+  },
+  {
+   "base": "NOK",
+   "quote": "MRU",
+   "type": "reference",
+   "value": 4.1997
+  },
+  {
+   "base": "SAR",
+   "quote": "MRU",
+   "type": "reference",
+   "value": 10.67
+  },
+  {
+   "base": "SEK",
+   "quote": "MRU",
+   "type": "reference",
+   "value": 4.0126
+  },
+  {
+   "base": "TND",
+   "quote": "MRU",
+   "type": "reference",
+   "value": 13.34
+  },
+  {
+   "base": "USD",
+   "quote": "MRU",
+   "type": "reference",
+   "value": 40.08
+  },
+  {
+   "base": "XDR",
+   "quote": "MRU",
+   "type": "reference",
+   "value": 54.18
+  },
+  {
+   "base": "XOF",
+   "quote": "MRU",
+   "type": "reference",
+   "value": 0.06845
+  }
+ ],
+ "official_source": "https://www.bcm.mr/",
+ "page": "https://allratestoday.com/central-bank-rates-api/bcm/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}
