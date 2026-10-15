@@ -1,0 +1,242 @@
+{
+ "source": "cbm",
+ "name": "Central Bank of Myanmar",
+ "country": "Myanmar",
+ "home_currency": "MMK",
+ "kind": "central_bank",
+ "date": "2026-10-15",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AUD",
+   "quote": "MMK",
+   "type": "reference",
+   "value": 1457.4
+  },
+  {
+   "base": "BDT",
+   "quote": "MMK",
+   "type": "reference",
+   "value": 17.01
+  },
+  {
+   "base": "BND",
+   "quote": "MMK",
+   "type": "reference",
+   "value": 1637.36
+  },
+  {
+   "base": "BRL",
+   "quote": "MMK",
+   "type": "reference",
+   "value": 416.02
+  },
+  {
+   "base": "CAD",
+   "quote": "MMK",
+   "type": "reference",
+   "value": 1477.68
+  },
+  {
+   "base": "CHF",
+   "quote": "MMK",
+   "type": "reference",
+   "value": 2531.04
+  },
+  {
+   "base": "CNY",
+   "quote": "MMK",
+   "type": "reference",
+   "value": 313.82
+  },
+  {
+   "base": "CZK",
+   "quote": "MMK",
+   "type": "reference",
+   "value": 96.68
+  },
+  {
+   "base": "DKK",
+   "quote": "MMK",
+   "type": "reference",
+   "value": 315
+  },
+  {
+   "base": "EGP",
+   "quote": "MMK",
+   "type": "reference",
+   "value": 39.46
+  },
+  {
+   "base": "EUR",
+   "quote": "MMK",
+   "type": "reference",
+   "value": 2354.63
+  },
+  {
+   "base": "GBP",
+   "quote": "MMK",
+   "type": "reference",
+   "value": 2782.4
+  },
+  {
+   "base": "HKD",
+   "quote": "MMK",
+   "type": "reference",
+   "value": 267.61
+  },
+  {
+   "base": "IDR",
+   "quote": "MMK",
+   "type": "reference",
+   "value": 0.1171
+  },
+  {
+   "base": "ILS",
+   "quote": "MMK",
+   "type": "reference",
+   "value": 676.8
+  },
+  {
+   "base": "INR",
+   "quote": "MMK",
+   "type": "reference",
+   "value": 22.11
+  },
+  {
+   "base": "JPY",
+   "quote": "MMK",
+   "type": "reference",
+   "value": 13.2911
+  },
+  {
+   "base": "KES",
+   "quote": "MMK",
+   "type": "reference",
+   "value": 16.17
+  },
+  {
+   "base": "KHR",
+   "quote": "MMK",
+   "type": "reference",
+   "value": 0.5171
+  },
+  {
+   "base": "KRW",
+   "quote": "MMK",
+   "type": "reference",
+   "value": 1.5643
+  },
+  {
+   "base": "KWD",
+   "quote": "MMK",
+   "type": "reference",
+   "value": 6814.86
+  },
+  {
+   "base": "LAK",
+   "quote": "MMK",
+   "type": "reference",
+   "value": 0.0934
+  },
+  {
+   "base": "LKR",
+   "quote": "MMK",
+   "type": "reference",
+   "value": 6.34
+  },
+  {
+   "base": "MYR",
+   "quote": "MMK",
+   "type": "reference",
+   "value": 514.52
+  },
+  {
+   "base": "NOK",
+   "quote": "MMK",
+   "type": "reference",
+   "value": 220.43
+  },
+  {
+   "base": "NPR",
+   "quote": "MMK",
+   "type": "reference",
+   "value": 13.82
+  },
+  {
+   "base": "NZD",
+   "quote": "MMK",
+   "type": "reference",
+   "value": 1178.73
+  },
+  {
+   "base": "PHP",
+   "quote": "MMK",
+   "type": "reference",
+   "value": 33.3
+  },
+  {
+   "base": "PKR",
+   "quote": "MMK",
+   "type": "reference",
+   "value": 7.59
+  },
+  {
+   "base": "RSD",
+   "quote": "MMK",
+   "type": "reference",
+   "value": 20.06
+  },
+  {
+   "base": "RUB",
+   "quote": "MMK",
+   "type": "reference",
+   "value": 25.1
+  },
+  {
+   "base": "SAR",
+   "quote": "MMK",
+   "type": "reference",
+   "value": 559.45
+  },
+  {
+   "base": "SEK",
+   "quote": "MMK",
+   "type": "reference",
+   "value": 210.49
+  },
+  {
+   "base": "SGD",
+   "quote": "MMK",
+   "type": "reference",
+   "value": 1637.36
+  },
+  {
+   "base": "THB",
+   "quote": "MMK",
+   "type": "reference",
+   "value": 62.64
+  },
+  {
+   "base": "USD",
+   "quote": "MMK",
+   "type": "reference",
+   "value": 2100
+  },
+  {
+   "base": "VND",
+   "quote": "MMK",
+   "type": "reference",
+   "value": 0.0812
+  },
+  {
+   "base": "ZAR",
+   "quote": "MMK",
+   "type": "reference",
+   "value": 126.83
+  }
+ ],
+ "official_source": "https://forex.cbm.gov.mm/",
+ "page": "https://allratestoday.com/central-bank-rates-api/cbm/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}
