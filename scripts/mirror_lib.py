@@ -29,6 +29,12 @@ def link(path, utm_source):
     return f"{SITE}{path}?utm_source={utm_source}&utm_medium=dataset&utm_campaign=central-bank-exchange-rates"
 
 
+def page_path(code, kind):
+    """Per-institution page path: tax authorities live under their own hub."""
+    hub = "tax-authority-rates-api" if kind == "tax_authority" else "central-bank-rates-api"
+    return f"/{hub}/{code}/"
+
+
 def cutoff():
     return (dt.datetime.now(dt.timezone.utc).date() - dt.timedelta(days=LAG_DAYS)).isoformat()
 
@@ -91,7 +97,7 @@ def build(work, utm_source, csv_path, latest_path):
         for line in rows:
             _, base, quote, typ, value = line.split(",", 4)
             latest["rates"].append({"base": base, "quote": quote, "type": typ, "value": float(value)})
-        latest["page"] = link(f"/central-bank-rates-api/{code}/", utm_source)
+        latest["page"] = link(page_path(code, sources.get(code, {}).get("kind")), utm_source)
         latest["api"] = attribution["api"]
         latest["attribution"] = attribution["attribution"]
         latest["lag_days"] = LAG_DAYS
@@ -104,11 +110,11 @@ def build(work, utm_source, csv_path, latest_path):
         s = dict(index["sources"].get(code) or {k: sources[code][k] for k in ("name", "country", "home_currency", "kind")})
         s["latest"] = stats["latest_by"][code]
         s.pop("latest_url", None); s.pop("stale", None)
-        s["page"] = link(f"/central-bank-rates-api/{code}/", utm_source)
+        s["page"] = link(page_path(code, sources.get(code, {}).get("kind")), utm_source)
         s["currencies"] = s.get("currencies")
         idx["sources"][code] = s
     json.dump(idx, open(f"{work}/index.json", "w"), indent=1)
-    src = {code: {**sources[code], "page": link(f"/central-bank-rates-api/{code}/", utm_source)} for code in sorted(sources)}
+    src = {code: {**sources[code], "page": link(page_path(code, sources[code].get("kind")), utm_source)} for code in sorted(sources)}
     json.dump(src, open(f"{work}/sources.json", "w"), indent=1)
 
     banks = sum(1 for c in stats["rows_by"] if sources[c].get("kind") != "tax_authority" and c != "composite")
@@ -132,7 +138,7 @@ Underlying figures are public publications of the institutions named in sources.
 def source_rows(stats, utm_source):
     """Markdown rows for the Sources table, institution name linked to its page."""
     return "\n".join(
-        f"| [{stats['sources'][c]['name']}]({link(f'/central-bank-rates-api/{c}/', utm_source)}) | {stats['sources'][c]['country']} | `{c}` | {stats['sources'][c]['home_currency']} | {stats['latest_by'][c]} | {stats['rows_by'][c]:,} |"
+        f"| [{stats['sources'][c]['name']}]({link(page_path(c, stats['sources'][c].get('kind')), utm_source)}) | {stats['sources'][c]['country']} | `{c}` | {stats['sources'][c]['home_currency']} | {stats['latest_by'][c]} | {stats['rows_by'][c]:,} |"
         for c in stats["rows_by"])
 
 
@@ -152,7 +158,7 @@ This dataset is collected and maintained by [AllRatesToday]({L('/')}), a currenc
 | Today's tables, four refreshes a day, JSON/CSV over a CDN, no key | [GitHub source repository]({GITHUB}) |
 | Rate on a given date with holiday fallback, time series, pair resolution, publication calendars, CSV/XML/XLSX | [Central bank rates API]({L('/central-bank-rates-api/')}) |
 | Real-time mid-market rates for 160+ currencies alongside the official ones | [Exchange rate API]({L('/exchange-rate-api/')}) |
-| Per-institution page with the live table, cadence and FAQ | `{SITE}/central-bank-rates-api/<code>/` |
+| Per-institution page with the live table, cadence and FAQ | `{SITE}/central-bank-rates-api/<code>/` (tax authorities: `{SITE}/tax-authority-rates-api/<code>/`) |
 | Month-end close, VAT and customs, transfer pricing, audit evidence | [For finance teams]({L('/for-finance-teams/')}) |
 | ERP and spreadsheet guides (SAP, Oracle, NetSuite, Dynamics, Sheets, Excel) | [Integrations]({L('/docs/integrations/')}) |
 | Use the rates from Claude, Cursor or any MCP client | [Hosted MCP endpoint]({L('/mcp/')}) and the `@allratestoday/mcp-server` package |

@@ -64,7 +64,7 @@ node scripts/serve.mjs      # http://localhost:8787
 ```
 GET /ecb/latest                        any source's latest table
 GET /latest?base=USD&symbols=GBP,JPY   ECB table re-based, exchangeratesapi.io / Frankfurter shape
-GET /2026-01-15?base=USD               ECB table for a date
+GET /2026-01-15?base=USD               ECB table for a date (daily/ snapshot, else history/ CSV back to 1999)
 ```
 
 The `/latest` and `/YYYY-MM-DD` shapes match the hosted drop-in endpoints at
@@ -236,7 +236,7 @@ The same data, one CSV per institution, is mirrored daily to [Hugging Face](http
 
 A GitHub Action runs four times a day, reads each institution's latest table from the keyless [AllRatesToday](https://allratestoday.com/central-bank-rates-api/) open endpoints, and commits only when something changed. The upstream collector fetches each institution's own publication, checks every table against the other banks for unit and direction errors, and quarantines anything more than ten percent off. History before September 2026 was loaded once from the same collector's database; the oldest series (SNB) starts in 1914.
 
-If you need more than daily files, the [AllRatesToday API](https://allratestoday.com/central-bank-rates-api/) adds rate-on-a-date lookups with weekend and holiday fallback, pair and cross-rate resolution, publication calendars, CSV, XML and XLSX output, real-time market rates, and support. There are also per-bank npm and PyPI SDKs and an [MCP server](https://github.com/AllRates-Today/central-bank-mcp) for AI agents.
+If you need more than daily files, the [AllRatesToday API](https://allratestoday.com/central-bank-rates-api/) adds rate-on-a-date lookups with weekend and holiday fallback, pair and cross-rate resolution, publication calendars, CSV, XML and XLSX output, real-time market rates, and support. There are also per-bank npm SDKs (some also on PyPI) and an [MCP server](https://github.com/AllRates-Today/central-bank-mcp) for AI agents.
 
 ## Cite this dataset
 

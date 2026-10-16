@@ -35,6 +35,8 @@ let updated = 0, failed = [];
 for (const s of feed.sources) {
   const code = s.code;
   const meta = sources[code] ?? { name: s.name };
+  // tax authorities have their own hub; /central-bank-rates-api/<code>/ 301s for them
+  const page = meta.kind === 'tax_authority' ? `https://allratestoday.com/tax-authority-rates-api/${code}/` : meta.page;
   try {
     const t = await get(`${API}/central-bank/${code}`);
     if (!t?.rates?.length) { failed.push(code); continue; }
@@ -49,7 +51,7 @@ for (const s of feed.sources) {
       cadence: s.cadence,
       rates: t.rates,
       official_source: meta.official_source,
-      page: meta.page,
+      page,
       license: 'CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com',
     };
     const dir = bankDir(code);
@@ -61,7 +63,7 @@ for (const s of feed.sources) {
       name: meta.name, country: meta.country, home_currency: meta.home_currency, kind: meta.kind,
       latest: t.rate_date, cadence: s.cadence, stale: !!s.stale, currencies: t.rates.length,
       latest_url: `https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/${code}/latest.json`,
-      page: meta.page,
+      page,
     };
   } catch (e) {
     failed.push(`${code}:${e.message}`);

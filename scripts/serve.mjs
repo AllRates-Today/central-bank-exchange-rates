@@ -10,7 +10,8 @@
 //   /                                   index of sources
 //   /:code/latest                       a source's latest table, as stored in data/<code>/latest.json
 //   /latest?base=USD&symbols=GBP,JPY    ECB table re-based, in the exchangeratesapi.io / Frankfurter shape
-//   /:date?base=USD                     ECB table for a date (YYYY-MM-DD) from data/ecb/daily/<date>.json
+//   /:date?base=USD                     ECB table for a date (YYYY-MM-DD) from data/ecb/daily/<date>.json,
+//                                       else data/ecb/history/<year>.csv (closest earlier publication date)
 //
 // The /latest and /:date shapes match https://allratestoday.com/api/compat/exchangeratesapi/
 // so code can switch between the hosted endpoint and this one with a hostname change.
@@ -54,9 +55,33 @@ function rebase(map, base, symbols) {
 
 async function ecbTable(date) {
   const file = date ? join(ROOT, 'ecb', 'daily', `${date}.json`) : join(ROOT, 'ecb', 'latest.json');
-  if (!existsSync(file)) return null;
+  if (!existsSync(file)) return date ? ecbFromHistory(date) : null;
   const t = await readJson(file);
   return { date: t.date, map: perEur(t) };
+}
+
+// Daily snapshots only cover recent dates; older ones come from the yearly
+// history CSV (date,base,quote,type,value). Weekends and holidays resolve to
+// the closest earlier publication date, checking the previous year if needed.
+async function ecbFromHistory(date) {
+  const year = Number(date.slice(0, 4));
+  for (const y of [year, year - 1]) {
+    const file = join(ROOT, 'ecb', 'history', `${y}.csv`);
+    if (!existsSync(file)) continue;
+    let best = null, map = null;
+    for (const line of (await readFile(file, 'utf8')).split('\n').slice(1)) {
+      const [d, base, quote, , value] = line.split(',');
+      if (!d || d > date || base !== 'EUR') continue;
+      if (d !== best) {
+        if (best && d < best) continue;
+        best = d; map = { EUR: 1 };
+      }
+      const v = Number(value);
+      if (v > 0) map[quote] = v;
+    }
+    if (best) return { date: best, map };
+  }
+  return null;
 }
 
 createServer(async (req, res) => {
