@@ -135,10 +135,23 @@ Underlying figures are public publications of the institutions named in sources.
     return stats
 
 
+# Bank code -> npm package of its zero-dependency SDK (GitHub repo has the same
+# name under AllRates-Today). Generated from allratestoday-bank-sdks; a new bank
+# needs an entry here too, or its row just shows no SDK.
+SDK_PACKAGES = json.load(open(os.path.join(ROOT, "scripts", "sdk_packages.json")))
+
+
+def sdk_cell(code):
+    pkg = SDK_PACKAGES.get(code)
+    if not pkg:
+        return "—"
+    return f"[npm](https://www.npmjs.com/package/{pkg}) · [GitHub](https://github.com/AllRates-Today/{pkg})"
+
+
 def source_rows(stats, utm_source):
     """Markdown rows for the Sources table, institution name linked to its page."""
     return "\n".join(
-        f"| [{stats['sources'][c]['name']}]({link(page_path(c, stats['sources'][c].get('kind')), utm_source)}) | {stats['sources'][c]['country']} | `{c}` | {stats['sources'][c]['home_currency']} | {stats['latest_by'][c]} | {stats['rows_by'][c]:,} |"
+        f"| [{stats['sources'][c]['name']}]({link(page_path(c, stats['sources'][c].get('kind')), utm_source)}) | {stats['sources'][c]['country']} | `{c}` | {stats['sources'][c]['home_currency']} | {stats['latest_by'][c]} | {stats['rows_by'][c]:,} | {sdk_cell(c)} |"
         for c in stats["rows_by"])
 
 
