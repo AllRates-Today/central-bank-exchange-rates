@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T23:13:10.481Z",
+ "generated_at": "2026-10-18T08:10:14.110Z",
  "source_count": 125,
  "sources": {
   "amcm": {
@@ -801,7 +801,7 @@
    "kind": "central_bank",
    "latest": "2026-10-13",
    "cadence": "daily",
-   "stale": false,
+   "stale": true,
    "currencies": 57,
    "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/cbiq/latest.json",
    "page": "https://allratestoday.com/central-bank-rates-api/cbiq/"
@@ -823,7 +823,7 @@
    "country": "Kuwait",
    "home_currency": "KWD",
    "kind": "central_bank",
-   "latest": "2026-10-15",
+   "latest": "2026-10-18",
    "cadence": "daily",
    "stale": false,
    "currencies": 134,
@@ -969,7 +969,7 @@
    "kind": "central_bank",
    "latest": "2026-10-13",
    "cadence": "daily",
-   "stale": false,
+   "stale": true,
    "currencies": 22,
    "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/cbvs/latest.json",
    "page": "https://allratestoday.com/central-bank-rates-api/cbvs/"
@@ -991,7 +991,7 @@
    "country": "Global",
    "home_currency": "USD",
    "kind": "composite",
-   "latest": "2026-10-17",
+   "latest": "2026-10-18",
    "cadence": "daily",
    "stale": false,
    "currencies": 155,
@@ -1087,7 +1087,7 @@
    "country": "Maldives",
    "home_currency": "MVR",
    "kind": "central_bank",
-   "latest": "2026-10-15",
+   "latest": "2026-10-18",
    "cadence": "daily",
    "stale": false,
    "currencies": 1,
@@ -1291,7 +1291,7 @@
    "country": "Palestine",
    "home_currency": "ILS",
    "kind": "central_bank",
-   "latest": "2026-10-15",
+   "latest": "2026-10-18",
    "cadence": "daily",
    "stale": false,
    "currencies": 8,
