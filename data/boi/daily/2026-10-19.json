@@ -1,0 +1,98 @@
+{
+ "source": "boi",
+ "name": "Bank of Israel",
+ "country": "Israel",
+ "home_currency": "ILS",
+ "kind": "central_bank",
+ "date": "2026-10-19",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AUD",
+   "quote": "ILS",
+   "type": "reference",
+   "value": 2.1727
+  },
+  {
+   "base": "CAD",
+   "quote": "ILS",
+   "type": "reference",
+   "value": 2.2091
+  },
+  {
+   "base": "CHF",
+   "quote": "ILS",
+   "type": "reference",
+   "value": 3.7693
+  },
+  {
+   "base": "DKK",
+   "quote": "ILS",
+   "type": "reference",
+   "value": 0.4672
+  },
+  {
+   "base": "EGP",
+   "quote": "ILS",
+   "type": "reference",
+   "value": 0.0576
+  },
+  {
+   "base": "EUR",
+   "quote": "ILS",
+   "type": "reference",
+   "value": 3.4919
+  },
+  {
+   "base": "GBP",
+   "quote": "ILS",
+   "type": "reference",
+   "value": 4.1471
+  },
+  {
+   "base": "JOD",
+   "quote": "ILS",
+   "type": "reference",
+   "value": 4.386
+  },
+  {
+   "base": "JPY",
+   "quote": "ILS",
+   "type": "reference",
+   "value": 0.019652
+  },
+  {
+   "base": "LBP",
+   "quote": "ILS",
+   "type": "reference",
+   "value": 0.00003
+  },
+  {
+   "base": "NOK",
+   "quote": "ILS",
+   "type": "reference",
+   "value": 0.3307
+  },
+  {
+   "base": "SEK",
+   "quote": "ILS",
+   "type": "reference",
+   "value": 0.3143
+  },
+  {
+   "base": "USD",
+   "quote": "ILS",
+   "type": "reference",
+   "value": 3.11
+  },
+  {
+   "base": "ZAR",
+   "quote": "ILS",
+   "type": "reference",
+   "value": 0.1891
+  }
+ ],
+ "official_source": "https://edge.boi.gov.il/FusionEdgeServer/sdmx/v2/data/dataflow/BOI.STATISTICS/EXR/1.0",
+ "page": "https://allratestoday.com/central-bank-rates-api/boi/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

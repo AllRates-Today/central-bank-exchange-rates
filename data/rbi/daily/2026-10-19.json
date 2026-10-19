@@ -1,0 +1,50 @@
+{
+ "source": "rbi",
+ "name": "Reserve Bank of India",
+ "country": "India",
+ "home_currency": "INR",
+ "kind": "central_bank",
+ "date": "2026-10-19",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AED",
+   "quote": "INR",
+   "type": "reference",
+   "value": 25.8022
+  },
+  {
+   "base": "EUR",
+   "quote": "INR",
+   "type": "reference",
+   "value": 106.33
+  },
+  {
+   "base": "GBP",
+   "quote": "INR",
+   "type": "reference",
+   "value": 126.2928
+  },
+  {
+   "base": "IDR",
+   "quote": "INR",
+   "type": "reference",
+   "value": 0.00524942
+  },
+  {
+   "base": "JPY",
+   "quote": "INR",
+   "type": "reference",
+   "value": 0.5995
+  },
+  {
+   "base": "USD",
+   "quote": "INR",
+   "type": "reference",
+   "value": 94.7691
+  }
+ ],
+ "official_source": "https://www.rbi.org.in/scripts/referenceratearchive.aspx",
+ "page": "https://allratestoday.com/central-bank-rates-api/rbi/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

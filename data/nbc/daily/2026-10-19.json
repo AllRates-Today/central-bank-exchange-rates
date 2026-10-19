@@ -1,0 +1,524 @@
+{
+ "source": "nbc",
+ "name": "National Bank of Cambodia",
+ "country": "Cambodia",
+ "home_currency": "KHR",
+ "kind": "central_bank",
+ "date": "2026-10-19",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AED",
+   "quote": "KHR",
+   "type": "buy",
+   "value": 1107
+  },
+  {
+   "base": "AED",
+   "quote": "KHR",
+   "type": "middle",
+   "value": 1112.5
+  },
+  {
+   "base": "AED",
+   "quote": "KHR",
+   "type": "sell",
+   "value": 1118
+  },
+  {
+   "base": "AUD",
+   "quote": "KHR",
+   "type": "buy",
+   "value": 2830
+  },
+  {
+   "base": "AUD",
+   "quote": "KHR",
+   "type": "middle",
+   "value": 2844
+  },
+  {
+   "base": "AUD",
+   "quote": "KHR",
+   "type": "sell",
+   "value": 2858
+  },
+  {
+   "base": "CAD",
+   "quote": "KHR",
+   "type": "buy",
+   "value": 2871
+  },
+  {
+   "base": "CAD",
+   "quote": "KHR",
+   "type": "middle",
+   "value": 2885.5
+  },
+  {
+   "base": "CAD",
+   "quote": "KHR",
+   "type": "sell",
+   "value": 2900
+  },
+  {
+   "base": "CHF",
+   "quote": "KHR",
+   "type": "buy",
+   "value": 4933
+  },
+  {
+   "base": "CHF",
+   "quote": "KHR",
+   "type": "middle",
+   "value": 4957.5
+  },
+  {
+   "base": "CHF",
+   "quote": "KHR",
+   "type": "sell",
+   "value": 4982
+  },
+  {
+   "base": "CNH",
+   "quote": "KHR",
+   "type": "buy",
+   "value": 608
+  },
+  {
+   "base": "CNH",
+   "quote": "KHR",
+   "type": "middle",
+   "value": 611
+  },
+  {
+   "base": "CNH",
+   "quote": "KHR",
+   "type": "sell",
+   "value": 614
+  },
+  {
+   "base": "CNY",
+   "quote": "KHR",
+   "type": "buy",
+   "value": 608
+  },
+  {
+   "base": "CNY",
+   "quote": "KHR",
+   "type": "middle",
+   "value": 611
+  },
+  {
+   "base": "CNY",
+   "quote": "KHR",
+   "type": "sell",
+   "value": 614
+  },
+  {
+   "base": "DKK",
+   "quote": "KHR",
+   "type": "buy",
+   "value": 612
+  },
+  {
+   "base": "DKK",
+   "quote": "KHR",
+   "type": "middle",
+   "value": 615
+  },
+  {
+   "base": "DKK",
+   "quote": "KHR",
+   "type": "sell",
+   "value": 618
+  },
+  {
+   "base": "EUR",
+   "quote": "KHR",
+   "type": "buy",
+   "value": 4572
+  },
+  {
+   "base": "EUR",
+   "quote": "KHR",
+   "type": "middle",
+   "value": 4594.5
+  },
+  {
+   "base": "EUR",
+   "quote": "KHR",
+   "type": "sell",
+   "value": 4617
+  },
+  {
+   "base": "GBP",
+   "quote": "KHR",
+   "type": "buy",
+   "value": 5416
+  },
+  {
+   "base": "GBP",
+   "quote": "KHR",
+   "type": "middle",
+   "value": 5443
+  },
+  {
+   "base": "GBP",
+   "quote": "KHR",
+   "type": "sell",
+   "value": 5470
+  },
+  {
+   "base": "HKD",
+   "quote": "KHR",
+   "type": "buy",
+   "value": 518
+  },
+  {
+   "base": "HKD",
+   "quote": "KHR",
+   "type": "middle",
+   "value": 520.5
+  },
+  {
+   "base": "HKD",
+   "quote": "KHR",
+   "type": "sell",
+   "value": 523
+  },
+  {
+   "base": "IDR",
+   "quote": "KHR",
+   "type": "buy",
+   "value": 0.226
+  },
+  {
+   "base": "IDR",
+   "quote": "KHR",
+   "type": "middle",
+   "value": 0.227
+  },
+  {
+   "base": "IDR",
+   "quote": "KHR",
+   "type": "sell",
+   "value": 0.228
+  },
+  {
+   "base": "INR",
+   "quote": "KHR",
+   "type": "buy",
+   "value": 42.83
+  },
+  {
+   "base": "INR",
+   "quote": "KHR",
+   "type": "middle",
+   "value": 43.045
+  },
+  {
+   "base": "INR",
+   "quote": "KHR",
+   "type": "sell",
+   "value": 43.26
+  },
+  {
+   "base": "JPY",
+   "quote": "KHR",
+   "type": "buy",
+   "value": 25.74
+  },
+  {
+   "base": "JPY",
+   "quote": "KHR",
+   "type": "middle",
+   "value": 25.865
+  },
+  {
+   "base": "JPY",
+   "quote": "KHR",
+   "type": "sell",
+   "value": 25.99
+  },
+  {
+   "base": "KRW",
+   "quote": "KHR",
+   "type": "buy",
+   "value": 3.05
+  },
+  {
+   "base": "KRW",
+   "quote": "KHR",
+   "type": "middle",
+   "value": 3.065
+  },
+  {
+   "base": "KRW",
+   "quote": "KHR",
+   "type": "sell",
+   "value": 3.08
+  },
+  {
+   "base": "LAK",
+   "quote": "KHR",
+   "type": "buy",
+   "value": 0.182
+  },
+  {
+   "base": "LAK",
+   "quote": "KHR",
+   "type": "middle",
+   "value": 0.183
+  },
+  {
+   "base": "LAK",
+   "quote": "KHR",
+   "type": "sell",
+   "value": 0.184
+  },
+  {
+   "base": "MMK",
+   "quote": "KHR",
+   "type": "buy",
+   "value": 1.94
+  },
+  {
+   "base": "MMK",
+   "quote": "KHR",
+   "type": "middle",
+   "value": 1.95
+  },
+  {
+   "base": "MMK",
+   "quote": "KHR",
+   "type": "sell",
+   "value": 1.96
+  },
+  {
+   "base": "MYR",
+   "quote": "KHR",
+   "type": "buy",
+   "value": 997
+  },
+  {
+   "base": "MYR",
+   "quote": "KHR",
+   "type": "middle",
+   "value": 1002
+  },
+  {
+   "base": "MYR",
+   "quote": "KHR",
+   "type": "sell",
+   "value": 1007
+  },
+  {
+   "base": "NGN",
+   "quote": "KHR",
+   "type": "buy",
+   "value": 3.05
+  },
+  {
+   "base": "NGN",
+   "quote": "KHR",
+   "type": "middle",
+   "value": 3.07
+  },
+  {
+   "base": "NGN",
+   "quote": "KHR",
+   "type": "sell",
+   "value": 3.09
+  },
+  {
+   "base": "NZD",
+   "quote": "KHR",
+   "type": "buy",
+   "value": 2305
+  },
+  {
+   "base": "NZD",
+   "quote": "KHR",
+   "type": "middle",
+   "value": 2316.5
+  },
+  {
+   "base": "NZD",
+   "quote": "KHR",
+   "type": "sell",
+   "value": 2328
+  },
+  {
+   "base": "PHP",
+   "quote": "KHR",
+   "type": "buy",
+   "value": 64.59
+  },
+  {
+   "base": "PHP",
+   "quote": "KHR",
+   "type": "middle",
+   "value": 64.915
+  },
+  {
+   "base": "PHP",
+   "quote": "KHR",
+   "type": "sell",
+   "value": 65.24
+  },
+  {
+   "base": "SAR",
+   "quote": "KHR",
+   "type": "buy",
+   "value": 1084
+  },
+  {
+   "base": "SAR",
+   "quote": "KHR",
+   "type": "middle",
+   "value": 1089.5
+  },
+  {
+   "base": "SAR",
+   "quote": "KHR",
+   "type": "sell",
+   "value": 1095
+  },
+  {
+   "base": "SDR",
+   "quote": "KHR",
+   "type": "buy",
+   "value": 5507
+  },
+  {
+   "base": "SDR",
+   "quote": "KHR",
+   "type": "middle",
+   "value": 5534.5
+  },
+  {
+   "base": "SDR",
+   "quote": "KHR",
+   "type": "sell",
+   "value": 5562
+  },
+  {
+   "base": "SEK",
+   "quote": "KHR",
+   "type": "buy",
+   "value": 410
+  },
+  {
+   "base": "SEK",
+   "quote": "KHR",
+   "type": "middle",
+   "value": 412.5
+  },
+  {
+   "base": "SEK",
+   "quote": "KHR",
+   "type": "sell",
+   "value": 415
+  },
+  {
+   "base": "SGD",
+   "quote": "KHR",
+   "type": "buy",
+   "value": 3178
+  },
+  {
+   "base": "SGD",
+   "quote": "KHR",
+   "type": "middle",
+   "value": 3194
+  },
+  {
+   "base": "SGD",
+   "quote": "KHR",
+   "type": "sell",
+   "value": 3210
+  },
+  {
+   "base": "THB",
+   "quote": "KHR",
+   "type": "buy",
+   "value": 121
+  },
+  {
+   "base": "THB",
+   "quote": "KHR",
+   "type": "middle",
+   "value": 122
+  },
+  {
+   "base": "THB",
+   "quote": "KHR",
+   "type": "sell",
+   "value": 123
+  },
+  {
+   "base": "TWD",
+   "quote": "KHR",
+   "type": "buy",
+   "value": 126
+  },
+  {
+   "base": "TWD",
+   "quote": "KHR",
+   "type": "middle",
+   "value": 126.5
+  },
+  {
+   "base": "TWD",
+   "quote": "KHR",
+   "type": "sell",
+   "value": 127
+  },
+  {
+   "base": "USD",
+   "quote": "KHR",
+   "type": "reference",
+   "value": 4067
+  },
+  {
+   "base": "VND",
+   "quote": "KHR",
+   "type": "buy",
+   "value": 0.157
+  },
+  {
+   "base": "VND",
+   "quote": "KHR",
+   "type": "middle",
+   "value": 0.158
+  },
+  {
+   "base": "VND",
+   "quote": "KHR",
+   "type": "sell",
+   "value": 0.159
+  },
+  {
+   "base": "ZAR",
+   "quote": "KHR",
+   "type": "buy",
+   "value": 247
+  },
+  {
+   "base": "ZAR",
+   "quote": "KHR",
+   "type": "middle",
+   "value": 248.5
+  },
+  {
+   "base": "ZAR",
+   "quote": "KHR",
+   "type": "sell",
+   "value": 250
+  }
+ ],
+ "official_source": "https://www.nbc.gov.kh/english/economic_research/exchange_rate.php",
+ "page": "https://allratestoday.com/central-bank-rates-api/nbc/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}
