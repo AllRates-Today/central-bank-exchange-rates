@@ -4,176 +4,620 @@
  "country": "Zimbabwe",
  "home_currency": "ZWG",
  "kind": "central_bank",
- "date": "2026-10-16",
+ "date": "2026-10-19",
  "cadence": "daily",
  "rates": [
   {
+   "base": "AFN",
+   "quote": "ZWG",
+   "type": "buy",
+   "value": 2.3754
+  },
+  {
+   "base": "AFN",
+   "quote": "ZWG",
+   "type": "middle",
+   "value": 2.4402
+  },
+  {
+   "base": "AFN",
+   "quote": "ZWG",
+   "type": "sell",
+   "value": 2.5049
+  },
+  {
+   "base": "ARS",
+   "quote": "ZWG",
+   "type": "buy",
+   "value": 55.6033
+  },
+  {
+   "base": "ARS",
+   "quote": "ZWG",
+   "type": "middle",
+   "value": 57.0386
+  },
+  {
+   "base": "ARS",
+   "quote": "ZWG",
+   "type": "sell",
+   "value": 58.4739
+  },
+  {
    "base": "AUD",
    "quote": "ZWG",
    "type": "buy",
-   "value": 18.0141
+   "value": 18.0995
   },
   {
    "base": "AUD",
    "quote": "ZWG",
    "type": "middle",
-   "value": 18.4774
+   "value": 18.569
   },
   {
    "base": "AUD",
    "quote": "ZWG",
    "type": "sell",
-   "value": 18.9406
+   "value": 19.0385
+  },
+  {
+   "base": "BRL",
+   "quote": "ZWG",
+   "type": "buy",
+   "value": 0.1855
+  },
+  {
+   "base": "BRL",
+   "quote": "ZWG",
+   "type": "middle",
+   "value": 0.1903
+  },
+  {
+   "base": "BRL",
+   "quote": "ZWG",
+   "type": "sell",
+   "value": 0.1951
   },
   {
    "base": "BWP",
    "quote": "ZWG",
    "type": "buy",
-   "value": 1.8159
+   "value": 1.8172
   },
   {
    "base": "BWP",
    "quote": "ZWG",
    "type": "middle",
-   "value": 1.8829
+   "value": 1.8843
   },
   {
    "base": "BWP",
    "quote": "ZWG",
    "type": "sell",
-   "value": 1.9499
+   "value": 1.9513
   },
   {
    "base": "CHF",
    "quote": "ZWG",
    "type": "buy",
-   "value": 31.3574
+   "value": 31.4822
   },
   {
    "base": "CHF",
    "quote": "ZWG",
    "type": "middle",
-   "value": 32.1674
+   "value": 32.2954
   },
   {
    "base": "CHF",
    "quote": "ZWG",
    "type": "sell",
-   "value": 32.9774
+   "value": 33.1086
+  },
+  {
+   "base": "CNY",
+   "quote": "ZWG",
+   "type": "buy",
+   "value": 0.2448
+  },
+  {
+   "base": "CNY",
+   "quote": "ZWG",
+   "type": "middle",
+   "value": 0.2511
+  },
+  {
+   "base": "CNY",
+   "quote": "ZWG",
+   "type": "sell",
+   "value": 0.2574
+  },
+  {
+   "base": "DKK",
+   "quote": "ZWG",
+   "type": "buy",
+   "value": 0.2438
+  },
+  {
+   "base": "DKK",
+   "quote": "ZWG",
+   "type": "middle",
+   "value": 0.2501
+  },
+  {
+   "base": "DKK",
+   "quote": "ZWG",
+   "type": "sell",
+   "value": 0.2564
+  },
+  {
+   "base": "EGP",
+   "quote": "ZWG",
+   "type": "buy",
+   "value": 1.9555
+  },
+  {
+   "base": "EGP",
+   "quote": "ZWG",
+   "type": "middle",
+   "value": 2.0076
+  },
+  {
+   "base": "EGP",
+   "quote": "ZWG",
+   "type": "sell",
+   "value": 2.0596
+  },
+  {
+   "base": "ETB",
+   "quote": "ZWG",
+   "type": "buy",
+   "value": 5.894
+  },
+  {
+   "base": "ETB",
+   "quote": "ZWG",
+   "type": "middle",
+   "value": 6.0644
+  },
+  {
+   "base": "ETB",
+   "quote": "ZWG",
+   "type": "sell",
+   "value": 6.2348
   },
   {
    "base": "EUR",
    "quote": "ZWG",
    "type": "buy",
-   "value": 29.1199
+   "value": 29.1508
   },
   {
    "base": "EUR",
    "quote": "ZWG",
    "type": "middle",
-   "value": 29.8679
+   "value": 29.8996
   },
   {
    "base": "EUR",
    "quote": "ZWG",
    "type": "sell",
-   "value": 30.6159
+   "value": 30.6483
   },
   {
    "base": "GBP",
    "quote": "ZWG",
    "type": "buy",
-   "value": 34.4951
+   "value": 34.6102
   },
   {
    "base": "GBP",
    "quote": "ZWG",
    "type": "middle",
-   "value": 35.385
+   "value": 35.499
   },
   {
    "base": "GBP",
    "quote": "ZWG",
    "type": "sell",
-   "value": 36.2749
+   "value": 36.3877
+  },
+  {
+   "base": "HKD",
+   "quote": "ZWG",
+   "type": "buy",
+   "value": 0.2839
+  },
+  {
+   "base": "HKD",
+   "quote": "ZWG",
+   "type": "middle",
+   "value": 0.2931
+  },
+  {
+   "base": "HKD",
+   "quote": "ZWG",
+   "type": "sell",
+   "value": 0.3022
+  },
+  {
+   "base": "INR",
+   "quote": "ZWG",
+   "type": "buy",
+   "value": 3.4742
+  },
+  {
+   "base": "INR",
+   "quote": "ZWG",
+   "type": "middle",
+   "value": 3.5635
+  },
+  {
+   "base": "INR",
+   "quote": "ZWG",
+   "type": "sell",
+   "value": 3.6527
+  },
+  {
+   "base": "JPY",
+   "quote": "ZWG",
+   "type": "buy",
+   "value": 5.7941
+  },
+  {
+   "base": "JPY",
+   "quote": "ZWG",
+   "type": "middle",
+   "value": 5.943
+  },
+  {
+   "base": "JPY",
+   "quote": "ZWG",
+   "type": "sell",
+   "value": 6.0919
+  },
+  {
+   "base": "KES",
+   "quote": "ZWG",
+   "type": "buy",
+   "value": 4.7597
+  },
+  {
+   "base": "KES",
+   "quote": "ZWG",
+   "type": "middle",
+   "value": 4.8856
+  },
+  {
+   "base": "KES",
+   "quote": "ZWG",
+   "type": "sell",
+   "value": 5.0114
+  },
+  {
+   "base": "LSL",
+   "quote": "ZWG",
+   "type": "buy",
+   "value": 0.6028
+  },
+  {
+   "base": "LSL",
+   "quote": "ZWG",
+   "type": "middle",
+   "value": 0.6183
+  },
+  {
+   "base": "LSL",
+   "quote": "ZWG",
+   "type": "sell",
+   "value": 0.6338
+  },
+  {
+   "base": "MUR",
+   "quote": "ZWG",
+   "type": "buy",
+   "value": 1.7258
+  },
+  {
+   "base": "MUR",
+   "quote": "ZWG",
+   "type": "middle",
+   "value": 1.7758
+  },
+  {
+   "base": "MUR",
+   "quote": "ZWG",
+   "type": "sell",
+   "value": 1.8258
+  },
+  {
+   "base": "MWK",
+   "quote": "ZWG",
+   "type": "buy",
+   "value": 62.914
+  },
+  {
+   "base": "MWK",
+   "quote": "ZWG",
+   "type": "middle",
+   "value": 65.1685
+  },
+  {
+   "base": "MWK",
+   "quote": "ZWG",
+   "type": "sell",
+   "value": 67.4229
+  },
+  {
+   "base": "MYR",
+   "quote": "ZWG",
+   "type": "buy",
+   "value": 0.1494
+  },
+  {
+   "base": "MYR",
+   "quote": "ZWG",
+   "type": "middle",
+   "value": 0.1534
+  },
+  {
+   "base": "MYR",
+   "quote": "ZWG",
+   "type": "sell",
+   "value": 0.1573
+  },
+  {
+   "base": "MZN",
+   "quote": "ZWG",
+   "type": "buy",
+   "value": 2.3175
+  },
+  {
+   "base": "MZN",
+   "quote": "ZWG",
+   "type": "middle",
+   "value": 2.3904
+  },
+  {
+   "base": "MZN",
+   "quote": "ZWG",
+   "type": "sell",
+   "value": 2.4633
+  },
+  {
+   "base": "NOK",
+   "quote": "ZWG",
+   "type": "buy",
+   "value": 0.3452
+  },
+  {
+   "base": "NOK",
+   "quote": "ZWG",
+   "type": "middle",
+   "value": 0.3541
+  },
+  {
+   "base": "NOK",
+   "quote": "ZWG",
+   "type": "sell",
+   "value": 0.363
   },
   {
    "base": "NZD",
    "quote": "ZWG",
    "type": "buy",
-   "value": 14.6624
+   "value": 14.6883
   },
   {
    "base": "NZD",
    "quote": "ZWG",
    "type": "middle",
-   "value": 15.0397
+   "value": 15.069
   },
   {
    "base": "NZD",
    "quote": "ZWG",
    "type": "sell",
-   "value": 15.417
+   "value": 15.4497
+  },
+  {
+   "base": "RUB",
+   "quote": "ZWG",
+   "type": "buy",
+   "value": 3.0494
+  },
+  {
+   "base": "RUB",
+   "quote": "ZWG",
+   "type": "middle",
+   "value": 3.128
+  },
+  {
+   "base": "RUB",
+   "quote": "ZWG",
+   "type": "sell",
+   "value": 3.2066
+  },
+  {
+   "base": "SEK",
+   "quote": "ZWG",
+   "type": "buy",
+   "value": 0.363
+  },
+  {
+   "base": "SEK",
+   "quote": "ZWG",
+   "type": "middle",
+   "value": 0.3724
+  },
+  {
+   "base": "SEK",
+   "quote": "ZWG",
+   "type": "sell",
+   "value": 0.3817
+  },
+  {
+   "base": "SZL",
+   "quote": "ZWG",
+   "type": "buy",
+   "value": 0.6028
+  },
+  {
+   "base": "SZL",
+   "quote": "ZWG",
+   "type": "middle",
+   "value": 0.6183
+  },
+  {
+   "base": "SZL",
+   "quote": "ZWG",
+   "type": "sell",
+   "value": 0.6338
+  },
+  {
+   "base": "THB",
+   "quote": "ZWG",
+   "type": "buy",
+   "value": 1.2289
+  },
+  {
+   "base": "THB",
+   "quote": "ZWG",
+   "type": "middle",
+   "value": 1.2608
+  },
+  {
+   "base": "THB",
+   "quote": "ZWG",
+   "type": "sell",
+   "value": 1.2927
+  },
+  {
+   "base": "TZS",
+   "quote": "ZWG",
+   "type": "buy",
+   "value": 96.3303
+  },
+  {
+   "base": "TZS",
+   "quote": "ZWG",
+   "type": "middle",
+   "value": 99.378
+  },
+  {
+   "base": "TZS",
+   "quote": "ZWG",
+   "type": "sell",
+   "value": 102.4256
   },
   {
    "base": "USD",
    "quote": "ZWG",
    "type": "buy",
-   "value": 25.942
+   "value": 25.9603
   },
   {
    "base": "USD",
    "quote": "ZWG",
    "type": "middle",
-   "value": 26.6072
+   "value": 26.6259
   },
   {
    "base": "USD",
    "quote": "ZWG",
    "type": "sell",
-   "value": 27.2724
+   "value": 27.2915
+  },
+  {
+   "base": "XAF",
+   "quote": "ZWG",
+   "type": "buy",
+   "value": 21.4022
+  },
+  {
+   "base": "XAF",
+   "quote": "ZWG",
+   "type": "middle",
+   "value": 21.9537
+  },
+  {
+   "base": "XAF",
+   "quote": "ZWG",
+   "type": "sell",
+   "value": 22.5051
   },
   {
    "base": "XAU",
    "quote": "ZWG",
    "type": "buy",
-   "value": 108309.2306
+   "value": 108449.932
   },
   {
    "base": "XAU",
    "quote": "ZWG",
    "type": "middle",
-   "value": 111093.7539
+   "value": 111246.8709
   },
   {
    "base": "XAU",
    "quote": "ZWG",
    "type": "sell",
-   "value": 113878.2772
+   "value": 114043.8097
   },
   {
    "base": "XDR",
    "quote": "ZWG",
    "type": "buy",
-   "value": 36.0261
+   "value": 36.1169
   },
   {
    "base": "XDR",
    "quote": "ZWG",
    "type": "middle",
-   "value": 36.0261
+   "value": 36.1169
   },
   {
    "base": "XDR",
    "quote": "ZWG",
    "type": "sell",
-   "value": 36.0261
+   "value": 36.1169
+  },
+  {
+   "base": "ZAR",
+   "quote": "ZWG",
+   "type": "buy",
+   "value": 0.6028
+  },
+  {
+   "base": "ZAR",
+   "quote": "ZWG",
+   "type": "middle",
+   "value": 0.6184
+  },
+  {
+   "base": "ZAR",
+   "quote": "ZWG",
+   "type": "sell",
+   "value": 0.634
+  },
+  {
+   "base": "ZMW",
+   "quote": "ZWG",
+   "type": "buy",
+   "value": 0.7328
+  },
+  {
+   "base": "ZMW",
+   "quote": "ZWG",
+   "type": "middle",
+   "value": 0.7526
   },
   {
    "base": "ZMW",
    "quote": "ZWG",
    "type": "sell",
-   "value": 0.7706
+   "value": 0.7723
   }
  ],
  "official_source": "https://www.rbz.co.zw/index.php/research/markets/exchange-rates",
