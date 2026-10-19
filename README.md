@@ -1,6 +1,6 @@
 # Central Bank Exchange Rates
 
-Official exchange rates from **121 central banks and 3 tax authorities**, updated every day, as plain JSON and CSV files. No API key, no sign-up. Served straight from GitHub (CORS-enabled, refreshed within 5 minutes of each commit).
+Official exchange rates from **121 central banks and 4 tax authorities**, updated every day, as plain JSON and CSV files. No API key, no sign-up. Served straight from GitHub (CORS-enabled, refreshed within 5 minutes of each commit).
 
 Examples of what is here: the ECB euro reference rates, the Federal Reserve H.10 table, the Bank of England spot rates, RBI reference rates, PBoC central parity, the HMRC monthly rates for VAT, and the US Treasury quarterly rates. Every table is the number the institution itself published, not a market or interbank rate, so it is what you need for invoices, VAT returns, customs, transfer pricing, and audit evidence.
 
@@ -244,14 +244,14 @@ If you use these files in a paper, notebook, article or product, please cite the
 
 Plain text:
 
-> AllRatesToday (2026). *Central Bank Exchange Rates: official rates from 121 central banks and 3 tax authorities.* https://github.com/AllRates-Today/central-bank-exchange-rates (data via https://allratestoday.com/central-bank-rates-api/).
+> AllRatesToday (2026). *Central Bank Exchange Rates: official rates from 121 central banks and 4 tax authorities.* https://github.com/AllRates-Today/central-bank-exchange-rates (data via https://allratestoday.com/central-bank-rates-api/).
 
 BibTeX:
 
 ```bibtex
 @misc{allratestoday_central_bank_exchange_rates,
   author       = {AllRatesToday},
-  title        = {Central Bank Exchange Rates: official rates from 121 central banks and 3 tax authorities},
+  title        = {Central Bank Exchange Rates: official rates from 121 central banks and 4 tax authorities},
   year         = {2026},
   publisher    = {GitHub},
   howpublished = {\url{https://github.com/AllRates-Today/central-bank-exchange-rates}},
