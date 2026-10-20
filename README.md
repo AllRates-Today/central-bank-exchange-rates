@@ -1,6 +1,6 @@
 # Central Bank Exchange Rates
 
-Official exchange rates from **121 central banks and 4 tax authorities**, updated every day, as plain JSON and CSV files. No API key, no sign-up. Served straight from GitHub (CORS-enabled, refreshed within 5 minutes of each commit).
+Official exchange rates from **122 central banks and 4 tax authorities**, updated every day, as plain JSON and CSV files. No API key, no sign-up. Served straight from GitHub (CORS-enabled, refreshed within 5 minutes of each commit).
 
 Examples of what is here: the ECB euro reference rates, the Federal Reserve H.10 table, the Bank of England spot rates, RBI reference rates, PBoC central parity, the HMRC monthly rates for VAT, and the US Treasury quarterly rates. Every table is the number the institution itself published, not a market or interbank rate, so it is what you need for invoices, VAT returns, customs, transfer pricing, and audit evidence.
 
@@ -161,6 +161,7 @@ Files change at most once per publication date. The `main` branch always holds t
 | [Central Bank of Iraq](https://allratestoday.com/central-bank-rates-api/cbiq/) | Iraq | `cbiq` | IQD | 57 | [latest.json](https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/cbiq/latest.json) |
 | [Central Bank of Jordan](https://allratestoday.com/central-bank-rates-api/cbj/) | Jordan | `cbj` | JOD | 10 | [latest.json](https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/cbj/latest.json) |
 | [Central Bank of Kenya](https://allratestoday.com/central-bank-rates-api/cbke/) | Kenya | `cbke` | KES | 21 | [latest.json](https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/cbke/latest.json) |
+| [Central Bank of Iran](https://allratestoday.com/central-bank-rates-api/cbir/) | Iran | `cbir` | IRR | 47 | [latest.json](https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/cbir/latest.json) |
 | [Central Bank of Kuwait](https://allratestoday.com/central-bank-rates-api/cbk/) | Kuwait | `cbk` | KWD | 134 | [latest.json](https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/cbk/latest.json) |
 | [Central Bank of Libya](https://allratestoday.com/central-bank-rates-api/cbl/) | Libya | `cbl` | LYD | 60 | [latest.json](https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/cbl/latest.json) |
 | [Central Bank of Madagascar (BFM)](https://allratestoday.com/central-bank-rates-api/bfm/) | Madagascar | `bfm` | MGA | 19 | [latest.json](https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/bfm/latest.json) |
@@ -244,14 +245,14 @@ If you use these files in a paper, notebook, article or product, please cite the
 
 Plain text:
 
-> AllRatesToday (2026). *Central Bank Exchange Rates: official rates from 121 central banks and 4 tax authorities.* https://github.com/AllRates-Today/central-bank-exchange-rates (data via https://allratestoday.com/central-bank-rates-api/).
+> AllRatesToday (2026). *Central Bank Exchange Rates: official rates from 122 central banks and 4 tax authorities.* https://github.com/AllRates-Today/central-bank-exchange-rates (data via https://allratestoday.com/central-bank-rates-api/).
 
 BibTeX:
 
 ```bibtex
 @misc{allratestoday_central_bank_exchange_rates,
   author       = {AllRatesToday},
-  title        = {Central Bank Exchange Rates: official rates from 121 central banks and 4 tax authorities},
+  title        = {Central Bank Exchange Rates: official rates from 122 central banks and 4 tax authorities},
   year         = {2026},
   publisher    = {GitHub},
   howpublished = {\url{https://github.com/AllRates-Today/central-bank-exchange-rates}},
