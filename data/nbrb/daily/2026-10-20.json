@@ -1,0 +1,194 @@
+{
+ "source": "nbrb",
+ "name": "National Bank of the Republic of Belarus",
+ "country": "Belarus",
+ "home_currency": "BYN",
+ "kind": "central_bank",
+ "date": "2026-10-20",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AED",
+   "quote": "BYN",
+   "type": "reference",
+   "value": 0.81552
+  },
+  {
+   "base": "AMD",
+   "quote": "BYN",
+   "type": "reference",
+   "value": 0.0082573
+  },
+  {
+   "base": "AUD",
+   "quote": "BYN",
+   "type": "reference",
+   "value": 2.0903
+  },
+  {
+   "base": "BRL",
+   "quote": "BYN",
+   "type": "reference",
+   "value": 0.59136
+  },
+  {
+   "base": "CAD",
+   "quote": "BYN",
+   "type": "reference",
+   "value": 2.1248
+  },
+  {
+   "base": "CHF",
+   "quote": "BYN",
+   "type": "reference",
+   "value": 3.629
+  },
+  {
+   "base": "CNY",
+   "quote": "BYN",
+   "type": "reference",
+   "value": 0.44845
+  },
+  {
+   "base": "CZK",
+   "quote": "BYN",
+   "type": "reference",
+   "value": 0.137905
+  },
+  {
+   "base": "DKK",
+   "quote": "BYN",
+   "type": "reference",
+   "value": 0.44902
+  },
+  {
+   "base": "EUR",
+   "quote": "BYN",
+   "type": "reference",
+   "value": 3.3565
+  },
+  {
+   "base": "GBP",
+   "quote": "BYN",
+   "type": "reference",
+   "value": 3.9909
+  },
+  {
+   "base": "INR",
+   "quote": "BYN",
+   "type": "reference",
+   "value": 0.031452
+  },
+  {
+   "base": "IRR",
+   "quote": "BYN",
+   "type": "reference",
+   "value": 0.000001668
+  },
+  {
+   "base": "ISK",
+   "quote": "BYN",
+   "type": "reference",
+   "value": 0.024644
+  },
+  {
+   "base": "JPY",
+   "quote": "BYN",
+   "type": "reference",
+   "value": 0.01893
+  },
+  {
+   "base": "KGS",
+   "quote": "BYN",
+   "type": "reference",
+   "value": 0.034248
+  },
+  {
+   "base": "KWD",
+   "quote": "BYN",
+   "type": "reference",
+   "value": 9.6364
+  },
+  {
+   "base": "KZT",
+   "quote": "BYN",
+   "type": "reference",
+   "value": 0.0066193
+  },
+  {
+   "base": "MDL",
+   "quote": "BYN",
+   "type": "reference",
+   "value": 0.16798
+  },
+  {
+   "base": "NOK",
+   "quote": "BYN",
+   "type": "reference",
+   "value": 0.31793
+  },
+  {
+   "base": "NZD",
+   "quote": "BYN",
+   "type": "reference",
+   "value": 1.6959
+  },
+  {
+   "base": "PLN",
+   "quote": "BYN",
+   "type": "reference",
+   "value": 0.76797
+  },
+  {
+   "base": "RUB",
+   "quote": "BYN",
+   "type": "reference",
+   "value": 0.036127
+  },
+  {
+   "base": "SEK",
+   "quote": "BYN",
+   "type": "reference",
+   "value": 0.30208
+  },
+  {
+   "base": "SGD",
+   "quote": "BYN",
+   "type": "reference",
+   "value": 2.3405
+  },
+  {
+   "base": "TRY",
+   "quote": "BYN",
+   "type": "reference",
+   "value": 0.06044
+  },
+  {
+   "base": "UAH",
+   "quote": "BYN",
+   "type": "reference",
+   "value": 0.066551
+  },
+  {
+   "base": "USD",
+   "quote": "BYN",
+   "type": "reference",
+   "value": 2.995
+  },
+  {
+   "base": "VND",
+   "quote": "BYN",
+   "type": "reference",
+   "value": 0.000115661
+  },
+  {
+   "base": "XDR",
+   "quote": "BYN",
+   "type": "reference",
+   "value": 4.0626
+  }
+ ],
+ "official_source": "https://api.nbrb.by/exrates/rates?periodicity=0",
+ "page": "https://allratestoday.com/central-bank-rates-api/nbrb/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}
