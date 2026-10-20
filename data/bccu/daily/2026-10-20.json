@@ -1,0 +1,92 @@
+{
+ "source": "bccu",
+ "name": "Banco Central de Cuba",
+ "country": "Cuba",
+ "home_currency": "CUP",
+ "kind": "central_bank",
+ "date": "2026-10-20",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AUD",
+   "quote": "CUP",
+   "type": "official",
+   "value": 16.7532
+  },
+  {
+   "base": "CAD",
+   "quote": "CUP",
+   "type": "official",
+   "value": 17.02852
+  },
+  {
+   "base": "CHF",
+   "quote": "CUP",
+   "type": "official",
+   "value": 29.02933
+  },
+  {
+   "base": "CNY",
+   "quote": "CUP",
+   "type": "official",
+   "value": 3.59241
+  },
+  {
+   "base": "DKK",
+   "quote": "CUP",
+   "type": "official",
+   "value": 3.59877
+  },
+  {
+   "base": "EUR",
+   "quote": "CUP",
+   "type": "official",
+   "value": 26.8968
+  },
+  {
+   "base": "GBP",
+   "quote": "CUP",
+   "type": "official",
+   "value": 31.9344
+  },
+  {
+   "base": "JPY",
+   "quote": "CUP",
+   "type": "official",
+   "value": 0.151419481933
+  },
+  {
+   "base": "MXN",
+   "quote": "CUP",
+   "type": "official",
+   "value": 1.30176
+  },
+  {
+   "base": "NOK",
+   "quote": "CUP",
+   "type": "official",
+   "value": 2.54762
+  },
+  {
+   "base": "RUB",
+   "quote": "CUP",
+   "type": "official",
+   "value": 0.28662
+  },
+  {
+   "base": "SEK",
+   "quote": "CUP",
+   "type": "official",
+   "value": 2.41926
+  },
+  {
+   "base": "USD",
+   "quote": "CUP",
+   "type": "official",
+   "value": 24
+  }
+ ],
+ "official_source": "https://www.bc.gob.cu/tasas-de-cambio",
+ "page": "https://allratestoday.com/central-bank-rates-api/bccu/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}
