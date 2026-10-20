@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-19T22:36:55.054Z",
- "source_count": 125,
+ "generated_at": "2026-10-20T00:27:17.769Z",
+ "source_count": 126,
  "sources": {
   "amcm": {
    "name": "Monetary Authority of Macao",
@@ -175,7 +175,7 @@
    "country": "Mauritania",
    "home_currency": "MRU",
    "kind": "central_bank",
-   "latest": "2026-10-15",
+   "latest": "2026-10-19",
    "cadence": "daily",
    "stale": false,
    "currencies": 19,
@@ -523,7 +523,7 @@
    "country": "Japan",
    "home_currency": "JPY",
    "kind": "central_bank",
-   "latest": "2026-10-15",
+   "latest": "2026-10-16",
    "cadence": "daily",
    "stale": false,
    "currencies": 2,
@@ -727,7 +727,7 @@
    "country": "Bosnia and Herzegovina",
    "home_currency": "BAM",
    "kind": "central_bank",
-   "latest": "2026-10-17",
+   "latest": "2026-10-20",
    "cadence": "daily",
    "stale": false,
    "currencies": 49,
@@ -793,6 +793,18 @@
    "currencies": 10,
    "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/cbi/latest.json",
    "page": "https://allratestoday.com/central-bank-rates-api/cbi/"
+  },
+  "cbic": {
+   "name": "Central Board of Indirect Taxes and Customs (CBIC)",
+   "country": "India",
+   "home_currency": "INR",
+   "kind": "tax_authority",
+   "latest": "2026-10-16",
+   "cadence": "fortnightly",
+   "stale": false,
+   "currencies": 44,
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/cbic/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/cbic/"
   },
   "cbiq": {
    "name": "Central Bank of Iraq",
@@ -991,10 +1003,10 @@
    "country": "Global",
    "home_currency": "USD",
    "kind": "composite",
-   "latest": "2026-10-19",
+   "latest": "2026-10-20",
    "cadence": "daily",
    "stale": false,
-   "currencies": 152,
+   "currencies": 155,
    "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/composite/latest.json",
    "page": "https://allratestoday.com/central-bank-rates-api/composite/"
   },
@@ -1159,10 +1171,10 @@
    "country": "Kyrgyzstan",
    "home_currency": "KGS",
    "kind": "central_bank",
-   "latest": "2026-10-17",
+   "latest": "2026-10-20",
    "cadence": "daily",
    "stale": false,
-   "currencies": 48,
+   "currencies": 5,
    "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/nbkr/latest.json",
    "page": "https://allratestoday.com/central-bank-rates-api/nbkr/"
   },
@@ -1231,7 +1243,7 @@
    "country": "Tajikistan",
    "home_currency": "TJS",
    "kind": "central_bank",
-   "latest": "2026-10-17",
+   "latest": "2026-10-20",
    "cadence": "daily",
    "stale": false,
    "currencies": 36,
@@ -1413,7 +1425,7 @@
    "kind": "central_bank",
    "latest": "2026-07-31",
    "cadence": "monthly_average",
-   "stale": false,
+   "stale": true,
    "currencies": 24,
    "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/sama/latest.json",
    "page": "https://allratestoday.com/central-bank-rates-api/sama/"
