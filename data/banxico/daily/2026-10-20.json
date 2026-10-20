@@ -1,0 +1,44 @@
+{
+ "source": "banxico",
+ "name": "Banco de México",
+ "country": "Mexico",
+ "home_currency": "MXN",
+ "kind": "central_bank",
+ "date": "2026-10-20",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "CAD",
+   "quote": "MXN",
+   "type": "informational",
+   "value": 13.1216
+  },
+  {
+   "base": "EUR",
+   "quote": "MXN",
+   "type": "informational",
+   "value": 20.6451
+  },
+  {
+   "base": "JPY",
+   "quote": "MXN",
+   "type": "informational",
+   "value": 0.1165
+  },
+  {
+   "base": "USD",
+   "quote": "MXN",
+   "type": "close",
+   "value": 18.4279
+  },
+  {
+   "base": "USD",
+   "quote": "MXN",
+   "type": "reference",
+   "value": 18.42
+  }
+ ],
+ "official_source": "https://www.banxico.org.mx/tipcamb/llenarTiposCambioAction.do",
+ "page": "https://allratestoday.com/central-bank-rates-api/banxico/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}
