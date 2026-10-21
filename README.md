@@ -243,6 +243,18 @@ If you need more than daily files, the [AllRatesToday API](https://allratestoday
 
 If you use these files in a paper, notebook, article or product, please cite the dataset and link to it. A visible credit and non-commercial use are the conditions of the CC BY-NC 4.0 licence.
 
+Ready to paste:
+
+```html
+<a href="https://allratestoday.com">Exchange rates by AllRatesToday</a>
+```
+
+```markdown
+Exchange rates by [AllRatesToday](https://allratestoday.com)
+```
+
+The link should be a normal, followable link on the page or README where the data is shown.
+
 Plain text:
 
 > AllRatesToday (2026). *Central Bank Exchange Rates: official rates from 122 central banks and 4 tax authorities.* https://github.com/AllRates-Today/central-bank-exchange-rates (data via https://allratestoday.com/central-bank-rates-api/).
