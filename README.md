@@ -1,6 +1,6 @@
 # Central Bank Exchange Rates
 
-Official exchange rates from **122 central banks and 4 tax authorities**, updated every day, as plain JSON and CSV files. No API key, no sign-up. Served straight from GitHub (CORS-enabled, refreshed within 5 minutes of each commit).
+Official exchange rates from **[122 central banks and 4 tax authorities](https://allratestoday.com/central-bank-rates-api/institutions/)**, updated every day, as plain JSON and CSV files. No API key, no sign-up. Served straight from GitHub (CORS-enabled, refreshed within 5 minutes of each commit).
 
 Examples of what is here: the ECB euro reference rates, the Federal Reserve H.10 table, the Bank of England spot rates, RBI reference rates, PBoC central parity, the HMRC monthly rates for VAT, and the US Treasury quarterly rates. Every table is the number the institution itself published, not a market or interbank rate, so it is what you need for invoices, VAT returns, customs, transfer pricing, and audit evidence.
 
