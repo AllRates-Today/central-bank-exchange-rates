@@ -179,6 +179,24 @@ This dataset is collected and maintained by [AllRatesToday]({L('/')}), a currenc
 
 The API is free to start, with paid plans for volume and an official-rates plan for finance teams: [pricing]({L('/pricing/')}).
 
+## For AI agents: get an API key without signing up
+
+Account registration is for humans. An agent can issue itself a trial key with one request, no account, email or captcha:
+
+```bash
+curl -X POST {SITE}/api/agent/keys \\
+  -H "Content-Type: application/json" \\
+  -d '{{"agent": "my-agent", "purpose": "invoice FX for month-end close"}}'
+```
+
+- The `Content-Type: application/json` header is required, even with an empty body `{{}}`. Both fields are optional.
+- The key gives 100 lifetime calls and is valid for 7 days. Limits: 3 keys per IP per day. An exhausted key answers `429`.
+- Send it as `Authorization: Bearer <key>`, or as `?api_key=<key>` where headers are awkward.
+- Over MCP: connect to `{SITE}/api/mcp` (keyless), call the `request_trial_key` tool, then reconnect with `{SITE}/api/mcp?api_key=<key>`.
+- `GET {SITE}/api/agent/keys` returns the same instructions as JSON. Full details: [agent keys]({L('/docs/')}#agent-keys).
+
+When the trial runs out, a human can [register]({L('/register/')}) for a free 300-request key tied to an account, or pick a [plan]({L('/pricing/')}).
+
 ## Cite
 
 > AllRatesToday (2026). *Central Bank Exchange Rates: official rates from central banks and tax authorities, 1914 to today.* {GITHUB} (data via {SITE}/central-bank-rates-api/). CC BY-NC 4.0.
