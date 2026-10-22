@@ -1,0 +1,20 @@
+{
+ "source": "mma",
+ "name": "Maldives Monetary Authority",
+ "country": "Maldives",
+ "home_currency": "MVR",
+ "kind": "central_bank",
+ "date": "2026-10-22",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "USD",
+   "quote": "MVR",
+   "type": "reference",
+   "value": 15.42
+  }
+ ],
+ "official_source": "https://www.mma.gov.mv/#/statistics/exchangerates",
+ "page": "https://allratestoday.com/central-bank-rates-api/mma/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}
