@@ -195,7 +195,7 @@ curl -X POST {SITE}/api/agent/keys \\
 - Over MCP: connect to `{SITE}/api/mcp` (keyless), call the `request_trial_key` tool, then reconnect with `{SITE}/api/mcp?api_key=<key>`.
 - `GET {SITE}/api/agent/keys` returns the same instructions as JSON. Full details: [agent keys]({L('/docs/')}#agent-keys).
 
-When the trial runs out, a human can [register]({L('/register/')}) for a free 300-request key tied to an account, or pick a [plan]({L('/pricing/')}).
+When the trial runs out, a human can [register]({L('/register/')}) for a free key tied to an account, or pick a [plan]({L('/pricing/')}).
 
 ## Cite
 
