@@ -1,0 +1,236 @@
+{
+ "source": "bnr",
+ "name": "National Bank of Romania",
+ "country": "Romania",
+ "home_currency": "RON",
+ "kind": "central_bank",
+ "date": "2026-10-23",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AED",
+   "quote": "RON",
+   "type": "reference",
+   "value": 1.3007
+  },
+  {
+   "base": "AUD",
+   "quote": "RON",
+   "type": "reference",
+   "value": 3.3511
+  },
+  {
+   "base": "BRL",
+   "quote": "RON",
+   "type": "reference",
+   "value": 0.9454
+  },
+  {
+   "base": "CAD",
+   "quote": "RON",
+   "type": "reference",
+   "value": 3.4115
+  },
+  {
+   "base": "CHF",
+   "quote": "RON",
+   "type": "reference",
+   "value": 5.8093
+  },
+  {
+   "base": "CNY",
+   "quote": "RON",
+   "type": "reference",
+   "value": 0.7162
+  },
+  {
+   "base": "CZK",
+   "quote": "RON",
+   "type": "reference",
+   "value": 0.22
+  },
+  {
+   "base": "DKK",
+   "quote": "RON",
+   "type": "reference",
+   "value": 0.7157
+  },
+  {
+   "base": "EGP",
+   "quote": "RON",
+   "type": "reference",
+   "value": 0.0864
+  },
+  {
+   "base": "EUR",
+   "quote": "RON",
+   "type": "reference",
+   "value": 5.3495
+  },
+  {
+   "base": "GBP",
+   "quote": "RON",
+   "type": "reference",
+   "value": 6.3909
+  },
+  {
+   "base": "HKD",
+   "quote": "RON",
+   "type": "reference",
+   "value": 0.6091
+  },
+  {
+   "base": "HUF",
+   "quote": "RON",
+   "type": "reference",
+   "value": 0.01458
+  },
+  {
+   "base": "IDR",
+   "quote": "RON",
+   "type": "reference",
+   "value": 0.000264
+  },
+  {
+   "base": "ILS",
+   "quote": "RON",
+   "type": "reference",
+   "value": 1.5311
+  },
+  {
+   "base": "INR",
+   "quote": "RON",
+   "type": "reference",
+   "value": 0.0503
+  },
+  {
+   "base": "ISK",
+   "quote": "RON",
+   "type": "reference",
+   "value": 0.039277
+  },
+  {
+   "base": "JPY",
+   "quote": "RON",
+   "type": "reference",
+   "value": 0.0305
+  },
+  {
+   "base": "KRW",
+   "quote": "RON",
+   "type": "reference",
+   "value": 0.003605
+  },
+  {
+   "base": "MDL",
+   "quote": "RON",
+   "type": "reference",
+   "value": 0.2648
+  },
+  {
+   "base": "MXN",
+   "quote": "RON",
+   "type": "reference",
+   "value": 0.2544
+  },
+  {
+   "base": "MYR",
+   "quote": "RON",
+   "type": "reference",
+   "value": 1.1694
+  },
+  {
+   "base": "NOK",
+   "quote": "RON",
+   "type": "reference",
+   "value": 0.5114
+  },
+  {
+   "base": "NZD",
+   "quote": "RON",
+   "type": "reference",
+   "value": 2.7157
+  },
+  {
+   "base": "PHP",
+   "quote": "RON",
+   "type": "reference",
+   "value": 0.0751
+  },
+  {
+   "base": "PLN",
+   "quote": "RON",
+   "type": "reference",
+   "value": 1.2167
+  },
+  {
+   "base": "RSD",
+   "quote": "RON",
+   "type": "reference",
+   "value": 0.0455
+  },
+  {
+   "base": "RUB",
+   "quote": "RON",
+   "type": "reference",
+   "value": 0.0592
+  },
+  {
+   "base": "SEK",
+   "quote": "RON",
+   "type": "reference",
+   "value": 0.4808
+  },
+  {
+   "base": "SGD",
+   "quote": "RON",
+   "type": "reference",
+   "value": 3.7378
+  },
+  {
+   "base": "THB",
+   "quote": "RON",
+   "type": "reference",
+   "value": 0.1416
+  },
+  {
+   "base": "TRY",
+   "quote": "RON",
+   "type": "reference",
+   "value": 0.096
+  },
+  {
+   "base": "UAH",
+   "quote": "RON",
+   "type": "reference",
+   "value": 0.1056
+  },
+  {
+   "base": "USD",
+   "quote": "RON",
+   "type": "reference",
+   "value": 4.777
+  },
+  {
+   "base": "XAU",
+   "quote": "RON",
+   "type": "reference",
+   "value": 19215.7497395
+  },
+  {
+   "base": "XDR",
+   "quote": "RON",
+   "type": "reference",
+   "value": 6.4757
+  },
+  {
+   "base": "ZAR",
+   "quote": "RON",
+   "type": "reference",
+   "value": 0.2883
+  }
+ ],
+ "official_source": "https://curs.bnr.ro/nbrfxrates.xml",
+ "page": "https://allratestoday.com/central-bank-rates-api/bnr/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}
