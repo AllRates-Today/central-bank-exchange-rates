@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T05:49:34.747Z",
+ "generated": "2026-10-24T10:55:38.257Z",
  "since": "2026-09-19T19:52:29.046Z",
  "vantage": "GitHub Actions hosted runner (ubuntu-latest, US East)",
  "method": "3 sequential GETs per provider per run, cache-busting query string, 15s timeout; median reported. Freshness = publication date in the response vs the run date (UTC). Uptime = share of hourly runs with an HTTP 2xx and a parseable body.",
@@ -13,12 +13,12 @@
    "ok": true,
    "status": 200,
    "ms": [
-    531,
-    49,
-    45
+    191,
+    62,
+    55
    ],
-   "median_ms": 49,
-   "min_ms": 45,
+   "median_ms": 62,
+   "min_ms": 55,
    "date": "2026-10-23",
    "age_days": 1,
    "currencies": 29,
@@ -26,7 +26,7 @@
    "last_7d": {
     "runs": 39,
     "uptime_pct": 100,
-    "median_ms": 57,
+    "median_ms": 59,
     "p90_ms": 125
    },
    "last_30d": {
@@ -45,12 +45,12 @@
    "ok": true,
    "status": 200,
    "ms": [
-    486,
-    390,
-    397
+    396,
+    168,
+    295
    ],
-   "median_ms": 397,
-   "min_ms": 390,
+   "median_ms": 295,
+   "min_ms": 168,
    "date": "2026-10-23",
    "age_days": 1,
    "currencies": 29,
@@ -58,7 +58,7 @@
    "last_7d": {
     "runs": 39,
     "uptime_pct": 100,
-    "median_ms": 331,
+    "median_ms": 317,
     "p90_ms": 412
    },
    "last_30d": {
@@ -77,12 +77,12 @@
    "ok": true,
    "status": 200,
    "ms": [
-    133,
-    61,
-    78
+    136,
+    88,
+    92
    ],
-   "median_ms": 78,
-   "min_ms": 61,
+   "median_ms": 92,
+   "min_ms": 88,
    "date": "2026-10-24",
    "age_days": 0,
    "currencies": 166,
@@ -90,7 +90,7 @@
    "last_7d": {
     "runs": 39,
     "uptime_pct": 100,
-    "median_ms": 105,
+    "median_ms": 102,
     "p90_ms": 156
    },
    "last_30d": {
@@ -109,12 +109,12 @@
    "ok": true,
    "status": 200,
    "ms": [
-    27,
-    8,
-    7
+    56,
+    13,
+    12
    ],
-   "median_ms": 8,
-   "min_ms": 7,
+   "median_ms": 13,
+   "min_ms": 12,
    "date": "2026-10-23",
    "age_days": 1,
    "currencies": 339,
@@ -141,12 +141,12 @@
    "ok": true,
    "status": 200,
    "ms": [
-    550,
-    389,
-    161
+    242,
+    329,
+    78
    ],
-   "median_ms": 389,
-   "min_ms": 161,
+   "median_ms": 242,
+   "min_ms": 78,
    "date": "2026-10-23",
    "age_days": 1,
    "currencies": 146,
@@ -173,12 +173,12 @@
    "ok": true,
    "status": 200,
    "ms": [
-    830,
-    495,
-    145
+    615,
+    358,
+    110
    ],
-   "median_ms": 495,
-   "min_ms": 145,
+   "median_ms": 358,
+   "min_ms": 110,
    "date": "2026-10-23",
    "age_days": 1,
    "currencies": 29,
