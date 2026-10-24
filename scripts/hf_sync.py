@@ -47,6 +47,8 @@ Official exchange rates published by **{st['banks']} central banks and {st['taxe
 
 Every row is the figure the institution itself published for that date: the ECB euro reference rate, the Federal Reserve H.10 table, the Bank of England spot rates, RBI reference rates, PBoC central parity, HMRC monthly rates for VAT, US Treasury quarterly rates, and a hundred more. These are the rates that invoices, tax filings, customs declarations, transfer pricing and audits require, as opposed to market rates.
 
+> **Need today's rates, not a {M.LAG_DAYS}-day-old mirror?** [Register for a free API key]({M.link('/register/', UTM)}) and query the same data live from the [central bank rates API]({M.link('/central-bank-rates-api/', UTM)}).
+
 ## Schema
 
 | Column | Meaning |

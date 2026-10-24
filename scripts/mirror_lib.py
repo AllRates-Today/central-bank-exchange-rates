@@ -168,6 +168,7 @@ This dataset is collected and maintained by [AllRatesToday]({L('/')}), a currenc
 
 | Need | Where |
 |---|---|
+| A free API key for the live data | [Register]({L('/register/')}) |
 | Today's tables, four refreshes a day, JSON/CSV over a CDN, no key | [GitHub source repository]({GITHUB}) |
 | Rate on a given date with holiday fallback, time series, pair resolution, publication calendars, CSV/XML/XLSX | [Central bank rates API]({L('/central-bank-rates-api/')}) |
 | Real-time mid-market rates for 160+ currencies alongside the official ones | [Exchange rate API]({L('/exchange-rate-api/')}) |
