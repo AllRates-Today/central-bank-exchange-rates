@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T23:53:21.840Z",
+ "generated_at": "2026-10-24T08:15:52.186Z",
  "source_count": 127,
  "sources": {
   "amcm": {
@@ -19,7 +19,7 @@
    "country": "Morocco",
    "home_currency": "MAD",
    "kind": "central_bank",
-   "latest": "2026-10-22",
+   "latest": "2026-10-23",
    "cadence": "daily",
    "stale": false,
    "currencies": 30,
@@ -69,7 +69,7 @@
    "kind": "central_bank",
    "latest": "2026-10-19",
    "cadence": "daily",
-   "stale": false,
+   "stale": true,
    "currencies": 23,
    "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/bb/latest.json",
    "page": "https://allratestoday.com/central-bank-rates-api/bb/"
@@ -703,7 +703,7 @@
    "country": "Bahrain",
    "home_currency": "BHD",
    "kind": "central_bank",
-   "latest": "2026-10-22",
+   "latest": "2026-10-23",
    "cadence": "daily",
    "stale": false,
    "currencies": 33,
@@ -813,7 +813,7 @@
    "kind": "central_bank",
    "latest": "2026-10-19",
    "cadence": "daily",
-   "stale": false,
+   "stale": true,
    "currencies": 57,
    "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/cbiq/latest.json",
    "page": "https://allratestoday.com/central-bank-rates-api/cbiq/"
@@ -1015,7 +1015,7 @@
    "country": "Global",
    "home_currency": "USD",
    "kind": "composite",
-   "latest": "2026-10-23",
+   "latest": "2026-10-24",
    "cadence": "daily",
    "stale": false,
    "currencies": 153,
