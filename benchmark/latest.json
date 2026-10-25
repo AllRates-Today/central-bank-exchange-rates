@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T11:30:28.210Z",
+ "generated": "2026-10-25T16:13:55.099Z",
  "since": "2026-09-19T19:52:29.046Z",
  "vantage": "GitHub Actions hosted runner (ubuntu-latest, US East)",
  "method": "3 sequential GETs per provider per run, cache-busting query string, 15s timeout; median reported. Freshness = publication date in the response vs the run date (UTC). Uptime = share of hourly runs with an HTTP 2xx and a parseable body.",
@@ -13,12 +13,12 @@
    "ok": true,
    "status": 200,
    "ms": [
-    348,
-    20,
-    21
+    162,
+    38,
+    41
    ],
-   "median_ms": 21,
-   "min_ms": 20,
+   "median_ms": 41,
+   "min_ms": 38,
    "date": "2026-10-23",
    "age_days": 2,
    "currencies": 29,
@@ -45,12 +45,12 @@
    "ok": true,
    "status": 200,
    "ms": [
-    384,
-    305,
-    315
+    375,
+    261,
+    256
    ],
-   "median_ms": 315,
-   "min_ms": 305,
+   "median_ms": 261,
+   "min_ms": 256,
    "date": "2026-10-23",
    "age_days": 2,
    "currencies": 29,
@@ -77,12 +77,12 @@
    "ok": true,
    "status": 200,
    "ms": [
-    180,
-    78,
-    107
+    138,
+    100,
+    112
    ],
-   "median_ms": 107,
-   "min_ms": 78,
+   "median_ms": 112,
+   "min_ms": 100,
    "date": "2026-10-25",
    "age_days": 0,
    "currencies": 166,
@@ -109,14 +109,14 @@
    "ok": true,
    "status": 200,
    "ms": [
-    58,
-    12,
-    12
+    32,
+    11,
+    10
    ],
-   "median_ms": 12,
-   "min_ms": 12,
-   "date": "2026-10-24",
-   "age_days": 1,
+   "median_ms": 11,
+   "min_ms": 10,
+   "date": "2026-10-25",
+   "age_days": 0,
    "currencies": 340,
    "error": null,
    "last_7d": {
@@ -141,12 +141,12 @@
    "ok": true,
    "status": 200,
    "ms": [
-    320,
-    247,
-    101
+    264,
+    293,
+    118
    ],
-   "median_ms": 247,
-   "min_ms": 101,
+   "median_ms": 264,
+   "min_ms": 118,
    "date": "2026-10-23",
    "age_days": 2,
    "currencies": 146,
@@ -173,12 +173,12 @@
    "ok": true,
    "status": 200,
    "ms": [
-    549,
-    374,
-    109
+    399,
+    264,
+    85
    ],
-   "median_ms": 374,
-   "min_ms": 109,
+   "median_ms": 264,
+   "min_ms": 85,
    "date": "2026-10-23",
    "age_days": 2,
    "currencies": 29,
