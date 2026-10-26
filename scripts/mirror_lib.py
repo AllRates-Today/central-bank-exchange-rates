@@ -2,12 +2,13 @@
 
 Both mirrors get the same treatment:
 
-* LAG_DAYS: rows newer than (today UTC - LAG_DAYS) are left out, and each
-  institution's "latest" table is rebuilt at its last date inside the window.
-  The mirrors are for research and training; the current day's tables are the
-  product and stay on allratestoday.com and the GitHub/jsDelivr files.
-* Attribution travels with the data, not only on the card: index.json,
-  sources.json and every latest JSON carry `attribution`/`api`/`page` fields,
+* LAG_DAYS: rows newer than (today UTC - LAG_DAYS) are left out. The mirrors
+  are history only: no per-institution "latest" table (dropped 2026-10-26 so
+  that anyone who wants the current table comes to the API). The current
+  day's tables are the product and stay on allratestoday.com and the
+  GitHub/jsDelivr files.
+* Attribution travels with the data, not only on the card: index.json and
+  sources.json carry `attribution`/`api`/`page` fields,
   and an ATTRIBUTION.txt sits beside the files. Users who load with pandas or
   `datasets` never see the Hub README, so the hook has to be in the files.
 * Every allratestoday.com link carries utm_source=<mirror> so GA can tell
@@ -39,11 +40,11 @@ def cutoff():
     return (dt.datetime.now(dt.timezone.utc).date() - dt.timedelta(days=LAG_DAYS)).isoformat()
 
 
-def build(work, utm_source, csv_path, latest_path):
+def build(work, utm_source, csv_path):
     """Write the lagged mirror into `work`.
 
-    csv_path(code) / latest_path(code) give the per-institution file names
-    (HF wants rates/<code>.csv + latest/<code>.json, Kaggle a flat layout).
+    csv_path(code) gives the per-institution file name (HF wants
+    rates/<code>.csv, Kaggle a flat layout).
     Returns a stats dict used by the card/description generators.
     """
     sources = json.load(open(f"{DATA}/sources.json"))
@@ -86,23 +87,6 @@ def build(work, utm_source, csv_path, latest_path):
             os.remove(f"{work}/{csv_path(code)}")
             continue
         stats["total"] += n; stats["rows_by"][code] = n; stats["latest_by"][code] = last
-        # latest table rebuilt at the lagged date, metadata from the live file
-        meta = {}
-        if os.path.exists(f"{DATA}/{code}/latest.json"):
-            meta = json.load(open(f"{DATA}/{code}/latest.json"))
-        latest = {k: meta.get(k) for k in ("source", "name", "country", "home_currency", "kind", "cadence", "official_source", "page", "license") if k in meta}
-        latest.setdefault("source", code)
-        latest["date"] = last
-        latest["rates"] = []
-        for line in rows:
-            _, base, quote, typ, value = line.split(",", 4)
-            latest["rates"].append({"base": base, "quote": quote, "type": typ, "value": float(value)})
-        latest["page"] = link(page_path(code, sources.get(code, {}).get("kind")), utm_source)
-        latest["api"] = attribution["api"]
-        latest["attribution"] = attribution["attribution"]
-        latest["lag_days"] = LAG_DAYS
-        os.makedirs(os.path.dirname(f"{work}/{latest_path(code)}"), exist_ok=True)
-        json.dump(latest, open(f"{work}/{latest_path(code)}", "w"), separators=(",", ":"))
 
     # index.json: same catalogue, dates clamped to the mirror window, tagged pages
     idx = {"generated_at": index["generated_at"], "source_count": len(stats["rows_by"]), **attribution, "sources": {}}

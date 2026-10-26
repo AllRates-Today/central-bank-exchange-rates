@@ -1,7 +1,7 @@
 """Mirror the data to the Hugging Face dataset AllRatesToday/central-bank-exchange-rates.
 
 One CSV per institution under rates/ (what the dataset viewer and pandas users
-want), the lagged latest tables under latest/, the catalogue, ATTRIBUTION.txt
+want), the catalogue, ATTRIBUTION.txt
 and a generated README.md dataset card. See mirror_lib.py for the lag and the
 attribution rules. Needs HF_TOKEN with write access. Run by the daily Action
 after a data commit; safe to re-run.
@@ -14,7 +14,7 @@ REPO = "AllRates/central-bank-exchange-rates"  # upload id: token scope follows 
 UTM = "huggingface"
 
 work = tempfile.mkdtemp()
-st = M.build(work, UTM, lambda c: f"rates/{c}.csv", lambda c: f"latest/{c}.json")
+st = M.build(work, UTM, lambda c: f"rates/{c}.csv")
 
 card = f"""---
 license: cc-by-nc-4.0
@@ -66,7 +66,6 @@ Direction follows the publisher: the ECB quotes `EUR → USD`, the Reserve Bank 
 | File | What it is |
 |---|---|
 | `rates/<code>.csv` | Full history for one institution, e.g. `rates/ecb.csv`, `rates/fed.csv`, `rates/boe.csv`, `rates/rbi.csv` |
-| `latest/<code>.json` | That institution's most recent table inside the mirror window, with its page and API links |
 | `index.json` | Catalogue of every source: name, country, home currency, latest date, currencies published |
 | `sources.json` | Institution metadata, including the official publication page each table comes from |
 | `ATTRIBUTION.txt` | How to credit the data and where the live tables are |
@@ -105,5 +104,6 @@ if "--dry-run" in sys.argv:
     print("dry run, built in", work); sys.exit(0)
 api = HfApi()
 api.upload_folder(folder_path=work, repo_id=REPO, repo_type="dataset",
+                  delete_patterns=["latest/*"],  # history only since 2026-10-26; current tables live on the API
                   commit_message=f"Daily sync: {st['total']:,} rows to {st['cutoff']}")
 print(f"synced {st['total']:,} rows (to {st['cutoff']}) to https://huggingface.co/datasets/{REPO}")

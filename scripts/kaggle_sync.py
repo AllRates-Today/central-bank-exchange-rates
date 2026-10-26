@@ -1,7 +1,7 @@
 """Push a new version of the Kaggle dataset allratestoday/central-bank-exchange-rates.
 
 Flat layout (Kaggle browses top-level files best): <code>.csv per institution,
-latest_<code>.json, index.json, sources.json. Lag and attribution rules in mirror_lib.py. Needs KAGGLE_API_TOKEN. Run by
+index.json, sources.json. Lag and attribution rules in mirror_lib.py. Needs KAGGLE_API_TOKEN. Run by
 the daily Action after a data commit; each run is a new dataset version.
 """
 import sys, json, os, subprocess, tempfile
@@ -29,8 +29,6 @@ def resources(stats):
         out.append({"path": f"{code}.csv",
                     "description": f"Full history of official exchange rates published by {who}: {stats['rows_by'][code]:,} rows up to {stats['latest_by'][code]}, one row per date, currency pair and rate type. Source: {s.get('official_source') or s['page']}",
                     "schema": {"fields": CSV_FIELDS}})
-        out.append({"path": f"latest_{code}.json",
-                    "description": f"Most recent table from {s['name']} inside the mirror window ({stats['latest_by'][code]}): institution metadata, cadence, the list of rates (base, quote, type, value), and links to the live page and API."})
     out += [
         {"path": "index.json", "description": "Catalogue of every institution in the dataset: code, name, country, home currency, kind (central_bank or tax_authority), cadence, latest date in the mirror, number of currencies published, and page link."},
         {"path": "sources.json", "description": "Institution metadata keyed by code, including official_source, the URL of the publication page or feed each table is collected from. This is the provenance of every row."},
@@ -39,12 +37,12 @@ def resources(stats):
     return out
 
 work = tempfile.mkdtemp()
-st = M.build(work, UTM, lambda c: f"{c}.csv", lambda c: f"latest_{c}.json")
+st = M.build(work, UTM, lambda c: f"{c}.csv")
 total, banks, taxes, oldest, latest = st["total"], st["banks"], st["taxes"], st["oldest"], st["latest"]
 src_rows = M.source_rows(st, UTM)
 
 # Kaggle shows dataset-metadata.json's description as the page's README, so it
-# has to describe THIS flat layout (<code>.csv, latest_<code>.json), not the
+# has to describe THIS flat layout (<code>.csv), not the
 # GitHub repo's data/<code>/history/ tree. Regenerated every version so the
 # counts and the sources table never drift from the files beside it.
 description = f"""# Central Bank Exchange Rates
@@ -58,7 +56,6 @@ Every row is the figure the institution itself published for that date: the ECB 
 | File | What it is |
 |---|---|
 | `<code>.csv` | Full history for one institution, e.g. `ecb.csv`, `fed.csv`, `boe.csv`, `rbi.csv` |
-| `latest_<code>.json` | That institution's most recent table inside the mirror window, with its page and API links |
 | `index.json` | Catalogue of every source: name, country, home currency, latest date, currencies published |
 | `sources.json` | Institution metadata, including the official publication page each table comes from |
 | `ATTRIBUTION.txt` | How to credit the data and where the live tables are |
