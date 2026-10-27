@@ -4,152 +4,404 @@
  "country": "Saudi Arabia",
  "home_currency": "SAR",
  "kind": "central_bank",
- "date": "2026-07-31",
- "cadence": "monthly_average",
+ "date": "2026-10-27",
+ "cadence": "daily",
  "rates": [
   {
-   "base": "AUD",
+   "base": "AED",
    "quote": "SAR",
-   "type": "close",
-   "value": 2.63058047221
+   "type": "reference",
+   "value": 1.02094
+  },
+  {
+   "base": "AFN",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 0.05776
+  },
+  {
+   "base": "ALL",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 0.04628
+  },
+  {
+   "base": "ARS",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 0.00245
   },
   {
    "base": "AUD",
    "quote": "SAR",
-   "type": "monthly_average",
-   "value": 2.61183063502
+   "type": "reference",
+   "value": 2.63662
+  },
+  {
+   "base": "BAM",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 2.14819
+  },
+  {
+   "base": "BDT",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 0.03031
+  },
+  {
+   "base": "BGN",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 2.14819
+  },
+  {
+   "base": "BHD",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 9.94167
+  },
+  {
+   "base": "BND",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 2.934
   },
   {
    "base": "BRL",
    "quote": "SAR",
-   "type": "close",
-   "value": 0.739165577841
+   "type": "reference",
+   "value": 0.74353
   },
   {
-   "base": "BRL",
+   "base": "CAD",
    "quote": "SAR",
-   "type": "monthly_average",
-   "value": 0.734010568058
-  },
-  {
-   "base": "CHF",
-   "quote": "SAR",
-   "type": "close",
-   "value": 4.62536937329
+   "type": "reference",
+   "value": 2.68211
   },
   {
    "base": "CHF",
    "quote": "SAR",
-   "type": "monthly_average",
-   "value": 4.62296633969
+   "type": "reference",
+   "value": 4.54876
+  },
+  {
+   "base": "CLP",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 0.00378
   },
   {
    "base": "CNY",
    "quote": "SAR",
-   "type": "close",
-   "value": 0.554618414531
+   "type": "reference",
+   "value": 0.56213
   },
   {
-   "base": "CNY",
+   "base": "COP",
    "quote": "SAR",
-   "type": "monthly_average",
-   "value": 0.553378781072
+   "type": "reference",
+   "value": 0.00119
+  },
+  {
+   "base": "CUP",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 0.15625
+  },
+  {
+   "base": "CZK",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 0.17258
+  },
+  {
+   "base": "DJF",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 0.02109
+  },
+  {
+   "base": "DKK",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 0.56213
+  },
+  {
+   "base": "DZD",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 0.02781
+  },
+  {
+   "base": "EGP",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 0.06781
+  },
+  {
+   "base": "ETB",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 0.02305
   },
   {
    "base": "EUR",
    "quote": "SAR",
-   "type": "close",
-   "value": 4.29760140143
-  },
-  {
-   "base": "EUR",
-   "quote": "SAR",
-   "type": "monthly_average",
-   "value": 4.28048973053
+   "type": "reference",
+   "value": 4.2015
   },
   {
    "base": "GBP",
    "quote": "SAR",
-   "type": "close",
-   "value": 5.03046195706
+   "type": "reference",
+   "value": 5.01956
   },
   {
-   "base": "GBP",
+   "base": "HKD",
    "quote": "SAR",
-   "type": "monthly_average",
-   "value": 5.01331824526
+   "type": "reference",
+   "value": 0.47819
+  },
+  {
+   "base": "HUF",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 0.01146
   },
   {
    "base": "INR",
    "quote": "SAR",
-   "type": "close",
-   "value": 0.0392357079697
+   "type": "reference",
+   "value": 0.03949
   },
   {
-   "base": "INR",
+   "base": "ISK",
    "quote": "SAR",
-   "type": "monthly_average",
-   "value": 0.0391362080097
+   "type": "reference",
+   "value": 0.0308
+  },
+  {
+   "base": "JOD",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 5.28913
   },
   {
    "base": "JPY",
    "quote": "SAR",
-   "type": "close",
-   "value": 0.0232939683467
+   "type": "reference",
+   "value": 0.02392
   },
   {
-   "base": "JPY",
+   "base": "KES",
    "quote": "SAR",
-   "type": "monthly_average",
-   "value": 0.0230591741147
-  },
-  {
-   "base": "KRW",
-   "quote": "SAR",
-   "type": "close",
-   "value": 0.00259658050071
+   "type": "reference",
+   "value": 0.02887
   },
   {
    "base": "KRW",
    "quote": "SAR",
-   "type": "monthly_average",
-   "value": 0.00250938390171
+   "type": "reference",
+   "value": 0.00283
+  },
+  {
+   "base": "KWD",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 12.06563
+  },
+  {
+   "base": "LKR",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 0.01128
+  },
+  {
+   "base": "LYD",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 0.58537
+  },
+  {
+   "base": "MAD",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 0.38216
+  },
+  {
+   "base": "MMK",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 0.00178
+  },
+  {
+   "base": "MUR",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 0.07951
+  },
+  {
+   "base": "MXN",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 0.20092
+  },
+  {
+   "base": "MYR",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 0.91788
+  },
+  {
+   "base": "NGN",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 0.00278
+  },
+  {
+   "base": "NOK",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 0.40182
+  },
+  {
+   "base": "NZD",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 2.13731
+  },
+  {
+   "base": "OMR",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 9.74025
+  },
+  {
+   "base": "PHP",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 0.05894
+  },
+  {
+   "base": "PKR",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 0.01355
+  },
+  {
+   "base": "PLN",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 0.95493
+  },
+  {
+   "base": "QAR",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 1.02993
+  },
+  {
+   "base": "RON",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 0.78551
+  },
+  {
+   "base": "RUB",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 0.04649
+  },
+  {
+   "base": "SEK",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 0.37783
+  },
+  {
+   "base": "SGD",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 2.93381
+  },
+  {
+   "base": "SOS",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 0.00659
   },
   {
    "base": "THB",
    "quote": "SAR",
-   "type": "close",
-   "value": 0.111984058709
+   "type": "reference",
+   "value": 0.11104
   },
   {
-   "base": "THB",
+   "base": "TJS",
    "quote": "SAR",
-   "type": "monthly_average",
-   "value": 0.111920065604
+   "type": "reference",
+   "value": 0.40725
+  },
+  {
+   "base": "TND",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 1.24945
   },
   {
    "base": "TRY",
    "quote": "SAR",
-   "type": "close",
-   "value": 0.0788477353463
+   "type": "reference",
+   "value": 0.07539
   },
   {
-   "base": "TRY",
+   "base": "TWD",
    "quote": "SAR",
-   "type": "monthly_average",
-   "value": 0.0797603736962
+   "type": "reference",
+   "value": 0.11498
+  },
+  {
+   "base": "TZS",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 0.00141
   },
   {
    "base": "USD",
    "quote": "SAR",
-   "type": "close",
+   "type": "reference",
    "value": 3.75
   },
   {
-   "base": "USD",
+   "base": "XAF",
    "quote": "SAR",
-   "type": "monthly_average",
-   "value": 3.75
+   "type": "reference",
+   "value": 0.0064
+  },
+  {
+   "base": "XDR",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 5.08267
+  },
+  {
+   "base": "XOF",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 0.0064
+  },
+  {
+   "base": "YER",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 0.01588
+  },
+  {
+   "base": "ZAR",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 0.2257
   }
  ],
  "official_source": "https://datasource.kapsarc.org/explore/dataset/exchange-rate/",

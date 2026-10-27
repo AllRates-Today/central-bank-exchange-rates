@@ -4,56 +4,62 @@
  "country": "Denmark",
  "home_currency": "DKK",
  "kind": "central_bank",
- "date": "2026-10-26",
+ "date": "2026-10-27",
  "cadence": "daily",
  "rates": [
   {
    "base": "AUD",
    "quote": "DKK",
    "type": "reference",
-   "value": 4.6931
+   "value": 4.7138
+  },
+  {
+   "base": "BRL",
+   "quote": "DKK",
+   "type": "reference",
+   "value": 1.2536
   },
   {
    "base": "CAD",
    "quote": "DKK",
    "type": "reference",
-   "value": 4.7625
+   "value": 4.7801
   },
   {
    "base": "CHF",
    "quote": "DKK",
    "type": "reference",
-   "value": 8.0869
+   "value": 8.0898
   },
   {
    "base": "CNY",
    "quote": "DKK",
    "type": "reference",
-   "value": 1.0019
+   "value": 1.0054
   },
   {
    "base": "CZK",
    "quote": "DKK",
    "type": "reference",
-   "value": 0.3067
+   "value": 0.307
   },
   {
    "base": "EUR",
    "quote": "DKK",
    "type": "reference",
-   "value": 7.4747
+   "value": 7.4742
   },
   {
    "base": "GBP",
    "quote": "DKK",
    "type": "reference",
-   "value": 8.9176
+   "value": 8.9342
   },
   {
    "base": "HKD",
    "quote": "DKK",
    "type": "reference",
-   "value": 0.8516
+   "value": 0.8545
   },
   {
    "base": "HUF",
@@ -65,19 +71,19 @@
    "base": "IDR",
    "quote": "DKK",
    "type": "reference",
-   "value": 0.000368
+   "value": 0.00037
   },
   {
    "base": "ILS",
    "quote": "DKK",
    "type": "reference",
-   "value": 2.1692
+   "value": 2.1981
   },
   {
    "base": "INR",
    "quote": "DKK",
    "type": "reference",
-   "value": 0.0702
+   "value": 0.0705
   },
   {
    "base": "ISK",
@@ -89,97 +95,97 @@
    "base": "JPY",
    "quote": "DKK",
    "type": "reference",
-   "value": 0.042434
+   "value": 0.042474
   },
   {
    "base": "KRW",
    "quote": "DKK",
    "type": "reference",
-   "value": 0.005041
+   "value": 0.005049
   },
   {
    "base": "MXN",
    "quote": "DKK",
    "type": "reference",
-   "value": 0.3589
+   "value": 0.3597
   },
   {
    "base": "MYR",
    "quote": "DKK",
    "type": "reference",
-   "value": 1.6345
+   "value": 1.6394
   },
   {
    "base": "NOK",
    "quote": "DKK",
    "type": "reference",
-   "value": 0.715
+   "value": 0.7195
   },
   {
    "base": "NZD",
    "quote": "DKK",
    "type": "reference",
-   "value": 3.7952
+   "value": 3.8227
   },
   {
    "base": "PHP",
    "quote": "DKK",
    "type": "reference",
-   "value": 0.1045
+   "value": 0.1047
   },
   {
    "base": "PLN",
    "quote": "DKK",
    "type": "reference",
-   "value": 1.6973
+   "value": 1.6979
   },
   {
    "base": "RON",
    "quote": "DKK",
    "type": "reference",
-   "value": 1.3978
+   "value": 1.3974
   },
   {
    "base": "SEK",
    "quote": "DKK",
    "type": "reference",
-   "value": 0.6711
+   "value": 0.6746
   },
   {
    "base": "SGD",
    "quote": "DKK",
    "type": "reference",
-   "value": 5.2172
+   "value": 5.2322
   },
   {
    "base": "THB",
    "quote": "DKK",
    "type": "reference",
-   "value": 0.1976
+   "value": 0.1985
   },
   {
    "base": "TRY",
    "quote": "DKK",
    "type": "reference",
-   "value": 0.1343
+   "value": 0.1346
   },
   {
    "base": "USD",
    "quote": "DKK",
    "type": "reference",
-   "value": 6.681
+   "value": 6.7033
   },
   {
    "base": "XDR",
    "quote": "DKK",
    "type": "reference",
-   "value": 9.0499
+   "value": 9.0686
   },
   {
    "base": "ZAR",
    "quote": "DKK",
    "type": "reference",
-   "value": 0.4018
+   "value": 0.4026
   }
  ],
  "official_source": "https://www.nationalbanken.dk/api/currencyratesxml",
