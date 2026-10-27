@@ -101,7 +101,7 @@ def build(work, utm_source, csv_path):
     src = {code: {**sources[code], "page": link(page_path(code, sources[code].get("kind")), utm_source)} for code in sorted(sources)}
     json.dump(src, open(f"{work}/sources.json", "w"), indent=1)
 
-    banks = sum(1 for c in stats["rows_by"] if sources[c].get("kind") != "tax_authority" and c != "composite")
+    banks = sum(1 for c in stats["rows_by"] if sources[c].get("kind") == "central_bank")  # not tax authorities, composite or the IMF
     stats.update(banks=banks, taxes=sum(1 for c in stats["rows_by"] if sources[c].get("kind") == "tax_authority"),
                  latest=max(stats["latest_by"].values()), sources=sources)
     with open(f"{work}/ATTRIBUTION.txt", "w") as f:
