@@ -1,0 +1,56 @@
+{
+ "source": "bob",
+ "name": "Bank of Botswana",
+ "country": "Botswana",
+ "home_currency": "BWP",
+ "kind": "central_bank",
+ "date": "2026-10-27",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "BWP",
+   "quote": "CNH",
+   "type": "reference",
+   "value": 0.495
+  },
+  {
+   "base": "BWP",
+   "quote": "EUR",
+   "type": "reference",
+   "value": 0.0665
+  },
+  {
+   "base": "BWP",
+   "quote": "GBP",
+   "type": "reference",
+   "value": 0.0557
+  },
+  {
+   "base": "BWP",
+   "quote": "JPY",
+   "type": "reference",
+   "value": 11.72
+  },
+  {
+   "base": "BWP",
+   "quote": "USD",
+   "type": "reference",
+   "value": 0.0742
+  },
+  {
+   "base": "BWP",
+   "quote": "XDR",
+   "type": "reference",
+   "value": 0.0549
+  },
+  {
+   "base": "BWP",
+   "quote": "ZAR",
+   "type": "reference",
+   "value": 1.2362
+  }
+ ],
+ "official_source": "https://www.bankofbotswana.bw/content/exchange-rates",
+ "page": "https://allratestoday.com/central-bank-rates-api/bob/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}
