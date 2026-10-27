@@ -32,12 +32,8 @@ const index = {};
 const all = {};
 let updated = 0, failed = [];
 
-// Paid-only sources are not part of the open dataset.
-const PAID_ONLY = new Set(['imf']);
-
 for (const s of feed.sources) {
   const code = s.code;
-  if (PAID_ONLY.has(code)) continue;
   const meta = sources[code] ?? { name: s.name };
   // tax authorities have their own hub; /central-bank-rates-api/<code>/ 301s for them
   const page = meta.kind === 'tax_authority' ? `https://allratestoday.com/tax-authority-rates-api/${code}/` : meta.page;
