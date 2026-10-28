@@ -4,8 +4,8 @@
  "country": "Switzerland",
  "home_currency": "CHF",
  "kind": "central_bank",
- "date": "2026-09-30",
- "cadence": "monthly_average",
+ "date": "2026-10-27",
+ "cadence": "daily",
  "rates": [
   {
    "base": "ARS",
@@ -56,10 +56,22 @@
    "value": 0.94312
   },
   {
+   "base": "EUR",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.9233
+  },
+  {
    "base": "GBP",
    "quote": "CHF",
    "type": "monthly_average",
    "value": 1.0993
+  },
+  {
+   "base": "GBP",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 1.1033
   },
   {
    "base": "HKD",
@@ -78,6 +90,12 @@
    "quote": "CHF",
    "type": "monthly_average",
    "value": 0.0052383
+  },
+  {
+   "base": "JPY",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.005253
   },
   {
    "base": "KRW",
@@ -152,6 +170,12 @@
    "value": 0.81926
   },
   {
+   "base": "USD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.8285
+  },
+  {
    "base": "XDR",
    "quote": "CHF",
    "type": "monthly_average",
@@ -164,7 +188,7 @@
    "value": 0.05052
   }
  ],
- "official_source": "https://data.snb.ch/api/cube/devkum/data/json/en",
+ "official_source": "https://www.snb.ch/en/the-snb/mandates-goals/statistics/statistics-pub/current_interest_exchange_rates",
  "page": "https://allratestoday.com/central-bank-rates-api/snb/",
  "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
 }

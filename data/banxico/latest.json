@@ -4,32 +4,38 @@
  "country": "Mexico",
  "home_currency": "MXN",
  "kind": "central_bank",
- "date": "2026-10-26",
+ "date": "2026-10-27",
  "cadence": "daily",
  "rates": [
+  {
+   "base": "CAD",
+   "quote": "MXN",
+   "type": "informational",
+   "value": 13.289
+  },
   {
    "base": "EUR",
    "quote": "MXN",
    "type": "informational",
-   "value": 20.7992
+   "value": 20.7882
   },
   {
    "base": "JPY",
    "quote": "MXN",
    "type": "informational",
-   "value": 0.118
+   "value": 0.1182
   },
   {
    "base": "USD",
    "quote": "MXN",
    "type": "close",
-   "value": 18.5588
+   "value": 18.6798
   },
   {
    "base": "USD",
    "quote": "MXN",
    "type": "reference",
-   "value": 18.5798
+   "value": 18.6525
   }
  ],
  "official_source": "https://www.banxico.org.mx/tipcamb/llenarTiposCambioAction.do",

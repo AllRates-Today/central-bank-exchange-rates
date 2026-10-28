@@ -4,26 +4,26 @@
  "country": "Costa Rica",
  "home_currency": "CRC",
  "kind": "central_bank",
- "date": "2026-10-26",
+ "date": "2026-10-27",
  "cadence": "daily",
  "rates": [
   {
    "base": "EUR",
    "quote": "CRC",
    "type": "reference",
-   "value": 510.21
+   "value": 507.64
   },
   {
    "base": "USD",
    "quote": "CRC",
    "type": "buy",
-   "value": 450.04
+   "value": 451.24
   },
   {
    "base": "USD",
    "quote": "CRC",
    "type": "sell",
-   "value": 456.32
+   "value": 455.53
   }
  ],
  "official_source": "https://api.hacienda.go.cr/indicadores/tc",

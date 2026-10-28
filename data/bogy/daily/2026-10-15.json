@@ -8,6 +8,42 @@
  "cadence": "weekly",
  "rates": [
   {
+   "base": "CAD",
+   "quote": "GYD",
+   "type": "buy",
+   "value": 147.72
+  },
+  {
+   "base": "CAD",
+   "quote": "GYD",
+   "type": "sell",
+   "value": 162.32
+  },
+  {
+   "base": "EUR",
+   "quote": "GYD",
+   "type": "buy",
+   "value": 224.54
+  },
+  {
+   "base": "EUR",
+   "quote": "GYD",
+   "type": "sell",
+   "value": 240.34
+  },
+  {
+   "base": "GBP",
+   "quote": "GYD",
+   "type": "buy",
+   "value": 259.17
+  },
+  {
+   "base": "GBP",
+   "quote": "GYD",
+   "type": "sell",
+   "value": 276.37
+  },
+  {
    "base": "USD",
    "quote": "GYD",
    "type": "buy",
@@ -18,6 +54,12 @@
    "quote": "GYD",
    "type": "middle",
    "value": 214.91
+  },
+  {
+   "base": "USD",
+   "quote": "GYD",
+   "type": "reference",
+   "value": 208.5
   },
   {
    "base": "USD",
