@@ -4,38 +4,44 @@
  "country": "Belize",
  "home_currency": "BZD",
  "kind": "central_bank",
- "date": "2026-10-29",
+ "date": "2026-10-30",
  "cadence": "daily",
  "rates": [
   {
    "base": "CAD",
    "quote": "BZD",
+   "type": "buy",
+   "value": 1.4099
+  },
+  {
+   "base": "CAD",
+   "quote": "BZD",
    "type": "sell",
-   "value": 1.4492
+   "value": 1.4529
   },
   {
    "base": "EUR",
    "quote": "BZD",
    "type": "buy",
-   "value": 2.1914
+   "value": 2.1967
   },
   {
    "base": "EUR",
    "quote": "BZD",
    "type": "sell",
-   "value": 2.2582
+   "value": 2.2637
   },
   {
    "base": "GBP",
    "quote": "BZD",
    "type": "buy",
-   "value": 2.6244
+   "value": 2.6372
   },
   {
    "base": "GBP",
    "quote": "BZD",
    "type": "sell",
-   "value": 2.7044
+   "value": 2.7176
   },
   {
    "base": "USD",

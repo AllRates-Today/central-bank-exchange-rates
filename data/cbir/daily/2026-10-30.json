@@ -1,0 +1,296 @@
+{
+ "source": "cbir",
+ "name": "Central Bank of Iran",
+ "country": "Iran",
+ "home_currency": "IRR",
+ "kind": "central_bank",
+ "date": "2026-10-30",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AED",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 508626
+  },
+  {
+   "base": "AFN",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 28873
+  },
+  {
+   "base": "AMD",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 5179.28
+  },
+  {
+   "base": "AUD",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 1314352
+  },
+  {
+   "base": "AZN",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 1098781
+  },
+  {
+   "base": "BDT",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 15056.64
+  },
+  {
+   "base": "BHD",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 4967894
+  },
+  {
+   "base": "BYN",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 634810
+  },
+  {
+   "base": "CAD",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 1330704
+  },
+  {
+   "base": "CHF",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 2250118
+  },
+  {
+   "base": "CNY",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 280201
+  },
+  {
+   "base": "DKK",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 278401
+  },
+  {
+   "base": "EUR",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 2080841
+  },
+  {
+   "base": "GBP",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 2484633
+  },
+  {
+   "base": "GEL",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 720152
+  },
+  {
+   "base": "HKD",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 238093
+  },
+  {
+   "base": "IDR",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 102.764
+  },
+  {
+   "base": "INR",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 19607
+  },
+  {
+   "base": "IQD",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 1232.72
+  },
+  {
+   "base": "JOD",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 2634595
+  },
+  {
+   "base": "JPY",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 11804.31
+  },
+  {
+   "base": "KRW",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 1389.976
+  },
+  {
+   "base": "KWD",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 5997833
+  },
+  {
+   "base": "KZT",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 4103.14
+  },
+  {
+   "base": "LKR",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 5621.8
+  },
+  {
+   "base": "LYD",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 290441
+  },
+  {
+   "base": "MMK",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 890
+  },
+  {
+   "base": "MYR",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 458192
+  },
+  {
+   "base": "NOK",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 201466
+  },
+  {
+   "base": "NPR",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 12248.47
+  },
+  {
+   "base": "NZD",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 1049910
+  },
+  {
+   "base": "OMR",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 4854244
+  },
+  {
+   "base": "PHP",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 29205.89
+  },
+  {
+   "base": "PKR",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 6753.26
+  },
+  {
+   "base": "QAR",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 513167
+  },
+  {
+   "base": "RUB",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 23100
+  },
+  {
+   "base": "SAR",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 498114
+  },
+  {
+   "base": "SEK",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 188218
+  },
+  {
+   "base": "SGD",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 1456101
+  },
+  {
+   "base": "SYP",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 15308
+  },
+  {
+   "base": "THB",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 55302.68
+  },
+  {
+   "base": "TJS",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 202746
+  },
+  {
+   "base": "TMT",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 533942
+  },
+  {
+   "base": "TRY",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 37480
+  },
+  {
+   "base": "USD",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 1867928
+  },
+  {
+   "base": "VES",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 2106
+  },
+  {
+   "base": "ZAR",
+   "quote": "IRR",
+   "type": "reference",
+   "value": 112042
+  }
+ ],
+ "official_source": "https://www.cbi.ir/exrates/rates_en.aspx",
+ "page": "https://allratestoday.com/central-bank-rates-api/cbir/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}
