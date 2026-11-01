@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T19:22:37.349Z",
+ "generated_at": "2026-11-01T00:13:26.522Z",
  "source_count": 128,
  "sources": {
   "amcm": {
@@ -187,7 +187,7 @@
    "country": "Nicaragua",
    "home_currency": "NIO",
    "kind": "central_bank",
-   "latest": "2026-10-31",
+   "latest": "2026-11-01",
    "cadence": "daily",
    "stale": false,
    "currencies": 1,
@@ -1015,10 +1015,10 @@
    "country": "Global",
    "home_currency": "USD",
    "kind": "composite",
-   "latest": "2026-10-31",
+   "latest": "2026-11-01",
    "cadence": "daily",
    "stale": false,
-   "currencies": 153,
+   "currencies": 151,
    "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/composite/latest.json",
    "page": "https://allratestoday.com/central-bank-rates-api/composite/"
   },
@@ -1075,7 +1075,7 @@
    "country": "United Kingdom",
    "home_currency": "GBP",
    "kind": "tax_authority",
-   "latest": "2026-10-01",
+   "latest": "2026-11-01",
    "cadence": "monthly",
    "stale": false,
    "currencies": 141,
@@ -1365,7 +1365,7 @@
    "kind": "central_bank",
    "latest": "2026-10-27",
    "cadence": "daily",
-   "stale": false,
+   "stale": true,
    "currencies": 8,
    "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/rbf/latest.json",
    "page": "https://allratestoday.com/central-bank-rates-api/rbf/"
