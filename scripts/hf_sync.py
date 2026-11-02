@@ -18,9 +18,10 @@ st = M.build(work, UTM, lambda c: f"rates/{c}.csv")
 
 card = f"""---
 license: cc-by-nc-4.0
-extra_gated_heading: "Access the central bank exchange rates dataset"
-extra_gated_prompt: "This dataset is free for research, teaching, personal projects and journalism under CC BY-NC 4.0. Please credit AllRatesToday with a link to https://allratestoday.com where the data is shown. Commercial use needs the Official Rates plan at https://allratestoday.com/pricing#official. Access is approved automatically; we only ask for a Hugging Face login so we know who is using the data."
+extra_gated_heading: "Access needs a free AllRatesToday API key"
+extra_gated_prompt: "This dataset is published by AllRatesToday under CC BY-NC 4.0 (free for research, teaching, personal projects and journalism; commercial use needs the Official Rates plan at https://allratestoday.com/pricing#official). To download it, register for a free AllRatesToday account at https://allratestoday.com/register and paste your API key (it starts with art_live_) below. Approval is automatic. We check keys daily and remove access where the key is not valid; you can request again after registering."
 extra_gated_fields:
+  AllRatesToday API key (register free on the AllRatesToday site, key starts with art_live_): text
   I will credit AllRatesToday with a link where the data is shown: checkbox
   Intended use:
     type: select
@@ -64,7 +65,7 @@ Every row is the figure the institution itself published for that date: the ECB 
 
 ## Access
 
-The files require a free Hugging Face login: click **Get access** above, and approval is automatic. In code, run `huggingface-cli login` once (or set `HF_TOKEN`) before `load_dataset`, `pd.read_csv("hf://...")`, Polars or DuckDB will read it. The same tables are also on the [GitHub source repository]({M.GITHUB}) and via the [API]({M.link('/central-bank-rates-api/', UTM)}) without any Hugging Face account.
+Downloading needs two free accounts: a Hugging Face login, and an AllRatesToday account whose API key you paste into the **Get access** form above ([register here]({M.link('/register/', UTM)}), the key is on your dashboard). Approval is automatic; keys are checked daily and access is removed where the key is not valid, after which you can request again. In code, run `huggingface-cli login` once (or set `HF_TOKEN`) and `load_dataset`, `pd.read_csv("hf://...")`, Polars and DuckDB all work. The same tables are on the [GitHub source repository]({M.GITHUB}) and the [API]({M.link('/central-bank-rates-api/', UTM)}) as well.
 
 ## Schema
 

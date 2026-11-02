@@ -1,0 +1,22 @@
+name: HF gate audit
+on:
+  schedule:
+    - cron: "40 6 * * *"
+  workflow_dispatch:
+    inputs:
+      all:
+        description: "Re-check every approved user"
+        type: boolean
+        default: false
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -q huggingface_hub
+      - run: python scripts/hf_gate_audit.py ${{ inputs.all && '--all' || '' }}
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
