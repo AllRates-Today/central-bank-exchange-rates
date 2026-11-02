@@ -1,0 +1,230 @@
+{
+ "source": "bou",
+ "name": "Bank of Uganda",
+ "country": "Uganda",
+ "home_currency": "UGX",
+ "kind": "central_bank",
+ "date": "2026-11-02",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "EUR",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 4756.0279
+  },
+  {
+   "base": "EUR",
+   "quote": "UGX",
+   "type": "midday",
+   "value": 4806.175075
+  },
+  {
+   "base": "EUR",
+   "quote": "UGX",
+   "type": "midday_buy",
+   "value": 4800.134408
+  },
+  {
+   "base": "EUR",
+   "quote": "UGX",
+   "type": "midday_sell",
+   "value": 4812.215742
+  },
+  {
+   "base": "EUR",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 4761.8311025
+  },
+  {
+   "base": "EUR",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 4767.634305
+  },
+  {
+   "base": "GBP",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 5697.02376
+  },
+  {
+   "base": "GBP",
+   "quote": "UGX",
+   "type": "midday",
+   "value": 5753.0671455
+  },
+  {
+   "base": "GBP",
+   "quote": "UGX",
+   "type": "midday_buy",
+   "value": 5745.278478
+  },
+  {
+   "base": "GBP",
+   "quote": "UGX",
+   "type": "midday_sell",
+   "value": 5760.855813
+  },
+  {
+   "base": "GBP",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 5705.42538
+  },
+  {
+   "base": "GBP",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 5713.827
+  },
+  {
+   "base": "KES",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 32.7108804306
+  },
+  {
+   "base": "KES",
+   "quote": "UGX",
+   "type": "midday",
+   "value": 32.9359721515
+  },
+  {
+   "base": "KES",
+   "quote": "UGX",
+   "type": "midday_buy",
+   "value": 32.8721752498
+  },
+  {
+   "base": "KES",
+   "quote": "UGX",
+   "type": "midday_sell",
+   "value": 32.9997690531
+  },
+  {
+   "base": "KES",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 32.7745776816
+  },
+  {
+   "base": "KES",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 32.8382749326
+  },
+  {
+   "base": "TZS",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 1.60107263831
+  },
+  {
+   "base": "TZS",
+   "quote": "UGX",
+   "type": "midday",
+   "value": 1.62044390459
+  },
+  {
+   "base": "TZS",
+   "quote": "UGX",
+   "type": "midday_buy",
+   "value": 1.60475422139
+  },
+  {
+   "base": "TZS",
+   "quote": "UGX",
+   "type": "midday_sell",
+   "value": 1.63613358779
+  },
+  {
+   "base": "TZS",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 1.61211797123
+  },
+  {
+   "base": "TZS",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 1.62316330415
+  },
+  {
+   "base": "USD",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 4254.05
+  },
+  {
+   "base": "USD",
+   "quote": "UGX",
+   "type": "midday",
+   "value": 4281.67
+  },
+  {
+   "base": "USD",
+   "quote": "UGX",
+   "type": "midday_buy",
+   "value": 4276.67
+  },
+  {
+   "base": "USD",
+   "quote": "UGX",
+   "type": "midday_sell",
+   "value": 4286.67
+  },
+  {
+   "base": "USD",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 4259.05
+  },
+  {
+   "base": "USD",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 4264.05
+  },
+  {
+   "base": "ZAR",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 254.878523711
+  },
+  {
+   "base": "ZAR",
+   "quote": "UGX",
+   "type": "midday",
+   "value": 257.441952604
+  },
+  {
+   "base": "ZAR",
+   "quote": "UGX",
+   "type": "midday_buy",
+   "value": 257.074760007
+  },
+  {
+   "base": "ZAR",
+   "quote": "UGX",
+   "type": "midday_sell",
+   "value": 257.809145201
+  },
+  {
+   "base": "ZAR",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 255.227861712
+  },
+  {
+   "base": "ZAR",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 255.577199712
+  }
+ ],
+ "official_source": "https://bou.or.ug/",
+ "page": "https://allratestoday.com/central-bank-rates-api/bou/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}
