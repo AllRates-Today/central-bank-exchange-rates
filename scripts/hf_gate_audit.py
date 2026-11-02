@@ -1,4 +1,9 @@
-"""Enforce the Hugging Face gate: every approved user must have given a valid
+"""Backstop for the Hugging Face gate (the live approver is the site worker cron,
+astro-blog-starter-template/src/lib/hf-gate.ts, which accepts/rejects pending
+requests every 5 minutes against the API_KEYS KV). This script re-checks already
+accepted users once a day in case a key was deleted since.
+
+Enforce the Hugging Face gate: every approved user must have given a valid
 AllRatesToday API key in the access form. Approval is automatic on HF; this
 script runs afterwards, validates the key each user typed, and cancels access
 where it is missing or invalid (the user can request again after registering).

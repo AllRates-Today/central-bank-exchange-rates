@@ -233,7 +233,7 @@ Files change at most once per publication date. The `main` branch always holds t
 
 The same data, one CSV per institution, is mirrored daily to [Hugging Face](https://huggingface.co/datasets/AllRatesToday/central-bank-exchange-rates) for `load_dataset` users and to [Kaggle](https://www.kaggle.com/datasets/allratestoday/central-bank-exchange-rates) for notebooks.
 
-**Since 2 November 2026 the Hugging Face mirror is gated.** Downloading it needs a Hugging Face login plus a free [AllRatesToday API key](https://allratestoday.com/register/) pasted into the "Get access" form; approval is automatic. This repository, the jsDelivr JSON files and the keyless API are unchanged and need no account.
+**Since 2 November 2026 the Hugging Face mirror is gated.** Downloading it needs a Hugging Face login plus a free [AllRatesToday API key](https://allratestoday.com/register/) pasted into the "Get access" form; valid keys are approved within about 5 minutes. This repository, the jsDelivr JSON files and the keyless API are unchanged and need no account.
 
 ## How it is built
 

@@ -19,7 +19,7 @@ st = M.build(work, UTM, lambda c: f"rates/{c}.csv")
 card = f"""---
 license: cc-by-nc-4.0
 extra_gated_heading: "Access needs a free AllRatesToday API key"
-extra_gated_prompt: "This dataset is published by AllRatesToday under CC BY-NC 4.0 (free for research, teaching, personal projects and journalism; commercial use needs the Official Rates plan at https://allratestoday.com/pricing#official). To download it, register for a free AllRatesToday account at https://allratestoday.com/register and paste your API key (it starts with art_live_) below. Approval is automatic. We check keys daily and remove access where the key is not valid. If that happens, email support@allratestoday.com with your Hugging Face username and your key and we restore access."
+extra_gated_prompt: "This dataset is published by AllRatesToday under CC BY-NC 4.0 (free for research, teaching, personal projects and journalism; commercial use needs the Official Rates plan at https://allratestoday.com/pricing#official). To download it, register for a free AllRatesToday account at https://allratestoday.com/register and paste your API key (it starts with art_live_) below. Requests are checked automatically every 5 minutes: a valid key is approved within about 5 minutes, an invalid one is rejected. If you were rejected by mistake, email support@allratestoday.com with your Hugging Face username and your key."
 extra_gated_fields:
   AllRatesToday API key (register free on the AllRatesToday site, key starts with art_live_): text
   I will credit AllRatesToday with a link where the data is shown: checkbox
@@ -65,7 +65,7 @@ Every row is the figure the institution itself published for that date: the ECB 
 
 ## Access
 
-Downloading needs two free accounts: a Hugging Face login, and an AllRatesToday account whose API key you paste into the **Get access** form above ([register here]({M.link('/register/', UTM)}), the key is on your dashboard). Approval is automatic; keys are checked daily and access is removed where the key is not valid. If that happens to you, email support@allratestoday.com with your Hugging Face username and key and access is restored. In code, run `huggingface-cli login` once (or set `HF_TOKEN`) and `load_dataset`, `pd.read_csv("hf://...")`, Polars and DuckDB all work. The same tables are on the [GitHub source repository]({M.GITHUB}) and the [API]({M.link('/central-bank-rates-api/', UTM)}) as well.
+Downloading needs two free accounts: a Hugging Face login, and an AllRatesToday account whose API key you paste into the **Get access** form above ([register here]({M.link('/register/', UTM)}), the key is on your dashboard). Requests are checked every 5 minutes: a valid key is approved within about 5 minutes, an invalid key is rejected. Rejected by mistake? Email support@allratestoday.com with your Hugging Face username and key. In code, run `huggingface-cli login` once (or set `HF_TOKEN`) and `load_dataset`, `pd.read_csv("hf://...")`, Polars and DuckDB all work. The same tables are on the [GitHub source repository]({M.GITHUB}) and the [API]({M.link('/central-bank-rates-api/', UTM)}) as well.
 
 ## Schema
 
