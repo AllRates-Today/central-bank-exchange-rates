@@ -18,6 +18,19 @@ st = M.build(work, UTM, lambda c: f"rates/{c}.csv")
 
 card = f"""---
 license: cc-by-nc-4.0
+extra_gated_heading: "Access the central bank exchange rates dataset"
+extra_gated_prompt: "This dataset is free for research, teaching, personal projects and journalism under CC BY-NC 4.0. Please credit AllRatesToday with a link to https://allratestoday.com where the data is shown. Commercial use needs the Official Rates plan at https://allratestoday.com/pricing#official. Access is approved automatically; we only ask for a Hugging Face login so we know who is using the data."
+extra_gated_fields:
+  I will credit AllRatesToday with a link where the data is shown: checkbox
+  Intended use:
+    type: select
+    options:
+      - Research or teaching
+      - Personal project
+      - Journalism
+      - Internal reporting at a company (commercial)
+      - Other
+extra_gated_button_content: "Get access"
 language:
 - en
 pretty_name: Central Bank Exchange Rates
@@ -48,6 +61,10 @@ Official exchange rates published by **{st['banks']} central banks and {st['taxe
 Every row is the figure the institution itself published for that date: the ECB euro reference rate, the Federal Reserve H.10 table, the Bank of England spot rates, RBI reference rates, PBoC central parity, HMRC monthly rates for VAT, US Treasury quarterly rates, and a hundred more. These are the rates that invoices, tax filings, customs declarations, transfer pricing and audits require, as opposed to market rates.
 
 > **Need today's rates, not a {M.LAG_DAYS}-day-old mirror?** [Register for a free API key]({M.link('/register/', UTM)}) and query the same data live from the [central bank rates API]({M.link('/central-bank-rates-api/', UTM)}).
+
+## Access
+
+The files require a free Hugging Face login: click **Get access** above, and approval is automatic. In code, run `huggingface-cli login` once (or set `HF_TOKEN`) before `load_dataset`, `pd.read_csv("hf://...")`, Polars or DuckDB will read it. The same tables are also on the [GitHub source repository]({M.GITHUB}) and via the [API]({M.link('/central-bank-rates-api/', UTM)}) without any Hugging Face account.
 
 ## Schema
 
