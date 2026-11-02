@@ -108,6 +108,7 @@ def build(work, utm_source, csv_path):
         f.write(f"""Central Bank Exchange Rates - official rates from {banks} central banks and {stats['taxes']} tax authorities
 Collected and published by AllRatesToday, {SITE}
 License: CC BY-NC 4.0. Non-commercial use only; credit "AllRatesToday" with a link to {SITE} in anything you build or publish from this data. Commercial use needs a licence ({SITE}/pricing#official).
+Please register for a free AllRatesToday account before using this data: {SITE}/register/ (required on Hugging Face, requested on Kaggle). It tells us who uses the data and gives you the live API.
 
 This mirror ends {cut} (it lags the live source by {LAG_DAYS} days).
 Today's tables, per-date lookups, publication calendars and JSON/CSV/XML/XLSX output:

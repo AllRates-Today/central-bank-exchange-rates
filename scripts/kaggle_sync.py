@@ -51,6 +51,8 @@ Official exchange rates published by **{banks} central banks and {taxes} tax aut
 
 Every row is the figure the institution itself published for that date: the ECB euro reference rate, the Federal Reserve H.10 table, the Bank of England spot rates, RBI reference rates, PBoC central parity, HMRC monthly rates for VAT, US Treasury quarterly rates, and a hundred more. These are the rates that invoices, tax filings, customs declarations, transfer pricing and audits require, as opposed to market rates.
 
+> **Please register before you use this data.** The same dataset on Hugging Face now requires a free [AllRatesToday account]({M.link("/register/", UTM)}); Kaggle has no gate, so we ask instead. Registration takes a minute, gives you the live API next to this history, and tells us who is using the data, which is what keeps it published. Commercial use needs the [Official Rates plan]({M.link("/pricing/", UTM)}#official).
+
 ## Files
 
 | File | What it is |
