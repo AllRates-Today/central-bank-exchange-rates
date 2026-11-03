@@ -4,86 +4,92 @@
  "country": "Israel",
  "home_currency": "ILS",
  "kind": "central_bank",
- "date": "2026-11-02",
+ "date": "2026-11-03",
  "cadence": "daily",
  "rates": [
   {
    "base": "AUD",
    "quote": "ILS",
    "type": "reference",
-   "value": 2.1982
+   "value": 2.2042
   },
   {
    "base": "CAD",
    "quote": "ILS",
    "type": "reference",
-   "value": 2.2447
+   "value": 2.2592
   },
   {
    "base": "CHF",
    "quote": "ILS",
    "type": "reference",
-   "value": 3.8269
+   "value": 3.8528
   },
   {
    "base": "DKK",
    "quote": "ILS",
    "type": "reference",
-   "value": 0.4705
+   "value": 0.4724
   },
   {
    "base": "EGP",
    "quote": "ILS",
    "type": "reference",
-   "value": 0.0566
+   "value": 0.0571
   },
   {
    "base": "EUR",
    "quote": "ILS",
    "type": "reference",
-   "value": 3.5168
+   "value": 3.5306
   },
   {
    "base": "GBP",
    "quote": "ILS",
    "type": "reference",
-   "value": 4.2082
+   "value": 4.235
   },
   {
    "base": "JOD",
    "quote": "ILS",
    "type": "reference",
-   "value": 4.4228
+   "value": 4.4533
   },
   {
    "base": "JPY",
    "quote": "ILS",
    "type": "reference",
-   "value": 0.019864
+   "value": 0.019957
+  },
+  {
+   "base": "LBP",
+   "quote": "ILS",
+   "type": "reference",
+   "value": 0.00004
   },
   {
    "base": "NOK",
    "quote": "ILS",
    "type": "reference",
-   "value": 0.3388
+   "value": 0.3414
   },
   {
    "base": "SEK",
    "quote": "ILS",
    "type": "reference",
-   "value": 0.3214
+   "value": 0.3225
   },
   {
    "base": "USD",
    "quote": "ILS",
    "type": "reference",
-   "value": 3.136
+   "value": 3.157
   },
   {
    "base": "ZAR",
    "quote": "ILS",
    "type": "reference",
-   "value": 0.1884
+   "value": 0.1898
   }
  ],
  "official_source": "https://edge.boi.gov.il/FusionEdgeServer/sdmx/v2/data/dataflow/BOI.STATISTICS/EXR/1.0",
