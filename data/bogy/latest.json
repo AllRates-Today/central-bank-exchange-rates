@@ -4,68 +4,86 @@
  "country": "Guyana",
  "home_currency": "GYD",
  "kind": "central_bank",
- "date": "2026-10-15",
- "cadence": "weekly",
+ "date": "2026-11-04",
+ "cadence": "daily",
  "rates": [
   {
+   "base": "BBD",
+   "quote": "GYD",
+   "type": "buy",
+   "value": 84.65
+  },
+  {
+   "base": "BZD",
+   "quote": "GYD",
+   "type": "buy",
+   "value": 102.41
+  },
+  {
    "base": "CAD",
    "quote": "GYD",
    "type": "buy",
-   "value": 147.72
+   "value": 149.2
   },
   {
    "base": "CAD",
    "quote": "GYD",
    "type": "sell",
-   "value": 162.32
+   "value": 150.94
   },
   {
    "base": "EUR",
    "quote": "GYD",
    "type": "buy",
-   "value": 224.54
+   "value": 233.79
   },
   {
    "base": "EUR",
    "quote": "GYD",
    "type": "sell",
-   "value": 240.34
+   "value": 236.78
   },
   {
    "base": "GBP",
    "quote": "GYD",
    "type": "buy",
-   "value": 259.17
+   "value": 280.25
   },
   {
    "base": "GBP",
    "quote": "GYD",
    "type": "sell",
-   "value": 276.37
+   "value": 283.8
+  },
+  {
+   "base": "JMD",
+   "quote": "GYD",
+   "type": "buy",
+   "value": 1.32
+  },
+  {
+   "base": "TTD",
+   "quote": "GYD",
+   "type": "buy",
+   "value": 23.29
   },
   {
    "base": "USD",
    "quote": "GYD",
    "type": "buy",
-   "value": 214.54
-  },
-  {
-   "base": "USD",
-   "quote": "GYD",
-   "type": "middle",
-   "value": 214.91
-  },
-  {
-   "base": "USD",
-   "quote": "GYD",
-   "type": "reference",
-   "value": 208.5
+   "value": 207.98
   },
   {
    "base": "USD",
    "quote": "GYD",
    "type": "sell",
-   "value": 215.27
+   "value": 210.45
+  },
+  {
+   "base": "XCD",
+   "quote": "GYD",
+   "type": "buy",
+   "value": 65.8
   }
  ],
  "official_source": "https://bankofguyana.org.gy/",
