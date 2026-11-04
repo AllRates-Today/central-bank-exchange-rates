@@ -4,74 +4,74 @@
  "country": "Hong Kong",
  "home_currency": "HKD",
  "kind": "central_bank",
- "date": "2026-09-30",
+ "date": "2026-10-31",
  "cadence": "monthly",
  "rates": [
   {
    "base": "AUD",
    "quote": "HKD",
    "type": "reference",
-   "value": 5.473
+   "value": 5.516
   },
   {
    "base": "CAD",
    "quote": "HKD",
    "type": "reference",
-   "value": 5.532
+   "value": 5.613
   },
   {
    "base": "CHF",
    "quote": "HKD",
    "type": "reference",
-   "value": 9.416
+   "value": 9.5095
   },
   {
    "base": "CNY",
    "quote": "HKD",
    "type": "reference",
-   "value": 1.17025
+   "value": 1.1793
   },
   {
    "base": "EUR",
    "quote": "HKD",
    "type": "reference",
-   "value": 8.907
+   "value": 8.7545
   },
   {
    "base": "GBP",
    "quote": "HKD",
    "type": "reference",
-   "value": 10.4025
+   "value": 10.501
   },
   {
    "base": "IDR",
    "quote": "HKD",
    "type": "reference",
-   "value": 0.0004391
+   "value": 0.00043285
   },
   {
    "base": "INR",
    "quote": "HKD",
    "type": "reference",
-   "value": 0.0815
+   "value": 0.0825
   },
   {
    "base": "JPY",
    "quote": "HKD",
    "type": "reference",
-   "value": 0.05004
+   "value": 0.049745
   },
   {
    "base": "KRW",
    "quote": "HKD",
    "type": "reference",
-   "value": 0.005799
+   "value": 0.005881
   },
   {
    "base": "MYR",
    "quote": "HKD",
    "type": "reference",
-   "value": 1.92245
+   "value": 1.93365
   },
   {
    "base": "PHP",
@@ -83,31 +83,31 @@
    "base": "SGD",
    "quote": "HKD",
    "type": "reference",
-   "value": 6.1455
+   "value": 6.138
   },
   {
    "base": "THB",
    "quote": "HKD",
    "type": "reference",
-   "value": 0.23425
+   "value": 0.23255
   },
   {
    "base": "TWD",
    "quote": "HKD",
    "type": "reference",
-   "value": 0.246
+   "value": 0.251
   },
   {
    "base": "USD",
    "quote": "HKD",
    "type": "reference",
-   "value": 7.847
+   "value": 7.8455
   },
   {
    "base": "ZAR",
    "quote": "HKD",
    "type": "reference",
-   "value": 0.479
+   "value": 0.4695
   }
  ],
  "official_source": "https://api.hkma.gov.hk/public/market-data-and-statistics/monthly-statistical-bulletin/er-ir/er-eeri-daily",
