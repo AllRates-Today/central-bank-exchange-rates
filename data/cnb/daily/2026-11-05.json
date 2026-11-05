@@ -1,0 +1,194 @@
+{
+ "source": "cnb",
+ "name": "Czech National Bank",
+ "country": "Czech Republic",
+ "home_currency": "CZK",
+ "kind": "central_bank",
+ "date": "2026-11-05",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AUD",
+   "quote": "CZK",
+   "type": "reference",
+   "value": 15.159
+  },
+  {
+   "base": "BRL",
+   "quote": "CZK",
+   "type": "reference",
+   "value": 3.969
+  },
+  {
+   "base": "CAD",
+   "quote": "CZK",
+   "type": "reference",
+   "value": 15.5
+  },
+  {
+   "base": "CHF",
+   "quote": "CZK",
+   "type": "reference",
+   "value": 26.46
+  },
+  {
+   "base": "CNY",
+   "quote": "CZK",
+   "type": "reference",
+   "value": 3.246
+  },
+  {
+   "base": "DKK",
+   "quote": "CZK",
+   "type": "reference",
+   "value": 3.25
+  },
+  {
+   "base": "EUR",
+   "quote": "CZK",
+   "type": "reference",
+   "value": 24.29
+  },
+  {
+   "base": "GBP",
+   "quote": "CZK",
+   "type": "reference",
+   "value": 29.137
+  },
+  {
+   "base": "HKD",
+   "quote": "CZK",
+   "type": "reference",
+   "value": 2.759
+  },
+  {
+   "base": "HUF",
+   "quote": "CZK",
+   "type": "reference",
+   "value": 0.0669
+  },
+  {
+   "base": "IDR",
+   "quote": "CZK",
+   "type": "reference",
+   "value": 0.001197
+  },
+  {
+   "base": "ILS",
+   "quote": "CZK",
+   "type": "reference",
+   "value": 6.824
+  },
+  {
+   "base": "INR",
+   "quote": "CZK",
+   "type": "reference",
+   "value": 0.22911
+  },
+  {
+   "base": "ISK",
+   "quote": "CZK",
+   "type": "reference",
+   "value": 0.17756
+  },
+  {
+   "base": "JPY",
+   "quote": "CZK",
+   "type": "reference",
+   "value": 0.13661
+  },
+  {
+   "base": "KRW",
+   "quote": "CZK",
+   "type": "reference",
+   "value": 0.0161
+  },
+  {
+   "base": "MXN",
+   "quote": "CZK",
+   "type": "reference",
+   "value": 1.165
+  },
+  {
+   "base": "MYR",
+   "quote": "CZK",
+   "type": "reference",
+   "value": 5.35
+  },
+  {
+   "base": "NOK",
+   "quote": "CZK",
+   "type": "reference",
+   "value": 2.329
+  },
+  {
+   "base": "NZD",
+   "quote": "CZK",
+   "type": "reference",
+   "value": 12.172
+  },
+  {
+   "base": "PHP",
+   "quote": "CZK",
+   "type": "reference",
+   "value": 0.3436
+  },
+  {
+   "base": "PLN",
+   "quote": "CZK",
+   "type": "reference",
+   "value": 5.534
+  },
+  {
+   "base": "RON",
+   "quote": "CZK",
+   "type": "reference",
+   "value": 4.55
+  },
+  {
+   "base": "SEK",
+   "quote": "CZK",
+   "type": "reference",
+   "value": 2.212
+  },
+  {
+   "base": "SGD",
+   "quote": "CZK",
+   "type": "reference",
+   "value": 16.949
+  },
+  {
+   "base": "THB",
+   "quote": "CZK",
+   "type": "reference",
+   "value": 0.64752
+  },
+  {
+   "base": "TRY",
+   "quote": "CZK",
+   "type": "reference",
+   "value": 0.43289
+  },
+  {
+   "base": "USD",
+   "quote": "CZK",
+   "type": "reference",
+   "value": 21.646
+  },
+  {
+   "base": "XDR",
+   "quote": "CZK",
+   "type": "reference",
+   "value": 29.386
+  },
+  {
+   "base": "ZAR",
+   "quote": "CZK",
+   "type": "reference",
+   "value": 1.319
+  }
+ ],
+ "official_source": "https://api.cnb.cz/cnbapi/exrates/daily",
+ "page": "https://allratestoday.com/central-bank-rates-api/cnb/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

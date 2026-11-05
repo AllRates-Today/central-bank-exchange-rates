@@ -1,0 +1,92 @@
+{
+ "source": "bogy",
+ "name": "Bank of Guyana",
+ "country": "Guyana",
+ "home_currency": "GYD",
+ "kind": "central_bank",
+ "date": "2026-11-05",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "BBD",
+   "quote": "GYD",
+   "type": "buy",
+   "value": 84.65
+  },
+  {
+   "base": "BZD",
+   "quote": "GYD",
+   "type": "buy",
+   "value": 102.41
+  },
+  {
+   "base": "CAD",
+   "quote": "GYD",
+   "type": "buy",
+   "value": 148.87
+  },
+  {
+   "base": "CAD",
+   "quote": "GYD",
+   "type": "sell",
+   "value": 150.6
+  },
+  {
+   "base": "EUR",
+   "quote": "GYD",
+   "type": "buy",
+   "value": 233.31
+  },
+  {
+   "base": "EUR",
+   "quote": "GYD",
+   "type": "sell",
+   "value": 236.3
+  },
+  {
+   "base": "GBP",
+   "quote": "GYD",
+   "type": "buy",
+   "value": 280.19
+  },
+  {
+   "base": "GBP",
+   "quote": "GYD",
+   "type": "sell",
+   "value": 283.74
+  },
+  {
+   "base": "JMD",
+   "quote": "GYD",
+   "type": "buy",
+   "value": 1.32
+  },
+  {
+   "base": "TTD",
+   "quote": "GYD",
+   "type": "buy",
+   "value": 23.29
+  },
+  {
+   "base": "USD",
+   "quote": "GYD",
+   "type": "buy",
+   "value": 207.98
+  },
+  {
+   "base": "USD",
+   "quote": "GYD",
+   "type": "sell",
+   "value": 210.45
+  },
+  {
+   "base": "XCD",
+   "quote": "GYD",
+   "type": "buy",
+   "value": 65.8
+  }
+ ],
+ "official_source": "https://bankofguyana.org.gy/",
+ "page": "https://allratestoday.com/central-bank-rates-api/bogy/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}
