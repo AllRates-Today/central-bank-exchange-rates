@@ -1,0 +1,590 @@
+{
+ "source": "cbo",
+ "name": "Central Bank of Oman",
+ "country": "Oman",
+ "home_currency": "OMR",
+ "kind": "central_bank",
+ "date": "2026-11-05",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AED",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.1045438
+  },
+  {
+   "base": "AED",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.1048218
+  },
+  {
+   "base": "AUD",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.2692992
+  },
+  {
+   "base": "AUD",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.270039
+  },
+  {
+   "base": "BDT",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.0030815
+  },
+  {
+   "base": "BDT",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.0031028
+  },
+  {
+   "base": "BHD",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 1.0173533
+  },
+  {
+   "base": "BHD",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 1.0209494
+  },
+  {
+   "base": "BRL",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.0703451
+  },
+  {
+   "base": "BRL",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.0705425
+  },
+  {
+   "base": "CAD",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.2752688
+  },
+  {
+   "base": "CAD",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.2760054
+  },
+  {
+   "base": "CHF",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.4718604
+  },
+  {
+   "base": "CHF",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.4731474
+  },
+  {
+   "base": "CNY",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.0575634
+  },
+  {
+   "base": "CNY",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.0577281
+  },
+  {
+   "base": "CZK",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.0178107
+  },
+  {
+   "base": "CZK",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.0178634
+  },
+  {
+   "base": "DKK",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.0578601
+  },
+  {
+   "base": "DKK",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.0580151
+  },
+  {
+   "base": "EGP",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.0070117
+  },
+  {
+   "base": "EGP",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.0070423
+  },
+  {
+   "base": "ETB",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.0023854
+  },
+  {
+   "base": "ETB",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.0023922
+  },
+  {
+   "base": "EUR",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.4324992
+  },
+  {
+   "base": "EUR",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.433664
+  },
+  {
+   "base": "GBP",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.5181696
+  },
+  {
+   "base": "GBP",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.5195575
+  },
+  {
+   "base": "HKD",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.0489559
+  },
+  {
+   "base": "HKD",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.049084
+  },
+  {
+   "base": "IDR",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.0000231
+  },
+  {
+   "base": "IDR",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.0000232
+  },
+  {
+   "base": "INR",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.004062
+  },
+  {
+   "base": "INR",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.0040729
+  },
+  {
+   "base": "JOD",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.5406928
+  },
+  {
+   "base": "JOD",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.5437853
+  },
+  {
+   "base": "JPY",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.0024333
+  },
+  {
+   "base": "JPY",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.0024398
+  },
+  {
+   "base": "KES",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.0029527
+  },
+  {
+   "base": "KES",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.002965
+  },
+  {
+   "base": "KRW",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.0002859
+  },
+  {
+   "base": "KRW",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.0002868
+  },
+  {
+   "base": "KWD",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 1.2337349
+  },
+  {
+   "base": "KWD",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 1.2401353
+  },
+  {
+   "base": "LBP",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.0000043
+  },
+  {
+   "base": "LBP",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.0000043
+  },
+  {
+   "base": "LKR",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.0011552
+  },
+  {
+   "base": "LKR",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.0011587
+  },
+  {
+   "base": "MAD",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.0393535
+  },
+  {
+   "base": "MAD",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.0394771
+  },
+  {
+   "base": "MYR",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.0948265
+  },
+  {
+   "base": "MYR",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.0951675
+  },
+  {
+   "base": "NOK",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.0412899
+  },
+  {
+   "base": "NOK",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.0414108
+  },
+  {
+   "base": "NZD",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.2168832
+  },
+  {
+   "base": "NZD",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.2174865
+  },
+  {
+   "base": "PHP",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.0060856
+  },
+  {
+   "base": "PHP",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.0061072
+  },
+  {
+   "base": "PKR",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.0013838
+  },
+  {
+   "base": "PKR",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.0013917
+  },
+  {
+   "base": "QAR",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.1053296
+  },
+  {
+   "base": "QAR",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.1056183
+  },
+  {
+   "base": "RUB",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.0046786
+  },
+  {
+   "base": "RUB",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.0046919
+  },
+  {
+   "base": "SAR",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.1022909
+  },
+  {
+   "base": "SAR",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.1025791
+  },
+  {
+   "base": "SEK",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.0396019
+  },
+  {
+   "base": "SEK",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.0397165
+  },
+  {
+   "base": "SGD",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.3008697
+  },
+  {
+   "base": "SGD",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.3016769
+  },
+  {
+   "base": "SYP",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.0031334
+  },
+  {
+   "base": "SYP",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.0031674
+  },
+  {
+   "base": "THB",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.0114839
+  },
+  {
+   "base": "THB",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.011519
+  },
+  {
+   "base": "TND",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.1279446
+  },
+  {
+   "base": "TND",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.1285948
+  },
+  {
+   "base": "TRY",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.0076723
+  },
+  {
+   "base": "TRY",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.0076936
+  },
+  {
+   "base": "TWD",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.011654
+  },
+  {
+   "base": "TWD",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.0116883
+  },
+  {
+   "base": "TZS",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.0001447
+  },
+  {
+   "base": "TZS",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.0001463
+  },
+  {
+   "base": "USD",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.384
+  },
+  {
+   "base": "USD",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.385
+  },
+  {
+   "base": "XAG",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 20.3363712
+  },
+  {
+   "base": "XAG",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 20.399379
+  },
+  {
+   "base": "XAU",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 1587.6
+  },
+  {
+   "base": "XAU",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 1591.99
+  },
+  {
+   "base": "XDR",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.5219818
+  },
+  {
+   "base": "XDR",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.5219818
+  },
+  {
+   "base": "XPT",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 584.928
+  },
+  {
+   "base": "XPT",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 587.99125
+  },
+  {
+   "base": "YER",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.0016234
+  },
+  {
+   "base": "YER",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.0016326
+  },
+  {
+   "base": "ZAR",
+   "quote": "OMR",
+   "type": "buy",
+   "value": 0.0234908
+  },
+  {
+   "base": "ZAR",
+   "quote": "OMR",
+   "type": "sell",
+   "value": 0.0235635
+  }
+ ],
+ "official_source": "https://cbo.gov.om/Pages/DFESearch.aspx",
+ "page": "https://allratestoday.com/central-bank-rates-api/cbo/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

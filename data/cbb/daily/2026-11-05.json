@@ -1,0 +1,212 @@
+{
+ "source": "cbb",
+ "name": "Central Bank of Bahrain",
+ "country": "Bahrain",
+ "home_currency": "BHD",
+ "kind": "central_bank",
+ "date": "2026-11-05",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AED",
+   "quote": "BHD",
+   "type": "reference",
+   "value": 0.102391
+  },
+  {
+   "base": "ANG",
+   "quote": "BHD",
+   "type": "reference",
+   "value": 0.210101
+  },
+  {
+   "base": "AUD",
+   "quote": "BHD",
+   "type": "reference",
+   "value": 0.263821
+  },
+  {
+   "base": "BDT",
+   "quote": "BHD",
+   "type": "reference",
+   "value": 0.003026
+  },
+  {
+   "base": "CAD",
+   "quote": "BHD",
+   "type": "reference",
+   "value": 0.269409
+  },
+  {
+   "base": "CHF",
+   "quote": "BHD",
+   "type": "reference",
+   "value": 0.461195
+  },
+  {
+   "base": "CNY",
+   "quote": "BHD",
+   "type": "reference",
+   "value": 0.056343
+  },
+  {
+   "base": "EGP",
+   "quote": "BHD",
+   "type": "reference",
+   "value": 0.006873
+  },
+  {
+   "base": "EUR",
+   "quote": "BHD",
+   "type": "reference",
+   "value": 0.422997
+  },
+  {
+   "base": "GBP",
+   "quote": "BHD",
+   "type": "reference",
+   "value": 0.507183
+  },
+  {
+   "base": "HKD",
+   "quote": "BHD",
+   "type": "reference",
+   "value": 0.047937
+  },
+  {
+   "base": "IDR",
+   "quote": "BHD",
+   "type": "reference",
+   "value": 0.000021
+  },
+  {
+   "base": "ILS",
+   "quote": "BHD",
+   "type": "reference",
+   "value": 0.119149
+  },
+  {
+   "base": "INR",
+   "quote": "BHD",
+   "type": "reference",
+   "value": 0.003973
+  },
+  {
+   "base": "JOD",
+   "quote": "BHD",
+   "type": "reference",
+   "value": 0.530065
+  },
+  {
+   "base": "JPY",
+   "quote": "BHD",
+   "type": "reference",
+   "value": 0.002378
+  },
+  {
+   "base": "KWD",
+   "quote": "BHD",
+   "type": "reference",
+   "value": 1.209634
+  },
+  {
+   "base": "LBP",
+   "quote": "BHD",
+   "type": "reference",
+   "value": 0.000004
+  },
+  {
+   "base": "LKR",
+   "quote": "BHD",
+   "type": "reference",
+   "value": 0.001131
+  },
+  {
+   "base": "MAD",
+   "quote": "BHD",
+   "type": "reference",
+   "value": 0.03852
+  },
+  {
+   "base": "NOK",
+   "quote": "BHD",
+   "type": "reference",
+   "value": 0.04046
+  },
+  {
+   "base": "NPR",
+   "quote": "BHD",
+   "type": "reference",
+   "value": 0.002479
+  },
+  {
+   "base": "NZD",
+   "quote": "BHD",
+   "type": "reference",
+   "value": 0.211922
+  },
+  {
+   "base": "OMR",
+   "quote": "BHD",
+   "type": "reference",
+   "value": 0.976834
+  },
+  {
+   "base": "PHP",
+   "quote": "BHD",
+   "type": "reference",
+   "value": 0.005935
+  },
+  {
+   "base": "PKR",
+   "quote": "BHD",
+   "type": "reference",
+   "value": 0.001357
+  },
+  {
+   "base": "QAR",
+   "quote": "BHD",
+   "type": "reference",
+   "value": 0.103165
+  },
+  {
+   "base": "SAR",
+   "quote": "BHD",
+   "type": "reference",
+   "value": 0.100192
+  },
+  {
+   "base": "SGD",
+   "quote": "BHD",
+   "type": "reference",
+   "value": 0.2944
+  },
+  {
+   "base": "THB",
+   "quote": "BHD",
+   "type": "reference",
+   "value": 0.011221
+  },
+  {
+   "base": "TND",
+   "quote": "BHD",
+   "type": "reference",
+   "value": 0.125467
+  },
+  {
+   "base": "TRY",
+   "quote": "BHD",
+   "type": "reference",
+   "value": 0.007515
+  },
+  {
+   "base": "USD",
+   "quote": "BHD",
+   "type": "reference",
+   "value": 0.376081
+  }
+ ],
+ "official_source": "https://www.cbb.gov.bh/cbbapi/database/currencies/",
+ "page": "https://allratestoday.com/central-bank-rates-api/cbb/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}
