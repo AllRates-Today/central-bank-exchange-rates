@@ -1,6 +1,9 @@
 {
  "source": "hkab",
  "name": "Hong Kong Association of Banks (HKAB)",
+ "country": "Hong Kong",
+ "home_currency": "HKD",
+ "kind": "bank_association",
  "date": "2026-11-06",
  "cadence": "daily",
  "rates": [
@@ -401,5 +404,7 @@
    "value": 0.4635
   }
  ],
+ "official_source": "https://www.hkab.org.hk/en/rates/exchange-rates",
+ "page": "https://allratestoday.com/central-bank-rates-api/hkab/",
  "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
 }
