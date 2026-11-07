@@ -8,6 +8,12 @@
  "cadence": "daily",
  "rates": [
   {
+   "base": "EUR",
+   "quote": "CRC",
+   "type": "reference",
+   "value": 505.47
+  },
+  {
    "base": "USD",
    "quote": "CRC",
    "type": "buy",

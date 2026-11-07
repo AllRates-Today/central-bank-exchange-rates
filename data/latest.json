@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T20:57:22.366Z",
+ "generated_at": "2026-11-07T00:59:10.420Z",
  "sources": {
   "amcm": {
    "source": "amcm",
@@ -337,32 +337,32 @@
    "country": "Mexico",
    "home_currency": "MXN",
    "kind": "central_bank",
-   "date": "2026-11-05",
+   "date": "2026-11-06",
    "cadence": "daily",
    "rates": [
     {
      "base": "EUR",
      "quote": "MXN",
      "type": "informational",
-     "value": 21.0016
+     "value": 20.815
     },
     {
      "base": "JPY",
      "quote": "MXN",
      "type": "informational",
-     "value": 0.1182
+     "value": 0.1177
     },
     {
      "base": "USD",
      "quote": "MXN",
      "type": "close",
-     "value": 18.7499
+     "value": 18.628
     },
     {
      "base": "USD",
      "quote": "MXN",
      "type": "reference",
-     "value": 18.7147
+     "value": 18.6297
     }
    ],
    "official_source": "https://www.banxico.org.mx/tipcamb/llenarTiposCambioAction.do",
@@ -4201,6 +4201,12 @@
    "cadence": "daily",
    "rates": [
     {
+     "base": "EUR",
+     "quote": "CRC",
+     "type": "reference",
+     "value": 505.47
+    },
+    {
      "base": "USD",
      "quote": "CRC",
      "type": "buy",
@@ -4777,7 +4783,7 @@
    "country": "Nicaragua",
    "home_currency": "NIO",
    "kind": "central_bank",
-   "date": "2026-11-06",
+   "date": "2026-11-07",
    "cadence": "daily",
    "rates": [
     {
@@ -5197,20 +5203,20 @@
    "country": "Dominican Republic",
    "home_currency": "DOP",
    "kind": "central_bank",
-   "date": "2026-11-05",
+   "date": "2026-11-06",
    "cadence": "daily",
    "rates": [
     {
      "base": "USD",
      "quote": "DOP",
      "type": "buy",
-     "value": 60.5876
+     "value": 60.4617
     },
     {
      "base": "USD",
      "quote": "DOP",
      "type": "sell",
-     "value": 60.9038
+     "value": 60.7601
     }
    ],
    "official_source": "https://cdn.bancentral.gov.do/documents/estadisticas/mercado-cambiario/documents/TASA_DOLAR_REFERENCIA_MC.xlsx",
@@ -10781,152 +10787,152 @@
    "country": "Canada",
    "home_currency": "CAD",
    "kind": "central_bank",
-   "date": "2026-11-05",
+   "date": "2026-11-06",
    "cadence": "daily",
    "rates": [
     {
      "base": "AUD",
      "quote": "CAD",
      "type": "indicative",
-     "value": 0.9741
+     "value": 0.9696
     },
     {
      "base": "BRL",
      "quote": "CAD",
      "type": "indicative",
-     "value": 0.2555
+     "value": 0.2565
     },
     {
      "base": "CHF",
      "quote": "CAD",
      "type": "indicative",
-     "value": 1.7146
+     "value": 1.7207
     },
     {
      "base": "CNY",
      "quote": "CAD",
      "type": "indicative",
-     "value": 0.2098
+     "value": 0.2114
     },
     {
      "base": "EUR",
      "quote": "CAD",
      "type": "indicative",
-     "value": 1.5703
+     "value": 1.5732
     },
     {
      "base": "GBP",
      "quote": "CAD",
      "type": "indicative",
-     "value": 1.8841
+     "value": 1.8857
     },
     {
      "base": "HKD",
      "quote": "CAD",
      "type": "indicative",
-     "value": 0.1784
+     "value": 0.18
     },
     {
      "base": "IDR",
      "quote": "CAD",
      "type": "indicative",
-     "value": 0.000077
+     "value": 0.000078
     },
     {
      "base": "INR",
      "quote": "CAD",
      "type": "indicative",
-     "value": 0.01481
+     "value": 0.01503
     },
     {
      "base": "JPY",
      "quote": "CAD",
      "type": "indicative",
-     "value": 0.00886
+     "value": 0.00891
     },
     {
      "base": "KRW",
      "quote": "CAD",
      "type": "indicative",
-     "value": 0.001035
+     "value": 0.001036
     },
     {
      "base": "MXN",
      "quote": "CAD",
      "type": "indicative",
-     "value": 0.07483
+     "value": 0.07573
     },
     {
      "base": "MYR",
      "quote": "CAD",
      "type": "indicative",
-     "value": 0.3458
+     "value": 0.3477
     },
     {
      "base": "NOK",
      "quote": "CAD",
      "type": "indicative",
-     "value": 0.1505
+     "value": 0.1493
     },
     {
      "base": "NZD",
      "quote": "CAD",
      "type": "indicative",
-     "value": 0.7851
+     "value": 0.7823
     },
     {
      "base": "PEN",
      "quote": "CAD",
      "type": "indicative",
-     "value": 0.4058
+     "value": 0.4113
     },
     {
      "base": "PLN",
      "quote": "CAD",
      "type": "indicative",
-     "value": 0.3572
+     "value": 0.3581
     },
     {
      "base": "SEK",
      "quote": "CAD",
      "type": "indicative",
-     "value": 0.1429
+     "value": 0.1427
     },
     {
      "base": "SGD",
      "quote": "CAD",
      "type": "indicative",
-     "value": 1.095
+     "value": 1.1004
     },
     {
      "base": "THB",
      "quote": "CAD",
      "type": "indicative",
-     "value": 0.04183
+     "value": 0.04206
     },
     {
      "base": "TRY",
      "quote": "CAD",
      "type": "indicative",
-     "value": 0.028
+     "value": 0.0281
     },
     {
      "base": "TWD",
      "quote": "CAD",
      "type": "indicative",
-     "value": 0.04237
+     "value": 0.04305
     },
     {
      "base": "USD",
      "quote": "CAD",
      "type": "indicative",
-     "value": 1.3989
+     "value": 1.4113
     },
     {
      "base": "ZAR",
      "quote": "CAD",
      "type": "indicative",
-     "value": 0.08504
+     "value": 0.08531
     }
    ],
    "official_source": "https://www.bankofcanada.ca/valet/observations/group/FX_RATES_DAILY/json",
@@ -16299,7 +16305,7 @@
    "country": "Bahrain",
    "home_currency": "BHD",
    "kind": "central_bank",
-   "date": "2026-11-05",
+   "date": "2026-11-06",
    "cadence": "daily",
    "rates": [
     {
@@ -20925,332 +20931,332 @@
    "country": "Russia",
    "home_currency": "RUB",
    "kind": "central_bank",
-   "date": "2026-11-06",
+   "date": "2026-11-07",
    "cadence": "daily",
    "rates": [
     {
      "base": "AED",
      "quote": "RUB",
      "type": "reference",
-     "value": 22.2722
+     "value": 22.3659
     },
     {
      "base": "AMD",
      "quote": "RUB",
      "type": "reference",
-     "value": 0.226955
+     "value": 0.227947
     },
     {
      "base": "AUD",
      "quote": "RUB",
      "type": "reference",
-     "value": 57.3708
+     "value": 56.6756
     },
     {
      "base": "AZN",
      "quote": "RUB",
      "type": "reference",
-     "value": 48.1145
+     "value": 48.3168
     },
     {
      "base": "BDT",
      "quote": "RUB",
      "type": "reference",
-     "value": 0.656328
+     "value": 0.659087
     },
     {
      "base": "BHD",
      "quote": "RUB",
      "type": "reference",
-     "value": 217.4921
+     "value": 218.4065
     },
     {
      "base": "BOB",
      "quote": "RUB",
      "type": "reference",
-     "value": 6.81623
+     "value": 6.90821
     },
     {
      "base": "BRL",
      "quote": "RUB",
      "type": "reference",
-     "value": 14.9329
+     "value": 15.0387
     },
     {
      "base": "BYN",
      "quote": "RUB",
      "type": "reference",
-     "value": 27.3424
+     "value": 27.4518
     },
     {
      "base": "CAD",
      "quote": "RUB",
      "type": "reference",
-     "value": 58.588
+     "value": 58.7166
     },
     {
      "base": "CHF",
      "quote": "RUB",
      "type": "reference",
-     "value": 100.0792
+     "value": 100.3526
     },
     {
      "base": "CNY",
      "quote": "RUB",
      "type": "reference",
-     "value": 12.257
+     "value": 12.2651
     },
     {
      "base": "CUP",
      "quote": "RUB",
      "type": "reference",
-     "value": 3.40811
+     "value": 3.42244
     },
     {
      "base": "CZK",
      "quote": "RUB",
      "type": "reference",
-     "value": 3.79206
+     "value": 3.79463
     },
     {
      "base": "DKK",
      "quote": "RUB",
      "type": "reference",
-     "value": 12.3307
+     "value": 12.3339
     },
     {
      "base": "DZD",
      "quote": "RUB",
      "type": "reference",
-     "value": 0.601705
+     "value": 0.603482
     },
     {
      "base": "EGP",
      "quote": "RUB",
      "type": "reference",
-     "value": 1.51634
+     "value": 1.52271
     },
     {
      "base": "ETB",
      "quote": "RUB",
      "type": "reference",
-     "value": 0.508228
+     "value": 0.510185
     },
     {
      "base": "EUR",
      "quote": "RUB",
      "type": "reference",
-     "value": 92.1581
+     "value": 92.1924
     },
     {
      "base": "GBP",
      "quote": "RUB",
      "type": "reference",
-     "value": 110.1856
+     "value": 110.69
     },
     {
      "base": "GEL",
      "quote": "RUB",
      "type": "reference",
-     "value": 31.5104
+     "value": 31.6465
     },
     {
      "base": "HKD",
      "quote": "RUB",
      "type": "reference",
-     "value": 10.425
+     "value": 10.4782
     },
     {
      "base": "HUF",
      "quote": "RUB",
      "type": "reference",
-     "value": 0.253007
+     "value": 0.252145
     },
     {
      "base": "IDR",
      "quote": "RUB",
      "type": "reference",
-     "value": 0.00450908
+     "value": 0.00453955
     },
     {
      "base": "INR",
      "quote": "RUB",
      "type": "reference",
-     "value": 0.866473
+     "value": 0.872514
     },
     {
      "base": "IRR",
      "quote": "RUB",
      "type": "reference",
-     "value": 0.0000434628
+     "value": 0.0000436455
     },
     {
      "base": "JPY",
      "quote": "RUB",
      "type": "reference",
-     "value": 0.518016
+     "value": 0.520887
     },
     {
      "base": "KGS",
      "quote": "RUB",
      "type": "reference",
-     "value": 0.935339
+     "value": 0.939287
     },
     {
      "base": "KRW",
      "quote": "RUB",
      "type": "reference",
-     "value": 0.061009
+     "value": 0.0612061
     },
     {
      "base": "KZT",
      "quote": "RUB",
      "type": "reference",
-     "value": 0.180598
+     "value": 0.181775
     },
     {
      "base": "MDL",
      "quote": "RUB",
      "type": "reference",
-     "value": 4.56255
+     "value": 4.58363
     },
     {
      "base": "MMK",
      "quote": "RUB",
      "type": "reference",
-     "value": 0.0389499
+     "value": 0.0391136
     },
     {
      "base": "MNT",
      "quote": "RUB",
      "type": "reference",
-     "value": 0.0227181
+     "value": 0.0228135
     },
     {
      "base": "NGN",
      "quote": "RUB",
      "type": "reference",
-     "value": 0.0606876
+     "value": 0.0609002
     },
     {
      "base": "NOK",
      "quote": "RUB",
      "type": "reference",
-     "value": 8.86394
+     "value": 8.83363
     },
     {
      "base": "NZD",
      "quote": "RUB",
      "type": "reference",
-     "value": 46.0954
+     "value": 45.9648
     },
     {
      "base": "OMR",
      "quote": "RUB",
      "type": "reference",
-     "value": 212.73
+     "value": 213.6244
     },
     {
      "base": "PLN",
      "quote": "RUB",
      "type": "reference",
-     "value": 20.9188
+     "value": 20.8892
     },
     {
      "base": "QAR",
      "quote": "RUB",
      "type": "reference",
-     "value": 22.4711
+     "value": 22.5655
     },
     {
      "base": "RON",
      "quote": "RUB",
      "type": "reference",
-     "value": 17.1997
+     "value": 17.1856
     },
     {
      "base": "RSD",
      "quote": "RUB",
      "type": "reference",
-     "value": 0.783437
+     "value": 0.782214
     },
     {
      "base": "SAR",
      "quote": "RUB",
      "type": "reference",
-     "value": 21.8119
+     "value": 21.9036
     },
     {
      "base": "SEK",
      "quote": "RUB",
      "type": "reference",
-     "value": 8.39954
+     "value": 8.39295
     },
     {
      "base": "SGD",
      "quote": "RUB",
      "type": "reference",
-     "value": 64.1024
+     "value": 64.1608
     },
     {
      "base": "THB",
      "quote": "RUB",
      "type": "reference",
-     "value": 2.44667
+     "value": 2.45168
     },
     {
      "base": "TJS",
      "quote": "RUB",
      "type": "reference",
-     "value": 8.87982
+     "value": 8.91967
     },
     {
      "base": "TMT",
      "quote": "RUB",
      "type": "reference",
-     "value": 23.3699
+     "value": 23.4682
     },
     {
      "base": "TRY",
      "quote": "RUB",
      "type": "reference",
-     "value": 1.63652
+     "value": 1.64264
     },
     {
      "base": "UAH",
      "quote": "RUB",
      "type": "reference",
-     "value": 1.79621
+     "value": 1.8075
     },
     {
      "base": "USD",
      "quote": "RUB",
      "type": "reference",
-     "value": 81.7947
+     "value": 82.1386
     },
     {
      "base": "UZS",
      "quote": "RUB",
      "type": "reference",
-     "value": 0.00685313
+     "value": 0.00686004
     },
     {
      "base": "VND",
      "quote": "RUB",
      "type": "reference",
-     "value": 0.00319224
+     "value": 0.00320666
     },
     {
      "base": "XDR",
      "quote": "RUB",
      "type": "reference",
-     "value": 111.0412
+     "value": 111.4095
     },
     {
      "base": "ZAR",
      "quote": "RUB",
      "type": "reference",
-     "value": 5.00065
+     "value": 4.97689
     }
    ],
    "official_source": "https://www.cbr.ru/currency_base/daily/",
@@ -21903,62 +21909,68 @@
    "country": "Trinidad and Tobago",
    "home_currency": "TTD",
    "kind": "central_bank",
-   "date": "2026-11-05",
+   "date": "2026-11-06",
    "cadence": "daily",
    "rates": [
     {
      "base": "BBD",
      "quote": "TTD",
      "type": "buy",
-     "value": 2.8333
+     "value": 2.7219
     },
     {
      "base": "BBD",
      "quote": "TTD",
      "type": "sell",
-     "value": 3.5879
+     "value": 3.5866
     },
     {
      "base": "CAD",
      "quote": "TTD",
      "type": "buy",
-     "value": 4.8444
+     "value": 4.8719
     },
     {
      "base": "CAD",
      "quote": "TTD",
      "type": "sell",
-     "value": 5.3463
+     "value": 5.2657
     },
     {
      "base": "CHF",
      "quote": "TTD",
      "type": "buy",
-     "value": 8.2694
+     "value": 8.2724
+    },
+    {
+     "base": "CHF",
+     "quote": "TTD",
+     "type": "sell",
+     "value": 8.9167
     },
     {
      "base": "EUR",
      "quote": "TTD",
      "type": "buy",
-     "value": 7.4752
+     "value": 7.7529
     },
     {
      "base": "EUR",
      "quote": "TTD",
      "type": "sell",
-     "value": 8.3095
+     "value": 8.5455
     },
     {
      "base": "GBP",
      "quote": "TTD",
      "type": "buy",
-     "value": 9.0703
+     "value": 9.0262
     },
     {
      "base": "GBP",
      "quote": "TTD",
      "type": "sell",
-     "value": 9.7343
+     "value": 9.7743
     },
     {
      "base": "GYD",
@@ -21970,7 +21982,7 @@
      "base": "GYD",
      "quote": "TTD",
      "type": "sell",
-     "value": 0.0323
+     "value": 0.0325
     },
     {
      "base": "JMD",
@@ -21982,43 +21994,43 @@
      "base": "JMD",
      "quote": "TTD",
      "type": "sell",
-     "value": 0.0426
+     "value": 0.0428
     },
     {
      "base": "JPY",
      "quote": "TTD",
      "type": "buy",
-     "value": 0.0426
+     "value": 0.0427
     },
     {
      "base": "JPY",
      "quote": "TTD",
      "type": "sell",
-     "value": 0.0461
+     "value": 0.0464
     },
     {
      "base": "USD",
      "quote": "TTD",
      "type": "buy",
-     "value": 6.7224
+     "value": 6.7203
     },
     {
      "base": "USD",
      "quote": "TTD",
      "type": "sell",
-     "value": 6.7534
+     "value": 6.7986
     },
     {
      "base": "XCD",
      "quote": "TTD",
      "type": "buy",
-     "value": 2.3811
+     "value": 2.4189
     },
     {
      "base": "XCD",
      "quote": "TTD",
      "type": "sell",
-     "value": 2.5935
+     "value": 2.8017
     }
    ],
    "official_source": "https://www.central-bank.org.tt/exchange-rates-daily/",
@@ -23293,20 +23305,20 @@
    "country": "Global",
    "home_currency": "USD",
    "kind": "composite",
-   "date": "2026-11-06",
+   "date": "2026-11-07",
    "cadence": "daily",
    "rates": [
     {
      "base": "USD",
      "quote": "AED",
      "type": "reference",
-     "value": 3.67280967504
+     "value": 3.67282076002
     },
     {
      "base": "USD",
      "quote": "AFN",
      "type": "reference",
-     "value": 65.0643556431
+     "value": 65.0697244715
     },
     {
      "base": "USD",
@@ -23318,7 +23330,7 @@
      "base": "USD",
      "quote": "AMD",
      "type": "reference",
-     "value": 360.231949229
+     "value": 360.34
     },
     {
      "base": "USD",
@@ -23336,7 +23348,7 @@
      "base": "USD",
      "quote": "AUD",
      "type": "reference",
-     "value": 1.4421712795
+     "value": 1.44362447317
     },
     {
      "base": "USD",
@@ -23348,7 +23360,7 @@
      "base": "USD",
      "quote": "AZN",
      "type": "reference",
-     "value": 1.69999672117
+     "value": 1.69999898056
     },
     {
      "base": "USD",
@@ -23378,7 +23390,7 @@
      "base": "USD",
      "quote": "BHD",
      "type": "reference",
-     "value": 0.377279447736
+     "value": 0.377279985606
     },
     {
      "base": "USD",
@@ -23396,19 +23408,19 @@
      "base": "USD",
      "quote": "BND",
      "type": "reference",
-     "value": 1.27880117305
+     "value": 1.27931083434
     },
     {
      "base": "USD",
      "quote": "BOB",
      "type": "reference",
-     "value": 11.9699955994
+     "value": 11.9194075203
     },
     {
      "base": "USD",
      "quote": "BRL",
      "type": "reference",
-     "value": 5.49340650964
+     "value": 5.49695044011
     },
     {
      "base": "USD",
@@ -23432,7 +23444,7 @@
      "base": "USD",
      "quote": "BYN",
      "type": "reference",
-     "value": 2.98587023574
+     "value": 2.98794100825
     },
     {
      "base": "USD",
@@ -23444,7 +23456,7 @@
      "base": "USD",
      "quote": "CAD",
      "type": "reference",
-     "value": 1.40144746247
+     "value": 1.40167932548
     },
     {
      "base": "USD",
@@ -23456,7 +23468,7 @@
      "base": "USD",
      "quote": "CHF",
      "type": "reference",
-     "value": 0.817305065297
+     "value": 0.817468897315
     },
     {
      "base": "USD",
@@ -23474,7 +23486,7 @@
      "base": "USD",
      "quote": "CNY",
      "type": "reference",
-     "value": 6.66978921997
+     "value": 6.66995183401
     },
     {
      "base": "USD",
@@ -23504,7 +23516,7 @@
      "base": "USD",
      "quote": "CZK",
      "type": "reference",
-     "value": 21.7242956805
+     "value": 21.7459893048
     },
     {
      "base": "USD",
@@ -23516,25 +23528,25 @@
      "base": "USD",
      "quote": "DKK",
      "type": "reference",
-     "value": 6.66520949837
+     "value": 6.67075021107
     },
     {
      "base": "USD",
      "quote": "DOP",
      "type": "reference",
-     "value": 60.4561626304
+     "value": 60.45545
     },
     {
      "base": "USD",
      "quote": "DZD",
      "type": "reference",
-     "value": 135.93552051
+     "value": 136.020314412
     },
     {
      "base": "USD",
      "quote": "EGP",
      "type": "reference",
-     "value": 53.9025442001
+     "value": 53.9143985041
     },
     {
      "base": "USD",
@@ -23552,7 +23564,7 @@
      "base": "USD",
      "quote": "EUR",
      "type": "reference",
-     "value": 0.89126617584
+     "value": 0.891720973925
     },
     {
      "base": "USD",
@@ -23564,13 +23576,13 @@
      "base": "USD",
      "quote": "GBP",
      "type": "reference",
-     "value": 0.74330402484
+     "value": 0.7435809577
     },
     {
      "base": "USD",
      "quote": "GEL",
      "type": "reference",
-     "value": 2.59308029577
+     "value": 2.59308730704
     },
     {
      "base": "USD",
@@ -23612,7 +23624,7 @@
      "base": "USD",
      "quote": "HKD",
      "type": "reference",
-     "value": 7.84069092809
+     "value": 7.8403649585
     },
     {
      "base": "USD",
@@ -23630,37 +23642,37 @@
      "base": "USD",
      "quote": "HUF",
      "type": "reference",
-     "value": 325.545767905
+     "value": 325.759692241
     },
     {
      "base": "USD",
      "quote": "IDR",
      "type": "reference",
-     "value": 18086.8277946
+     "value": 18086.5405819
     },
     {
      "base": "USD",
      "quote": "ILS",
      "type": "reference",
-     "value": 3.19600037235
+     "value": 3.19690697414
     },
     {
      "base": "USD",
      "quote": "INR",
      "type": "reference",
-     "value": 94.3995946787
+     "value": 94.1428571429
     },
     {
      "base": "USD",
      "quote": "IQD",
      "type": "reference",
-     "value": 1515.90871798
+     "value": 1515.97285068
     },
     {
      "base": "USD",
      "quote": "IRR",
      "type": "reference",
-     "value": 1884411.36905
+     "value": 1890456
     },
     {
      "base": "USD",
@@ -23678,7 +23690,7 @@
      "base": "USD",
      "quote": "JOD",
      "type": "reference",
-     "value": 0.709000002256
+     "value": 0.709000004512
     },
     {
      "base": "USD",
@@ -23696,7 +23708,7 @@
      "base": "USD",
      "quote": "KGS",
      "type": "reference",
-     "value": 87.4500102178
+     "value": 87.4497933327
     },
     {
      "base": "USD",
@@ -23714,7 +23726,7 @@
      "base": "USD",
      "quote": "KRW",
      "type": "reference",
-     "value": 1354.39302287
+     "value": 1355.02166847
     },
     {
      "base": "USD",
@@ -23732,7 +23744,7 @@
      "base": "USD",
      "quote": "KZT",
      "type": "reference",
-     "value": 450.315252272
+     "value": 449.987970875
     },
     {
      "base": "USD",
@@ -23780,7 +23792,7 @@
      "base": "USD",
      "quote": "MDL",
      "type": "reference",
-     "value": 17.8626164669
+     "value": 17.8799390736
     },
     {
      "base": "USD",
@@ -23798,13 +23810,13 @@
      "base": "USD",
      "quote": "MMK",
      "type": "reference",
-     "value": 2099.99884467
+     "value": 2100.00051133
     },
     {
      "base": "USD",
      "quote": "MNT",
      "type": "reference",
-     "value": 3600.49888446
+     "value": 3600.44
     },
     {
      "base": "USD",
@@ -23840,13 +23852,13 @@
      "base": "USD",
      "quote": "MXN",
      "type": "reference",
-     "value": 18.7000864526
+     "value": 18.6991392801
     },
     {
      "base": "USD",
      "quote": "MYR",
      "type": "reference",
-     "value": 4.05426173664
+     "value": 4.05550007991
     },
     {
      "base": "USD",
@@ -23876,7 +23888,7 @@
      "base": "USD",
      "quote": "NOK",
      "type": "reference",
-     "value": 9.30585241229
+     "value": 9.31871723151
     },
     {
      "base": "USD",
@@ -23888,13 +23900,13 @@
      "base": "USD",
      "quote": "NZD",
      "type": "reference",
-     "value": 1.78826721345
+     "value": 1.79486571616
     },
     {
      "base": "USD",
      "quote": "OMR",
      "type": "reference",
-     "value": 0.384999987942
+     "value": 0.385000001819
     },
     {
      "base": "USD",
@@ -23906,7 +23918,7 @@
      "base": "USD",
      "quote": "PEN",
      "type": "reference",
-     "value": 3.447
+     "value": 3.44606314377
     },
     {
      "base": "USD",
@@ -23924,13 +23936,13 @@
      "base": "USD",
      "quote": "PKR",
      "type": "reference",
-     "value": 276.655150109
+     "value": 276.649400218
     },
     {
      "base": "USD",
      "quote": "PLN",
      "type": "reference",
-     "value": 3.92474535369
+     "value": 3.93190001998
     },
     {
      "base": "USD",
@@ -23942,19 +23954,19 @@
      "base": "USD",
      "quote": "QAR",
      "type": "reference",
-     "value": 3.64417876459
+     "value": 3.6449947568
     },
     {
      "base": "USD",
      "quote": "RON",
      "type": "reference",
-     "value": 4.76457399103
+     "value": 4.77828028367
     },
     {
      "base": "USD",
      "quote": "RSD",
      "type": "reference",
-     "value": 104.756198195
+     "value": 104.857694484
     },
     {
      "base": "USD",
@@ -23972,7 +23984,7 @@
      "base": "USD",
      "quote": "SAR",
      "type": "reference",
-     "value": 3.75346787586
+     "value": 3.75349498019
     },
     {
      "base": "USD",
@@ -24002,13 +24014,13 @@
      "base": "USD",
      "quote": "SEK",
      "type": "reference",
-     "value": 9.80659630625
+     "value": 9.81444552529
     },
     {
      "base": "USD",
      "quote": "SGD",
      "type": "reference",
-     "value": 1.2782775418
+     "value": 1.27930014478
     },
     {
      "base": "USD",
@@ -24056,19 +24068,19 @@
      "base": "USD",
      "quote": "THB",
      "type": "reference",
-     "value": 33.4743566038
+     "value": 33.5016879073
     },
     {
      "base": "USD",
      "quote": "TJS",
      "type": "reference",
-     "value": 9.20868786386
+     "value": 9.20869393193
     },
     {
      "base": "USD",
      "quote": "TMT",
      "type": "reference",
-     "value": 3.5000032621
+     "value": 3.5
     },
     {
      "base": "USD",
@@ -24086,19 +24098,19 @@
      "base": "USD",
      "quote": "TRY",
      "type": "reference",
-     "value": 50.0517913436
+     "value": 50.0637284371
     },
     {
      "base": "USD",
      "quote": "TTD",
      "type": "reference",
-     "value": 6.76270811619
+     "value": 6.7595
     },
     {
      "base": "USD",
      "quote": "TWD",
      "type": "reference",
-     "value": 32.926
+     "value": 32.9144326409
     },
     {
      "base": "USD",
@@ -24110,7 +24122,7 @@
      "base": "USD",
      "quote": "UAH",
      "type": "reference",
-     "value": 45.4245880862
+     "value": 45.3993765888
     },
     {
      "base": "USD",
@@ -24122,13 +24134,13 @@
      "base": "USD",
      "quote": "UYU",
      "type": "reference",
-     "value": 40.2734170591
+     "value": 40.27441565
     },
     {
      "base": "USD",
      "quote": "UZS",
      "type": "reference",
-     "value": 11936.0170171
+     "value": 11962.8344361
     },
     {
      "base": "USD",
@@ -24140,7 +24152,7 @@
      "base": "USD",
      "quote": "VND",
      "type": "reference",
-     "value": 25654.1666667
+     "value": 25647.0564637
     },
     {
      "base": "USD",
@@ -24176,13 +24188,13 @@
      "base": "USD",
      "quote": "XCD",
      "type": "reference",
-     "value": 2.70692169177
+     "value": 2.70248342302
     },
     {
      "base": "USD",
      "quote": "XDR",
      "type": "reference",
-     "value": 0.737267906386
+     "value": 0.737268441962
     },
     {
      "base": "USD",
@@ -24206,7 +24218,7 @@
      "base": "USD",
      "quote": "ZAR",
      "type": "reference",
-     "value": 16.4823962165
+     "value": 16.4979338843
     },
     {
      "base": "USD",
@@ -26139,314 +26151,350 @@
    "country": "International",
    "home_currency": "USD",
    "kind": "central_bank",
-   "date": "2026-11-05",
+   "date": "2026-11-06",
    "cadence": "daily",
    "rates": [
     {
      "base": "AUD",
      "quote": "USD",
      "type": "reference",
-     "value": 0.7014
+     "value": 0.69
     },
     {
      "base": "AUD",
      "quote": "XDR",
      "type": "reference",
-     "value": 0.517121
+     "value": 0.509646
     },
     {
      "base": "BND",
      "quote": "XDR",
      "type": "reference",
-     "value": 0.577798
+     "value": 0.576954
     },
     {
      "base": "BWP",
      "quote": "USD",
      "type": "reference",
-     "value": 0.075
+     "value": 0.0745
     },
     {
      "base": "BWP",
      "quote": "XDR",
      "type": "reference",
-     "value": 0.0552953
+     "value": 0.055027
     },
     {
      "base": "CHF",
      "quote": "XDR",
      "type": "reference",
-     "value": 0.901308
+     "value": 0.902855
     },
     {
      "base": "CLP",
      "quote": "XDR",
      "type": "reference",
-     "value": 0.000759328
+     "value": 0.000760724
     },
     {
      "base": "CNY",
      "quote": "XDR",
      "type": "reference",
-     "value": 0.11053
+     "value": 0.110737
     },
     {
      "base": "CZK",
      "quote": "XDR",
      "type": "reference",
-     "value": 0.0340603
+     "value": 0.0338753
+    },
+    {
+     "base": "DKK",
+     "quote": "XDR",
+     "type": "reference",
+     "value": 0.11032
     },
     {
      "base": "DZD",
      "quote": "XDR",
      "type": "reference",
-     "value": 0.00542357
+     "value": 0.00542671
     },
     {
      "base": "EUR",
      "quote": "USD",
      "type": "reference",
-     "value": 1.1224
+     "value": 1.1165
     },
     {
      "base": "EUR",
      "quote": "XDR",
      "type": "reference",
-     "value": 0.827512
+     "value": 0.824666
     },
     {
      "base": "GBP",
      "quote": "USD",
      "type": "reference",
-     "value": 1.34695
+     "value": 1.33965
     },
     {
      "base": "GBP",
      "quote": "XDR",
      "type": "reference",
-     "value": 0.993066
+     "value": 0.989488
     },
     {
      "base": "ILS",
      "quote": "XDR",
      "type": "reference",
-     "value": 0.232798
+     "value": 0.231251
     },
     {
      "base": "INR",
      "quote": "XDR",
      "type": "reference",
-     "value": 0.0078101
+     "value": 0.00784593
     },
     {
      "base": "JPY",
      "quote": "XDR",
      "type": "reference",
-     "value": 0.00466922
+     "value": 0.00468398
     },
     {
      "base": "KRW",
      "quote": "XDR",
      "type": "reference",
-     "value": 0.000549914
-    },
-    {
-     "base": "KWD",
-     "quote": "XDR",
-     "type": "reference",
-     "value": 2.3949
+     "value": 0.000550385
     },
     {
      "base": "MUR",
      "quote": "XDR",
      "type": "reference",
-     "value": 0.0157234
+     "value": 0.0156166
+    },
+    {
+     "base": "MXN",
+     "quote": "XDR",
+     "type": "reference",
+     "value": 0.0396473
     },
     {
      "base": "MYR",
      "quote": "XDR",
      "type": "reference",
-     "value": 0.182222
+     "value": 0.18197
+    },
+    {
+     "base": "NOK",
+     "quote": "XDR",
+     "type": "reference",
+     "value": 0.0783454
     },
     {
      "base": "NZD",
      "quote": "USD",
      "type": "reference",
-     "value": 0.56355
+     "value": 0.5596
     },
     {
      "base": "NZD",
      "quote": "XDR",
      "type": "reference",
-     "value": 0.415489
-    },
-    {
-     "base": "OMR",
-     "quote": "XDR",
-     "type": "reference",
-     "value": 1.91748
+     "value": 0.41333
     },
     {
      "base": "PEN",
      "quote": "XDR",
      "type": "reference",
-     "value": 0.213887
+     "value": 0.21434
+    },
+    {
+     "base": "PHP",
+     "quote": "XDR",
+     "type": "reference",
+     "value": 0.0116975
     },
     {
      "base": "PLN",
      "quote": "XDR",
      "type": "reference",
-     "value": 0.188555
+     "value": 0.187843
     },
     {
-     "base": "QAR",
+     "base": "SEK",
      "quote": "XDR",
      "type": "reference",
-     "value": 0.202547
-    },
-    {
-     "base": "SAR",
-     "quote": "XDR",
-     "type": "reference",
-     "value": 0.196605
+     "value": 0.0747929
     },
     {
      "base": "SGD",
      "quote": "XDR",
      "type": "reference",
-     "value": 0.577798
+     "value": 0.576954
     },
     {
      "base": "THB",
      "quote": "XDR",
      "type": "reference",
-     "value": 0.0220535
+     "value": 0.0220463
+    },
+    {
+     "base": "TTD",
+     "quote": "XDR",
+     "type": "reference",
+     "value": 0.109271
     },
     {
      "base": "USD",
      "quote": "BND",
      "type": "reference",
-     "value": 1.276
+     "value": 1.2802
     },
     {
      "base": "USD",
      "quote": "CHF",
      "type": "reference",
-     "value": 0.818
+     "value": 0.81809
     },
     {
      "base": "USD",
      "quote": "CLP",
      "type": "reference",
-     "value": 970.95
+     "value": 970.94
     },
     {
      "base": "USD",
      "quote": "CNY",
      "type": "reference",
-     "value": 6.6703
+     "value": 6.67
     },
     {
      "base": "USD",
      "quote": "CZK",
      "type": "reference",
-     "value": 21.646
+     "value": 21.804
+    },
+    {
+     "base": "USD",
+     "quote": "DKK",
+     "type": "reference",
+     "value": 6.6952
     },
     {
      "base": "USD",
      "quote": "DZD",
      "type": "reference",
-     "value": 135.9382
+     "value": 136.1078
     },
     {
      "base": "USD",
      "quote": "ILS",
      "type": "reference",
-     "value": 3.167
+     "value": 3.194
     },
     {
      "base": "USD",
      "quote": "INR",
      "type": "reference",
-     "value": 94.3996
+     "value": 94.1402
     },
     {
      "base": "USD",
      "quote": "JPY",
      "type": "reference",
-     "value": 157.9
+     "value": 157.69
     },
     {
      "base": "USD",
      "quote": "KRW",
      "type": "reference",
-     "value": 1340.7
-    },
-    {
-     "base": "USD",
-     "quote": "KWD",
-     "type": "reference",
-     "value": 0.30785
+     "value": 1342
     },
     {
      "base": "USD",
      "quote": "MUR",
      "type": "reference",
-     "value": 46.8899
+     "value": 47.2969
+    },
+    {
+     "base": "USD",
+     "quote": "MXN",
+     "type": "reference",
+     "value": 18.6297
     },
     {
      "base": "USD",
      "quote": "MYR",
      "type": "reference",
-     "value": 4.046
+     "value": 4.059
     },
     {
      "base": "USD",
-     "quote": "OMR",
+     "quote": "NOK",
      "type": "reference",
-     "value": 0.3845
+     "value": 9.4277
     },
     {
      "base": "USD",
      "quote": "PEN",
      "type": "reference",
-     "value": 3.447
+     "value": 3.446
+    },
+    {
+     "base": "USD",
+     "quote": "PHP",
+     "type": "reference",
+     "value": 63.143
     },
     {
      "base": "USD",
      "quote": "PLN",
      "type": "reference",
-     "value": 3.9101
+     "value": 3.9321
     },
     {
      "base": "USD",
-     "quote": "QAR",
+     "quote": "SEK",
      "type": "reference",
-     "value": 3.64
-    },
-    {
-     "base": "USD",
-     "quote": "SAR",
-     "type": "reference",
-     "value": 3.75
+     "value": 9.8755
     },
     {
      "base": "USD",
      "quote": "SGD",
      "type": "reference",
-     "value": 1.276
+     "value": 1.2802
     },
     {
      "base": "USD",
      "quote": "THB",
      "type": "reference",
-     "value": 33.431
+     "value": 33.503
+    },
+    {
+     "base": "USD",
+     "quote": "TTD",
+     "type": "reference",
+     "value": 6.7595
+    },
+    {
+     "base": "USD",
+     "quote": "UYU",
+     "type": "reference",
+     "value": 40.449
     },
     {
      "base": "USD",
      "quote": "XDR",
      "type": "reference",
-     "value": 0.73727
+     "value": 0.738617
+    },
+    {
+     "base": "UYU",
+     "quote": "XDR",
+     "type": "reference",
+     "value": 0.0182605
     }
    ],
    "official_source": "https://www.imf.org/external/np/fin/data/param_rms_mth.aspx",
@@ -28501,134 +28549,134 @@
    "country": "Georgia",
    "home_currency": "GEL",
    "kind": "central_bank",
-   "date": "2026-11-06",
+   "date": "2026-11-07",
    "cadence": "daily",
    "rates": [
     {
      "base": "AED",
      "quote": "GEL",
      "type": "reference",
-     "value": 0.70664
+     "value": 0.70648
     },
     {
      "base": "AMD",
      "quote": "GEL",
      "type": "reference",
-     "value": 0.0072001
+     "value": 0.0071981
     },
     {
      "base": "AUD",
      "quote": "GEL",
      "type": "reference",
-     "value": 1.82
+     "value": 1.7822
     },
     {
      "base": "AZN",
      "quote": "GEL",
      "type": "reference",
-     "value": 1.527
+     "value": 1.5267
     },
     {
      "base": "BRL",
      "quote": "GEL",
      "type": "reference",
-     "value": 0.4755
+     "value": 0.4724
     },
     {
      "base": "BYN",
      "quote": "GEL",
      "type": "reference",
-     "value": 0.8726
+     "value": 0.8692
     },
     {
      "base": "CAD",
      "quote": "GEL",
      "type": "reference",
-     "value": 1.8592
+     "value": 1.8441
     },
     {
      "base": "CHF",
      "quote": "GEL",
      "type": "reference",
-     "value": 3.173
+     "value": 3.1719
     },
     {
      "base": "CNY",
      "quote": "GEL",
      "type": "reference",
-     "value": 0.38917
+     "value": 0.38898
     },
     {
      "base": "CZK",
      "quote": "GEL",
      "type": "reference",
-     "value": 0.12004
+     "value": 0.11913
     },
     {
      "base": "DKK",
      "quote": "GEL",
      "type": "reference",
-     "value": 0.3899
+     "value": 0.38793
     },
     {
      "base": "EGP",
      "quote": "GEL",
      "type": "reference",
-     "value": 0.04816
+     "value": 0.04813
     },
     {
      "base": "EUR",
      "quote": "GEL",
      "type": "reference",
-     "value": 2.9145
+     "value": 2.8998
     },
     {
      "base": "GBP",
      "quote": "GEL",
      "type": "reference",
-     "value": 3.4935
+     "value": 3.4746
     },
     {
      "base": "HKD",
      "quote": "GEL",
      "type": "reference",
-     "value": 0.33084
+     "value": 0.33106
     },
     {
      "base": "HUF",
      "quote": "GEL",
      "type": "reference",
-     "value": 0.008029
+     "value": 0.007962
     },
     {
      "base": "ILS",
      "quote": "GEL",
      "type": "reference",
-     "value": 0.82001
+     "value": 0.81174
     },
     {
      "base": "INR",
      "quote": "GEL",
      "type": "reference",
-     "value": 0.027473
+     "value": 0.027631
     },
     {
      "base": "IRR",
      "quote": "GEL",
      "type": "reference",
-     "value": 0.00000138
+     "value": 0.00000137
     },
     {
      "base": "ISK",
      "quote": "GEL",
      "type": "reference",
-     "value": 0.021336
+     "value": 0.021197
     },
     {
      "base": "JPY",
      "quote": "GEL",
      "type": "reference",
-     "value": 0.016384
+     "value": 0.016394
     },
     {
      "base": "KGS",
@@ -28640,121 +28688,121 @@
      "base": "KRW",
      "quote": "GEL",
      "type": "reference",
-     "value": 0.001933
+     "value": 0.0019159
     },
     {
      "base": "KWD",
      "quote": "GEL",
      "type": "reference",
-     "value": 8.3483
+     "value": 8.3491
     },
     {
      "base": "KZT",
      "quote": "GEL",
      "type": "reference",
-     "value": 0.005764
+     "value": 0.005799
     },
     {
      "base": "MDL",
      "quote": "GEL",
      "type": "reference",
-     "value": 0.1453
+     "value": 0.14512
     },
     {
      "base": "NOK",
      "quote": "GEL",
      "type": "reference",
-     "value": 0.27951
+     "value": 0.27594
     },
     {
      "base": "NZD",
      "quote": "GEL",
      "type": "reference",
-     "value": 1.4618
+     "value": 1.4381
     },
     {
      "base": "PLN",
      "quote": "GEL",
      "type": "reference",
-     "value": 0.66383
+     "value": 0.65946
     },
     {
      "base": "QAR",
      "quote": "GEL",
      "type": "reference",
-     "value": 0.71199
+     "value": 0.71183
     },
     {
      "base": "RON",
      "quote": "GEL",
      "type": "reference",
-     "value": 0.54578
+     "value": 0.54285
     },
     {
      "base": "RSD",
      "quote": "GEL",
      "type": "reference",
-     "value": 0.024791
+     "value": 0.024663
     },
     {
      "base": "RUB",
      "quote": "GEL",
      "type": "reference",
-     "value": 0.031827
+     "value": 0.031713
     },
     {
      "base": "SEK",
      "quote": "GEL",
      "type": "reference",
-     "value": 0.26576
+     "value": 0.26275
     },
     {
      "base": "SGD",
      "quote": "GEL",
      "type": "reference",
-     "value": 2.0331
+     "value": 2.0251
     },
     {
      "base": "TJS",
      "quote": "GEL",
      "type": "reference",
-     "value": 0.28202
+     "value": 0.28213
     },
     {
      "base": "TMT",
      "quote": "GEL",
      "type": "reference",
-     "value": 0.74157
+     "value": 0.7414
     },
     {
      "base": "TRY",
      "quote": "GEL",
      "type": "reference",
-     "value": 0.0519
+     "value": 0.0517
     },
     {
      "base": "UAH",
      "quote": "GEL",
      "type": "reference",
-     "value": 0.05707
+     "value": 0.05723
     },
     {
      "base": "USD",
      "quote": "GEL",
      "type": "reference",
-     "value": 2.5955
+     "value": 2.5949
     },
     {
      "base": "UZS",
      "quote": "GEL",
      "type": "reference",
-     "value": 0.0002166
+     "value": 0.0002164
     },
     {
      "base": "ZAR",
      "quote": "GEL",
      "type": "reference",
-     "value": 0.1584
+     "value": 0.15695
     }
    ],
    "official_source": "https://nbg.gov.ge/gw/api/ct/monetarypolicy/currencies/en/json/",
