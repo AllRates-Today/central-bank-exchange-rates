@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-07T19:29:47.224Z",
- "source_count": 131,
+ "generated_at": "2026-11-08T00:47:06.566Z",
+ "source_count": 130,
  "sources": {
   "amcm": {
    "name": "Monetary Authority of Macao",
@@ -187,7 +187,7 @@
    "country": "Nicaragua",
    "home_currency": "NIO",
    "kind": "central_bank",
-   "latest": "2026-11-07",
+   "latest": "2026-11-08",
    "cadence": "daily",
    "stale": false,
    "currencies": 1,
@@ -1015,10 +1015,10 @@
    "country": "Global",
    "home_currency": "USD",
    "kind": "composite",
-   "latest": "2026-11-07",
+   "latest": "2026-11-08",
    "cadence": "daily",
    "stale": false,
-   "currencies": 153,
+   "currencies": 151,
    "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/composite/latest.json",
    "page": "https://allratestoday.com/central-bank-rates-api/composite/"
   },
@@ -1441,18 +1441,6 @@
    "currencies": 102,
    "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/rbz/latest.json",
    "page": "https://allratestoday.com/central-bank-rates-api/rbz/"
-  },
-  "riksbank": {
-   "name": "Sveriges Riksbank",
-   "country": "Sweden",
-   "home_currency": "SEK",
-   "kind": "central_bank",
-   "latest": "2026-11-06",
-   "cadence": "daily",
-   "stale": false,
-   "currencies": 29,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/riksbank/latest.json",
-   "page": "https://allratestoday.com/central-bank-rates-api/riksbank/"
   },
   "rma": {
    "name": "Royal Monetary Authority of Bhutan",
