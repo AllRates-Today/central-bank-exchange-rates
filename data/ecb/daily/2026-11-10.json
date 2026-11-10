@@ -1,0 +1,188 @@
+{
+ "source": "ecb",
+ "name": "European Central Bank",
+ "country": "Eurozone",
+ "home_currency": "EUR",
+ "kind": "central_bank",
+ "date": "2026-11-10",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "EUR",
+   "quote": "AUD",
+   "type": "reference",
+   "value": 1.6244
+  },
+  {
+   "base": "EUR",
+   "quote": "BRL",
+   "type": "reference",
+   "value": 6.2257
+  },
+  {
+   "base": "EUR",
+   "quote": "CAD",
+   "type": "reference",
+   "value": 1.5852
+  },
+  {
+   "base": "EUR",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.9203
+  },
+  {
+   "base": "EUR",
+   "quote": "CNY",
+   "type": "reference",
+   "value": 7.4801
+  },
+  {
+   "base": "EUR",
+   "quote": "CZK",
+   "type": "reference",
+   "value": 24.337
+  },
+  {
+   "base": "EUR",
+   "quote": "DKK",
+   "type": "reference",
+   "value": 7.4754
+  },
+  {
+   "base": "EUR",
+   "quote": "GBP",
+   "type": "reference",
+   "value": 0.83545
+  },
+  {
+   "base": "EUR",
+   "quote": "HKD",
+   "type": "reference",
+   "value": 8.7973
+  },
+  {
+   "base": "EUR",
+   "quote": "HUF",
+   "type": "reference",
+   "value": 362.98
+  },
+  {
+   "base": "EUR",
+   "quote": "IDR",
+   "type": "reference",
+   "value": 20255.34
+  },
+  {
+   "base": "EUR",
+   "quote": "ILS",
+   "type": "reference",
+   "value": 3.5507
+  },
+  {
+   "base": "EUR",
+   "quote": "INR",
+   "type": "reference",
+   "value": 105.3315
+  },
+  {
+   "base": "EUR",
+   "quote": "ISK",
+   "type": "reference",
+   "value": 137.2
+  },
+  {
+   "base": "EUR",
+   "quote": "JPY",
+   "type": "reference",
+   "value": 177.38
+  },
+  {
+   "base": "EUR",
+   "quote": "KRW",
+   "type": "reference",
+   "value": 1501.56
+  },
+  {
+   "base": "EUR",
+   "quote": "MXN",
+   "type": "reference",
+   "value": 20.8063
+  },
+  {
+   "base": "EUR",
+   "quote": "MYR",
+   "type": "reference",
+   "value": 4.5484
+  },
+  {
+   "base": "EUR",
+   "quote": "NOK",
+   "type": "reference",
+   "value": 10.6155
+  },
+  {
+   "base": "EUR",
+   "quote": "NZD",
+   "type": "reference",
+   "value": 1.9925
+  },
+  {
+   "base": "EUR",
+   "quote": "PHP",
+   "type": "reference",
+   "value": 70.54
+  },
+  {
+   "base": "EUR",
+   "quote": "PLN",
+   "type": "reference",
+   "value": 4.387
+  },
+  {
+   "base": "EUR",
+   "quote": "RON",
+   "type": "reference",
+   "value": 5.3442
+  },
+  {
+   "base": "EUR",
+   "quote": "SEK",
+   "type": "reference",
+   "value": 10.991
+  },
+  {
+   "base": "EUR",
+   "quote": "SGD",
+   "type": "reference",
+   "value": 1.4335
+  },
+  {
+   "base": "EUR",
+   "quote": "THB",
+   "type": "reference",
+   "value": 37.522
+  },
+  {
+   "base": "EUR",
+   "quote": "TRY",
+   "type": "reference",
+   "value": 56.3207
+  },
+  {
+   "base": "EUR",
+   "quote": "USD",
+   "type": "reference",
+   "value": 1.1214
+  },
+  {
+   "base": "EUR",
+   "quote": "ZAR",
+   "type": "reference",
+   "value": 18.3861
+  }
+ ],
+ "official_source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+ "page": "https://allratestoday.com/central-bank-rates-api/ecb/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}
