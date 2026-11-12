@@ -1,0 +1,458 @@
+{
+ "source": "cbu",
+ "name": "Central Bank of Uzbekistan",
+ "country": "Uzbekistan",
+ "home_currency": "UZS",
+ "kind": "central_bank",
+ "date": "2026-11-12",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AED",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 3257.71
+  },
+  {
+   "base": "AFN",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 183.39
+  },
+  {
+   "base": "AMD",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 33.12
+  },
+  {
+   "base": "ARS",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 7.74
+  },
+  {
+   "base": "AUD",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 8209.88
+  },
+  {
+   "base": "AZN",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 7037.81
+  },
+  {
+   "base": "BDT",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 95.71
+  },
+  {
+   "base": "BHD",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 31727.05
+  },
+  {
+   "base": "BND",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 9329.59
+  },
+  {
+   "base": "BRL",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 2142.83
+  },
+  {
+   "base": "BYN",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 3975.63
+  },
+  {
+   "base": "CAD",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 8406.6
+  },
+  {
+   "base": "CHF",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 14423.47
+  },
+  {
+   "base": "CNY",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 1793.56
+  },
+  {
+   "base": "CUP",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 498.51
+  },
+  {
+   "base": "CZK",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 546.44
+  },
+  {
+   "base": "DKK",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 1782.25
+  },
+  {
+   "base": "DZD",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 87.59
+  },
+  {
+   "base": "EGP",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 223.34
+  },
+  {
+   "base": "EUR",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 13323.41
+  },
+  {
+   "base": "GBP",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 15924.44
+  },
+  {
+   "base": "GEL",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 4615.84
+  },
+  {
+   "base": "HKD",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 1524.83
+  },
+  {
+   "base": "HUF",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 36.46
+  },
+  {
+   "base": "IDR",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 0.659
+  },
+  {
+   "base": "ILS",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 3769.82
+  },
+  {
+   "base": "INR",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 127.69
+  },
+  {
+   "base": "IQD",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 7.89
+  },
+  {
+   "base": "IRR",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 0.006
+  },
+  {
+   "base": "ISK",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 97.41
+  },
+  {
+   "base": "JOD",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 16874.85
+  },
+  {
+   "base": "JPY",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 75.19
+  },
+  {
+   "base": "KGS",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 136.77
+  },
+  {
+   "base": "KHR",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 2.92
+  },
+  {
+   "base": "KRW",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 8.97
+  },
+  {
+   "base": "KWD",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 38807.23
+  },
+  {
+   "base": "KZT",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 26.88
+  },
+  {
+   "base": "LAK",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 0.53
+  },
+  {
+   "base": "LBP",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 0.13
+  },
+  {
+   "base": "LYD",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 1860.7
+  },
+  {
+   "base": "MAD",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 1221.72
+  },
+  {
+   "base": "MDL",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 663.21
+  },
+  {
+   "base": "MMK",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 5.7
+  },
+  {
+   "base": "MNT",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 3.32
+  },
+  {
+   "base": "MXN",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 642.87
+  },
+  {
+   "base": "MYR",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 2937.1
+  },
+  {
+   "base": "NOK",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 1254.58
+  },
+  {
+   "base": "NZD",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 6683.24
+  },
+  {
+   "base": "OMR",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 31076.03
+  },
+  {
+   "base": "PHP",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 189.2
+  },
+  {
+   "base": "PKR",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 43.25
+  },
+  {
+   "base": "PLN",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 3025.41
+  },
+  {
+   "base": "QAR",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 3282.38
+  },
+  {
+   "base": "RON",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 2492.14
+  },
+  {
+   "base": "RSD",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 113.31
+  },
+  {
+   "base": "RUB",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 144.49
+  },
+  {
+   "base": "SAR",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 3187.92
+  },
+  {
+   "base": "SDG",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 19.93
+  },
+  {
+   "base": "SEK",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 1205.94
+  },
+  {
+   "base": "SGD",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 9329.59
+  },
+  {
+   "base": "SYP",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 98.05
+  },
+  {
+   "base": "THB",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 355.39
+  },
+  {
+   "base": "TJS",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 1301.88
+  },
+  {
+   "base": "TMT",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 3418.36
+  },
+  {
+   "base": "TND",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 4004.11
+  },
+  {
+   "base": "TRY",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 238.18
+  },
+  {
+   "base": "UAH",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 264.05
+  },
+  {
+   "base": "USD",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 11964.27
+  },
+  {
+   "base": "UYU",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 295.82
+  },
+  {
+   "base": "VES",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 13.29
+  },
+  {
+   "base": "VND",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 0.466
+  },
+  {
+   "base": "XDR",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 16222.41
+  },
+  {
+   "base": "YER",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 50.61
+  },
+  {
+   "base": "ZAR",
+   "quote": "UZS",
+   "type": "reference",
+   "value": 722.61
+  }
+ ],
+ "official_source": "https://cbu.uz/en/arkhiv-kursov-valyut/json/",
+ "page": "https://allratestoday.com/central-bank-rates-api/cbu/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}
