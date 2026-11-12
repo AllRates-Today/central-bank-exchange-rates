@@ -1,0 +1,248 @@
+{
+ "source": "cbn",
+ "name": "Central Bank of Nigeria",
+ "country": "Nigeria",
+ "home_currency": "NGN",
+ "kind": "central_bank",
+ "date": "2026-11-12",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AED",
+   "quote": "NGN",
+   "type": "buy",
+   "value": 368.8961
+  },
+  {
+   "base": "AED",
+   "quote": "NGN",
+   "type": "middle",
+   "value": 369.0322
+  },
+  {
+   "base": "AED",
+   "quote": "NGN",
+   "type": "sell",
+   "value": 369.1683
+  },
+  {
+   "base": "CHF",
+   "quote": "NGN",
+   "type": "buy",
+   "value": 1627.0944
+  },
+  {
+   "base": "CHF",
+   "quote": "NGN",
+   "type": "middle",
+   "value": 1627.6948
+  },
+  {
+   "base": "CHF",
+   "quote": "NGN",
+   "type": "sell",
+   "value": 1628.2953
+  },
+  {
+   "base": "CNY",
+   "quote": "NGN",
+   "type": "buy",
+   "value": 203.1337
+  },
+  {
+   "base": "CNY",
+   "quote": "NGN",
+   "type": "middle",
+   "value": 203.2087
+  },
+  {
+   "base": "CNY",
+   "quote": "NGN",
+   "type": "sell",
+   "value": 203.2836
+  },
+  {
+   "base": "DKK",
+   "quote": "NGN",
+   "type": "buy",
+   "value": 200.9167
+  },
+  {
+   "base": "DKK",
+   "quote": "NGN",
+   "type": "middle",
+   "value": 200.9908
+  },
+  {
+   "base": "DKK",
+   "quote": "NGN",
+   "type": "sell",
+   "value": 201.065
+  },
+  {
+   "base": "EUR",
+   "quote": "NGN",
+   "type": "buy",
+   "value": 1502.0216
+  },
+  {
+   "base": "EUR",
+   "quote": "NGN",
+   "type": "middle",
+   "value": 1502.5759
+  },
+  {
+   "base": "EUR",
+   "quote": "NGN",
+   "type": "sell",
+   "value": 1503.1302
+  },
+  {
+   "base": "GBP",
+   "quote": "NGN",
+   "type": "buy",
+   "value": 1796.5729
+  },
+  {
+   "base": "GBP",
+   "quote": "NGN",
+   "type": "middle",
+   "value": 1797.2359
+  },
+  {
+   "base": "GBP",
+   "quote": "NGN",
+   "type": "sell",
+   "value": 1797.8989
+  },
+  {
+   "base": "JPY",
+   "quote": "NGN",
+   "type": "buy",
+   "value": 8.4839
+  },
+  {
+   "base": "JPY",
+   "quote": "NGN",
+   "type": "middle",
+   "value": 8.487
+  },
+  {
+   "base": "JPY",
+   "quote": "NGN",
+   "type": "sell",
+   "value": 8.4902
+  },
+  {
+   "base": "SAR",
+   "quote": "NGN",
+   "type": "buy",
+   "value": 361.0033
+  },
+  {
+   "base": "SAR",
+   "quote": "NGN",
+   "type": "middle",
+   "value": 361.1365
+  },
+  {
+   "base": "SAR",
+   "quote": "NGN",
+   "type": "sell",
+   "value": 361.2698
+  },
+  {
+   "base": "USD",
+   "quote": "NGN",
+   "type": "buy",
+   "value": 1354.8815
+  },
+  {
+   "base": "USD",
+   "quote": "NGN",
+   "type": "middle",
+   "value": 1355.3815
+  },
+  {
+   "base": "USD",
+   "quote": "NGN",
+   "type": "sell",
+   "value": 1355.8815
+  },
+  {
+   "base": "XDR",
+   "quote": "NGN",
+   "type": "buy",
+   "value": 1830.9869
+  },
+  {
+   "base": "XDR",
+   "quote": "NGN",
+   "type": "middle",
+   "value": 1831.6626
+  },
+  {
+   "base": "XDR",
+   "quote": "NGN",
+   "type": "sell",
+   "value": 1832.3383
+  },
+  {
+   "base": "XOF",
+   "quote": "NGN",
+   "type": "buy",
+   "value": 2.2833
+  },
+  {
+   "base": "XOF",
+   "quote": "NGN",
+   "type": "middle",
+   "value": 2.2933
+  },
+  {
+   "base": "XOF",
+   "quote": "NGN",
+   "type": "sell",
+   "value": 2.3033
+  },
+  {
+   "base": "XUA",
+   "quote": "NGN",
+   "type": "buy",
+   "value": 1833.6703
+  },
+  {
+   "base": "XUA",
+   "quote": "NGN",
+   "type": "middle",
+   "value": 1834.347
+  },
+  {
+   "base": "XUA",
+   "quote": "NGN",
+   "type": "sell",
+   "value": 1835.0237
+  },
+  {
+   "base": "ZAR",
+   "quote": "NGN",
+   "type": "buy",
+   "value": 80.9963
+  },
+  {
+   "base": "ZAR",
+   "quote": "NGN",
+   "type": "middle",
+   "value": 81.0262
+  },
+  {
+   "base": "ZAR",
+   "quote": "NGN",
+   "type": "sell",
+   "value": 81.0561
+  }
+ ],
+ "official_source": "https://www.cbn.gov.ng/rates/",
+ "page": "https://allratestoday.com/central-bank-rates-api/cbn/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}
