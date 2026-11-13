@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T07:54:17.403Z",
+ "generated": "2026-11-13T16:18:06.898Z",
  "since": "2026-09-19T19:52:29.046Z",
  "vantage": "GitHub Actions hosted runner (ubuntu-latest, US East)",
  "method": "3 sequential GETs per provider per run, cache-busting query string, 15s timeout; median reported. Freshness = publication date in the response vs the run date (UTC). Uptime = share of hourly runs with an HTTP 2xx and a parseable body.",
@@ -11,16 +11,16 @@
    "url": "https://allratestoday.com/api/open/central-bank/ecb",
    "kind": "official",
    "ok": true,
-   "status": 200,
+   "status": 429,
    "ms": [
-    613,
-    23,
-    36
+    376,
+    44,
+    26
    ],
-   "median_ms": 36,
-   "min_ms": 23,
-   "date": "2026-11-12",
-   "age_days": 1,
+   "median_ms": 44,
+   "min_ms": 26,
+   "date": "2026-11-13",
+   "age_days": 0,
    "currencies": 29,
    "error": null,
    "last_7d": {
@@ -45,14 +45,14 @@
    "ok": true,
    "status": 200,
    "ms": [
-    228,
-    309,
-    311
+    429,
+    391,
+    388
    ],
-   "median_ms": 309,
-   "min_ms": 228,
-   "date": "2026-11-12",
-   "age_days": 1,
+   "median_ms": 391,
+   "min_ms": 388,
+   "date": "2026-11-13",
+   "age_days": 0,
    "currencies": 29,
    "error": null,
    "last_7d": {
@@ -77,12 +77,12 @@
    "ok": true,
    "status": 200,
    "ms": [
-    163,
-    94,
-    110
+    161,
+    62,
+    58
    ],
-   "median_ms": 110,
-   "min_ms": 94,
+   "median_ms": 62,
+   "min_ms": 58,
    "date": "2026-11-13",
    "age_days": 0,
    "currencies": 166,
@@ -109,12 +109,12 @@
    "ok": true,
    "status": 200,
    "ms": [
-    58,
-    14,
-    14
+    44,
+    22,
+    20
    ],
-   "median_ms": 14,
-   "min_ms": 14,
+   "median_ms": 22,
+   "min_ms": 20,
    "date": "2026-11-12",
    "age_days": 1,
    "currencies": 340,
@@ -123,7 +123,7 @@
     "runs": 26,
     "uptime_pct": 100,
     "median_ms": 14,
-    "p90_ms": 18
+    "p90_ms": 20
    },
    "last_30d": {
     "runs": 137,
@@ -141,12 +141,12 @@
    "ok": true,
    "status": 200,
    "ms": [
-    211,
-    117,
-    56
+    359,
+    411,
+    151
    ],
-   "median_ms": 117,
-   "min_ms": 56,
+   "median_ms": 359,
+   "min_ms": 151,
    "date": "2026-11-13",
    "age_days": 0,
    "currencies": 146,
@@ -155,7 +155,7 @@
     "runs": 26,
     "uptime_pct": 100,
     "median_ms": 285,
-    "p90_ms": 415
+    "p90_ms": 403
    },
    "last_30d": {
     "runs": 137,
@@ -173,14 +173,14 @@
    "ok": true,
    "status": 200,
    "ms": [
-    359,
-    486,
-    104
+    523,
+    610,
+    132
    ],
-   "median_ms": 359,
-   "min_ms": 104,
-   "date": "2026-11-12",
-   "age_days": 1,
+   "median_ms": 523,
+   "min_ms": 132,
+   "date": "2026-11-13",
+   "age_days": 0,
    "currencies": 29,
    "error": null,
    "last_7d": {
