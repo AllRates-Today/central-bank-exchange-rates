@@ -1,5 +1,5 @@
 // Daily refresh. Pulls every source's latest published table from the keyless
-// AllRatesToday endpoints (edge-cached, no key, no quota) and writes:
+// AllRatesToday endpoints (edge-cached; sends ALLRATES_API_KEY when set) and writes:
 //   data/<bank>/latest.json           the latest table
 //   data/<bank>/daily/<date>.json     one snapshot per publication date
 //   data/<bank>/history/<year>.csv    long-form history, appended
@@ -10,11 +10,14 @@ import { DATA, bankDir, mergeHistory, writeJson, readJson } from './lib.mjs';
 
 const API = 'https://allratestoday.com/api/open';
 const sources = readJson(join(DATA, 'sources.json'), {});
+// The keyless endpoints are capped at 1 request a minute per IP; a key skips the cap.
+const KEY = process.env.ALLRATES_API_KEY;
+const HEADERS = { 'User-Agent': 'central-bank-exchange-rates (github.com/AllRates-Today)', ...(KEY ? { Authorization: `Bearer ${KEY}` } : {}) };
 
 async function get(url, tries = 3) {
   for (let i = 0; i < tries; i++) {
     try {
-      const res = await fetch(url, { headers: { 'User-Agent': 'central-bank-exchange-rates (github.com/AllRates-Today)' } });
+      const res = await fetch(url, { headers: HEADERS });
       if (res.status === 404) return null;
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       return await res.json();

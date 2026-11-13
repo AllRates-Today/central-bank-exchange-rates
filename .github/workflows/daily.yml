@@ -14,6 +14,8 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: 22 }
       - run: node scripts/update.mjs
+        env:
+          ALLRATES_API_KEY: ${{ secrets.ALLRATES_API_KEY }}
       - name: Commit if anything changed
         run: |
           git config user.name "rates-bot"
