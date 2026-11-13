@@ -1,0 +1,122 @@
+{
+ "source": "bou",
+ "name": "Bank of Uganda",
+ "country": "Uganda",
+ "home_currency": "UGX",
+ "kind": "central_bank",
+ "date": "2026-11-13",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "EUR",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 4548.317124
+  },
+  {
+   "base": "EUR",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 4554.263067
+  },
+  {
+   "base": "EUR",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 4560.20901
+  },
+  {
+   "base": "GBP",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 5440.063434
+  },
+  {
+   "base": "GBP",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 5447.3003485
+  },
+  {
+   "base": "GBP",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 5454.537263
+  },
+  {
+   "base": "KES",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 31.5624423963
+  },
+  {
+   "base": "KES",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 31.6373797817
+  },
+  {
+   "base": "KES",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 31.7123171671
+  },
+  {
+   "base": "TZS",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 1.542
+  },
+  {
+   "base": "TZS",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 1.55565333333
+  },
+  {
+   "base": "TZS",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 1.56930666667
+  },
+  {
+   "base": "USD",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 4109.43
+  },
+  {
+   "base": "USD",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 4114.43
+  },
+  {
+   "base": "USD",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 4119.43
+  },
+  {
+   "base": "ZAR",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 245.207351274
+  },
+  {
+   "base": "ZAR",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 245.532104681
+  },
+  {
+   "base": "ZAR",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 245.856858088
+  }
+ ],
+ "official_source": "https://bou.or.ug/",
+ "page": "https://allratestoday.com/central-bank-rates-api/bou/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

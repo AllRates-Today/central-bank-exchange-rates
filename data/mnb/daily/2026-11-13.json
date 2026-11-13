@@ -1,0 +1,206 @@
+{
+ "source": "mnb",
+ "name": "Magyar Nemzeti Bank",
+ "country": "Hungary",
+ "home_currency": "HUF",
+ "kind": "central_bank",
+ "date": "2026-11-13",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AUD",
+   "quote": "HUF",
+   "type": "reference",
+   "value": 224.71
+  },
+  {
+   "base": "BRL",
+   "quote": "HUF",
+   "type": "reference",
+   "value": 58.6
+  },
+  {
+   "base": "CAD",
+   "quote": "HUF",
+   "type": "reference",
+   "value": 231.89
+  },
+  {
+   "base": "CHF",
+   "quote": "HUF",
+   "type": "reference",
+   "value": 395.09
+  },
+  {
+   "base": "CNY",
+   "quote": "HUF",
+   "type": "reference",
+   "value": 49.57
+  },
+  {
+   "base": "CZK",
+   "quote": "HUF",
+   "type": "reference",
+   "value": 14.98
+  },
+  {
+   "base": "DKK",
+   "quote": "HUF",
+   "type": "reference",
+   "value": 48.91
+  },
+  {
+   "base": "EUR",
+   "quote": "HUF",
+   "type": "reference",
+   "value": 365.67
+  },
+  {
+   "base": "GBP",
+   "quote": "HUF",
+   "type": "reference",
+   "value": 437.52
+  },
+  {
+   "base": "HKD",
+   "quote": "HUF",
+   "type": "reference",
+   "value": 42.14
+  },
+  {
+   "base": "IDR",
+   "quote": "HUF",
+   "type": "reference",
+   "value": 0.0182
+  },
+  {
+   "base": "ILS",
+   "quote": "HUF",
+   "type": "reference",
+   "value": 103.27
+  },
+  {
+   "base": "INR",
+   "quote": "HUF",
+   "type": "reference",
+   "value": 3.51
+  },
+  {
+   "base": "ISK",
+   "quote": "HUF",
+   "type": "reference",
+   "value": 2.68
+  },
+  {
+   "base": "JPY",
+   "quote": "HUF",
+   "type": "reference",
+   "value": 2.0682
+  },
+  {
+   "base": "KRW",
+   "quote": "HUF",
+   "type": "reference",
+   "value": 0.2474
+  },
+  {
+   "base": "MXN",
+   "quote": "HUF",
+   "type": "reference",
+   "value": 17.78
+  },
+  {
+   "base": "MYR",
+   "quote": "HUF",
+   "type": "reference",
+   "value": 80.89
+  },
+  {
+   "base": "NOK",
+   "quote": "HUF",
+   "type": "reference",
+   "value": 34.63
+  },
+  {
+   "base": "NZD",
+   "quote": "HUF",
+   "type": "reference",
+   "value": 183.08
+  },
+  {
+   "base": "PHP",
+   "quote": "HUF",
+   "type": "reference",
+   "value": 5.19
+  },
+  {
+   "base": "PLN",
+   "quote": "HUF",
+   "type": "reference",
+   "value": 82.96
+  },
+  {
+   "base": "RON",
+   "quote": "HUF",
+   "type": "reference",
+   "value": 68.35
+  },
+  {
+   "base": "RSD",
+   "quote": "HUF",
+   "type": "reference",
+   "value": 3.11
+  },
+  {
+   "base": "RUB",
+   "quote": "HUF",
+   "type": "reference",
+   "value": 4.02
+  },
+  {
+   "base": "SEK",
+   "quote": "HUF",
+   "type": "reference",
+   "value": 32.97
+  },
+  {
+   "base": "SGD",
+   "quote": "HUF",
+   "type": "reference",
+   "value": 256.86
+  },
+  {
+   "base": "THB",
+   "quote": "HUF",
+   "type": "reference",
+   "value": 9.77
+  },
+  {
+   "base": "TRY",
+   "quote": "HUF",
+   "type": "reference",
+   "value": 6.56
+  },
+  {
+   "base": "UAH",
+   "quote": "HUF",
+   "type": "reference",
+   "value": 7.28
+  },
+  {
+   "base": "USD",
+   "quote": "HUF",
+   "type": "reference",
+   "value": 330.65
+  },
+  {
+   "base": "ZAR",
+   "quote": "HUF",
+   "type": "reference",
+   "value": 19.62
+  }
+ ],
+ "official_source": "https://www.mnb.hu/arfolyamok.asmx",
+ "page": "https://allratestoday.com/central-bank-rates-api/mnb/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}
