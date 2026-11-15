@@ -291,6 +291,7 @@ Rates are provided as published. Verify against the institution before relying o
 ## 🔗 Links
 
 - **Download central bank rates:** [allratestoday.com/download-central-bank-rates](https://allratestoday.com/download-central-bank-rates/) — every bank's tables as Excel, CSV or JSON
+- [Bank Exchange Rate API](https://allratestoday.com/bank-exchange-rate-api/) — live buy and sell rates from 1,200+ commercial banks in 120+ countries · [npm](https://www.npmjs.com/package/bank-exchange-rates) · [GitHub](https://github.com/AllRates-Today/bank-exchange-rates)
 - **All keyless endpoints in one page:** [free-exchange-rate-api](https://github.com/AllRates-Today/free-exchange-rate-api) (open central-bank tables, Frankfurter/Fixer/exchangeratesapi/exchangerate.host drop-ins, MCP)
 - **AI agents:** Claude Code plugin `/plugin marketplace add AllRates-Today/claude-code-plugin` · hosted MCP endpoint `https://allratestoday.com/api/mcp` (keyless)
 - **New in Oct 2026:** agents can self-issue a trial key — `POST https://allratestoday.com/api/agent/keys` (JSON) → 100 calls / 7 days — and read the keyless [Daily Reference Rate](https://allratestoday.com/reference-rate/) (16:00 London fix) at `https://allratestoday.com/api/open/reference-rate`
