@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T19:58:42.732Z",
+ "generated_at": "2026-11-15T01:07:31.058Z",
  "source_count": 131,
  "sources": {
   "amcm": {
@@ -187,7 +187,7 @@
    "country": "Nicaragua",
    "home_currency": "NIO",
    "kind": "central_bank",
-   "latest": "2026-11-14",
+   "latest": "2026-11-15",
    "cadence": "daily",
    "stale": false,
    "currencies": 1,
@@ -813,7 +813,7 @@
    "kind": "central_bank",
    "latest": "2026-11-10",
    "cadence": "daily",
-   "stale": false,
+   "stale": true,
    "currencies": 57,
    "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/cbiq/latest.json",
    "page": "https://allratestoday.com/central-bank-rates-api/cbiq/"
@@ -1015,10 +1015,10 @@
    "country": "Global",
    "home_currency": "USD",
    "kind": "composite",
-   "latest": "2026-11-14",
+   "latest": "2026-11-15",
    "cadence": "daily",
    "stale": false,
-   "currencies": 153,
+   "currencies": 151,
    "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/composite/latest.json",
    "page": "https://allratestoday.com/central-bank-rates-api/composite/"
   },
@@ -1149,7 +1149,7 @@
    "kind": "central_bank",
    "latest": "2026-11-10",
    "cadence": "daily",
-   "stale": false,
+   "stale": true,
    "currencies": 1,
    "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/mma/latest.json",
    "page": "https://allratestoday.com/central-bank-rates-api/mma/"
@@ -1471,7 +1471,7 @@
    "country": "Saudi Arabia",
    "home_currency": "SAR",
    "kind": "central_bank",
-   "latest": "2026-11-14",
+   "latest": "2026-11-15",
    "cadence": "daily",
    "stale": false,
    "currencies": 66,
