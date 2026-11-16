@@ -4,44 +4,56 @@
  "country": "Fiji",
  "home_currency": "FJD",
  "kind": "central_bank",
- "date": "2026-11-13",
+ "date": "2026-11-16",
  "cadence": "daily",
  "rates": [
   {
    "base": "FJD",
    "quote": "AUD",
    "type": "reference",
-   "value": 0.6428
+   "value": 0.6436
+  },
+  {
+   "base": "FJD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.3666
   },
   {
    "base": "FJD",
    "quote": "EUR",
    "type": "reference",
-   "value": 0.3956
+   "value": 0.3961
   },
   {
    "base": "FJD",
    "quote": "GBP",
    "type": "reference",
-   "value": 0.3304
+   "value": 0.3305
   },
   {
    "base": "FJD",
    "quote": "JPY",
    "type": "reference",
-   "value": 69.91
+   "value": 69.76
   },
   {
    "base": "FJD",
    "quote": "NZD",
    "type": "reference",
-   "value": 0.7885
+   "value": 0.7891
   },
   {
    "base": "FJD",
    "quote": "USD",
    "type": "reference",
-   "value": 0.4374
+   "value": 0.4369
+  },
+  {
+   "base": "FJD",
+   "quote": "XDR",
+   "type": "reference",
+   "value": 0.324305
   }
  ],
  "official_source": "https://www.rbf.gov.fj/statistics/economic-and-financial-statistics/",
