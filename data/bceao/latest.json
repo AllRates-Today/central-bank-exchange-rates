@@ -4,44 +4,50 @@
  "country": "West Africa (WAEMU)",
  "home_currency": "XOF",
  "kind": "central_bank",
- "date": "2026-11-13",
+ "date": "2026-11-16",
  "cadence": "daily",
  "rates": [
+  {
+   "base": "AED",
+   "quote": "XOF",
+   "type": "reference",
+   "value": 162.169
+  },
   {
    "base": "AUD",
    "quote": "XOF",
    "type": "reference",
-   "value": 402.72
+   "value": 402.4
   },
   {
    "base": "BRL",
    "quote": "XOF",
    "type": "reference",
-   "value": 104.79
+   "value": 104.39
   },
   {
    "base": "CAD",
    "quote": "XOF",
    "type": "reference",
-   "value": 416.27
+   "value": 416.9
   },
   {
    "base": "CHF",
    "quote": "XOF",
    "type": "reference",
-   "value": 707.92
+   "value": 709.6
   },
   {
    "base": "CNY",
    "quote": "XOF",
    "type": "reference",
-   "value": 88.96
+   "value": 89.34
   },
   {
    "base": "CZK",
    "quote": "XOF",
    "type": "reference",
-   "value": 26.86
+   "value": 26.85
   },
   {
    "base": "DKK",
@@ -59,97 +65,109 @@
    "base": "GBP",
    "quote": "XOF",
    "type": "reference",
-   "value": 785.02
+   "value": 786.05
   },
   {
    "base": "HKD",
    "quote": "XOF",
    "type": "reference",
-   "value": 75.65
+   "value": 75.9
   },
   {
    "base": "HUF",
    "quote": "XOF",
    "type": "reference",
-   "value": 1.79
+   "value": 1.8
   },
   {
    "base": "ILS",
    "quote": "XOF",
    "type": "reference",
-   "value": 184.85
+   "value": 184.73
   },
   {
    "base": "INR",
    "quote": "XOF",
    "type": "reference",
-   "value": 6.3
+   "value": 6.34
   },
   {
    "base": "JPY",
    "quote": "XOF",
    "type": "reference",
-   "value": 3.7095
+   "value": 3.7317
   },
   {
    "base": "KRW",
    "quote": "XOF",
    "type": "reference",
-   "value": 0.44
+   "value": 0.45
+  },
+  {
+   "base": "KWD",
+   "quote": "XOF",
+   "type": "reference",
+   "value": 1928.65
   },
   {
    "base": "NOK",
    "quote": "XOF",
    "type": "reference",
-   "value": 62.06
+   "value": 62.03
   },
   {
    "base": "NZD",
    "quote": "XOF",
    "type": "reference",
-   "value": 328.34
+   "value": 328.45
   },
   {
    "base": "PLN",
    "quote": "XOF",
    "type": "reference",
-   "value": 148.7
+   "value": 148.98
+  },
+  {
+   "base": "SAR",
+   "quote": "XOF",
+   "type": "reference",
+   "value": 158.817
   },
   {
    "base": "SEK",
    "quote": "XOF",
    "type": "reference",
-   "value": 59.06
+   "value": 59.12
   },
   {
    "base": "SGD",
    "quote": "XOF",
    "type": "reference",
-   "value": 460.77
+   "value": 462.1
   },
   {
    "base": "THB",
    "quote": "XOF",
    "type": "reference",
-   "value": 17.5
+   "value": 17.57
   },
   {
    "base": "TRY",
    "quote": "XOF",
    "type": "reference",
-   "value": 11.78
+   "value": 11.82
   },
   {
    "base": "USD",
    "quote": "XOF",
    "type": "reference",
-   "value": 593.52
+   "value": 595.57
   },
   {
    "base": "ZAR",
    "quote": "XOF",
    "type": "reference",
-   "value": 34.988
+   "value": 35.151
   }
  ],
  "official_source": "https://www.bceao.int/fr/cours/cours-de-reference-des-principales-devises-contre-Franc-CFA",
