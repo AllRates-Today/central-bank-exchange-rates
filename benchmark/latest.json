@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T22:19:07.646Z",
+ "generated": "2026-11-18T04:16:50.508Z",
  "since": "2026-09-19T19:52:29.046Z",
  "vantage": "GitHub Actions hosted runner (ubuntu-latest, US East)",
  "method": "3 sequential GETs per provider per run, cache-busting query string, 15s timeout; median reported. Freshness = publication date in the response vs the run date (UTC). Uptime = share of hourly runs with an HTTP 2xx and a parseable body.",
@@ -13,24 +13,24 @@
    "ok": true,
    "status": 200,
    "ms": [
-    887,
-    74,
-    31
+    809,
+    88,
+    35
    ],
-   "median_ms": 74,
-   "min_ms": 31,
+   "median_ms": 88,
+   "min_ms": 35,
    "date": "2026-11-17",
-   "age_days": 0,
+   "age_days": 1,
    "currencies": 29,
    "error": null,
    "last_7d": {
     "runs": 25,
     "uptime_pct": 100,
     "median_ms": 51,
-    "p90_ms": 97
+    "p90_ms": 89
    },
    "last_30d": {
-    "runs": 126,
+    "runs": 125,
     "uptime_pct": 100,
     "median_ms": 59,
     "p90_ms": 119
@@ -45,27 +45,27 @@
    "ok": true,
    "status": 200,
    "ms": [
-    442,
-    390,
-    391
+    2076,
+    1526,
+    385
    ],
-   "median_ms": 391,
-   "min_ms": 390,
+   "median_ms": 1526,
+   "min_ms": 385,
    "date": "2026-11-17",
-   "age_days": 0,
+   "age_days": 1,
    "currencies": 29,
    "error": null,
    "last_7d": {
     "runs": 25,
     "uptime_pct": 100,
-    "median_ms": 328,
-    "p90_ms": 401
+    "median_ms": 333,
+    "p90_ms": 404
    },
    "last_30d": {
-    "runs": 126,
+    "runs": 125,
     "uptime_pct": 100,
-    "median_ms": 328,
-    "p90_ms": 410
+    "median_ms": 326,
+    "p90_ms": 412
    }
   },
   {
@@ -77,13 +77,13 @@
    "ok": true,
    "status": 200,
    "ms": [
-    147,
-    84,
-    55
+    267,
+    156,
+    158
    ],
-   "median_ms": 84,
-   "min_ms": 55,
-   "date": "2026-11-17",
+   "median_ms": 158,
+   "min_ms": 156,
+   "date": "2026-11-18",
    "age_days": 0,
    "currencies": 166,
    "error": null,
@@ -91,13 +91,13 @@
     "runs": 25,
     "uptime_pct": 100,
     "median_ms": 109,
-    "p90_ms": 138
+    "p90_ms": 150
    },
    "last_30d": {
-    "runs": 126,
+    "runs": 125,
     "uptime_pct": 100,
-    "median_ms": 106,
-    "p90_ms": 144
+    "median_ms": 107,
+    "p90_ms": 150
    }
   },
   {
@@ -109,13 +109,13 @@
    "ok": true,
    "status": 200,
    "ms": [
-    63,
-    19,
-    16
+    34,
+    27,
+    19
    ],
-   "median_ms": 19,
-   "min_ms": 16,
-   "date": "2026-11-16",
+   "median_ms": 27,
+   "min_ms": 19,
+   "date": "2026-11-17",
    "age_days": 1,
    "currencies": 339,
    "error": null,
@@ -123,13 +123,13 @@
     "runs": 25,
     "uptime_pct": 100,
     "median_ms": 15,
-    "p90_ms": 24
+    "p90_ms": 25
    },
    "last_30d": {
-    "runs": 126,
+    "runs": 125,
     "uptime_pct": 100,
     "median_ms": 15,
-    "p90_ms": 24
+    "p90_ms": 25
    }
   },
   {
@@ -141,26 +141,26 @@
    "ok": true,
    "status": 200,
    "ms": [
-    503,
-    366,
-    154
+    386,
+    399,
+    129
    ],
-   "median_ms": 366,
-   "min_ms": 154,
+   "median_ms": 386,
+   "min_ms": 129,
    "date": "2026-11-17",
-   "age_days": 0,
+   "age_days": 1,
    "currencies": 146,
    "error": null,
    "last_7d": {
     "runs": 25,
     "uptime_pct": 100,
-    "median_ms": 269,
+    "median_ms": 285,
     "p90_ms": 403
    },
    "last_30d": {
-    "runs": 126,
+    "runs": 125,
     "uptime_pct": 100,
-    "median_ms": 285,
+    "median_ms": 283,
     "p90_ms": 405
    }
   },
@@ -173,26 +173,26 @@
    "ok": true,
    "status": 200,
    "ms": [
-    731,
-    478,
-    139
+    577,
+    515,
+    144
    ],
-   "median_ms": 478,
-   "min_ms": 139,
+   "median_ms": 515,
+   "min_ms": 144,
    "date": "2026-11-17",
-   "age_days": 0,
+   "age_days": 1,
    "currencies": 29,
    "error": null,
    "last_7d": {
     "runs": 25,
     "uptime_pct": 100,
-    "median_ms": 408,
+    "median_ms": 430,
     "p90_ms": 523
    },
    "last_30d": {
-    "runs": 126,
+    "runs": 125,
     "uptime_pct": 100,
-    "median_ms": 404,
+    "median_ms": 398,
     "p90_ms": 585
    }
   }
