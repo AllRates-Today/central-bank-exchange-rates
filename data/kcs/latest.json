@@ -1,0 +1,693 @@
+{
+ "source": "kcs",
+ "name": "Korea Customs Service",
+ "date": "2026-11-15",
+ "cadence": "weekly",
+ "rates": [
+  {
+   "base": "AED",
+   "quote": "KRW",
+   "type": "export",
+   "value": 366.25
+  },
+  {
+   "base": "AED",
+   "quote": "KRW",
+   "type": "import",
+   "value": 366.25
+  },
+  {
+   "base": "ARS",
+   "quote": "KRW",
+   "type": "export",
+   "value": 0.87
+  },
+  {
+   "base": "ARS",
+   "quote": "KRW",
+   "type": "import",
+   "value": 0.87
+  },
+  {
+   "base": "AUD",
+   "quote": "KRW",
+   "type": "export",
+   "value": 923.14
+  },
+  {
+   "base": "AUD",
+   "quote": "KRW",
+   "type": "import",
+   "value": 923.14
+  },
+  {
+   "base": "BDT",
+   "quote": "KRW",
+   "type": "export",
+   "value": 10.81
+  },
+  {
+   "base": "BDT",
+   "quote": "KRW",
+   "type": "import",
+   "value": 10.81
+  },
+  {
+   "base": "BHD",
+   "quote": "KRW",
+   "type": "export",
+   "value": 3566.46
+  },
+  {
+   "base": "BHD",
+   "quote": "KRW",
+   "type": "import",
+   "value": 3566.46
+  },
+  {
+   "base": "BND",
+   "quote": "KRW",
+   "type": "export",
+   "value": 1048.48
+  },
+  {
+   "base": "BND",
+   "quote": "KRW",
+   "type": "import",
+   "value": 1048.48
+  },
+  {
+   "base": "BRL",
+   "quote": "KRW",
+   "type": "export",
+   "value": 241.78
+  },
+  {
+   "base": "BRL",
+   "quote": "KRW",
+   "type": "import",
+   "value": 241.78
+  },
+  {
+   "base": "CAD",
+   "quote": "KRW",
+   "type": "export",
+   "value": 948.35
+  },
+  {
+   "base": "CAD",
+   "quote": "KRW",
+   "type": "import",
+   "value": 948.35
+  },
+  {
+   "base": "CHF",
+   "quote": "KRW",
+   "type": "export",
+   "value": 1627.96
+  },
+  {
+   "base": "CHF",
+   "quote": "KRW",
+   "type": "import",
+   "value": 1627.96
+  },
+  {
+   "base": "CLP",
+   "quote": "KRW",
+   "type": "export",
+   "value": 1.37
+  },
+  {
+   "base": "CLP",
+   "quote": "KRW",
+   "type": "import",
+   "value": 1.37
+  },
+  {
+   "base": "CNY",
+   "quote": "KRW",
+   "type": "export",
+   "value": 201.84
+  },
+  {
+   "base": "CNY",
+   "quote": "KRW",
+   "type": "import",
+   "value": 201.84
+  },
+  {
+   "base": "COP",
+   "quote": "KRW",
+   "type": "export",
+   "value": 0.41
+  },
+  {
+   "base": "COP",
+   "quote": "KRW",
+   "type": "import",
+   "value": 0.41
+  },
+  {
+   "base": "CZK",
+   "quote": "KRW",
+   "type": "export",
+   "value": 61.52
+  },
+  {
+   "base": "CZK",
+   "quote": "KRW",
+   "type": "import",
+   "value": 61.52
+  },
+  {
+   "base": "DKK",
+   "quote": "KRW",
+   "type": "export",
+   "value": 200.44
+  },
+  {
+   "base": "DKK",
+   "quote": "KRW",
+   "type": "import",
+   "value": 200.44
+  },
+  {
+   "base": "EGP",
+   "quote": "KRW",
+   "type": "export",
+   "value": 25.06
+  },
+  {
+   "base": "EGP",
+   "quote": "KRW",
+   "type": "import",
+   "value": 25.06
+  },
+  {
+   "base": "ETB",
+   "quote": "KRW",
+   "type": "export",
+   "value": 8.33
+  },
+  {
+   "base": "ETB",
+   "quote": "KRW",
+   "type": "import",
+   "value": 8.33
+  },
+  {
+   "base": "EUR",
+   "quote": "KRW",
+   "type": "export",
+   "value": 1498.4
+  },
+  {
+   "base": "EUR",
+   "quote": "KRW",
+   "type": "import",
+   "value": 1498.4
+  },
+  {
+   "base": "FJD",
+   "quote": "KRW",
+   "type": "export",
+   "value": 594.23
+  },
+  {
+   "base": "FJD",
+   "quote": "KRW",
+   "type": "import",
+   "value": 594.23
+  },
+  {
+   "base": "GBP",
+   "quote": "KRW",
+   "type": "export",
+   "value": 1793.6
+  },
+  {
+   "base": "GBP",
+   "quote": "KRW",
+   "type": "import",
+   "value": 1793.6
+  },
+  {
+   "base": "HKD",
+   "quote": "KRW",
+   "type": "export",
+   "value": 171.52
+  },
+  {
+   "base": "HKD",
+   "quote": "KRW",
+   "type": "import",
+   "value": 171.52
+  },
+  {
+   "base": "HUF",
+   "quote": "KRW",
+   "type": "export",
+   "value": 4.12
+  },
+  {
+   "base": "HUF",
+   "quote": "KRW",
+   "type": "import",
+   "value": 4.12
+  },
+  {
+   "base": "IDR",
+   "quote": "KRW",
+   "type": "export",
+   "value": 0.0743
+  },
+  {
+   "base": "IDR",
+   "quote": "KRW",
+   "type": "import",
+   "value": 0.0743
+  },
+  {
+   "base": "ILS",
+   "quote": "KRW",
+   "type": "export",
+   "value": 423.01
+  },
+  {
+   "base": "ILS",
+   "quote": "KRW",
+   "type": "import",
+   "value": 423.01
+  },
+  {
+   "base": "INR",
+   "quote": "KRW",
+   "type": "export",
+   "value": 14.33
+  },
+  {
+   "base": "INR",
+   "quote": "KRW",
+   "type": "import",
+   "value": 14.33
+  },
+  {
+   "base": "JOD",
+   "quote": "KRW",
+   "type": "export",
+   "value": 1897.32
+  },
+  {
+   "base": "JOD",
+   "quote": "KRW",
+   "type": "import",
+   "value": 1897.32
+  },
+  {
+   "base": "JPY",
+   "quote": "KRW",
+   "type": "export",
+   "value": 8.465
+  },
+  {
+   "base": "JPY",
+   "quote": "KRW",
+   "type": "import",
+   "value": 8.465
+  },
+  {
+   "base": "KES",
+   "quote": "KRW",
+   "type": "export",
+   "value": 10.35
+  },
+  {
+   "base": "KES",
+   "quote": "KRW",
+   "type": "import",
+   "value": 10.35
+  },
+  {
+   "base": "KHR",
+   "quote": "KRW",
+   "type": "export",
+   "value": 0.33
+  },
+  {
+   "base": "KHR",
+   "quote": "KRW",
+   "type": "import",
+   "value": 0.33
+  },
+  {
+   "base": "KWD",
+   "quote": "KRW",
+   "type": "export",
+   "value": 4363.72
+  },
+  {
+   "base": "KWD",
+   "quote": "KRW",
+   "type": "import",
+   "value": 4363.72
+  },
+  {
+   "base": "KZT",
+   "quote": "KRW",
+   "type": "export",
+   "value": 3.01
+  },
+  {
+   "base": "KZT",
+   "quote": "KRW",
+   "type": "import",
+   "value": 3.01
+  },
+  {
+   "base": "LKR",
+   "quote": "KRW",
+   "type": "export",
+   "value": 4.05
+  },
+  {
+   "base": "LKR",
+   "quote": "KRW",
+   "type": "import",
+   "value": 4.05
+  },
+  {
+   "base": "LYD",
+   "quote": "KRW",
+   "type": "export",
+   "value": 209.3
+  },
+  {
+   "base": "LYD",
+   "quote": "KRW",
+   "type": "import",
+   "value": 209.3
+  },
+  {
+   "base": "MMK",
+   "quote": "KRW",
+   "type": "export",
+   "value": 0.64
+  },
+  {
+   "base": "MMK",
+   "quote": "KRW",
+   "type": "import",
+   "value": 0.64
+  },
+  {
+   "base": "MNT",
+   "quote": "KRW",
+   "type": "export",
+   "value": 0.37
+  },
+  {
+   "base": "MNT",
+   "quote": "KRW",
+   "type": "import",
+   "value": 0.37
+  },
+  {
+   "base": "MOP",
+   "quote": "KRW",
+   "type": "export",
+   "value": 166.41
+  },
+  {
+   "base": "MOP",
+   "quote": "KRW",
+   "type": "import",
+   "value": 166.41
+  },
+  {
+   "base": "MXN",
+   "quote": "KRW",
+   "type": "export",
+   "value": 72.35
+  },
+  {
+   "base": "MXN",
+   "quote": "KRW",
+   "type": "import",
+   "value": 72.35
+  },
+  {
+   "base": "MYR",
+   "quote": "KRW",
+   "type": "export",
+   "value": 330.91
+  },
+  {
+   "base": "MYR",
+   "quote": "KRW",
+   "type": "import",
+   "value": 330.91
+  },
+  {
+   "base": "NOK",
+   "quote": "KRW",
+   "type": "export",
+   "value": 141.65
+  },
+  {
+   "base": "NOK",
+   "quote": "KRW",
+   "type": "import",
+   "value": 141.65
+  },
+  {
+   "base": "NPR",
+   "quote": "KRW",
+   "type": "export",
+   "value": 8.95
+  },
+  {
+   "base": "NPR",
+   "quote": "KRW",
+   "type": "import",
+   "value": 8.95
+  },
+  {
+   "base": "NZD",
+   "quote": "KRW",
+   "type": "export",
+   "value": 750.89
+  },
+  {
+   "base": "NZD",
+   "quote": "KRW",
+   "type": "import",
+   "value": 750.89
+  },
+  {
+   "base": "OMR",
+   "quote": "KRW",
+   "type": "export",
+   "value": 3493.85
+  },
+  {
+   "base": "OMR",
+   "quote": "KRW",
+   "type": "import",
+   "value": 3493.85
+  },
+  {
+   "base": "PHP",
+   "quote": "KRW",
+   "type": "export",
+   "value": 21.26
+  },
+  {
+   "base": "PHP",
+   "quote": "KRW",
+   "type": "import",
+   "value": 21.26
+  },
+  {
+   "base": "PKR",
+   "quote": "KRW",
+   "type": "export",
+   "value": 4.86
+  },
+  {
+   "base": "PKR",
+   "quote": "KRW",
+   "type": "import",
+   "value": 4.86
+  },
+  {
+   "base": "PLN",
+   "quote": "KRW",
+   "type": "export",
+   "value": 340.65
+  },
+  {
+   "base": "PLN",
+   "quote": "KRW",
+   "type": "import",
+   "value": 340.65
+  },
+  {
+   "base": "QAR",
+   "quote": "KRW",
+   "type": "export",
+   "value": 369.09
+  },
+  {
+   "base": "QAR",
+   "quote": "KRW",
+   "type": "import",
+   "value": 369.09
+  },
+  {
+   "base": "RON",
+   "quote": "KRW",
+   "type": "export",
+   "value": 280.39
+  },
+  {
+   "base": "RON",
+   "quote": "KRW",
+   "type": "import",
+   "value": 280.39
+  },
+  {
+   "base": "RUB",
+   "quote": "KRW",
+   "type": "export",
+   "value": 16.28
+  },
+  {
+   "base": "RUB",
+   "quote": "KRW",
+   "type": "import",
+   "value": 16.28
+  },
+  {
+   "base": "SAR",
+   "quote": "KRW",
+   "type": "export",
+   "value": 358.4
+  },
+  {
+   "base": "SAR",
+   "quote": "KRW",
+   "type": "import",
+   "value": 358.4
+  },
+  {
+   "base": "SEK",
+   "quote": "KRW",
+   "type": "export",
+   "value": 135.75
+  },
+  {
+   "base": "SEK",
+   "quote": "KRW",
+   "type": "import",
+   "value": 135.75
+  },
+  {
+   "base": "SGD",
+   "quote": "KRW",
+   "type": "export",
+   "value": 1048.5
+  },
+  {
+   "base": "SGD",
+   "quote": "KRW",
+   "type": "import",
+   "value": 1048.5
+  },
+  {
+   "base": "THB",
+   "quote": "KRW",
+   "type": "export",
+   "value": 39.97
+  },
+  {
+   "base": "THB",
+   "quote": "KRW",
+   "type": "import",
+   "value": 39.97
+  },
+  {
+   "base": "TRY",
+   "quote": "KRW",
+   "type": "export",
+   "value": 26.78
+  },
+  {
+   "base": "TRY",
+   "quote": "KRW",
+   "type": "import",
+   "value": 26.78
+  },
+  {
+   "base": "TWD",
+   "quote": "KRW",
+   "type": "export",
+   "value": 40.91
+  },
+  {
+   "base": "TWD",
+   "quote": "KRW",
+   "type": "import",
+   "value": 40.91
+  },
+  {
+   "base": "USD",
+   "quote": "KRW",
+   "type": "export",
+   "value": 1345.2
+  },
+  {
+   "base": "USD",
+   "quote": "KRW",
+   "type": "import",
+   "value": 1345.2
+  },
+  {
+   "base": "UZS",
+   "quote": "KRW",
+   "type": "export",
+   "value": 0.11
+  },
+  {
+   "base": "UZS",
+   "quote": "KRW",
+   "type": "import",
+   "value": 0.11
+  },
+  {
+   "base": "VND",
+   "quote": "KRW",
+   "type": "export",
+   "value": 0.0525
+  },
+  {
+   "base": "VND",
+   "quote": "KRW",
+   "type": "import",
+   "value": 0.0525
+  },
+  {
+   "base": "ZAR",
+   "quote": "KRW",
+   "type": "export",
+   "value": 81.23
+  },
+  {
+   "base": "ZAR",
+   "quote": "KRW",
+   "type": "import",
+   "value": 81.23
+  }
+ ],
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}
