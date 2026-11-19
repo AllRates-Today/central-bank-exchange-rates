@@ -1,0 +1,464 @@
+{
+ "source": "cbuae",
+ "name": "Central Bank of the UAE",
+ "country": "United Arab Emirates",
+ "home_currency": "AED",
+ "kind": "central_bank",
+ "date": "2026-11-19",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "ARS",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.002354
+  },
+  {
+   "base": "AUD",
+   "quote": "AED",
+   "type": "reference",
+   "value": 2.464434
+  },
+  {
+   "base": "AZN",
+   "quote": "AED",
+   "type": "reference",
+   "value": 2.160294
+  },
+  {
+   "base": "BDT",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.029526
+  },
+  {
+   "base": "BGN",
+   "quote": "AED",
+   "type": "reference",
+   "value": 2.205706
+  },
+  {
+   "base": "BHD",
+   "quote": "AED",
+   "type": "reference",
+   "value": 9.73544
+  },
+  {
+   "base": "BND",
+   "quote": "AED",
+   "type": "reference",
+   "value": 2.847782
+  },
+  {
+   "base": "BRL",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.624331
+  },
+  {
+   "base": "BWP",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.259224
+  },
+  {
+   "base": "BYN",
+   "quote": "AED",
+   "type": "reference",
+   "value": 1.224616
+  },
+  {
+   "base": "CAD",
+   "quote": "AED",
+   "type": "reference",
+   "value": 2.568721
+  },
+  {
+   "base": "CHF",
+   "quote": "AED",
+   "type": "reference",
+   "value": 4.361639
+  },
+  {
+   "base": "CLP",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.003655
+  },
+  {
+   "base": "CNH",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.550691
+  },
+  {
+   "base": "CNY",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.550872
+  },
+  {
+   "base": "COP",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.001091
+  },
+  {
+   "base": "CZK",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.165353
+  },
+  {
+   "base": "DKK",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.540391
+  },
+  {
+   "base": "DZD",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.0268
+  },
+  {
+   "base": "EGP",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.068237
+  },
+  {
+   "base": "ETB",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.022375
+  },
+  {
+   "base": "EUR",
+   "quote": "AED",
+   "type": "reference",
+   "value": 4.038821
+  },
+  {
+   "base": "GBP",
+   "quote": "AED",
+   "type": "reference",
+   "value": 4.830991
+  },
+  {
+   "base": "HKD",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.468103
+  },
+  {
+   "base": "HUF",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.010922
+  },
+  {
+   "base": "IDR",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.000201
+  },
+  {
+   "base": "ILS",
+   "quote": "AED",
+   "type": "reference",
+   "value": 1.11616
+  },
+  {
+   "base": "INR",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.039364
+  },
+  {
+   "base": "IQD",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.002422
+  },
+  {
+   "base": "ISK",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.029439
+  },
+  {
+   "base": "JOD",
+   "quote": "AED",
+   "type": "reference",
+   "value": 5.179831
+  },
+  {
+   "base": "JPY",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.022966
+  },
+  {
+   "base": "KES",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.028239
+  },
+  {
+   "base": "KRW",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.002767
+  },
+  {
+   "base": "KWD",
+   "quote": "AED",
+   "type": "reference",
+   "value": 11.885113
+  },
+  {
+   "base": "KZT",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.008164
+  },
+  {
+   "base": "LKR",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.011035
+  },
+  {
+   "base": "LYD",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.567444
+  },
+  {
+   "base": "MAD",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.369055
+  },
+  {
+   "base": "MKD",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.065604
+  },
+  {
+   "base": "MUR",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.078405
+  },
+  {
+   "base": "MXN",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.194346
+  },
+  {
+   "base": "MYR",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.893009
+  },
+  {
+   "base": "NGN",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.002712
+  },
+  {
+   "base": "NOK",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.379128
+  },
+  {
+   "base": "NPR",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.024603
+  },
+  {
+   "base": "NZD",
+   "quote": "AED",
+   "type": "reference",
+   "value": 2.029006
+  },
+  {
+   "base": "OMR",
+   "quote": "AED",
+   "type": "reference",
+   "value": 9.538713
+  },
+  {
+   "base": "PEN",
+   "quote": "AED",
+   "type": "reference",
+   "value": 1.069297
+  },
+  {
+   "base": "PHP",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.057658
+  },
+  {
+   "base": "PKR",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.013285
+  },
+  {
+   "base": "PLN",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.913966
+  },
+  {
+   "base": "QAR",
+   "quote": "AED",
+   "type": "reference",
+   "value": 1.007462
+  },
+  {
+   "base": "RON",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.755472
+  },
+  {
+   "base": "RSD",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.034342
+  },
+  {
+   "base": "RUB",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.04488
+  },
+  {
+   "base": "SAR",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.97902
+  },
+  {
+   "base": "SDG",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.006119
+  },
+  {
+   "base": "SEK",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.362269
+  },
+  {
+   "base": "SGD",
+   "quote": "AED",
+   "type": "reference",
+   "value": 2.847782
+  },
+  {
+   "base": "SYP",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.030098
+  },
+  {
+   "base": "THB",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.108365
+  },
+  {
+   "base": "TMT",
+   "quote": "AED",
+   "type": "reference",
+   "value": 1.049286
+  },
+  {
+   "base": "TND",
+   "quote": "AED",
+   "type": "reference",
+   "value": 1.205165
+  },
+  {
+   "base": "TRY",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.07277
+  },
+  {
+   "base": "TTD",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.541323
+  },
+  {
+   "base": "TWD",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.111558
+  },
+  {
+   "base": "TZS",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.001383
+  },
+  {
+   "base": "UGX",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.000871
+  },
+  {
+   "base": "USD",
+   "quote": "AED",
+   "type": "reference",
+   "value": 3.6725
+  },
+  {
+   "base": "UZS",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.000307
+  },
+  {
+   "base": "VND",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.000143
+  },
+  {
+   "base": "YER",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.01553
+  },
+  {
+   "base": "ZAR",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.2122
+  },
+  {
+   "base": "ZMW",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.178597
+  }
+ ],
+ "official_source": "https://www.centralbank.ae/en/forex-eibor/exchange-rates/",
+ "page": "https://allratestoday.com/central-bank-rates-api/cbuae/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

@@ -4,116 +4,122 @@
  "country": "Trinidad and Tobago",
  "home_currency": "TTD",
  "kind": "central_bank",
- "date": "2026-11-18",
+ "date": "2026-11-19",
  "cadence": "daily",
  "rates": [
   {
    "base": "BBD",
    "quote": "TTD",
    "type": "buy",
-   "value": 2.7183
+   "value": 2.85
   },
   {
    "base": "BBD",
    "quote": "TTD",
    "type": "sell",
-   "value": 3.8177
+   "value": 3.7882
   },
   {
    "base": "CAD",
    "quote": "TTD",
    "type": "buy",
-   "value": 4.7077
+   "value": 4.7068
   },
   {
    "base": "CAD",
    "quote": "TTD",
    "type": "sell",
-   "value": 5.0968
+   "value": 5.0563
   },
   {
    "base": "CHF",
    "quote": "TTD",
-   "type": "buy",
-   "value": 8.0225
+   "type": "sell",
+   "value": 8.6573
   },
   {
    "base": "EUR",
    "quote": "TTD",
    "type": "buy",
-   "value": 7.4414
+   "value": 7.823
+  },
+  {
+   "base": "EUR",
+   "quote": "TTD",
+   "type": "sell",
+   "value": 8.561
   },
   {
    "base": "GBP",
    "quote": "TTD",
    "type": "buy",
-   "value": 8.8739
+   "value": 8.9132
   },
   {
    "base": "GBP",
    "quote": "TTD",
    "type": "sell",
-   "value": 9.6053
+   "value": 9.4263
   },
   {
    "base": "GYD",
    "quote": "TTD",
    "type": "buy",
-   "value": 0.0312
+   "value": 0.0311
   },
   {
    "base": "GYD",
    "quote": "TTD",
    "type": "sell",
-   "value": 0.0323
+   "value": 0.0325
   },
   {
    "base": "JMD",
    "quote": "TTD",
    "type": "buy",
-   "value": 0.0412
+   "value": 0.0411
   },
   {
    "base": "JMD",
    "quote": "TTD",
    "type": "sell",
-   "value": 0.0428
+   "value": 0.0429
   },
   {
    "base": "JPY",
    "quote": "TTD",
    "type": "buy",
-   "value": 0.0422
+   "value": 0.042
   },
   {
    "base": "JPY",
    "quote": "TTD",
    "type": "sell",
-   "value": 0.0456
+   "value": 0.0453
   },
   {
    "base": "USD",
    "quote": "TTD",
    "type": "buy",
-   "value": 6.7173
+   "value": 6.7108
   },
   {
    "base": "USD",
    "quote": "TTD",
    "type": "sell",
-   "value": 6.7676
+   "value": 6.7912
   },
   {
    "base": "XCD",
    "quote": "TTD",
    "type": "buy",
-   "value": 2.4244
+   "value": 2.4251
   },
   {
    "base": "XCD",
    "quote": "TTD",
    "type": "sell",
-   "value": 2.6793
+   "value": 2.6079
   }
  ],
  "official_source": "https://www.central-bank.org.tt/exchange-rates-daily/",
