@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T20:56:20.687Z",
+ "generated_at": "2026-11-22T01:26:05.671Z",
  "source_count": 179,
  "sources": {
   "abf": {
@@ -227,7 +227,7 @@
    "country": "Nicaragua",
    "home_currency": "NIO",
    "kind": "central_bank",
-   "latest": "2026-11-21",
+   "latest": "2026-11-22",
    "cadence": "daily",
    "stale": false,
    "currencies": 1,
@@ -893,7 +893,7 @@
    "kind": "central_bank",
    "latest": "2026-11-17",
    "cadence": "daily",
-   "stale": false,
+   "stale": true,
    "currencies": 57,
    "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/cbiq/latest.json",
    "page": "https://allratestoday.com/central-bank-rates-api/cbiq/"
@@ -1111,10 +1111,10 @@
    "country": "Global",
    "home_currency": "USD",
    "kind": "composite",
-   "latest": "2026-11-21",
+   "latest": "2026-11-22",
    "cadence": "daily",
    "stale": false,
-   "currencies": 153,
+   "currencies": 142,
    "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/composite/latest.json",
    "page": "https://allratestoday.com/central-bank-rates-api/composite/"
   },
@@ -1352,7 +1352,7 @@
   },
   "jpcustoms": {
    "name": "Japan Customs",
-   "latest": "2026-11-15",
+   "latest": "2026-11-22",
    "cadence": "weekly",
    "stale": false,
    "currencies": 85,
@@ -1368,7 +1368,7 @@
   },
   "kcs": {
    "name": "Korea Customs Service",
-   "latest": "2026-11-15",
+   "latest": "2026-11-22",
    "cadence": "weekly",
    "stale": false,
    "currencies": 114,
@@ -1616,7 +1616,7 @@
   },
   "nzcustoms": {
    "name": "New Zealand Customs Service",
-   "latest": "2026-11-08",
+   "latest": "2026-11-22",
    "cadence": "fortnightly",
    "stale": false,
    "currencies": 28,
