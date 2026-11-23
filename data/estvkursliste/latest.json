@@ -1,0 +1,789 @@
+{
+ "source": "estvkursliste",
+ "name": "Swiss Federal Tax Administration (ESTV Kursliste)",
+ "date": "2026-11-20",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AED",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.228485
+  },
+  {
+   "base": "ALL",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.010259
+  },
+  {
+   "base": "AOA",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.000914
+  },
+  {
+   "base": "ARS",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.000532
+  },
+  {
+   "base": "AUD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.55776
+  },
+  {
+   "base": "AWG",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.468855
+  },
+  {
+   "base": "AZN",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.493164
+  },
+  {
+   "base": "BAM",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.471264
+  },
+  {
+   "base": "BBD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.419622
+  },
+  {
+   "base": "BDT",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.006727
+  },
+  {
+   "base": "BGN",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.471257
+  },
+  {
+   "base": "BHD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 2.224447
+  },
+  {
+   "base": "BIF",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.000279
+  },
+  {
+   "base": "BMD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.83925
+  },
+  {
+   "base": "BND",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.650987
+  },
+  {
+   "base": "BOB",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.071424
+  },
+  {
+   "base": "BRL",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.141278
+  },
+  {
+   "base": "BSD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.83925
+  },
+  {
+   "base": "BTN",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.009055
+  },
+  {
+   "base": "BWP",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.056599
+  },
+  {
+   "base": "BYN",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.279892
+  },
+  {
+   "base": "BZD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.419622
+  },
+  {
+   "base": "CAD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.585969
+  },
+  {
+   "base": "CDF",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.000367
+  },
+  {
+   "base": "CLP",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.000822
+  },
+  {
+   "base": "CNY",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.125749
+  },
+  {
+   "base": "COP",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.000242
+  },
+  {
+   "base": "CRC",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.001888
+  },
+  {
+   "base": "CUC",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.034968
+  },
+  {
+   "base": "CUP",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.034968
+  },
+  {
+   "base": "CVE",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.008358
+  },
+  {
+   "base": "CZK",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.037668
+  },
+  {
+   "base": "DKK",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.123315
+  },
+  {
+   "base": "DOP",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.013959
+  },
+  {
+   "base": "DZD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.006122
+  },
+  {
+   "base": "EGP",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.015596
+  },
+  {
+   "base": "ETB",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.005113
+  },
+  {
+   "base": "EUR",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.9217
+  },
+  {
+   "base": "FJD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.363955
+  },
+  {
+   "base": "GBP",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 1.099552
+  },
+  {
+   "base": "GEL",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.323784
+  },
+  {
+   "base": "GHS",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.071122
+  },
+  {
+   "base": "GMD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.011341
+  },
+  {
+   "base": "GNF",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.00009469
+  },
+  {
+   "base": "GTQ",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.109737
+  },
+  {
+   "base": "HKD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.107079
+  },
+  {
+   "base": "HNL",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.031105
+  },
+  {
+   "base": "HTG",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.006415
+  },
+  {
+   "base": "HUF",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.002468
+  },
+  {
+   "base": "IDR",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.00004594
+  },
+  {
+   "base": "ILS",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.251164
+  },
+  {
+   "base": "INR",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.009055
+  },
+  {
+   "base": "ISK",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.006718
+  },
+  {
+   "base": "JMD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.005294
+  },
+  {
+   "base": "JOD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 1.183639
+  },
+  {
+   "base": "JPY",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.005287
+  },
+  {
+   "base": "KES",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.00645
+  },
+  {
+   "base": "KGS",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.009596
+  },
+  {
+   "base": "KMF",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.001873
+  },
+  {
+   "base": "KRW",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.000628
+  },
+  {
+   "base": "KWD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 2.691487
+  },
+  {
+   "base": "KYD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 1.023428
+  },
+  {
+   "base": "KZT",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.001842
+  },
+  {
+   "base": "LBP",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.00000936
+  },
+  {
+   "base": "LKR",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.002525
+  },
+  {
+   "base": "LSL",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.048066
+  },
+  {
+   "base": "MAD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.084014
+  },
+  {
+   "base": "MDL",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.046036
+  },
+  {
+   "base": "MGA",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.000184
+  },
+  {
+   "base": "MKD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.014974
+  },
+  {
+   "base": "MNT",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.000233
+  },
+  {
+   "base": "MOP",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.10396
+  },
+  {
+   "base": "MRU",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.020589
+  },
+  {
+   "base": "MUR",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.01794
+  },
+  {
+   "base": "MVR",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.054425
+  },
+  {
+   "base": "MWK",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.000484
+  },
+  {
+   "base": "MXN",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.044081
+  },
+  {
+   "base": "MYR",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.204071
+  },
+  {
+   "base": "MZN",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.013136
+  },
+  {
+   "base": "NAD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.048066
+  },
+  {
+   "base": "NGN",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.00061
+  },
+  {
+   "base": "NIO",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.022915
+  },
+  {
+   "base": "NOK",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.0859
+  },
+  {
+   "base": "NPR",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.005659
+  },
+  {
+   "base": "NZD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.4607
+  },
+  {
+   "base": "OMR",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 2.179732
+  },
+  {
+   "base": "PAB",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.83925
+  },
+  {
+   "base": "PEN",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.242955
+  },
+  {
+   "base": "PGK",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.186435
+  },
+  {
+   "base": "PHP",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.013151
+  },
+  {
+   "base": "PKR",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.003036
+  },
+  {
+   "base": "PLN",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.206821
+  },
+  {
+   "base": "PYG",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.000133
+  },
+  {
+   "base": "QAR",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.230499
+  },
+  {
+   "base": "RON",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.172296
+  },
+  {
+   "base": "RSD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.007834
+  },
+  {
+   "base": "RUB",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.010256
+  },
+  {
+   "base": "RWF",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.000568
+  },
+  {
+   "base": "SAR",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.223691
+  },
+  {
+   "base": "SBD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.103116
+  },
+  {
+   "base": "SCR",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.057021
+  },
+  {
+   "base": "SEK",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.082175
+  },
+  {
+   "base": "SGD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.650987
+  },
+  {
+   "base": "SLE",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.036488
+  },
+  {
+   "base": "SRD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.022461
+  },
+  {
+   "base": "STD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.00003762
+  },
+  {
+   "base": "SVC",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.095913
+  },
+  {
+   "base": "SZL",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.048066
+  },
+  {
+   "base": "THB",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.024745
+  },
+  {
+   "base": "TND",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.274519
+  },
+  {
+   "base": "TOP",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.345639
+  },
+  {
+   "base": "TRY",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.016593
+  },
+  {
+   "base": "TTD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.124313
+  },
+  {
+   "base": "TWD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.025449
+  },
+  {
+   "base": "TZS",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.000314
+  },
+  {
+   "base": "UAH",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.018669
+  },
+  {
+   "base": "UGX",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.000199
+  },
+  {
+   "base": "USD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.83925
+  },
+  {
+   "base": "UYU",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.020663
+  },
+  {
+   "base": "UZS",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.0000701
+  },
+  {
+   "base": "VES",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.000914
+  },
+  {
+   "base": "VND",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.00003252
+  },
+  {
+   "base": "VUV",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.006907
+  },
+  {
+   "base": "WST",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.298429
+  },
+  {
+   "base": "XCD",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.310828
+  },
+  {
+   "base": "XCG",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.468855
+  },
+  {
+   "base": "XOF",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.001405
+  },
+  {
+   "base": "XPF",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.007723
+  },
+  {
+   "base": "ZAR",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.048066
+  },
+  {
+   "base": "ZMW",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.040888
+  }
+ ],
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}
