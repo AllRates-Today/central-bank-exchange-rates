@@ -47,7 +47,7 @@ src_rows = M.source_rows(st, UTM)
 # counts and the sources table never drift from the files beside it.
 description = f"""# Central Bank Exchange Rates
 
-Official exchange rates published by **{banks} central banks and {taxes} tax authorities**, one CSV per institution: {total:,} rows, the oldest series from {oldest[:4]}, latest table in this mirror {latest} (the mirror lags the live data by {M.LAG_DAYS} days). Collected and published by [AllRatesToday]({M.link("/central-bank-rates-api/", UTM)}), refreshed daily from the GitHub source repository [AllRates-Today/central-bank-exchange-rates](https://github.com/AllRates-Today/central-bank-exchange-rates).
+Official exchange rates published by **{banks} central banks and {taxes} tax and customs authorities**, one CSV per institution: {total:,} rows, the oldest series from {oldest[:4]}, latest table in this mirror {latest} (the mirror lags the live data by {M.LAG_DAYS} days). Collected and published by [AllRatesToday]({M.link("/central-bank-rates-api/", UTM)}), refreshed daily from the GitHub source repository [AllRates-Today/central-bank-exchange-rates](https://github.com/AllRates-Today/central-bank-exchange-rates).
 
 Every row is the figure the institution itself published for that date: the ECB euro reference rate, the Federal Reserve H.10 table, the Bank of England spot rates, RBI reference rates, PBoC central parity, HMRC monthly rates for VAT, US Treasury quarterly rates, and a hundred more. These are the rates that invoices, tax filings, customs declarations, transfer pricing and audits require, as opposed to market rates.
 
@@ -94,7 +94,7 @@ Also on Hugging Face: {M.HF}
 json.dump({
     "id": ID,
     "title": "Central Bank Exchange Rates, 1914 to today",
-    "subtitle": f"Official rates from {banks} central banks and {taxes} tax authorities, daily",
+    "subtitle": f"Official rates from {banks} central banks and {taxes} tax and customs authorities, daily",
     "description": description,
     "licenses": [{"name": "CC-BY-NC-4.0"}],
     "keywords": ["finance", "currencies and foreign exchange", "economics", "time series analysis", "banking"],
@@ -102,7 +102,7 @@ json.dump({
     # Provenance ("Sources" in the metadata tab) and update frequency are
     # dataset settings, not version fields: pushed by `datasets metadata --update`.
     "userSpecifiedSources": (
-        f"Official publications of {banks} central banks and {taxes} tax authorities, each fetched from the institution's own page or feed "
+        f"Official publications of {banks} central banks and {taxes} tax and customs authorities, each fetched from the institution's own page or feed "
         f"(exact URL per institution in sources.json, field official_source), e.g. ECB {st['sources']['ecb']['official_source']}, "
         f"Federal Reserve H.10 {st['sources']['fed']['official_source']}, Bank of England {st['sources']['boe']['official_source']}. "
         f"Collected daily by the AllRatesToday ingest pipeline, cross-checked across banks for unit and direction errors, "

@@ -1,4 +1,28 @@
 {
+  "abf": {
+    "country": "Australia",
+    "home_currency": "AUD",
+    "kind": "tax_authority",
+    "name": "Australian Border Force",
+    "official_source": "https://www.ccf.customs.gov.au/reference/production/main/",
+    "page": "https://allratestoday.com/tax-authority-rates-api/abf/"
+  },
+  "adecambi": {
+    "country": "Italy",
+    "home_currency": "EUR",
+    "kind": "tax_authority",
+    "name": "Italy Revenue Agency (Agenzia delle Entrate)",
+    "official_source": "https://www.agenziaentrate.gov.it/portale/normativa-e-prassi/provvedimenti",
+    "page": "https://allratestoday.com/tax-authority-rates-api/adecambi/"
+  },
+  "aduanacl": {
+    "country": "Chile",
+    "home_currency": "CLP",
+    "kind": "tax_authority",
+    "name": "Servicio Nacional de Aduanas (Chile customs)",
+    "official_source": "https://www.aduana.cl/indicadores-equivalencias-2026/aduana/2025-12-30/115957.html",
+    "page": "https://allratestoday.com/tax-authority-rates-api/aduanacl/"
+  },
   "amcm": {
     "country": "Macao",
     "home_currency": "MOP",
@@ -6,6 +30,22 @@
     "name": "Monetary Authority of Macao",
     "official_source": "https://www.amcm.gov.mo/en/exchange-rate",
     "page": "https://allratestoday.com/central-bank-rates-api/amcm/"
+  },
+  "arcamaria": {
+    "country": "Argentina",
+    "home_currency": "ARS",
+    "kind": "tax_authority",
+    "name": "ARCA Customs (Argentina)",
+    "official_source": "https://serviciosweb.afip.gob.ar/aduana/cotizacionesMaria/default.asp",
+    "page": "https://allratestoday.com/tax-authority-rates-api/arcamaria/"
+  },
+  "atpt": {
+    "country": "Portugal",
+    "home_currency": "EUR",
+    "kind": "tax_authority",
+    "name": "Portugal Tax and Customs Authority (AT)",
+    "official_source": "https://info-aduaneiro.portaldasfinancas.gov.pt/pt/destaques/oficios_circulados/Pages/default.aspx",
+    "page": "https://allratestoday.com/tax-authority-rates-api/atpt/"
   },
   "bam": {
     "country": "Morocco",
@@ -223,6 +263,14 @@
     "official_source": "https://www.beac.int/",
     "page": "https://allratestoday.com/central-bank-rates-api/beac/"
   },
+  "bermudacustoms": {
+    "country": "Bermuda",
+    "home_currency": "BMD",
+    "kind": "tax_authority",
+    "name": "Bermuda Customs",
+    "official_source": "https://www.gov.bm/weekly-exchange-rates-importers",
+    "page": "https://allratestoday.com/tax-authority-rates-api/bermudacustoms/"
+  },
   "bfm": {
     "country": "Madagascar",
     "home_currency": "MGA",
@@ -239,6 +287,22 @@
     "official_source": "https://www.bi.go.id/en/statistik/informasi-kurs/transaksi-bi/",
     "page": "https://allratestoday.com/central-bank-rates-api/bi/"
   },
+  "bmfat": {
+    "country": "Austria",
+    "home_currency": "EUR",
+    "kind": "tax_authority",
+    "name": "Austrian Ministry of Finance (BMF)",
+    "official_source": "https://www.bmf.gv.at/themen/zoll/kassenwerte-zollwertkurse.html",
+    "page": "https://allratestoday.com/tax-authority-rates-api/bmfat/"
+  },
+  "bmfust": {
+    "country": "Germany",
+    "home_currency": "EUR",
+    "kind": "tax_authority",
+    "name": "German Federal Ministry of Finance (VAT rates)",
+    "official_source": "https://www.bundesfinanzministerium.de/Web/DE/Themen/Steuern/Steuerarten/Umsatzsteuer/Umsatzsteuer_Umrechnungskurse/umsatzsteuer_umrechnungskurse.html",
+    "page": "https://allratestoday.com/tax-authority-rates-api/bmfust/"
+  },
   "bmu": {
     "country": "Mauritius",
     "home_currency": "MUR",
@@ -254,6 +318,14 @@
     "name": "National Bank of Angola",
     "official_source": "https://www.bna.ao/",
     "page": "https://allratestoday.com/central-bank-rates-api/bna/"
+  },
+  "bnadivisa": {
+    "country": "Argentina",
+    "home_currency": "ARS",
+    "kind": "tax_authority",
+    "name": "Banco de la Nación Argentina (divisa rate for tax)",
+    "official_source": "https://www.bna.com.ar/Personas",
+    "page": "https://allratestoday.com/tax-authority-rates-api/bnadivisa/"
   },
   "bnb": {
     "country": "Bulgaria",
@@ -447,6 +519,14 @@
     "official_source": "https://www.bsp.gov.ph/Statistics/RERB/RERB.xlsx",
     "page": "https://allratestoday.com/central-bank-rates-api/bsp/"
   },
+  "carinars": {
+    "country": "Serbia",
+    "home_currency": "RSD",
+    "kind": "tax_authority",
+    "name": "Serbia Customs Administration",
+    "official_source": "https://www.carina.rs/privreda/korisne-informacije/kursna-lista.html",
+    "page": "https://allratestoday.com/tax-authority-rates-api/carinars/"
+  },
   "cba": {
     "country": "Armenia",
     "home_currency": "AMD",
@@ -615,6 +695,14 @@
     "official_source": "https://www.cbr.ru/currency_base/daily/",
     "page": "https://allratestoday.com/central-bank-rates-api/cbr/"
   },
+  "cbsa": {
+    "country": "Canada",
+    "home_currency": "CAD",
+    "kind": "tax_authority",
+    "name": "Canada Border Services Agency",
+    "official_source": "https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca/en/exchange-rates",
+    "page": "https://allratestoday.com/tax-authority-rates-api/cbsa/"
+  },
   "cbsl": {
     "country": "Sri Lanka",
     "home_currency": "LKR",
@@ -663,6 +751,14 @@
     "official_source": "https://www.cbvs.sr/",
     "page": "https://allratestoday.com/central-bank-rates-api/cbvs/"
   },
+  "celnisprava": {
+    "country": "Czech Republic",
+    "home_currency": "CZK",
+    "kind": "tax_authority",
+    "name": "Czech Customs Administration",
+    "official_source": "https://celnisprava.gov.cz/cz/aplikace/Stranky/kurzy.aspx",
+    "page": "https://allratestoday.com/tax-authority-rates-api/celnisprava/"
+  },
   "cnb": {
     "country": "Czech Republic",
     "home_currency": "CZK",
@@ -679,6 +775,46 @@
     "official_source": "https://allratestoday.com/central-bank-rates-api/",
     "page": "https://allratestoday.com/central-bank-rates-api/composite/"
   },
+  "customsbz": {
+    "country": "Belize",
+    "home_currency": "BZD",
+    "kind": "tax_authority",
+    "name": "Belize Customs and Excise",
+    "official_source": "https://www.customs.gov.bz/exchangeRates.php",
+    "page": "https://allratestoday.com/tax-authority-rates-api/customsbz/"
+  },
+  "customsmk": {
+    "country": "North Macedonia",
+    "home_currency": "MKD",
+    "kind": "tax_authority",
+    "name": "North Macedonia Customs Administration",
+    "official_source": "https://customs.gov.mk/mk-MK/pocetna/za-nas/kursna-lista.nspx",
+    "page": "https://allratestoday.com/tax-authority-rates-api/customsmk/"
+  },
+  "cycustoms": {
+    "country": "Cyprus",
+    "home_currency": "EUR",
+    "kind": "tax_authority",
+    "name": "Cyprus Department of Customs and Excise",
+    "official_source": "https://www.mof.gov.cy/mof/customs/customs.nsf/All/8D4A06CC3E78B1A9C22572C10039CB3D",
+    "page": "https://allratestoday.com/tax-authority-rates-api/cycustoms/"
+  },
+  "dgado": {
+    "country": "Dominican Republic",
+    "home_currency": "DOP",
+    "kind": "tax_authority",
+    "name": "DGA (Dominican Republic customs)",
+    "official_source": "https://www.aduanas.gob.do/tasa-de-cambio/",
+    "page": "https://allratestoday.com/tax-authority-rates-api/dgado/"
+  },
+  "dgii": {
+    "country": "Dominican Republic",
+    "home_currency": "DOP",
+    "kind": "tax_authority",
+    "name": "DGII (Dominican Republic tax authority)",
+    "official_source": "https://www.dgii.gov.do/estadisticas/tasaCambio/Paginas/default.aspx",
+    "page": "https://allratestoday.com/tax-authority-rates-api/dgii/"
+  },
   "dnb": {
     "country": "Denmark",
     "home_currency": "DKK",
@@ -686,6 +822,54 @@
     "name": "Danmarks Nationalbank",
     "official_source": "https://www.nationalbanken.dk/api/currencyratesxml",
     "page": "https://allratestoday.com/central-bank-rates-api/dnb/"
+  },
+  "dnit": {
+    "country": "Paraguay",
+    "home_currency": "PYG",
+    "kind": "tax_authority",
+    "name": "DNIT (Paraguay tax and customs authority)",
+    "official_source": "https://www.dnit.gov.py/web/portal-institucional/cotizaciones-aduaneras",
+    "page": "https://allratestoday.com/tax-authority-rates-api/dnit/"
+  },
+  "dofequiv": {
+    "country": "Mexico",
+    "home_currency": "MXN",
+    "kind": "tax_authority",
+    "name": "Mexico DOF tax equivalence table (Banxico)",
+    "official_source": "https://sidof.segob.gob.mx/",
+    "page": "https://allratestoday.com/tax-authority-rates-api/dofequiv/"
+  },
+  "douanefr": {
+    "country": "France",
+    "home_currency": "EUR",
+    "kind": "tax_authority",
+    "name": "French Customs (DGDDI)",
+    "official_source": "https://www.douane.gouv.fr/debweb/cf.srv?etape=menuTaux",
+    "page": "https://allratestoday.com/tax-authority-rates-api/douanefr/"
+  },
+  "douanenl": {
+    "country": "Netherlands",
+    "home_currency": "EUR",
+    "kind": "tax_authority",
+    "name": "Douane (Netherlands Customs)",
+    "official_source": "https://kennisbank.douane.nl/wisselkoers-checken/",
+    "page": "https://allratestoday.com/tax-authority-rates-api/douanenl/"
+  },
+  "douaneslu": {
+    "country": "Luxembourg",
+    "home_currency": "EUR",
+    "kind": "tax_authority",
+    "name": "Luxembourg Customs and Excise",
+    "official_source": "https://douanes.public.lu/fr/commerce-international/taux-change.html",
+    "page": "https://allratestoday.com/tax-authority-rates-api/douaneslu/"
+  },
+  "douanesmg": {
+    "country": "Madagascar",
+    "home_currency": "MGA",
+    "kind": "tax_authority",
+    "name": "Madagascar Customs (Douanes)",
+    "official_source": "https://www.douanes.gov.mg/cours-de-change/",
+    "page": "https://allratestoday.com/tax-authority-rates-api/douanesmg/"
   },
   "ecb": {
     "country": "Eurozone",
@@ -695,6 +879,14 @@
     "official_source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
     "page": "https://allratestoday.com/central-bank-rates-api/ecb/"
   },
+  "estvkursliste": {
+    "country": "Switzerland",
+    "home_currency": "CHF",
+    "kind": "tax_authority",
+    "name": "Swiss Federal Tax Administration (ESTV Kursliste)",
+    "official_source": "https://www.ictax.admin.ch/extern/en.html",
+    "page": "https://allratestoday.com/tax-authority-rates-api/estvkursliste/"
+  },
   "fed": {
     "country": "United States",
     "home_currency": "USD",
@@ -703,6 +895,30 @@
     "official_source": "https://www.federalreserve.gov/releases/h10/",
     "page": "https://allratestoday.com/central-bank-rates-api/fed/"
   },
+  "gdce": {
+    "country": "Cambodia",
+    "home_currency": "KHR",
+    "kind": "tax_authority",
+    "name": "Cambodia General Department of Customs and Excise",
+    "official_source": "https://customs.gov.kh/",
+    "page": "https://allratestoday.com/tax-authority-rates-api/gdce/"
+  },
+  "gfrcz": {
+    "country": "Czech Republic",
+    "home_currency": "CZK",
+    "kind": "tax_authority",
+    "name": "Czech Tax Administration (yearly uniform rate)",
+    "official_source": "https://financnisprava.gov.cz/cs/dane/legislativa-a-metodika/pokyny-d/cleneni-podle-dani/dane-z-prijmu",
+    "page": "https://allratestoday.com/tax-authority-rates-api/gfrcz/"
+  },
+  "gracustoms": {
+    "country": "Guyana",
+    "home_currency": "GYD",
+    "kind": "tax_authority",
+    "name": "Guyana Revenue Authority (customs rates)",
+    "official_source": "https://gra.gov.gy/exchange-rates/",
+    "page": "https://allratestoday.com/tax-authority-rates-api/gracustoms/"
+  },
   "hkab": {
     "country": "Hong Kong",
     "home_currency": "HKD",
@@ -710,6 +926,14 @@
     "name": "Hong Kong Association of Banks (HKAB)",
     "official_source": "https://www.hkab.org.hk/en/rates/exchange-rates",
     "page": "https://allratestoday.com/central-bank-rates-api/hkab/"
+  },
+  "hkird": {
+    "country": "Hong Kong",
+    "home_currency": "HKD",
+    "kind": "tax_authority",
+    "name": "Hong Kong Inland Revenue Department (average rates)",
+    "official_source": "https://www.ird.gov.hk/eng/tax/bus_aer.htm",
+    "page": "https://allratestoday.com/tax-authority-rates-api/hkird/"
   },
   "hkma": {
     "country": "Hong Kong",
@@ -727,6 +951,14 @@
     "official_source": "https://www.trade-tariff.service.gov.uk/exchange_rates",
     "page": "https://allratestoday.com/tax-authority-rates-api/hmrc/"
   },
+  "icumsgh": {
+    "country": "Ghana",
+    "home_currency": "GHS",
+    "kind": "tax_authority",
+    "name": "Ghana Revenue Authority Customs (ICUMS)",
+    "official_source": "https://external.unipassghana.com/co/exchangerate/selectExchangeRateUserDetail.do?MENU_ID=IIM01S01V06",
+    "page": "https://allratestoday.com/tax-authority-rates-api/icumsgh/"
+  },
   "imf": {
     "country": "International",
     "home_currency": "USD",
@@ -734,6 +966,14 @@
     "name": "International Monetary Fund",
     "official_source": "https://www.imf.org/external/np/fin/data/param_rms_mth.aspx",
     "page": "https://allratestoday.com/central-bank-rates-api/imf/"
+  },
+  "inforeuro": {
+    "country": "European Union",
+    "home_currency": "EUR",
+    "kind": "tax_authority",
+    "name": "European Commission (InforEuro)",
+    "official_source": "https://commission.europa.eu/funding-tenders/procedures-guidelines-tenders/information-contractors-and-beneficiaries/exchange-rate-inforeuro_en",
+    "page": "https://allratestoday.com/tax-authority-rates-api/inforeuro/"
   },
   "irs": {
     "country": "United States",
@@ -743,6 +983,54 @@
     "official_source": "https://www.irs.gov/individuals/international-taxpayers/yearly-average-currency-exchange-rates",
     "page": "https://allratestoday.com/tax-authority-rates-api/irs/"
   },
+  "jocustoms": {
+    "country": "Jordan",
+    "home_currency": "JOD",
+    "kind": "tax_authority",
+    "name": "Jordan Customs Department",
+    "official_source": "https://asytrade.customs.gov.jo/customs/rates/search?lang=en",
+    "page": "https://allratestoday.com/tax-authority-rates-api/jocustoms/"
+  },
+  "jpcustoms": {
+    "country": "Japan",
+    "home_currency": "JPY",
+    "kind": "tax_authority",
+    "name": "Japan Customs",
+    "official_source": "https://www.customs.go.jp/tetsuzuki/kawase/index.htm",
+    "page": "https://allratestoday.com/tax-authority-rates-api/jpcustoms/"
+  },
+  "kaspl": {
+    "country": "Poland",
+    "home_currency": "PLN",
+    "kind": "tax_authority",
+    "name": "Poland Ministry of Finance customs rates",
+    "official_source": "https://podatki.gov.pl/informacje-o-cle/pozostale-informacje/kursy-walut-w-przepisach-celnych",
+    "page": "https://allratestoday.com/tax-authority-rates-api/kaspl/"
+  },
+  "kcs": {
+    "country": "South Korea",
+    "home_currency": "KRW",
+    "kind": "tax_authority",
+    "name": "Korea Customs Service",
+    "official_source": "https://unipass.customs.go.kr/csp/index.do",
+    "page": "https://allratestoday.com/tax-authority-rates-api/kcs/"
+  },
+  "kra": {
+    "country": "Kenya",
+    "home_currency": "KES",
+    "kind": "tax_authority",
+    "name": "Kenya Revenue Authority (customs rates)",
+    "official_source": "https://www.kra.go.ke/foreign-exchange",
+    "page": "https://allratestoday.com/tax-authority-rates-api/kra/"
+  },
+  "kurspajak": {
+    "country": "Indonesia",
+    "home_currency": "IDR",
+    "kind": "tax_authority",
+    "name": "Indonesia Ministry of Finance (Kurs Pajak)",
+    "official_source": "https://fiskal.kemenkeu.go.id/informasi-publik/kurs-pajak",
+    "page": "https://allratestoday.com/tax-authority-rates-api/kurspajak/"
+  },
   "lb": {
     "country": "Lithuania",
     "home_currency": "EUR",
@@ -750,6 +1038,14 @@
     "name": "Bank of Lithuania",
     "official_source": "https://www.lb.lt/en/currency-exchange-rates",
     "page": "https://allratestoday.com/central-bank-rates-api/lb/"
+  },
+  "lkcustoms": {
+    "country": "Sri Lanka",
+    "home_currency": "LKR",
+    "kind": "tax_authority",
+    "name": "Sri Lanka Customs",
+    "official_source": "https://www.customs.gov.lk/exchange-rates/",
+    "page": "https://allratestoday.com/tax-authority-rates-api/lkcustoms/"
   },
   "mas": {
     "country": "Singapore",
@@ -774,6 +1070,14 @@
     "name": "Magyar Nemzeti Bank",
     "official_source": "https://www.mnb.hu/arfolyamok.asmx",
     "page": "https://allratestoday.com/central-bank-rates-api/mnb/"
+  },
+  "mramu": {
+    "country": "Mauritius",
+    "home_currency": "MUR",
+    "kind": "tax_authority",
+    "name": "Mauritius Revenue Authority (Customs)",
+    "official_source": "https://www.mra.mu/download/RateOfExchangeWk462026.pdf",
+    "page": "https://allratestoday.com/tax-authority-rates-api/mramu/"
   },
   "nbc": {
     "country": "Cambodia",
@@ -839,6 +1143,14 @@
     "official_source": "https://api.nbrb.by/exrates/rates?periodicity=0",
     "page": "https://allratestoday.com/central-bank-rates-api/nbrb/"
   },
+  "nbrbd": {
+    "country": "Bangladesh",
+    "home_currency": "BDT",
+    "kind": "tax_authority",
+    "name": "Bangladesh National Board of Revenue (customs rates)",
+    "official_source": "https://customs.gov.bd/index.jsf",
+    "page": "https://allratestoday.com/tax-authority-rates-api/nbrbd/"
+  },
   "nbrm": {
     "country": "North Macedonia",
     "home_currency": "MKD",
@@ -886,6 +1198,22 @@
     "name": "Nepal Rastra Bank",
     "official_source": "https://www.nrb.org.np/forex/",
     "page": "https://allratestoday.com/central-bank-rates-api/nrb/"
+  },
+  "nzcustoms": {
+    "country": "New Zealand",
+    "home_currency": "NZD",
+    "kind": "tax_authority",
+    "name": "New Zealand Customs Service",
+    "official_source": "https://www.customs.govt.nz/business/import/customs-rates-of-exchange",
+    "page": "https://allratestoday.com/tax-authority-rates-api/nzcustoms/"
+  },
+  "nzird": {
+    "country": "New Zealand",
+    "home_currency": "NZD",
+    "kind": "tax_authority",
+    "name": "Inland Revenue (New Zealand)",
+    "official_source": "https://www.ird.govt.nz/managing-my-tax/overseas-currency-conversion-to-nz-dollars",
+    "page": "https://allratestoday.com/tax-authority-rates-api/nzird/"
   },
   "pboc": {
     "country": "China",
@@ -959,6 +1287,22 @@
     "official_source": "https://www.rbz.co.zw/index.php/research/markets/exchange-rates",
     "page": "https://allratestoday.com/central-bank-rates-api/rbz/"
   },
+  "receitabr": {
+    "country": "Brazil",
+    "home_currency": "BRL",
+    "kind": "tax_authority",
+    "name": "Receita Federal do Brasil (rates for tax)",
+    "official_source": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/declaracoes-e-demonstrativos/ecf/taxas-de-cambio-incluindo-valor-do-dolar-para-fins-fiscais-irpj",
+    "page": "https://allratestoday.com/tax-authority-rates-api/receitabr/"
+  },
+  "revenueie": {
+    "country": "Ireland",
+    "home_currency": "EUR",
+    "kind": "tax_authority",
+    "name": "Revenue Commissioners (Ireland customs rates)",
+    "official_source": "https://www.revenue.ie/en/customs/businesses/importing-exporting/exchange-rates/index.aspx",
+    "page": "https://allratestoday.com/tax-authority-rates-api/revenueie/"
+  },
   "riksbank": {
     "country": "Sweden",
     "home_currency": "SEK",
@@ -991,6 +1335,22 @@
     "official_source": "https://custom.resbank.co.za/SarbWebApi/WebIndicators/HomePageRates",
     "page": "https://allratestoday.com/central-bank-rates-api/sarb/"
   },
+  "sarsavg": {
+    "country": "South Africa",
+    "home_currency": "ZAR",
+    "kind": "tax_authority",
+    "name": "SARS average exchange rates (income tax)",
+    "official_source": "https://www.sars.gov.za/legal-counsel/legal-counsel-publications/average-exchange-rates/",
+    "page": "https://allratestoday.com/tax-authority-rates-api/sarsavg/"
+  },
+  "sarsrex": {
+    "country": "South Africa",
+    "home_currency": "ZAR",
+    "kind": "tax_authority",
+    "name": "SARS customs rates of exchange",
+    "official_source": "https://tools.sars.gov.za/rex/rates/MultipleDefault.aspx",
+    "page": "https://allratestoday.com/tax-authority-rates-api/sarsrex/"
+  },
   "sbp": {
     "country": "Pakistan",
     "home_currency": "PKR",
@@ -1015,6 +1375,14 @@
     "official_source": "https://www.datos.gov.co/resource/32sa-8pi3.json",
     "page": "https://allratestoday.com/central-bank-rates-api/sfc/"
   },
+  "siicl": {
+    "country": "Chile",
+    "home_currency": "CLP",
+    "kind": "tax_authority",
+    "name": "SII (Chile tax authority) dólar observado",
+    "official_source": "https://www.sii.cl/valores_y_fechas/dolar/dolar2026.htm",
+    "page": "https://allratestoday.com/tax-authority-rates-api/siicl/"
+  },
   "snb": {
     "country": "Switzerland",
     "home_currency": "CHF",
@@ -1031,6 +1399,14 @@
     "official_source": "https://e-consulta.sunat.gob.pe/cl-at-ittipcam/tcS01Alias",
     "page": "https://allratestoday.com/tax-authority-rates-api/sunat/"
   },
+  "tarbel": {
+    "country": "Belgium",
+    "home_currency": "EUR",
+    "kind": "tax_authority",
+    "name": "Belgian Customs (FPS Finance)",
+    "official_source": "https://eservices.minfin.fgov.be/extTariffBrowser/FileResourceForHomePageServlet?fname=wisselkoersen.html&parentID=&lang=NL",
+    "page": "https://allratestoday.com/tax-authority-rates-api/tarbel/"
+  },
   "tcmb": {
     "country": "Türkiye",
     "home_currency": "TRY",
@@ -1039,6 +1415,46 @@
     "official_source": "https://www.tcmb.gov.tr/kurlar/today.xml",
     "page": "https://allratestoday.com/central-bank-rates-api/tcmb/"
   },
+  "thcustoms": {
+    "country": "Thailand",
+    "home_currency": "THB",
+    "kind": "tax_authority",
+    "name": "Thai Customs Department",
+    "official_source": "https://www.customs.go.th/content_special.php?link=exch_search.php&lang=en&left_menu=nmenu_esevice_003",
+    "page": "https://allratestoday.com/tax-authority-rates-api/thcustoms/"
+  },
+  "tolletaten": {
+    "country": "Norway",
+    "home_currency": "NOK",
+    "kind": "tax_authority",
+    "name": "Norwegian Customs (Tolletaten)",
+    "official_source": "https://data.toll.no/dataset/valutakurs",
+    "page": "https://allratestoday.com/tax-authority-rates-api/tolletaten/"
+  },
+  "tollgengi": {
+    "country": "Iceland",
+    "home_currency": "ISK",
+    "kind": "tax_authority",
+    "name": "Iceland Revenue and Customs (Skatturinn)",
+    "official_source": "https://vefskil.tollur.is/tollalinan/gengi/Innflutningur.aspx",
+    "page": "https://allratestoday.com/tax-authority-rates-api/tollgengi/"
+  },
+  "tullverket": {
+    "country": "Sweden",
+    "home_currency": "SEK",
+    "kind": "tax_authority",
+    "name": "Swedish Customs (Tullverket)",
+    "official_source": "https://tulltaxan.tullverket.se/ite-tariff-public/",
+    "page": "https://allratestoday.com/tax-authority-rates-api/tullverket/"
+  },
+  "ura": {
+    "country": "Uganda",
+    "home_currency": "UGX",
+    "kind": "tax_authority",
+    "name": "Uganda Revenue Authority",
+    "official_source": "https://ura.go.ug/en/exchange-rates/",
+    "page": "https://allratestoday.com/tax-authority-rates-api/ura/"
+  },
   "ustreasury": {
     "country": "United States",
     "home_currency": "USD",
@@ -1046,5 +1462,13 @@
     "name": "U.S. Department of the Treasury",
     "official_source": "https://fiscaldata.treasury.gov/datasets/treasury-reporting-rates-exchange/",
     "page": "https://allratestoday.com/tax-authority-rates-api/ustreasury/"
+  },
+  "zollde": {
+    "country": "Germany",
+    "home_currency": "EUR",
+    "kind": "tax_authority",
+    "name": "German Customs (Zoll)",
+    "official_source": "https://www.zoll.de/DE/Fachthemen/Zoelle/Zollwert/Aktuelle-Wechselkurse/aktuelle-wechselkurse_node.html",
+    "page": "https://allratestoday.com/tax-authority-rates-api/zollde/"
   }
 }

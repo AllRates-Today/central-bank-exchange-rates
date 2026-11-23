@@ -57,7 +57,7 @@ configs:
 
 # Central Bank Exchange Rates
 
-Official exchange rates published by **{st['banks']} central banks and {st['taxes']} tax authorities**, as one CSV per institution: {st['total']:,} rows, the oldest series from {st['oldest'][:4]}, latest table in this mirror {st['latest']}. Collected and published by [AllRatesToday]({M.link('/central-bank-rates-api/', UTM)}) and refreshed daily from the GitHub source repository [AllRates-Today/central-bank-exchange-rates]({M.GITHUB}).
+Official exchange rates published by **{st['banks']} central banks and {st['taxes']} tax and customs authorities**, as one CSV per institution: {st['total']:,} rows, the oldest series from {st['oldest'][:4]}, latest table in this mirror {st['latest']}. Collected and published by [AllRatesToday]({M.link('/central-bank-rates-api/', UTM)}) and refreshed daily from the GitHub source repository [AllRates-Today/central-bank-exchange-rates]({M.GITHUB}).
 
 Every row is the figure the institution itself published for that date: the ECB euro reference rate, the Federal Reserve H.10 table, the Bank of England spot rates, RBI reference rates, PBoC central parity, HMRC monthly rates for VAT, US Treasury quarterly rates, and a hundred more. These are the rates that invoices, tax filings, customs declarations, transfer pricing and audits require, as opposed to market rates.
 

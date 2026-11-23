@@ -105,7 +105,7 @@ def build(work, utm_source, csv_path):
     stats.update(banks=banks, taxes=sum(1 for c in stats["rows_by"] if sources[c].get("kind") == "tax_authority"),
                  latest=max(stats["latest_by"].values()), sources=sources)
     with open(f"{work}/ATTRIBUTION.txt", "w") as f:
-        f.write(f"""Central Bank Exchange Rates - official rates from {banks} central banks and {stats['taxes']} tax authorities
+        f.write(f"""Central Bank Exchange Rates - official rates from {banks} central banks and {stats['taxes']} tax and customs authorities
 Collected and published by AllRatesToday, {SITE}
 License: CC BY-NC 4.0. Non-commercial use only; credit "AllRatesToday" with a link to {SITE} in anything you build or publish from this data. Commercial use needs a licence ({SITE}/pricing#official).
 Please register for a free AllRatesToday account before using this data: {SITE}/register/ (required on Hugging Face, requested on Kaggle). It tells us who uses the data and gives you the live API.
@@ -185,7 +185,7 @@ When the trial runs out, a human can [register]({L('/register/')}) for a free ke
 
 ## Cite
 
-> AllRatesToday (2026). *Central Bank Exchange Rates: official rates from central banks and tax authorities, 1914 to today.* {GITHUB} (data via {SITE}/central-bank-rates-api/). CC BY-NC 4.0.
+> AllRatesToday (2026). *Central Bank Exchange Rates: official rates from central banks and tax and customs authorities, 1914 to today.* {GITHUB} (data via {SITE}/central-bank-rates-api/). CC BY-NC 4.0.
 
 ## License
 
