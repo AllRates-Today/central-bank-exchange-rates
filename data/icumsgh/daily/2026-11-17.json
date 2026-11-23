@@ -1,6 +1,9 @@
 {
  "source": "icumsgh",
  "name": "Ghana Revenue Authority Customs (ICUMS)",
+ "country": "Ghana",
+ "home_currency": "GHS",
+ "kind": "tax_authority",
  "date": "2026-11-17",
  "cadence": "weekly",
  "rates": [
@@ -185,5 +188,7 @@
    "value": 0.69
   }
  ],
+ "official_source": "https://external.unipassghana.com/co/exchangerate/selectExchangeRateUserDetail.do?MENU_ID=IIM01S01V06",
+ "page": "https://allratestoday.com/tax-authority-rates-api/icumsgh/",
  "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
 }

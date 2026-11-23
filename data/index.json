@@ -1,30 +1,42 @@
 {
- "generated_at": "2026-11-23T13:14:32.810Z",
+ "generated_at": "2026-11-23T14:31:57.364Z",
  "source_count": 183,
  "sources": {
   "abf": {
    "name": "Australian Border Force",
+   "country": "Australia",
+   "home_currency": "AUD",
+   "kind": "tax_authority",
    "latest": "2026-11-21",
    "cadence": "daily",
    "stale": false,
    "currencies": 28,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/abf/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/abf/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/abf/"
   },
   "adecambi": {
    "name": "Italy Revenue Agency (Agenzia delle Entrate)",
+   "country": "Italy",
+   "home_currency": "EUR",
+   "kind": "tax_authority",
    "latest": "2026-10-01",
    "cadence": "monthly",
    "stale": false,
    "currencies": 151,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/adecambi/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/adecambi/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/adecambi/"
   },
   "aduanacl": {
    "name": "Servicio Nacional de Aduanas (Chile customs)",
+   "country": "Chile",
+   "home_currency": "CLP",
+   "kind": "tax_authority",
    "latest": "2026-11-01",
    "cadence": "monthly",
    "stale": false,
    "currencies": 60,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/aduanacl/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/aduanacl/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/aduanacl/"
   },
   "amcm": {
    "name": "Monetary Authority of Macao",
@@ -40,19 +52,27 @@
   },
   "arcamaria": {
    "name": "ARCA Customs (Argentina)",
+   "country": "Argentina",
+   "home_currency": "ARS",
+   "kind": "tax_authority",
    "latest": "2026-11-20",
    "cadence": "daily",
    "stale": false,
    "currencies": 50,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/arcamaria/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/arcamaria/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/arcamaria/"
   },
   "atpt": {
    "name": "Portugal Tax and Customs Authority (AT)",
+   "country": "Portugal",
+   "home_currency": "EUR",
+   "kind": "tax_authority",
    "latest": "2026-11-01",
    "cadence": "monthly",
    "stale": false,
    "currencies": 41,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/atpt/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/atpt/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/atpt/"
   },
   "bam": {
    "name": "Bank Al-Maghrib",
@@ -380,18 +400,22 @@
   },
   "bermudacustoms": {
    "name": "Bermuda Customs",
+   "country": "Bermuda",
+   "home_currency": "BMD",
+   "kind": "tax_authority",
    "latest": "2026-11-19",
    "cadence": "weekly",
    "stale": false,
    "currencies": 14,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/bermudacustoms/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/bermudacustoms/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/bermudacustoms/"
   },
   "bfm": {
    "name": "Central Bank of Madagascar (BFM)",
    "country": "Madagascar",
    "home_currency": "MGA",
    "kind": "central_bank",
-   "latest": "2026-11-20",
+   "latest": "2026-11-23",
    "cadence": "daily",
    "stale": false,
    "currencies": 19,
@@ -412,19 +436,27 @@
   },
   "bmfat": {
    "name": "Austrian Ministry of Finance (BMF)",
+   "country": "Austria",
+   "home_currency": "EUR",
+   "kind": "tax_authority",
    "latest": "2026-11-01",
    "cadence": "monthly",
    "stale": false,
    "currencies": 159,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/bmfat/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/bmfat/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/bmfat/"
   },
   "bmfust": {
    "name": "German Federal Ministry of Finance (VAT rates)",
+   "country": "Germany",
+   "home_currency": "EUR",
+   "kind": "tax_authority",
    "latest": "2026-10-01",
    "cadence": "monthly",
    "stale": false,
    "currencies": 29,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/bmfust/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/bmfust/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/bmfust/"
   },
   "bmu": {
    "name": "Bank of Mauritius",
@@ -443,7 +475,7 @@
    "country": "Angola",
    "home_currency": "AOA",
    "kind": "central_bank",
-   "latest": "2026-11-20",
+   "latest": "2026-11-23",
    "cadence": "daily",
    "stale": false,
    "currencies": 210,
@@ -452,11 +484,15 @@
   },
   "bnadivisa": {
    "name": "Banco de la Nación Argentina (divisa rate for tax)",
+   "country": "Argentina",
+   "home_currency": "ARS",
+   "kind": "tax_authority",
    "latest": "2026-11-20",
    "cadence": "daily",
    "stale": false,
    "currencies": 22,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/bnadivisa/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/bnadivisa/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/bnadivisa/"
   },
   "bnb": {
    "name": "Bulgarian National Bank",
@@ -694,7 +730,7 @@
    "latest": "2026-11-23",
    "cadence": "daily",
    "stale": false,
-   "currencies": 18,
+   "currencies": 54,
    "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/bou/latest.json",
    "page": "https://allratestoday.com/central-bank-rates-api/bou/"
   },
@@ -748,11 +784,15 @@
   },
   "carinars": {
    "name": "Serbia Customs Administration",
+   "country": "Serbia",
+   "home_currency": "RSD",
+   "kind": "tax_authority",
    "latest": "2026-11-23",
    "cadence": "weekly",
    "stale": false,
    "currencies": 23,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/carinars/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/carinars/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/carinars/"
   },
   "cba": {
    "name": "Central Bank of Armenia",
@@ -819,7 +859,7 @@
    "country": "Belize",
    "home_currency": "BZD",
    "kind": "central_bank",
-   "latest": "2026-11-20",
+   "latest": "2026-11-23",
    "cadence": "daily",
    "stale": false,
    "currencies": 8,
@@ -843,7 +883,7 @@
    "country": "Egypt",
    "home_currency": "EGP",
    "kind": "central_bank",
-   "latest": "2026-11-22",
+   "latest": "2026-11-23",
    "cadence": "daily",
    "stale": false,
    "currencies": 36,
@@ -915,7 +955,7 @@
    "country": "Jordan",
    "home_currency": "JOD",
    "kind": "central_bank",
-   "latest": "2026-11-22",
+   "latest": "2026-11-23",
    "cadence": "daily",
    "stale": false,
    "currencies": 10,
@@ -1008,11 +1048,15 @@
   },
   "cbsa": {
    "name": "Canada Border Services Agency",
+   "country": "Canada",
+   "home_currency": "CAD",
+   "kind": "tax_authority",
    "latest": "2026-11-21",
    "cadence": "daily",
    "stale": false,
    "currencies": 137,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/cbsa/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/cbsa/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/cbsa/"
   },
   "cbsl": {
    "name": "Central Bank of Sri Lanka",
@@ -1088,18 +1132,22 @@
   },
   "celnisprava": {
    "name": "Czech Customs Administration",
+   "country": "Czech Republic",
+   "home_currency": "CZK",
+   "kind": "tax_authority",
    "latest": "2026-11-01",
    "cadence": "monthly",
    "stale": false,
    "currencies": 152,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/celnisprava/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/celnisprava/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/celnisprava/"
   },
   "cnb": {
    "name": "Czech National Bank",
    "country": "Czech Republic",
    "home_currency": "CZK",
    "kind": "central_bank",
-   "latest": "2026-11-20",
+   "latest": "2026-11-23",
    "cadence": "daily",
    "stale": false,
    "currencies": 30,
@@ -1114,49 +1162,69 @@
    "latest": "2026-11-23",
    "cadence": "daily",
    "stale": false,
-   "currencies": 133,
+   "currencies": 135,
    "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/composite/latest.json",
    "page": "https://allratestoday.com/central-bank-rates-api/composite/"
   },
   "customsbz": {
    "name": "Belize Customs and Excise",
+   "country": "Belize",
+   "home_currency": "BZD",
+   "kind": "tax_authority",
    "latest": "2026-11-23",
    "cadence": "weekly",
    "stale": false,
    "currencies": 15,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/customsbz/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/customsbz/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/customsbz/"
   },
   "customsmk": {
    "name": "North Macedonia Customs Administration",
+   "country": "North Macedonia",
+   "home_currency": "MKD",
+   "kind": "tax_authority",
    "latest": "2026-12-01",
    "cadence": "monthly",
    "stale": false,
    "currencies": 10,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/customsmk/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/customsmk/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/customsmk/"
   },
   "cycustoms": {
    "name": "Cyprus Department of Customs and Excise",
+   "country": "Cyprus",
+   "home_currency": "EUR",
+   "kind": "tax_authority",
    "latest": "2026-11-01",
    "cadence": "monthly",
    "stale": false,
    "currencies": 43,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/cycustoms/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/cycustoms/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/cycustoms/"
   },
   "dgado": {
    "name": "DGA (Dominican Republic customs)",
+   "country": "Dominican Republic",
+   "home_currency": "DOP",
+   "kind": "tax_authority",
    "latest": "2026-11-23",
    "cadence": "daily",
    "stale": false,
    "currencies": 1,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/dgado/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/dgado/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/dgado/"
   },
   "dgii": {
    "name": "DGII (Dominican Republic tax authority)",
-   "latest": "2026-11-22",
+   "country": "Dominican Republic",
+   "home_currency": "DOP",
+   "kind": "tax_authority",
+   "latest": "2026-11-23",
    "cadence": "daily",
    "stale": false,
    "currencies": 2,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/dgii/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/dgii/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/dgii/"
   },
   "dnb": {
    "name": "Danmarks Nationalbank",
@@ -1172,51 +1240,75 @@
   },
   "dnit": {
    "name": "DNIT (Paraguay tax and customs authority)",
+   "country": "Paraguay",
+   "home_currency": "PYG",
+   "kind": "tax_authority",
    "latest": "2026-11-21",
    "cadence": "daily",
    "stale": false,
    "currencies": 30,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/dnit/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/dnit/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/dnit/"
   },
   "dofequiv": {
    "name": "Mexico DOF tax equivalence table (Banxico)",
+   "country": "Mexico",
+   "home_currency": "MXN",
+   "kind": "tax_authority",
    "latest": "2026-10-01",
    "cadence": "monthly",
    "stale": false,
    "currencies": 65,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/dofequiv/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/dofequiv/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/dofequiv/"
   },
   "douanefr": {
    "name": "French Customs (DGDDI)",
+   "country": "France",
+   "home_currency": "EUR",
+   "kind": "tax_authority",
    "latest": "2026-12-01",
    "cadence": "monthly",
    "stale": false,
    "currencies": 154,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/douanefr/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/douanefr/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/douanefr/"
   },
   "douanenl": {
    "name": "Douane (Netherlands Customs)",
+   "country": "Netherlands",
+   "home_currency": "EUR",
+   "kind": "tax_authority",
    "latest": "2026-11-01",
    "cadence": "monthly",
    "stale": false,
    "currencies": 73,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/douanenl/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/douanenl/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/douanenl/"
   },
   "douaneslu": {
    "name": "Luxembourg Customs and Excise",
+   "country": "Luxembourg",
+   "home_currency": "EUR",
+   "kind": "tax_authority",
    "latest": "2026-11-01",
    "cadence": "monthly",
    "stale": false,
    "currencies": 151,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/douaneslu/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/douaneslu/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/douaneslu/"
   },
   "douanesmg": {
    "name": "Madagascar Customs (Douanes)",
+   "country": "Madagascar",
+   "home_currency": "MGA",
+   "kind": "tax_authority",
    "latest": "2026-11-23",
    "cadence": "weekly",
    "stale": false,
    "currencies": 18,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/douanesmg/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/douanesmg/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/douanesmg/"
   },
   "ecb": {
    "name": "European Central Bank",
@@ -1232,11 +1324,15 @@
   },
   "estvkursliste": {
    "name": "Swiss Federal Tax Administration (ESTV Kursliste)",
+   "country": "Switzerland",
+   "home_currency": "CHF",
+   "kind": "tax_authority",
    "latest": "2026-11-20",
    "cadence": "daily",
    "stale": false,
    "currencies": 130,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/estvkursliste/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/estvkursliste/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/estvkursliste/"
   },
   "fed": {
    "name": "US Federal Reserve (H.10)",
@@ -1252,27 +1348,39 @@
   },
   "gdce": {
    "name": "Cambodia General Department of Customs and Excise",
+   "country": "Cambodia",
+   "home_currency": "KHR",
+   "kind": "tax_authority",
    "latest": "2026-11-20",
    "cadence": "daily",
    "stale": false,
    "currencies": 29,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/gdce/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/gdce/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/gdce/"
   },
   "gfrcz": {
    "name": "Czech Tax Administration (yearly uniform rate)",
+   "country": "Czech Republic",
+   "home_currency": "CZK",
+   "kind": "tax_authority",
    "latest": "2025-01-01",
    "cadence": "yearly",
    "stale": false,
    "currencies": 31,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/gfrcz/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/gfrcz/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/gfrcz/"
   },
   "gracustoms": {
    "name": "Guyana Revenue Authority (customs rates)",
+   "country": "Guyana",
+   "home_currency": "GYD",
+   "kind": "tax_authority",
    "latest": "2026-11-01",
    "cadence": "monthly",
    "stale": false,
    "currencies": 33,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/gracustoms/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/gracustoms/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/gracustoms/"
   },
   "hkab": {
    "name": "Hong Kong Association of Banks (HKAB)",
@@ -1288,11 +1396,15 @@
   },
   "hkird": {
    "name": "Hong Kong Inland Revenue Department (average rates)",
+   "country": "Hong Kong",
+   "home_currency": "HKD",
+   "kind": "tax_authority",
    "latest": "2026-10-01",
    "cadence": "quarterly",
    "stale": false,
    "currencies": 8,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/hkird/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/hkird/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/hkird/"
   },
   "hkma": {
    "name": "Hong Kong Monetary Authority",
@@ -1320,11 +1432,15 @@
   },
   "icumsgh": {
    "name": "Ghana Revenue Authority Customs (ICUMS)",
+   "country": "Ghana",
+   "home_currency": "GHS",
+   "kind": "tax_authority",
    "latest": "2026-11-17",
    "cadence": "weekly",
    "stale": false,
    "currencies": 30,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/icumsgh/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/icumsgh/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/icumsgh/"
   },
   "imf": {
    "name": "International Monetary Fund",
@@ -1340,11 +1456,15 @@
   },
   "inforeuro": {
    "name": "European Commission (InforEuro)",
+   "country": "European Union",
+   "home_currency": "EUR",
+   "kind": "tax_authority",
    "latest": "2026-11-01",
    "cadence": "monthly",
    "stale": false,
    "currencies": 151,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/inforeuro/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/inforeuro/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/inforeuro/"
   },
   "irs": {
    "name": "Internal Revenue Service (yearly average rates)",
@@ -1360,43 +1480,63 @@
   },
   "jpcustoms": {
    "name": "Japan Customs",
+   "country": "Japan",
+   "home_currency": "JPY",
+   "kind": "tax_authority",
    "latest": "2026-11-22",
    "cadence": "weekly",
    "stale": false,
    "currencies": 85,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/jpcustoms/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/jpcustoms/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/jpcustoms/"
   },
   "kaspl": {
    "name": "Poland Ministry of Finance customs rates",
+   "country": "Poland",
+   "home_currency": "PLN",
+   "kind": "tax_authority",
    "latest": "2026-11-01",
    "cadence": "monthly",
    "stale": false,
    "currencies": 32,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/kaspl/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/kaspl/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/kaspl/"
   },
   "kcs": {
    "name": "Korea Customs Service",
+   "country": "South Korea",
+   "home_currency": "KRW",
+   "kind": "tax_authority",
    "latest": "2026-11-22",
    "cadence": "weekly",
    "stale": false,
    "currencies": 114,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/kcs/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/kcs/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/kcs/"
   },
   "kra": {
    "name": "Kenya Revenue Authority (customs rates)",
+   "country": "Kenya",
+   "home_currency": "KES",
+   "kind": "tax_authority",
    "latest": "2026-11-23",
    "cadence": "weekly",
    "stale": false,
    "currencies": 21,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/kra/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/kra/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/kra/"
   },
   "kurspajak": {
    "name": "Indonesia Ministry of Finance (Kurs Pajak)",
+   "country": "Indonesia",
+   "home_currency": "IDR",
+   "kind": "tax_authority",
    "latest": "2026-11-18",
    "cadence": "weekly",
    "stale": false,
    "currencies": 25,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/kurspajak/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/kurspajak/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/kurspajak/"
   },
   "lb": {
    "name": "Bank of Lithuania",
@@ -1412,11 +1552,15 @@
   },
   "lkcustoms": {
    "name": "Sri Lanka Customs",
+   "country": "Sri Lanka",
+   "home_currency": "LKR",
+   "kind": "tax_authority",
    "latest": "2026-11-23",
    "cadence": "weekly",
    "stale": false,
    "currencies": 48,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/lkcustoms/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/lkcustoms/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/lkcustoms/"
   },
   "mas": {
    "name": "Monetary Authority of Singapore",
@@ -1456,11 +1600,15 @@
   },
   "mramu": {
    "name": "Mauritius Revenue Authority (Customs)",
+   "country": "Mauritius",
+   "home_currency": "MUR",
+   "kind": "tax_authority",
    "latest": "2026-11-23",
    "cadence": "weekly",
    "stale": false,
    "currencies": 54,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/mramu/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/mramu/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/mramu/"
   },
   "nbc": {
    "name": "National Bank of Cambodia",
@@ -1560,11 +1708,15 @@
   },
   "nbrbd": {
    "name": "Bangladesh National Board of Revenue (customs rates)",
+   "country": "Bangladesh",
+   "home_currency": "BDT",
+   "kind": "tax_authority",
    "latest": "2026-11-01",
    "cadence": "monthly",
    "stale": false,
    "currencies": 26,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/nbrbd/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/nbrbd/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/nbrbd/"
   },
   "nbrm": {
    "name": "National Bank of North Macedonia",
@@ -1640,19 +1792,27 @@
   },
   "nzcustoms": {
    "name": "New Zealand Customs Service",
+   "country": "New Zealand",
+   "home_currency": "NZD",
+   "kind": "tax_authority",
    "latest": "2026-11-22",
    "cadence": "fortnightly",
    "stale": false,
    "currencies": 28,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/nzcustoms/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/nzcustoms/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/nzcustoms/"
   },
   "nzird": {
    "name": "Inland Revenue (New Zealand)",
+   "country": "New Zealand",
+   "home_currency": "NZD",
+   "kind": "tax_authority",
    "latest": "2026-10-31",
    "cadence": "monthly",
    "stale": false,
    "currencies": 51,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/nzird/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/nzird/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/nzird/"
   },
   "pboc": {
    "name": "People's Bank of China (CFETS)",
@@ -1764,19 +1924,27 @@
   },
   "receitabr": {
    "name": "Receita Federal do Brasil (rates for tax)",
+   "country": "Brazil",
+   "home_currency": "BRL",
+   "kind": "tax_authority",
    "latest": "2026-09-30",
    "cadence": "quarterly",
    "stale": false,
    "currencies": 10,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/receitabr/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/receitabr/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/receitabr/"
   },
   "revenueie": {
    "name": "Revenue Commissioners (Ireland customs rates)",
+   "country": "Ireland",
+   "home_currency": "EUR",
+   "kind": "tax_authority",
    "latest": "2026-11-01",
    "cadence": "monthly",
    "stale": false,
    "currencies": 89,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/revenueie/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/revenueie/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/revenueie/"
   },
   "riksbank": {
    "name": "Sveriges Riksbank",
@@ -1828,19 +1996,27 @@
   },
   "sarsavg": {
    "name": "SARS average exchange rates (income tax)",
+   "country": "South Africa",
+   "home_currency": "ZAR",
+   "kind": "tax_authority",
    "latest": "2026-08-01",
    "cadence": "yearly",
    "stale": false,
    "currencies": 18,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/sarsavg/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/sarsavg/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/sarsavg/"
   },
   "sarsrex": {
    "name": "SARS customs rates of exchange",
+   "country": "South Africa",
+   "home_currency": "ZAR",
+   "kind": "tax_authority",
    "latest": "2026-11-23",
    "cadence": "daily",
    "stale": false,
    "currencies": 20,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/sarsrex/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/sarsrex/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/sarsrex/"
   },
   "sbp": {
    "name": "State Bank of Pakistan",
@@ -1880,11 +2056,15 @@
   },
   "siicl": {
    "name": "SII (Chile tax authority) dólar observado",
+   "country": "Chile",
+   "home_currency": "CLP",
+   "kind": "tax_authority",
    "latest": "2026-11-18",
    "cadence": "daily",
    "stale": false,
    "currencies": 1,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/siicl/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/siicl/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/siicl/"
   },
   "snb": {
    "name": "Swiss National Bank",
@@ -1903,7 +2083,7 @@
    "country": "Peru",
    "home_currency": "PEN",
    "kind": "tax_authority",
-   "latest": "2026-11-20",
+   "latest": "2026-11-23",
    "cadence": "daily",
    "stale": false,
    "currencies": 2,
@@ -1912,18 +2092,22 @@
   },
   "tarbel": {
    "name": "Belgian Customs (FPS Finance)",
+   "country": "Belgium",
+   "home_currency": "EUR",
+   "kind": "tax_authority",
    "latest": "2026-12-01",
    "cadence": "monthly",
    "stale": false,
    "currencies": 81,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/tarbel/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/tarbel/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/tarbel/"
   },
   "tcmb": {
    "name": "Central Bank of Türkiye",
    "country": "Türkiye",
    "home_currency": "TRY",
    "kind": "central_bank",
-   "latest": "2026-11-20",
+   "latest": "2026-11-23",
    "cadence": "daily",
    "stale": false,
    "currencies": 43,
@@ -1932,43 +2116,63 @@
   },
   "thcustoms": {
    "name": "Thai Customs Department",
+   "country": "Thailand",
+   "home_currency": "THB",
+   "kind": "tax_authority",
    "latest": "2026-11-01",
    "cadence": "monthly",
    "stale": false,
    "currencies": 96,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/thcustoms/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/thcustoms/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/thcustoms/"
   },
   "tolletaten": {
    "name": "Norwegian Customs (Tolletaten)",
+   "country": "Norway",
+   "home_currency": "NOK",
+   "kind": "tax_authority",
    "latest": "2026-11-12",
    "cadence": "fortnightly",
    "stale": false,
    "currencies": 22,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/tolletaten/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/tolletaten/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/tolletaten/"
   },
   "tollgengi": {
    "name": "Iceland Revenue and Customs (Skatturinn)",
+   "country": "Iceland",
+   "home_currency": "ISK",
+   "kind": "tax_authority",
    "latest": "2026-11-17",
    "cadence": "weekly",
    "stale": false,
    "currencies": 50,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/tollgengi/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/tollgengi/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/tollgengi/"
   },
   "tullverket": {
    "name": "Swedish Customs (Tullverket)",
+   "country": "Sweden",
+   "home_currency": "SEK",
+   "kind": "tax_authority",
    "latest": "2026-11-01",
    "cadence": "monthly",
    "stale": false,
    "currencies": 148,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/tullverket/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/tullverket/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/tullverket/"
   },
   "ura": {
    "name": "Uganda Revenue Authority",
+   "country": "Uganda",
+   "home_currency": "UGX",
+   "kind": "tax_authority",
    "latest": "2026-11-23",
    "cadence": "daily",
    "stale": false,
    "currencies": 285,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/ura/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/ura/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/ura/"
   },
   "ustreasury": {
    "name": "U.S. Department of the Treasury",
@@ -1984,11 +2188,15 @@
   },
   "zollde": {
    "name": "German Customs (Zoll)",
+   "country": "Germany",
+   "home_currency": "EUR",
+   "kind": "tax_authority",
    "latest": "2026-11-01",
    "cadence": "monthly",
    "stale": false,
    "currencies": 118,
-   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/zollde/latest.json"
+   "latest_url": "https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/zollde/latest.json",
+   "page": "https://allratestoday.com/tax-authority-rates-api/zollde/"
   }
  }
 }

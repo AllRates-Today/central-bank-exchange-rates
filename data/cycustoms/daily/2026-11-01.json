@@ -1,6 +1,9 @@
 {
  "source": "cycustoms",
  "name": "Cyprus Department of Customs and Excise",
+ "country": "Cyprus",
+ "home_currency": "EUR",
+ "kind": "tax_authority",
  "date": "2026-11-01",
  "cadence": "monthly",
  "rates": [
@@ -263,5 +266,7 @@
    "value": 18.393
   }
  ],
+ "official_source": "https://www.mof.gov.cy/mof/customs/customs.nsf/All/8D4A06CC3E78B1A9C22572C10039CB3D",
+ "page": "https://allratestoday.com/tax-authority-rates-api/cycustoms/",
  "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
 }

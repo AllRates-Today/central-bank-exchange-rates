@@ -1,6 +1,9 @@
 {
  "source": "gfrcz",
  "name": "Czech Tax Administration (yearly uniform rate)",
+ "country": "Czech Republic",
+ "home_currency": "CZK",
+ "kind": "tax_authority",
  "date": "2025-01-01",
  "cadence": "yearly",
  "rates": [
@@ -191,5 +194,7 @@
    "value": 1.22
   }
  ],
+ "official_source": "https://financnisprava.gov.cz/cs/dane/legislativa-a-metodika/pokyny-d/cleneni-podle-dani/dane-z-prijmu",
+ "page": "https://allratestoday.com/tax-authority-rates-api/gfrcz/",
  "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
 }

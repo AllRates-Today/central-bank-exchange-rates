@@ -1,6 +1,9 @@
 {
  "source": "aduanacl",
  "name": "Servicio Nacional de Aduanas (Chile customs)",
+ "country": "Chile",
+ "home_currency": "CLP",
+ "kind": "tax_authority",
  "date": "2026-11-01",
  "cadence": "monthly",
  "rates": [
@@ -365,5 +368,7 @@
    "value": 16.6724
   }
  ],
+ "official_source": "https://www.aduana.cl/indicadores-equivalencias-2026/aduana/2025-12-30/115957.html",
+ "page": "https://allratestoday.com/tax-authority-rates-api/aduanacl/",
  "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
 }
