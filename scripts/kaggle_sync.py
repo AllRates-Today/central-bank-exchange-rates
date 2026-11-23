@@ -47,7 +47,7 @@ src_rows = M.source_rows(st, UTM)
 # counts and the sources table never drift from the files beside it.
 description = f"""# Central Bank Exchange Rates
 
-Official exchange rates published by **{banks} central banks and {taxes} tax and customs authorities**, one CSV per institution: {total:,} rows, the oldest series from {oldest[:4]}, latest table in this mirror {latest} (the mirror lags the live data by {M.LAG_DAYS} days). Collected and published by [AllRatesToday]({M.link("/central-bank-rates-api/", UTM)}), refreshed daily from the GitHub source repository [AllRates-Today/central-bank-exchange-rates](https://github.com/AllRates-Today/central-bank-exchange-rates).
+Official exchange rates published by **{banks} central banks and {taxes} tax and customs authorities**, one CSV per institution: {total:,} rows, the oldest series from {oldest[:4]}, latest table in this mirror {latest} (the mirror lags the live data by {M.LAG_DAYS} days). Collected and published by [AllRatesToday]({M.link("/central-bank-rates-api/", UTM)}), refreshed daily from the same pipeline as the live API. Today's tables are on the API with a free key: [register]({M.link("/register/", UTM)}).
 
 Every row is the figure the institution itself published for that date: the ECB euro reference rate, the Federal Reserve H.10 table, the Bank of England spot rates, RBI reference rates, PBoC central parity, HMRC monthly rates for VAT, US Treasury quarterly rates, and a hundred more. These are the rates that invoices, tax filings, customs declarations, transfer pricing and audits require, as opposed to market rates.
 
