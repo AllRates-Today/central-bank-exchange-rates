@@ -1,0 +1,230 @@
+{
+ "source": "bcra",
+ "name": "Central Bank of Argentina",
+ "country": "Argentina",
+ "home_currency": "ARS",
+ "kind": "central_bank",
+ "date": "2026-09-02",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AUD",
+   "quote": "ARS",
+   "type": "reference",
+   "value": 1083.0848
+  },
+  {
+   "base": "AWG",
+   "quote": "ARS",
+   "type": "reference",
+   "value": 844.134078
+  },
+  {
+   "base": "BOB",
+   "quote": "ARS",
+   "type": "reference",
+   "value": 123.24633
+  },
+  {
+   "base": "BRL",
+   "quote": "ARS",
+   "type": "reference",
+   "value": 295.90318
+  },
+  {
+   "base": "CAD",
+   "quote": "ARS",
+   "type": "reference",
+   "value": 1091.526403
+  },
+  {
+   "base": "CHF",
+   "quote": "ARS",
+   "type": "reference",
+   "value": 1857.863027
+  },
+  {
+   "base": "CLP",
+   "quote": "ARS",
+   "type": "reference",
+   "value": 1.609604
+  },
+  {
+   "base": "CNH",
+   "quote": "ARS",
+   "type": "reference",
+   "value": 224.921478
+  },
+  {
+   "base": "CNY",
+   "quote": "ARS",
+   "type": "reference",
+   "value": 224.93822
+  },
+  {
+   "base": "COP",
+   "quote": "ARS",
+   "type": "reference",
+   "value": 0.478233
+  },
+  {
+   "base": "CZK",
+   "quote": "ARS",
+   "type": "reference",
+   "value": 72.372486
+  },
+  {
+   "base": "DKK",
+   "quote": "ARS",
+   "type": "reference",
+   "value": 234.209099
+  },
+  {
+   "base": "EUR",
+   "quote": "ARS",
+   "type": "reference",
+   "value": 1750.6446
+  },
+  {
+   "base": "GBP",
+   "quote": "ARS",
+   "type": "reference",
+   "value": 2037.8857
+  },
+  {
+   "base": "HKD",
+   "quote": "ARS",
+   "type": "reference",
+   "value": 192.682896
+  },
+  {
+   "base": "ILS",
+   "quote": "ARS",
+   "type": "reference",
+   "value": 499.735415
+  },
+  {
+   "base": "INR",
+   "quote": "ARS",
+   "type": "reference",
+   "value": 15.909232
+  },
+  {
+   "base": "JPY",
+   "quote": "ARS",
+   "type": "reference",
+   "value": 9.510322
+  },
+  {
+   "base": "MXP",
+   "quote": "ARS",
+   "type": "reference",
+   "value": 88.997526
+  },
+  {
+   "base": "NIO",
+   "quote": "ARS",
+   "type": "reference",
+   "value": 40.990945
+  },
+  {
+   "base": "NOK",
+   "quote": "ARS",
+   "type": "reference",
+   "value": 162.188852
+  },
+  {
+   "base": "NZD",
+   "quote": "ARS",
+   "type": "reference",
+   "value": 883.1795
+  },
+  {
+   "base": "PEN",
+   "quote": "ARS",
+   "type": "reference",
+   "value": 449.729151
+  },
+  {
+   "base": "PYG",
+   "quote": "ARS",
+   "type": "reference",
+   "value": 0.253358
+  },
+  {
+   "base": "REF",
+   "quote": "ARS",
+   "type": "reference",
+   "value": 1511.6306
+  },
+  {
+   "base": "RSD",
+   "quote": "ARS",
+   "type": "reference",
+   "value": 14.921968
+  },
+  {
+   "base": "RUB",
+   "quote": "ARS",
+   "type": "reference",
+   "value": 17.309779
+  },
+  {
+   "base": "SEK",
+   "quote": "ARS",
+   "type": "reference",
+   "value": 156.973966
+  },
+  {
+   "base": "SGD",
+   "quote": "ARS",
+   "type": "reference",
+   "value": 1188.547156
+  },
+  {
+   "base": "TRY",
+   "quote": "ARS",
+   "type": "reference",
+   "value": 31.287012
+  },
+  {
+   "base": "USD",
+   "quote": "ARS",
+   "type": "reference",
+   "value": 1511
+  },
+  {
+   "base": "UYU",
+   "quote": "ARS",
+   "type": "reference",
+   "value": 37.559036
+  },
+  {
+   "base": "VEB",
+   "quote": "ARS",
+   "type": "reference",
+   "value": 1.88839475
+  },
+  {
+   "base": "VND",
+   "quote": "ARS",
+   "type": "reference",
+   "value": 0.057952671000000004
+  },
+  {
+   "base": "XDR",
+   "quote": "ARS",
+   "type": "reference",
+   "value": 2066.06585
+  },
+  {
+   "base": "ZAR",
+   "quote": "ARS",
+   "type": "reference",
+   "value": 94.067696
+  }
+ ],
+ "official_source": "https://api.bcra.gob.ar/estadisticascambiarias/v1.0/Cotizaciones",
+ "page": "https://allratestoday.com/central-bank-rates-api/bcra/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

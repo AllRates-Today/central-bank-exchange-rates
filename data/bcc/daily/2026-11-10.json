@@ -1,0 +1,392 @@
+{
+ "source": "bcc",
+ "name": "Banque Centrale du Congo",
+ "country": "DR Congo",
+ "home_currency": "CDF",
+ "kind": "central_bank",
+ "date": "2026-11-10",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AED",
+   "quote": "CDF",
+   "type": "buy",
+   "value": 601.21
+  },
+  {
+   "base": "AED",
+   "quote": "CDF",
+   "type": "middle",
+   "value": 615.08
+  },
+  {
+   "base": "AED",
+   "quote": "CDF",
+   "type": "sell",
+   "value": 628.95
+  },
+  {
+   "base": "AOA",
+   "quote": "CDF",
+   "type": "buy",
+   "value": 2.42
+  },
+  {
+   "base": "AOA",
+   "quote": "CDF",
+   "type": "middle",
+   "value": 2.475
+  },
+  {
+   "base": "AOA",
+   "quote": "CDF",
+   "type": "sell",
+   "value": 2.53
+  },
+  {
+   "base": "AUD",
+   "quote": "CDF",
+   "type": "buy",
+   "value": 1521.43
+  },
+  {
+   "base": "AUD",
+   "quote": "CDF",
+   "type": "middle",
+   "value": 1556.535
+  },
+  {
+   "base": "AUD",
+   "quote": "CDF",
+   "type": "sell",
+   "value": 1591.64
+  },
+  {
+   "base": "BIF",
+   "quote": "CDF",
+   "type": "buy",
+   "value": 0.74
+  },
+  {
+   "base": "BIF",
+   "quote": "CDF",
+   "type": "middle",
+   "value": 0.755
+  },
+  {
+   "base": "BIF",
+   "quote": "CDF",
+   "type": "sell",
+   "value": 0.77
+  },
+  {
+   "base": "CAD",
+   "quote": "CDF",
+   "type": "buy",
+   "value": 1565.69
+  },
+  {
+   "base": "CAD",
+   "quote": "CDF",
+   "type": "middle",
+   "value": 1601.815
+  },
+  {
+   "base": "CAD",
+   "quote": "CDF",
+   "type": "sell",
+   "value": 1637.94
+  },
+  {
+   "base": "CHF",
+   "quote": "CDF",
+   "type": "buy",
+   "value": 2694.57
+  },
+  {
+   "base": "CHF",
+   "quote": "CDF",
+   "type": "middle",
+   "value": 2756.74
+  },
+  {
+   "base": "CHF",
+   "quote": "CDF",
+   "type": "sell",
+   "value": 2818.91
+  },
+  {
+   "base": "CNY",
+   "quote": "CDF",
+   "type": "buy",
+   "value": 330.79
+  },
+  {
+   "base": "CNY",
+   "quote": "CDF",
+   "type": "middle",
+   "value": 338.425
+  },
+  {
+   "base": "CNY",
+   "quote": "CDF",
+   "type": "sell",
+   "value": 346.06
+  },
+  {
+   "base": "EUR",
+   "quote": "CDF",
+   "type": "buy",
+   "value": 2465.24
+  },
+  {
+   "base": "EUR",
+   "quote": "CDF",
+   "type": "middle",
+   "value": 2522.12
+  },
+  {
+   "base": "EUR",
+   "quote": "CDF",
+   "type": "sell",
+   "value": 2579
+  },
+  {
+   "base": "GBP",
+   "quote": "CDF",
+   "type": "buy",
+   "value": 2955.36
+  },
+  {
+   "base": "GBP",
+   "quote": "CDF",
+   "type": "middle",
+   "value": 3023.55
+  },
+  {
+   "base": "GBP",
+   "quote": "CDF",
+   "type": "sell",
+   "value": 3091.74
+  },
+  {
+   "base": "INR",
+   "quote": "CDF",
+   "type": "buy",
+   "value": 23.52
+  },
+  {
+   "base": "INR",
+   "quote": "CDF",
+   "type": "middle",
+   "value": 24.065
+  },
+  {
+   "base": "INR",
+   "quote": "CDF",
+   "type": "sell",
+   "value": 24.61
+  },
+  {
+   "base": "JPY",
+   "quote": "CDF",
+   "type": "buy",
+   "value": 13.95
+  },
+  {
+   "base": "JPY",
+   "quote": "CDF",
+   "type": "middle",
+   "value": 14.275
+  },
+  {
+   "base": "JPY",
+   "quote": "CDF",
+   "type": "sell",
+   "value": 14.6
+  },
+  {
+   "base": "KWD",
+   "quote": "CDF",
+   "type": "buy",
+   "value": 7095.74
+  },
+  {
+   "base": "KWD",
+   "quote": "CDF",
+   "type": "middle",
+   "value": 7259.46
+  },
+  {
+   "base": "KWD",
+   "quote": "CDF",
+   "type": "sell",
+   "value": 7423.18
+  },
+  {
+   "base": "RWF",
+   "quote": "CDF",
+   "type": "buy",
+   "value": 1.49
+  },
+  {
+   "base": "RWF",
+   "quote": "CDF",
+   "type": "middle",
+   "value": 1.525
+  },
+  {
+   "base": "RWF",
+   "quote": "CDF",
+   "type": "sell",
+   "value": 1.56
+  },
+  {
+   "base": "SAR",
+   "quote": "CDF",
+   "type": "buy",
+   "value": 588.77
+  },
+  {
+   "base": "SAR",
+   "quote": "CDF",
+   "type": "middle",
+   "value": 602.35
+  },
+  {
+   "base": "SAR",
+   "quote": "CDF",
+   "type": "sell",
+   "value": 615.93
+  },
+  {
+   "base": "TZS",
+   "quote": "CDF",
+   "type": "buy",
+   "value": 0.83
+  },
+  {
+   "base": "TZS",
+   "quote": "CDF",
+   "type": "middle",
+   "value": 0.85
+  },
+  {
+   "base": "TZS",
+   "quote": "CDF",
+   "type": "sell",
+   "value": 0.87
+  },
+  {
+   "base": "UGX",
+   "quote": "CDF",
+   "type": "buy",
+   "value": 0.54
+  },
+  {
+   "base": "UGX",
+   "quote": "CDF",
+   "type": "middle",
+   "value": 0.55
+  },
+  {
+   "base": "UGX",
+   "quote": "CDF",
+   "type": "sell",
+   "value": 0.56
+  },
+  {
+   "base": "USD",
+   "quote": "CDF",
+   "type": "buy",
+   "value": 2207.92
+  },
+  {
+   "base": "USD",
+   "quote": "CDF",
+   "type": "middle",
+   "value": 2258.86
+  },
+  {
+   "base": "USD",
+   "quote": "CDF",
+   "type": "sell",
+   "value": 2309.8
+  },
+  {
+   "base": "XAF",
+   "quote": "CDF",
+   "type": "buy",
+   "value": 3.76
+  },
+  {
+   "base": "XAF",
+   "quote": "CDF",
+   "type": "middle",
+   "value": 3.845
+  },
+  {
+   "base": "XAF",
+   "quote": "CDF",
+   "type": "sell",
+   "value": 3.93
+  },
+  {
+   "base": "XDR",
+   "quote": "CDF",
+   "type": "buy",
+   "value": 2989.31
+  },
+  {
+   "base": "XDR",
+   "quote": "CDF",
+   "type": "middle",
+   "value": 3058.285
+  },
+  {
+   "base": "XDR",
+   "quote": "CDF",
+   "type": "sell",
+   "value": 3127.26
+  },
+  {
+   "base": "ZAR",
+   "quote": "CDF",
+   "type": "buy",
+   "value": 133.89
+  },
+  {
+   "base": "ZAR",
+   "quote": "CDF",
+   "type": "middle",
+   "value": 136.98
+  },
+  {
+   "base": "ZAR",
+   "quote": "CDF",
+   "type": "sell",
+   "value": 140.07
+  },
+  {
+   "base": "ZMW",
+   "quote": "CDF",
+   "type": "buy",
+   "value": 108.37
+  },
+  {
+   "base": "ZMW",
+   "quote": "CDF",
+   "type": "middle",
+   "value": 110.87
+  },
+  {
+   "base": "ZMW",
+   "quote": "CDF",
+   "type": "sell",
+   "value": 113.37
+  }
+ ],
+ "official_source": "https://www.bcc.cd/marche-des-changes/cours-de-change",
+ "page": "https://allratestoday.com/central-bank-rates-api/bcc/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

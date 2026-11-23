@@ -1,0 +1,140 @@
+{
+ "source": "bcbol",
+ "name": "Banco Central de Bolivia",
+ "country": "Bolivia",
+ "home_currency": "BOB",
+ "kind": "central_bank",
+ "date": "2026-10-27",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AED",
+   "quote": "BOB",
+   "type": "reference",
+   "value": 3.27253
+  },
+  {
+   "base": "ARS",
+   "quote": "BOB",
+   "type": "reference",
+   "value": 0.0078
+  },
+  {
+   "base": "AUD",
+   "quote": "BOB",
+   "type": "reference",
+   "value": 8.43562
+  },
+  {
+   "base": "BRL",
+   "quote": "BOB",
+   "type": "reference",
+   "value": 2.22309
+  },
+  {
+   "base": "CAD",
+   "quote": "BOB",
+   "type": "reference",
+   "value": 8.57347
+  },
+  {
+   "base": "CHF",
+   "quote": "BOB",
+   "type": "reference",
+   "value": 14.52392
+  },
+  {
+   "base": "CLP",
+   "quote": "BOB",
+   "type": "reference",
+   "value": 0.01214
+  },
+  {
+   "base": "CNH",
+   "quote": "BOB",
+   "type": "reference",
+   "value": 1.80275
+  },
+  {
+   "base": "CNY",
+   "quote": "BOB",
+   "type": "reference",
+   "value": 1.80259
+  },
+  {
+   "base": "COP",
+   "quote": "BOB",
+   "type": "reference",
+   "value": 0.00383
+  },
+  {
+   "base": "EUR",
+   "quote": "BOB",
+   "type": "reference",
+   "value": 13.43482
+  },
+  {
+   "base": "GBP",
+   "quote": "BOB",
+   "type": "reference",
+   "value": 16.04185
+  },
+  {
+   "base": "HKD",
+   "quote": "BOB",
+   "type": "reference",
+   "value": 1.53209
+  },
+  {
+   "base": "INR",
+   "quote": "BOB",
+   "type": "reference",
+   "value": 0.12627
+  },
+  {
+   "base": "MXN",
+   "quote": "BOB",
+   "type": "reference",
+   "value": 0.64762
+  },
+  {
+   "base": "NOK",
+   "quote": "BOB",
+   "type": "reference",
+   "value": 1.28958
+  },
+  {
+   "base": "PEN",
+   "quote": "BOB",
+   "type": "reference",
+   "value": 3.49063
+  },
+  {
+   "base": "PYG",
+   "quote": "BOB",
+   "type": "reference",
+   "value": 0.00204
+  },
+  {
+   "base": "SEK",
+   "quote": "BOB",
+   "type": "reference",
+   "value": 1.20759
+  },
+  {
+   "base": "USD",
+   "quote": "BOB",
+   "type": "reference",
+   "value": 12.02
+  },
+  {
+   "base": "UYU",
+   "quote": "BOB",
+   "type": "reference",
+   "value": 0.29893
+  }
+ ],
+ "official_source": "https://www.bcb.gob.bo/librerias/indicadores/otras/ultimo.php",
+ "page": "https://allratestoday.com/central-bank-rates-api/bcbol/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

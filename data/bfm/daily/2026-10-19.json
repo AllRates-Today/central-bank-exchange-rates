@@ -1,0 +1,128 @@
+{
+ "source": "bfm",
+ "name": "Central Bank of Madagascar (BFM)",
+ "country": "Madagascar",
+ "home_currency": "MGA",
+ "kind": "central_bank",
+ "date": "2026-10-19",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AUD",
+   "quote": "MGA",
+   "type": "reference",
+   "value": 3193.14
+  },
+  {
+   "base": "CAD",
+   "quote": "MGA",
+   "type": "reference",
+   "value": 3246.63
+  },
+  {
+   "base": "CHF",
+   "quote": "MGA",
+   "type": "reference",
+   "value": 5539.32
+  },
+  {
+   "base": "CNY",
+   "quote": "MGA",
+   "type": "reference",
+   "value": 684.17
+  },
+  {
+   "base": "DJF",
+   "quote": "MGA",
+   "type": "reference",
+   "value": 25.67
+  },
+  {
+   "base": "DKK",
+   "quote": "MGA",
+   "type": "reference",
+   "value": 686.53
+  },
+  {
+   "base": "EUR",
+   "quote": "MGA",
+   "type": "reference",
+   "value": 5050.02
+  },
+  {
+   "base": "GBP",
+   "quote": "MGA",
+   "type": "reference",
+   "value": 6093.98
+  },
+  {
+   "base": "HKD",
+   "quote": "MGA",
+   "type": "reference",
+   "value": 582.39
+  },
+  {
+   "base": "INR",
+   "quote": "MGA",
+   "type": "reference",
+   "value": 48.15
+  },
+  {
+   "base": "JPY",
+   "quote": "MGA",
+   "type": "reference",
+   "value": 28.88
+  },
+  {
+   "base": "MUR",
+   "quote": "MGA",
+   "type": "reference",
+   "value": 96.74
+  },
+  {
+   "base": "NOK",
+   "quote": "MGA",
+   "type": "reference",
+   "value": 485.95
+  },
+  {
+   "base": "NZD",
+   "quote": "MGA",
+   "type": "reference",
+   "value": 2591.63
+  },
+  {
+   "base": "SEK",
+   "quote": "MGA",
+   "type": "reference",
+   "value": 461.87
+  },
+  {
+   "base": "SGD",
+   "quote": "MGA",
+   "type": "reference",
+   "value": 3573.29
+  },
+  {
+   "base": "USD",
+   "quote": "MGA",
+   "type": "reference",
+   "value": 4570.77
+  },
+  {
+   "base": "XDR",
+   "quote": "MGA",
+   "type": "reference",
+   "value": 6200.08
+  },
+  {
+   "base": "ZAR",
+   "quote": "MGA",
+   "type": "reference",
+   "value": 277.88
+  }
+ ],
+ "official_source": "https://www.banky-foibe.mg/",
+ "page": "https://allratestoday.com/central-bank-rates-api/bfm/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

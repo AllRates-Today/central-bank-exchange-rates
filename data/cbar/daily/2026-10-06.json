@@ -1,0 +1,242 @@
+{
+ "source": "cbar",
+ "name": "Central Bank of Azerbaijan",
+ "country": "Azerbaijan",
+ "home_currency": "AZN",
+ "kind": "central_bank",
+ "date": "2026-10-06",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AED",
+   "quote": "AZN",
+   "type": "reference",
+   "value": 0.4628
+  },
+  {
+   "base": "AUD",
+   "quote": "AZN",
+   "type": "reference",
+   "value": 1.1849
+  },
+  {
+   "base": "BYN",
+   "quote": "AZN",
+   "type": "reference",
+   "value": 0.5638
+  },
+  {
+   "base": "CAD",
+   "quote": "AZN",
+   "type": "reference",
+   "value": 1.1916
+  },
+  {
+   "base": "CHF",
+   "quote": "AZN",
+   "type": "reference",
+   "value": 2.0441
+  },
+  {
+   "base": "CNY",
+   "quote": "AZN",
+   "type": "reference",
+   "value": 0.2535
+  },
+  {
+   "base": "CZK",
+   "quote": "AZN",
+   "type": "reference",
+   "value": 0.078
+  },
+  {
+   "base": "DKK",
+   "quote": "AZN",
+   "type": "reference",
+   "value": 0.2551
+  },
+  {
+   "base": "EUR",
+   "quote": "AZN",
+   "type": "reference",
+   "value": 1.9069
+  },
+  {
+   "base": "GBP",
+   "quote": "AZN",
+   "type": "reference",
+   "value": 2.2466
+  },
+  {
+   "base": "GEL",
+   "quote": "AZN",
+   "type": "reference",
+   "value": 0.6535
+  },
+  {
+   "base": "HKD",
+   "quote": "AZN",
+   "type": "reference",
+   "value": 0.2166
+  },
+  {
+   "base": "HUF",
+   "quote": "AZN",
+   "type": "reference",
+   "value": 0.005193
+  },
+  {
+   "base": "ILS",
+   "quote": "AZN",
+   "type": "reference",
+   "value": 0.556
+  },
+  {
+   "base": "INR",
+   "quote": "AZN",
+   "type": "reference",
+   "value": 0.0176
+  },
+  {
+   "base": "JPY",
+   "quote": "AZN",
+   "type": "reference",
+   "value": 0.010749
+  },
+  {
+   "base": "KGS",
+   "quote": "AZN",
+   "type": "reference",
+   "value": 0.0194
+  },
+  {
+   "base": "KRW",
+   "quote": "AZN",
+   "type": "reference",
+   "value": 0.001266
+  },
+  {
+   "base": "KWD",
+   "quote": "AZN",
+   "type": "reference",
+   "value": 5.4939
+  },
+  {
+   "base": "KZT",
+   "quote": "AZN",
+   "type": "reference",
+   "value": 0.0037280000000000004
+  },
+  {
+   "base": "MDL",
+   "quote": "AZN",
+   "type": "reference",
+   "value": 0.0951
+  },
+  {
+   "base": "NOK",
+   "quote": "AZN",
+   "type": "reference",
+   "value": 0.1771
+  },
+  {
+   "base": "NZD",
+   "quote": "AZN",
+   "type": "reference",
+   "value": 0.9517
+  },
+  {
+   "base": "PKR",
+   "quote": "AZN",
+   "type": "reference",
+   "value": 0.006097
+  },
+  {
+   "base": "PLN",
+   "quote": "AZN",
+   "type": "reference",
+   "value": 0.4353
+  },
+  {
+   "base": "QAR",
+   "quote": "AZN",
+   "type": "reference",
+   "value": 0.4663
+  },
+  {
+   "base": "RON",
+   "quote": "AZN",
+   "type": "reference",
+   "value": 0.3569
+  },
+  {
+   "base": "RSD",
+   "quote": "AZN",
+   "type": "reference",
+   "value": 0.0162
+  },
+  {
+   "base": "RUB",
+   "quote": "AZN",
+   "type": "reference",
+   "value": 0.020032
+  },
+  {
+   "base": "SAR",
+   "quote": "AZN",
+   "type": "reference",
+   "value": 0.4528
+  },
+  {
+   "base": "SDR",
+   "quote": "AZN",
+   "type": "reference",
+   "value": 2.2998
+  },
+  {
+   "base": "SEK",
+   "quote": "AZN",
+   "type": "reference",
+   "value": 0.1692
+  },
+  {
+   "base": "SGD",
+   "quote": "AZN",
+   "type": "reference",
+   "value": 1.3286
+  },
+  {
+   "base": "TMT",
+   "quote": "AZN",
+   "type": "reference",
+   "value": 0.4857
+  },
+  {
+   "base": "TRY",
+   "quote": "AZN",
+   "type": "reference",
+   "value": 0.0346
+  },
+  {
+   "base": "UAH",
+   "quote": "AZN",
+   "type": "reference",
+   "value": 0.0377
+  },
+  {
+   "base": "USD",
+   "quote": "AZN",
+   "type": "reference",
+   "value": 1.7
+  },
+  {
+   "base": "UZS",
+   "quote": "AZN",
+   "type": "reference",
+   "value": 0.000144
+  }
+ ],
+ "official_source": "https://www.cbar.az/currency/rates",
+ "page": "https://allratestoday.com/central-bank-rates-api/cbar/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

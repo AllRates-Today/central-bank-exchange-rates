@@ -1,0 +1,32 @@
+{
+ "source": "brh",
+ "name": "Banque de la République d'Haïti",
+ "country": "Haiti",
+ "home_currency": "HTG",
+ "kind": "central_bank",
+ "date": "2026-10-23",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "USD",
+   "quote": "HTG",
+   "type": "buy",
+   "value": 130.4742
+  },
+  {
+   "base": "USD",
+   "quote": "HTG",
+   "type": "reference",
+   "value": 130.6845
+  },
+  {
+   "base": "USD",
+   "quote": "HTG",
+   "type": "sell",
+   "value": 131.5266
+  }
+ ],
+ "official_source": "https://www.brh.ht/taux-du-jour/",
+ "page": "https://allratestoday.com/central-bank-rates-api/brh/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

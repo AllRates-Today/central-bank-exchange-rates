@@ -1,0 +1,242 @@
+{
+ "source": "irs",
+ "name": "Internal Revenue Service (yearly average rates)",
+ "country": "United States",
+ "home_currency": "USD",
+ "kind": "tax_authority",
+ "date": "2025-12-31",
+ "cadence": "yearly",
+ "rates": [
+  {
+   "base": "USD",
+   "quote": "AED",
+   "type": "yearly_average",
+   "value": 3.673
+  },
+  {
+   "base": "USD",
+   "quote": "AFN",
+   "type": "yearly_average",
+   "value": 69.637
+  },
+  {
+   "base": "USD",
+   "quote": "ARS",
+   "type": "yearly_average",
+   "value": 1243.369
+  },
+  {
+   "base": "USD",
+   "quote": "AUD",
+   "type": "yearly_average",
+   "value": 1.551
+  },
+  {
+   "base": "USD",
+   "quote": "BHD",
+   "type": "yearly_average",
+   "value": 0.377
+  },
+  {
+   "base": "USD",
+   "quote": "BRL",
+   "type": "yearly_average",
+   "value": 5.593
+  },
+  {
+   "base": "USD",
+   "quote": "CAD",
+   "type": "yearly_average",
+   "value": 1.398
+  },
+  {
+   "base": "USD",
+   "quote": "CHF",
+   "type": "yearly_average",
+   "value": 0.831
+  },
+  {
+   "base": "USD",
+   "quote": "CNY",
+   "type": "yearly_average",
+   "value": 7.129
+  },
+  {
+   "base": "USD",
+   "quote": "DKK",
+   "type": "yearly_average",
+   "value": 6.617
+  },
+  {
+   "base": "USD",
+   "quote": "DZD",
+   "type": "yearly_average",
+   "value": 131.627
+  },
+  {
+   "base": "USD",
+   "quote": "EGP",
+   "type": "yearly_average",
+   "value": 49.233
+  },
+  {
+   "base": "USD",
+   "quote": "EUR",
+   "type": "yearly_average",
+   "value": 0.886
+  },
+  {
+   "base": "USD",
+   "quote": "GBP",
+   "type": "yearly_average",
+   "value": 0.759
+  },
+  {
+   "base": "USD",
+   "quote": "HKD",
+   "type": "yearly_average",
+   "value": 7.796
+  },
+  {
+   "base": "USD",
+   "quote": "HUF",
+   "type": "yearly_average",
+   "value": 352.869
+  },
+  {
+   "base": "USD",
+   "quote": "ILS",
+   "type": "yearly_average",
+   "value": 3.451
+  },
+  {
+   "base": "USD",
+   "quote": "INR",
+   "type": "yearly_average",
+   "value": 87.133
+  },
+  {
+   "base": "USD",
+   "quote": "IQD",
+   "type": "yearly_average",
+   "value": 1309.753
+  },
+  {
+   "base": "USD",
+   "quote": "ISK",
+   "type": "yearly_average",
+   "value": 128.262
+  },
+  {
+   "base": "USD",
+   "quote": "JPY",
+   "type": "yearly_average",
+   "value": 149.632
+  },
+  {
+   "base": "USD",
+   "quote": "KRW",
+   "type": "yearly_average",
+   "value": 1421.779
+  },
+  {
+   "base": "USD",
+   "quote": "KYD",
+   "type": "yearly_average",
+   "value": 0.821
+  },
+  {
+   "base": "USD",
+   "quote": "LBP",
+   "type": "yearly_average",
+   "value": 89568.54
+  },
+  {
+   "base": "USD",
+   "quote": "MAD",
+   "type": "yearly_average",
+   "value": 9.344
+  },
+  {
+   "base": "USD",
+   "quote": "MXN",
+   "type": "yearly_average",
+   "value": 19.212
+  },
+  {
+   "base": "USD",
+   "quote": "NOK",
+   "type": "yearly_average",
+   "value": 10.392
+  },
+  {
+   "base": "USD",
+   "quote": "NZD",
+   "type": "yearly_average",
+   "value": 1.719
+  },
+  {
+   "base": "USD",
+   "quote": "QAR",
+   "type": "yearly_average",
+   "value": 3.643
+  },
+  {
+   "base": "USD",
+   "quote": "RUB",
+   "type": "yearly_average",
+   "value": 83.755
+  },
+  {
+   "base": "USD",
+   "quote": "SAR",
+   "type": "yearly_average",
+   "value": 3.751
+  },
+  {
+   "base": "USD",
+   "quote": "SEK",
+   "type": "yearly_average",
+   "value": 9.813
+  },
+  {
+   "base": "USD",
+   "quote": "SGD",
+   "type": "yearly_average",
+   "value": 1.307
+  },
+  {
+   "base": "USD",
+   "quote": "THB",
+   "type": "yearly_average",
+   "value": 32.87
+  },
+  {
+   "base": "USD",
+   "quote": "TND",
+   "type": "yearly_average",
+   "value": 2.996
+  },
+  {
+   "base": "USD",
+   "quote": "TRY",
+   "type": "yearly_average",
+   "value": 39.546
+  },
+  {
+   "base": "USD",
+   "quote": "TWD",
+   "type": "yearly_average",
+   "value": 31.167
+  },
+  {
+   "base": "USD",
+   "quote": "ZAR",
+   "type": "yearly_average",
+   "value": 17.884
+  }
+ ],
+ "official_source": "https://www.irs.gov/individuals/international-taxpayers/yearly-average-currency-exchange-rates",
+ "page": "https://allratestoday.com/tax-authority-rates-api/irs/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

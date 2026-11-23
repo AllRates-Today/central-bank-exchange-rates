@@ -1,0 +1,152 @@
+{
+ "source": "sarb",
+ "name": "South African Reserve Bank",
+ "country": "South Africa",
+ "home_currency": "ZAR",
+ "kind": "central_bank",
+ "date": "2026-09-23",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "EUR",
+   "quote": "ZAR",
+   "type": "reference",
+   "value": 18.5553
+  },
+  {
+   "base": "GBP",
+   "quote": "ZAR",
+   "type": "reference",
+   "value": 21.619
+  },
+  {
+   "base": "USD",
+   "quote": "ZAR",
+   "type": "reference",
+   "value": 16.2488
+  },
+  {
+   "base": "ZAR",
+   "quote": "AUD",
+   "type": "reference",
+   "value": 0.0869
+  },
+  {
+   "base": "ZAR",
+   "quote": "BRL",
+   "type": "reference",
+   "value": 0.3142
+  },
+  {
+   "base": "ZAR",
+   "quote": "BWP",
+   "type": "reference",
+   "value": 0.8334
+  },
+  {
+   "base": "ZAR",
+   "quote": "CAD",
+   "type": "reference",
+   "value": 0.0867
+  },
+  {
+   "base": "ZAR",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.0506
+  },
+  {
+   "base": "ZAR",
+   "quote": "CNY",
+   "type": "reference",
+   "value": 0.4127
+  },
+  {
+   "base": "ZAR",
+   "quote": "DKK",
+   "type": "reference",
+   "value": 0.4029
+  },
+  {
+   "base": "ZAR",
+   "quote": "HKD",
+   "type": "reference",
+   "value": 0.4827
+  },
+  {
+   "base": "ZAR",
+   "quote": "ILS",
+   "type": "reference",
+   "value": 0.1853
+  },
+  {
+   "base": "ZAR",
+   "quote": "INR",
+   "type": "reference",
+   "value": 5.8921
+  },
+  {
+   "base": "ZAR",
+   "quote": "JPY",
+   "type": "reference",
+   "value": 9.7124
+  },
+  {
+   "base": "ZAR",
+   "quote": "KES",
+   "type": "reference",
+   "value": 7.9637
+  },
+  {
+   "base": "ZAR",
+   "quote": "KRW",
+   "type": "reference",
+   "value": 84.0002
+  },
+  {
+   "base": "ZAR",
+   "quote": "MWK",
+   "type": "reference",
+   "value": 106.7164
+  },
+  {
+   "base": "ZAR",
+   "quote": "NOK",
+   "type": "reference",
+   "value": 0.583
+  },
+  {
+   "base": "ZAR",
+   "quote": "NZD",
+   "type": "reference",
+   "value": 0.108
+  },
+  {
+   "base": "ZAR",
+   "quote": "SEK",
+   "type": "reference",
+   "value": 0.6064
+  },
+  {
+   "base": "ZAR",
+   "quote": "THB",
+   "type": "reference",
+   "value": 2.0454
+  },
+  {
+   "base": "ZAR",
+   "quote": "TWD",
+   "type": "reference",
+   "value": 1.9518
+  },
+  {
+   "base": "ZAR",
+   "quote": "ZMW",
+   "type": "reference",
+   "value": 1.2022
+  }
+ ],
+ "official_source": "https://custom.resbank.co.za/SarbWebApi/WebIndicators/HomePageRates",
+ "page": "https://allratestoday.com/central-bank-rates-api/sarb/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

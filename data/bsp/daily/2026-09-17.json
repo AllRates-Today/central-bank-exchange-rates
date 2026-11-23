@@ -1,0 +1,200 @@
+{
+ "source": "bsp",
+ "name": "Bangko Sentral ng Pilipinas",
+ "country": "Philippines",
+ "home_currency": "PHP",
+ "kind": "central_bank",
+ "date": "2026-09-17",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AED",
+   "quote": "PHP",
+   "type": "reference",
+   "value": 17.0802
+  },
+  {
+   "base": "ARS",
+   "quote": "PHP",
+   "type": "reference",
+   "value": 0.0415
+  },
+  {
+   "base": "AUD",
+   "quote": "PHP",
+   "type": "reference",
+   "value": 44.4582
+  },
+  {
+   "base": "BHD",
+   "quote": "PHP",
+   "type": "reference",
+   "value": 166.4597
+  },
+  {
+   "base": "BND",
+   "quote": "PHP",
+   "type": "reference",
+   "value": 48.9291
+  },
+  {
+   "base": "BRL",
+   "quote": "PHP",
+   "type": "reference",
+   "value": 12.1814
+  },
+  {
+   "base": "CAD",
+   "quote": "PHP",
+   "type": "reference",
+   "value": 44.847
+  },
+  {
+   "base": "CHF",
+   "quote": "PHP",
+   "type": "reference",
+   "value": 75.9835
+  },
+  {
+   "base": "CNY",
+   "quote": "PHP",
+   "type": "reference",
+   "value": 9.3489
+  },
+  {
+   "base": "DKK",
+   "quote": "PHP",
+   "type": "reference",
+   "value": 9.62
+  },
+  {
+   "base": "EUR",
+   "quote": "PHP",
+   "type": "reference",
+   "value": 71.916
+  },
+  {
+   "base": "GBP",
+   "quote": "PHP",
+   "type": "reference",
+   "value": 83.9793
+  },
+  {
+   "base": "HKD",
+   "quote": "PHP",
+   "type": "reference",
+   "value": 7.9968
+  },
+  {
+   "base": "IDR",
+   "quote": "PHP",
+   "type": "reference",
+   "value": 0.0036
+  },
+  {
+   "base": "INR",
+   "quote": "PHP",
+   "type": "reference",
+   "value": 0.6538
+  },
+  {
+   "base": "JPY",
+   "quote": "PHP",
+   "type": "reference",
+   "value": 0.4015
+  },
+  {
+   "base": "KRW",
+   "quote": "PHP",
+   "type": "reference",
+   "value": 0.0455
+  },
+  {
+   "base": "MXN",
+   "quote": "PHP",
+   "type": "reference",
+   "value": 3.6385
+  },
+  {
+   "base": "MYR",
+   "quote": "PHP",
+   "type": "reference",
+   "value": 15.3661
+  },
+  {
+   "base": "NOK",
+   "quote": "PHP",
+   "type": "reference",
+   "value": 6.6596
+  },
+  {
+   "base": "NZD",
+   "quote": "PHP",
+   "type": "reference",
+   "value": 35.8388
+  },
+  {
+   "base": "PKR",
+   "quote": "PHP",
+   "type": "reference",
+   "value": 0.2264
+  },
+  {
+   "base": "SAR",
+   "quote": "PHP",
+   "type": "reference",
+   "value": 16.7018
+  },
+  {
+   "base": "SEK",
+   "quote": "PHP",
+   "type": "reference",
+   "value": 6.3714
+  },
+  {
+   "base": "SGD",
+   "quote": "PHP",
+   "type": "reference",
+   "value": 49.1207
+  },
+  {
+   "base": "SYP",
+   "quote": "PHP",
+   "type": "reference",
+   "value": 0.5163
+  },
+  {
+   "base": "THB",
+   "quote": "PHP",
+   "type": "reference",
+   "value": 1.881
+  },
+  {
+   "base": "TWD",
+   "quote": "PHP",
+   "type": "reference",
+   "value": 1.9707
+  },
+  {
+   "base": "USD",
+   "quote": "PHP",
+   "type": "reference",
+   "value": 62.732
+  },
+  {
+   "base": "VES",
+   "quote": "PHP",
+   "type": "reference",
+   "value": 0.0742
+  },
+  {
+   "base": "ZAR",
+   "quote": "PHP",
+   "type": "reference",
+   "value": 3.8288
+  }
+ ],
+ "official_source": "https://www.bsp.gov.ph/Statistics/RERB/RERB.xlsx",
+ "page": "https://allratestoday.com/central-bank-rates-api/bsp/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

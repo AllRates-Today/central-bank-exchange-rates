@@ -1,0 +1,170 @@
+{
+ "source": "bcp",
+ "name": "Banco Central del Paraguay",
+ "country": "Paraguay",
+ "home_currency": "PYG",
+ "kind": "central_bank",
+ "date": "2026-10-23",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AED",
+   "quote": "PYG",
+   "type": "reference",
+   "value": 1569.53
+  },
+  {
+   "base": "ARS",
+   "quote": "PYG",
+   "type": "reference",
+   "value": 3.77
+  },
+  {
+   "base": "AUD",
+   "quote": "PYG",
+   "type": "reference",
+   "value": 4053.18
+  },
+  {
+   "base": "BOB",
+   "quote": "PYG",
+   "type": "reference",
+   "value": 486.89
+  },
+  {
+   "base": "BRL",
+   "quote": "PYG",
+   "type": "reference",
+   "value": 1143.59
+  },
+  {
+   "base": "CAD",
+   "quote": "PYG",
+   "type": "reference",
+   "value": 4123.56
+  },
+  {
+   "base": "CHF",
+   "quote": "PYG",
+   "type": "reference",
+   "value": 6992.64
+  },
+  {
+   "base": "CLP",
+   "quote": "PYG",
+   "type": "reference",
+   "value": 5.83
+  },
+  {
+   "base": "CNY",
+   "quote": "PYG",
+   "type": "reference",
+   "value": 864.25
+  },
+  {
+   "base": "COP",
+   "quote": "PYG",
+   "type": "reference",
+   "value": 1.83
+  },
+  {
+   "base": "DKK",
+   "quote": "PYG",
+   "type": "reference",
+   "value": 864.12
+  },
+  {
+   "base": "EUR",
+   "quote": "PYG",
+   "type": "reference",
+   "value": 6458.23
+  },
+  {
+   "base": "GBP",
+   "quote": "PYG",
+   "type": "reference",
+   "value": 7716.67
+  },
+  {
+   "base": "JPY",
+   "quote": "PYG",
+   "type": "reference",
+   "value": 36.78
+  },
+  {
+   "base": "MXN",
+   "quote": "PYG",
+   "type": "reference",
+   "value": 308.93
+  },
+  {
+   "base": "NOK",
+   "quote": "PYG",
+   "type": "reference",
+   "value": 617.7
+  },
+  {
+   "base": "NZD",
+   "quote": "PYG",
+   "type": "reference",
+   "value": 3286.47
+  },
+  {
+   "base": "PEN",
+   "quote": "PYG",
+   "type": "reference",
+   "value": 1673.85
+  },
+  {
+   "base": "SEK",
+   "quote": "PYG",
+   "type": "reference",
+   "value": 580.71
+  },
+  {
+   "base": "SGD",
+   "quote": "PYG",
+   "type": "reference",
+   "value": 4510.39
+  },
+  {
+   "base": "TWD",
+   "quote": "PYG",
+   "type": "reference",
+   "value": 177.28
+  },
+  {
+   "base": "USD",
+   "quote": "PYG",
+   "type": "reference",
+   "value": 5764.73
+  },
+  {
+   "base": "UYU",
+   "quote": "PYG",
+   "type": "reference",
+   "value": 143.76
+  },
+  {
+   "base": "XAU",
+   "quote": "PYG",
+   "type": "reference",
+   "value": 23051829.38
+  },
+  {
+   "base": "XDR",
+   "quote": "PYG",
+   "type": "reference",
+   "value": 7813.52
+  },
+  {
+   "base": "ZAR",
+   "quote": "PYG",
+   "type": "reference",
+   "value": 347.13
+  }
+ ],
+ "official_source": "https://www.bcp.gov.py/webapps/web/cotizacion/monedas",
+ "page": "https://allratestoday.com/central-bank-rates-api/bcp/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

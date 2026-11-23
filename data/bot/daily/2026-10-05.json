@@ -1,0 +1,596 @@
+{
+ "source": "bot",
+ "name": "Bank of Thailand",
+ "country": "Thailand",
+ "home_currency": "THB",
+ "kind": "central_bank",
+ "date": "2026-10-05",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AED",
+   "quote": "THB",
+   "type": "buy",
+   "value": 9.1002
+  },
+  {
+   "base": "AED",
+   "quote": "THB",
+   "type": "sell",
+   "value": 9.1876
+  },
+  {
+   "base": "AUD",
+   "quote": "THB",
+   "type": "buy",
+   "value": 22.9464
+  },
+  {
+   "base": "AUD",
+   "quote": "THB",
+   "type": "sell",
+   "value": 23.65
+  },
+  {
+   "base": "BDT",
+   "quote": "THB",
+   "type": "buy",
+   "value": 0.2719
+  },
+  {
+   "base": "BDT",
+   "quote": "THB",
+   "type": "sell",
+   "value": 0.2745
+  },
+  {
+   "base": "BHD",
+   "quote": "THB",
+   "type": "buy",
+   "value": 88.6581
+  },
+  {
+   "base": "BHD",
+   "quote": "THB",
+   "type": "sell",
+   "value": 89.5095
+  },
+  {
+   "base": "BND",
+   "quote": "THB",
+   "type": "buy",
+   "value": 25.8828
+  },
+  {
+   "base": "BND",
+   "quote": "THB",
+   "type": "sell",
+   "value": 26.6344
+  },
+  {
+   "base": "CAD",
+   "quote": "THB",
+   "type": "buy",
+   "value": 23.4017
+  },
+  {
+   "base": "CAD",
+   "quote": "THB",
+   "type": "sell",
+   "value": 23.8053
+  },
+  {
+   "base": "CHF",
+   "quote": "THB",
+   "type": "buy",
+   "value": 40.2256
+  },
+  {
+   "base": "CHF",
+   "quote": "THB",
+   "type": "sell",
+   "value": 40.7395
+  },
+  {
+   "base": "CNY",
+   "quote": "THB",
+   "type": "buy",
+   "value": 4.9643
+  },
+  {
+   "base": "CNY",
+   "quote": "THB",
+   "type": "sell",
+   "value": 5.0509
+  },
+  {
+   "base": "CZK",
+   "quote": "THB",
+   "type": "buy",
+   "value": 1.5387
+  },
+  {
+   "base": "CZK",
+   "quote": "THB",
+   "type": "sell",
+   "value": 1.5535
+  },
+  {
+   "base": "DKK",
+   "quote": "THB",
+   "type": "buy",
+   "value": 5.0153
+  },
+  {
+   "base": "DKK",
+   "quote": "THB",
+   "type": "sell",
+   "value": 5.0795
+  },
+  {
+   "base": "EGP",
+   "quote": "THB",
+   "type": "buy",
+   "value": 0.639
+  },
+  {
+   "base": "EGP",
+   "quote": "THB",
+   "type": "sell",
+   "value": 0.6451
+  },
+  {
+   "base": "EUR",
+   "quote": "THB",
+   "type": "buy",
+   "value": 37.3901
+  },
+  {
+   "base": "EUR",
+   "quote": "THB",
+   "type": "sell",
+   "value": 38.0076
+  },
+  {
+   "base": "GBP",
+   "quote": "THB",
+   "type": "buy",
+   "value": 44.0739
+  },
+  {
+   "base": "GBP",
+   "quote": "THB",
+   "type": "sell",
+   "value": 44.8403
+  },
+  {
+   "base": "HKD",
+   "quote": "THB",
+   "type": "buy",
+   "value": 4.2502
+  },
+  {
+   "base": "HKD",
+   "quote": "THB",
+   "type": "sell",
+   "value": 4.312
+  },
+  {
+   "base": "HUF",
+   "quote": "THB",
+   "type": "buy",
+   "value": 0.1021
+  },
+  {
+   "base": "HUF",
+   "quote": "THB",
+   "type": "sell",
+   "value": 0.103
+  },
+  {
+   "base": "IDR",
+   "quote": "THB",
+   "type": "buy",
+   "value": 0.0017848999999999999
+  },
+  {
+   "base": "IDR",
+   "quote": "THB",
+   "type": "sell",
+   "value": 0.0019736
+  },
+  {
+   "base": "ILS",
+   "quote": "THB",
+   "type": "buy",
+   "value": 10.9429
+  },
+  {
+   "base": "ILS",
+   "quote": "THB",
+   "type": "sell",
+   "value": 11.048
+  },
+  {
+   "base": "INR",
+   "quote": "THB",
+   "type": "buy",
+   "value": 0.3229
+  },
+  {
+   "base": "INR",
+   "quote": "THB",
+   "type": "sell",
+   "value": 0.3777
+  },
+  {
+   "base": "IQD",
+   "quote": "THB",
+   "type": "buy",
+   "value": 0.0255
+  },
+  {
+   "base": "IQD",
+   "quote": "THB",
+   "type": "sell",
+   "value": 0.0258
+  },
+  {
+   "base": "JOD",
+   "quote": "THB",
+   "type": "buy",
+   "value": 47.1426
+  },
+  {
+   "base": "JOD",
+   "quote": "THB",
+   "type": "sell",
+   "value": 47.5953
+  },
+  {
+   "base": "JPY",
+   "quote": "THB",
+   "type": "buy",
+   "value": 0.20988900000000002
+  },
+  {
+   "base": "JPY",
+   "quote": "THB",
+   "type": "sell",
+   "value": 0.215733
+  },
+  {
+   "base": "KES",
+   "quote": "THB",
+   "type": "buy",
+   "value": 0.2576
+  },
+  {
+   "base": "KES",
+   "quote": "THB",
+   "type": "sell",
+   "value": 0.2601
+  },
+  {
+   "base": "KHR",
+   "quote": "THB",
+   "type": "buy",
+   "value": 0.008239
+  },
+  {
+   "base": "KHR",
+   "quote": "THB",
+   "type": "sell",
+   "value": 0.008317999999999999
+  },
+  {
+   "base": "KRW",
+   "quote": "THB",
+   "type": "buy",
+   "value": 0.0249
+  },
+  {
+   "base": "KRW",
+   "quote": "THB",
+   "type": "sell",
+   "value": 0.0251
+  },
+  {
+   "base": "KWD",
+   "quote": "THB",
+   "type": "buy",
+   "value": 108.5198
+  },
+  {
+   "base": "KWD",
+   "quote": "THB",
+   "type": "sell",
+   "value": 109.562
+  },
+  {
+   "base": "LAK",
+   "quote": "THB",
+   "type": "buy",
+   "value": 0.001488
+  },
+  {
+   "base": "LAK",
+   "quote": "THB",
+   "type": "sell",
+   "value": 0.001502
+  },
+  {
+   "base": "LKR",
+   "quote": "THB",
+   "type": "buy",
+   "value": 0.1011
+  },
+  {
+   "base": "LKR",
+   "quote": "THB",
+   "type": "sell",
+   "value": 0.1021
+  },
+  {
+   "base": "MMK",
+   "quote": "THB",
+   "type": "buy",
+   "value": 0.0159
+  },
+  {
+   "base": "MMK",
+   "quote": "THB",
+   "type": "sell",
+   "value": 0.0161
+  },
+  {
+   "base": "MVR",
+   "quote": "THB",
+   "type": "buy",
+   "value": 2.162
+  },
+  {
+   "base": "MVR",
+   "quote": "THB",
+   "type": "sell",
+   "value": 2.1827
+  },
+  {
+   "base": "MXN",
+   "quote": "THB",
+   "type": "buy",
+   "value": 1.8403
+  },
+  {
+   "base": "MXN",
+   "quote": "THB",
+   "type": "sell",
+   "value": 1.858
+  },
+  {
+   "base": "MYR",
+   "quote": "THB",
+   "type": "buy",
+   "value": 8.1127
+  },
+  {
+   "base": "MYR",
+   "quote": "THB",
+   "type": "sell",
+   "value": 8.3213
+  },
+  {
+   "base": "NOK",
+   "quote": "THB",
+   "type": "buy",
+   "value": 3.4556
+  },
+  {
+   "base": "NOK",
+   "quote": "THB",
+   "type": "sell",
+   "value": 3.513
+  },
+  {
+   "base": "NPR",
+   "quote": "THB",
+   "type": "buy",
+   "value": 0.2169
+  },
+  {
+   "base": "NPR",
+   "quote": "THB",
+   "type": "sell",
+   "value": 0.219
+  },
+  {
+   "base": "NZD",
+   "quote": "THB",
+   "type": "buy",
+   "value": 18.5368
+  },
+  {
+   "base": "NZD",
+   "quote": "THB",
+   "type": "sell",
+   "value": 19.1178
+  },
+  {
+   "base": "OMR",
+   "quote": "THB",
+   "type": "buy",
+   "value": 86.8158
+  },
+  {
+   "base": "OMR",
+   "quote": "THB",
+   "type": "sell",
+   "value": 87.6496
+  },
+  {
+   "base": "PGK",
+   "quote": "THB",
+   "type": "buy",
+   "value": 7.3834
+  },
+  {
+   "base": "PGK",
+   "quote": "THB",
+   "type": "sell",
+   "value": 7.4543
+  },
+  {
+   "base": "PHP",
+   "quote": "THB",
+   "type": "buy",
+   "value": 0.5201
+  },
+  {
+   "base": "PHP",
+   "quote": "THB",
+   "type": "sell",
+   "value": 0.5524
+  },
+  {
+   "base": "PKR",
+   "quote": "THB",
+   "type": "buy",
+   "value": 0.1207
+  },
+  {
+   "base": "PKR",
+   "quote": "THB",
+   "type": "sell",
+   "value": 0.1218
+  },
+  {
+   "base": "PLN",
+   "quote": "THB",
+   "type": "buy",
+   "value": 8.5784
+  },
+  {
+   "base": "PLN",
+   "quote": "THB",
+   "type": "sell",
+   "value": 8.6608
+  },
+  {
+   "base": "QAR",
+   "quote": "THB",
+   "type": "buy",
+   "value": 9.1739
+  },
+  {
+   "base": "QAR",
+   "quote": "THB",
+   "type": "sell",
+   "value": 9.262
+  },
+  {
+   "base": "RUB",
+   "quote": "THB",
+   "type": "buy",
+   "value": 0.3989
+  },
+  {
+   "base": "RUB",
+   "quote": "THB",
+   "type": "sell",
+   "value": 0.4027
+  },
+  {
+   "base": "SAR",
+   "quote": "THB",
+   "type": "buy",
+   "value": 8.9024
+  },
+  {
+   "base": "SAR",
+   "quote": "THB",
+   "type": "sell",
+   "value": 8.9879
+  },
+  {
+   "base": "SEK",
+   "quote": "THB",
+   "type": "buy",
+   "value": 3.3131
+  },
+  {
+   "base": "SEK",
+   "quote": "THB",
+   "type": "sell",
+   "value": 3.3681
+  },
+  {
+   "base": "SGD",
+   "quote": "THB",
+   "type": "buy",
+   "value": 25.9713
+  },
+  {
+   "base": "SGD",
+   "quote": "THB",
+   "type": "sell",
+   "value": 26.5002
+  },
+  {
+   "base": "TWD",
+   "quote": "THB",
+   "type": "buy",
+   "value": 1.0504
+  },
+  {
+   "base": "TWD",
+   "quote": "THB",
+   "type": "sell",
+   "value": 1.0605
+  },
+  {
+   "base": "USD",
+   "quote": "THB",
+   "type": "buy",
+   "value": 33.4241
+  },
+  {
+   "base": "USD",
+   "quote": "THB",
+   "type": "reference",
+   "value": 33.646
+  },
+  {
+   "base": "USD",
+   "quote": "THB",
+   "type": "sell",
+   "value": 33.7451
+  },
+  {
+   "base": "VND",
+   "quote": "THB",
+   "type": "buy",
+   "value": 0.0012859999999999998
+  },
+  {
+   "base": "VND",
+   "quote": "THB",
+   "type": "sell",
+   "value": 0.0012989999999999998
+  },
+  {
+   "base": "ZAR",
+   "quote": "THB",
+   "type": "buy",
+   "value": 2.0078
+  },
+  {
+   "base": "ZAR",
+   "quote": "THB",
+   "type": "sell",
+   "value": 2.027
+  }
+ ],
+ "official_source": "https://www.bot.or.th/en/statistics/exchange-rate.html",
+ "page": "https://allratestoday.com/central-bank-rates-api/bot/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

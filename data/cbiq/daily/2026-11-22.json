@@ -1,0 +1,356 @@
+{
+ "source": "cbiq",
+ "name": "Central Bank of Iraq",
+ "country": "Iraq",
+ "home_currency": "IQD",
+ "kind": "central_bank",
+ "date": "2026-11-22",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AED",
+   "quote": "IQD",
+   "type": "buy",
+   "value": 408.43
+  },
+  {
+   "base": "AED",
+   "quote": "IQD",
+   "type": "reference",
+   "value": 411.153
+  },
+  {
+   "base": "AED",
+   "quote": "IQD",
+   "type": "sell",
+   "value": 413.876
+  },
+  {
+   "base": "AUD",
+   "quote": "IQD",
+   "type": "buy",
+   "value": 999.9
+  },
+  {
+   "base": "AUD",
+   "quote": "IQD",
+   "type": "reference",
+   "value": 1006.566
+  },
+  {
+   "base": "AUD",
+   "quote": "IQD",
+   "type": "sell",
+   "value": 1013.232
+  },
+  {
+   "base": "CAD",
+   "quote": "IQD",
+   "type": "buy",
+   "value": 1046.025
+  },
+  {
+   "base": "CAD",
+   "quote": "IQD",
+   "type": "reference",
+   "value": 1052.999
+  },
+  {
+   "base": "CAD",
+   "quote": "IQD",
+   "type": "sell",
+   "value": 1059.972
+  },
+  {
+   "base": "CHF",
+   "quote": "IQD",
+   "type": "buy",
+   "value": 1781.155
+  },
+  {
+   "base": "CHF",
+   "quote": "IQD",
+   "type": "reference",
+   "value": 1793.03
+  },
+  {
+   "base": "CHF",
+   "quote": "IQD",
+   "type": "sell",
+   "value": 1804.904
+  },
+  {
+   "base": "CNY",
+   "quote": "IQD",
+   "type": "buy",
+   "value": 224.702
+  },
+  {
+   "base": "CNY",
+   "quote": "IQD",
+   "type": "reference",
+   "value": 226.2
+  },
+  {
+   "base": "CNY",
+   "quote": "IQD",
+   "type": "sell",
+   "value": 227.698
+  },
+  {
+   "base": "DKK",
+   "quote": "IQD",
+   "type": "buy",
+   "value": 220.546
+  },
+  {
+   "base": "DKK",
+   "quote": "IQD",
+   "type": "reference",
+   "value": 222.016
+  },
+  {
+   "base": "DKK",
+   "quote": "IQD",
+   "type": "sell",
+   "value": 223.487
+  },
+  {
+   "base": "EUR",
+   "quote": "IQD",
+   "type": "buy",
+   "value": 1648.5
+  },
+  {
+   "base": "EUR",
+   "quote": "IQD",
+   "type": "reference",
+   "value": 1659.49
+  },
+  {
+   "base": "EUR",
+   "quote": "IQD",
+   "type": "sell",
+   "value": 1670.48
+  },
+  {
+   "base": "GBP",
+   "quote": "IQD",
+   "type": "buy",
+   "value": 1964.55
+  },
+  {
+   "base": "GBP",
+   "quote": "IQD",
+   "type": "reference",
+   "value": 1977.647
+  },
+  {
+   "base": "GBP",
+   "quote": "IQD",
+   "type": "sell",
+   "value": 1990.744
+  },
+  {
+   "base": "INR",
+   "quote": "IQD",
+   "type": "buy",
+   "value": 16.134
+  },
+  {
+   "base": "INR",
+   "quote": "IQD",
+   "type": "reference",
+   "value": 16.242
+  },
+  {
+   "base": "INR",
+   "quote": "IQD",
+   "type": "sell",
+   "value": 16.349
+  },
+  {
+   "base": "JOD",
+   "quote": "IQD",
+   "type": "buy",
+   "value": 2118.644
+  },
+  {
+   "base": "JOD",
+   "quote": "IQD",
+   "type": "reference",
+   "value": 2132.768
+  },
+  {
+   "base": "JOD",
+   "quote": "IQD",
+   "type": "sell",
+   "value": 2146.893
+  },
+  {
+   "base": "JPY",
+   "quote": "IQD",
+   "type": "buy",
+   "value": 9.406
+  },
+  {
+   "base": "JPY",
+   "quote": "IQD",
+   "type": "reference",
+   "value": 9.469
+  },
+  {
+   "base": "JPY",
+   "quote": "IQD",
+   "type": "sell",
+   "value": 9.532
+  },
+  {
+   "base": "NOK",
+   "quote": "IQD",
+   "type": "buy",
+   "value": 153.856
+  },
+  {
+   "base": "NOK",
+   "quote": "IQD",
+   "type": "reference",
+   "value": 154.881
+  },
+  {
+   "base": "NOK",
+   "quote": "IQD",
+   "type": "sell",
+   "value": 155.907
+  },
+  {
+   "base": "OMR",
+   "quote": "IQD",
+   "type": "buy",
+   "value": 3897.217
+  },
+  {
+   "base": "OMR",
+   "quote": "IQD",
+   "type": "reference",
+   "value": 3923.199
+  },
+  {
+   "base": "OMR",
+   "quote": "IQD",
+   "type": "sell",
+   "value": 3949.18
+  },
+  {
+   "base": "QAR",
+   "quote": "IQD",
+   "type": "buy",
+   "value": 411.929
+  },
+  {
+   "base": "QAR",
+   "quote": "IQD",
+   "type": "reference",
+   "value": 414.676
+  },
+  {
+   "base": "QAR",
+   "quote": "IQD",
+   "type": "sell",
+   "value": 417.422
+  },
+  {
+   "base": "SAR",
+   "quote": "IQD",
+   "type": "buy",
+   "value": 399.84
+  },
+  {
+   "base": "SAR",
+   "quote": "IQD",
+   "type": "reference",
+   "value": 402.506
+  },
+  {
+   "base": "SAR",
+   "quote": "IQD",
+   "type": "sell",
+   "value": 405.171
+  },
+  {
+   "base": "SEK",
+   "quote": "IQD",
+   "type": "buy",
+   "value": 146.706
+  },
+  {
+   "base": "SEK",
+   "quote": "IQD",
+   "type": "reference",
+   "value": 147.684
+  },
+  {
+   "base": "SEK",
+   "quote": "IQD",
+   "type": "sell",
+   "value": 148.663
+  },
+  {
+   "base": "TRY",
+   "quote": "IQD",
+   "type": "buy",
+   "value": 29.695
+  },
+  {
+   "base": "TRY",
+   "quote": "IQD",
+   "type": "reference",
+   "value": 29.893
+  },
+  {
+   "base": "TRY",
+   "quote": "IQD",
+   "type": "sell",
+   "value": 30.091
+  },
+  {
+   "base": "USD",
+   "quote": "IQD",
+   "type": "buy",
+   "value": 1500
+  },
+  {
+   "base": "USD",
+   "quote": "IQD",
+   "type": "reference",
+   "value": 1510
+  },
+  {
+   "base": "USD",
+   "quote": "IQD",
+   "type": "sell",
+   "value": 1520
+  },
+  {
+   "base": "XDR",
+   "quote": "IQD",
+   "type": "buy",
+   "value": 2014.26
+  },
+  {
+   "base": "XDR",
+   "quote": "IQD",
+   "type": "reference",
+   "value": 2027.688
+  },
+  {
+   "base": "XDR",
+   "quote": "IQD",
+   "type": "sell",
+   "value": 2041.117
+  }
+ ],
+ "official_source": "https://cbi.iq/page/144",
+ "page": "https://allratestoday.com/central-bank-rates-api/cbiq/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

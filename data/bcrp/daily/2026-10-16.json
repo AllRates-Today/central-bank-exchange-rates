@@ -1,0 +1,38 @@
+{
+ "source": "bcrp",
+ "name": "Central Reserve Bank of Peru",
+ "country": "Peru",
+ "home_currency": "PEN",
+ "kind": "central_bank",
+ "date": "2026-10-16",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "EUR",
+   "quote": "PEN",
+   "type": "buy",
+   "value": 3.712
+  },
+  {
+   "base": "EUR",
+   "quote": "PEN",
+   "type": "sell",
+   "value": 4.034
+  },
+  {
+   "base": "USD",
+   "quote": "PEN",
+   "type": "buy",
+   "value": 3.423
+  },
+  {
+   "base": "USD",
+   "quote": "PEN",
+   "type": "sell",
+   "value": 3.431
+  }
+ ],
+ "official_source": "https://estadisticas.bcrp.gob.pe/estadisticas/series/",
+ "page": "https://allratestoday.com/central-bank-rates-api/bcrp/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

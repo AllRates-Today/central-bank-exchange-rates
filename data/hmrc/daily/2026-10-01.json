@@ -1,0 +1,860 @@
+{
+ "source": "hmrc",
+ "name": "HM Revenue & Customs",
+ "country": "United Kingdom",
+ "home_currency": "GBP",
+ "kind": "tax_authority",
+ "date": "2026-10-01",
+ "cadence": "monthly",
+ "rates": [
+  {
+   "base": "GBP",
+   "quote": "AED",
+   "type": "monthly",
+   "value": 4.9418
+  },
+  {
+   "base": "GBP",
+   "quote": "ALL",
+   "type": "monthly",
+   "value": 107.0437
+  },
+  {
+   "base": "GBP",
+   "quote": "AMD",
+   "type": "monthly",
+   "value": 489.0579
+  },
+  {
+   "base": "GBP",
+   "quote": "AOA",
+   "type": "monthly",
+   "value": 1233.1555
+  },
+  {
+   "base": "GBP",
+   "quote": "ARS",
+   "type": "monthly",
+   "value": 2027.5756
+  },
+  {
+   "base": "GBP",
+   "quote": "AUD",
+   "type": "monthly",
+   "value": 1.8868
+  },
+  {
+   "base": "GBP",
+   "quote": "AWG",
+   "type": "monthly",
+   "value": 2.4086
+  },
+  {
+   "base": "GBP",
+   "quote": "AZN",
+   "type": "monthly",
+   "value": 2.2875
+  },
+  {
+   "base": "GBP",
+   "quote": "BAM",
+   "type": "monthly",
+   "value": 2.2815
+  },
+  {
+   "base": "GBP",
+   "quote": "BBD",
+   "type": "monthly",
+   "value": 2.6912
+  },
+  {
+   "base": "GBP",
+   "quote": "BDT",
+   "type": "monthly",
+   "value": 165.6588
+  },
+  {
+   "base": "GBP",
+   "quote": "BHD",
+   "type": "monthly",
+   "value": 0.5059
+  },
+  {
+   "base": "GBP",
+   "quote": "BIF",
+   "type": "monthly",
+   "value": 4027.0511
+  },
+  {
+   "base": "GBP",
+   "quote": "BMD",
+   "type": "monthly",
+   "value": 1.3456
+  },
+  {
+   "base": "GBP",
+   "quote": "BND",
+   "type": "monthly",
+   "value": 1.7135
+  },
+  {
+   "base": "GBP",
+   "quote": "BOB",
+   "type": "monthly",
+   "value": 16.1986
+  },
+  {
+   "base": "GBP",
+   "quote": "BRL",
+   "type": "monthly",
+   "value": 6.927
+  },
+  {
+   "base": "GBP",
+   "quote": "BSD",
+   "type": "monthly",
+   "value": 1.3456
+  },
+  {
+   "base": "GBP",
+   "quote": "BTN",
+   "type": "monthly",
+   "value": 129.0581
+  },
+  {
+   "base": "GBP",
+   "quote": "BWP",
+   "type": "monthly",
+   "value": 18.1782
+  },
+  {
+   "base": "GBP",
+   "quote": "BYN",
+   "type": "monthly",
+   "value": 4.0782
+  },
+  {
+   "base": "GBP",
+   "quote": "BZD",
+   "type": "monthly",
+   "value": 2.7091
+  },
+  {
+   "base": "GBP",
+   "quote": "CAD",
+   "type": "monthly",
+   "value": 1.8758
+  },
+  {
+   "base": "GBP",
+   "quote": "CDF",
+   "type": "monthly",
+   "value": 3102.3658
+  },
+  {
+   "base": "GBP",
+   "quote": "CHF",
+   "type": "monthly",
+   "value": 1.102
+  },
+  {
+   "base": "GBP",
+   "quote": "CLP",
+   "type": "monthly",
+   "value": 1284.8396
+  },
+  {
+   "base": "GBP",
+   "quote": "CNY",
+   "type": "monthly",
+   "value": 9.0274
+  },
+  {
+   "base": "GBP",
+   "quote": "COP",
+   "type": "monthly",
+   "value": 4198.0295
+  },
+  {
+   "base": "GBP",
+   "quote": "CRC",
+   "type": "monthly",
+   "value": 602.5178
+  },
+  {
+   "base": "GBP",
+   "quote": "CUP",
+   "type": "monthly",
+   "value": 32.3035
+  },
+  {
+   "base": "GBP",
+   "quote": "CVE",
+   "type": "monthly",
+   "value": 128.6341
+  },
+  {
+   "base": "GBP",
+   "quote": "CZK",
+   "type": "monthly",
+   "value": 28.3582
+  },
+  {
+   "base": "GBP",
+   "quote": "DJF",
+   "type": "monthly",
+   "value": 239.61
+  },
+  {
+   "base": "GBP",
+   "quote": "DKK",
+   "type": "monthly",
+   "value": 8.7205
+  },
+  {
+   "base": "GBP",
+   "quote": "DOP",
+   "type": "monthly",
+   "value": 79.4809
+  },
+  {
+   "base": "GBP",
+   "quote": "DZD",
+   "type": "monthly",
+   "value": 179.9788
+  },
+  {
+   "base": "GBP",
+   "quote": "EGP",
+   "type": "monthly",
+   "value": 70.079
+  },
+  {
+   "base": "GBP",
+   "quote": "ERN",
+   "type": "monthly",
+   "value": 20.1842
+  },
+  {
+   "base": "GBP",
+   "quote": "ETB",
+   "type": "monthly",
+   "value": 217.507
+  },
+  {
+   "base": "GBP",
+   "quote": "EUR",
+   "type": "monthly",
+   "value": 1.1665
+  },
+  {
+   "base": "GBP",
+   "quote": "FJD",
+   "type": "monthly",
+   "value": 2.9777
+  },
+  {
+   "base": "GBP",
+   "quote": "GEL",
+   "type": "monthly",
+   "value": 3.498
+  },
+  {
+   "base": "GBP",
+   "quote": "GHS",
+   "type": "monthly",
+   "value": 15.4436
+  },
+  {
+   "base": "GBP",
+   "quote": "GMD",
+   "type": "monthly",
+   "value": 99.5772
+  },
+  {
+   "base": "GBP",
+   "quote": "GNF",
+   "type": "monthly",
+   "value": 11842.4924
+  },
+  {
+   "base": "GBP",
+   "quote": "GTQ",
+   "type": "monthly",
+   "value": 10.2705
+  },
+  {
+   "base": "GBP",
+   "quote": "GYD",
+   "type": "monthly",
+   "value": 281.4221
+  },
+  {
+   "base": "GBP",
+   "quote": "HKD",
+   "type": "monthly",
+   "value": 10.5562
+  },
+  {
+   "base": "GBP",
+   "quote": "HNL",
+   "type": "monthly",
+   "value": 36.152
+  },
+  {
+   "base": "GBP",
+   "quote": "HTG",
+   "type": "monthly",
+   "value": 175.9225
+  },
+  {
+   "base": "GBP",
+   "quote": "HUF",
+   "type": "monthly",
+   "value": 425.2162
+  },
+  {
+   "base": "GBP",
+   "quote": "IDR",
+   "type": "monthly",
+   "value": 23773.0976
+  },
+  {
+   "base": "GBP",
+   "quote": "ILS",
+   "type": "monthly",
+   "value": 4.0783
+  },
+  {
+   "base": "GBP",
+   "quote": "INR",
+   "type": "monthly",
+   "value": 129.0581
+  },
+  {
+   "base": "GBP",
+   "quote": "IQD",
+   "type": "monthly",
+   "value": 1763.3813
+  },
+  {
+   "base": "GBP",
+   "quote": "ISK",
+   "type": "monthly",
+   "value": 163.0905
+  },
+  {
+   "base": "GBP",
+   "quote": "JMD",
+   "type": "monthly",
+   "value": 212.3121
+  },
+  {
+   "base": "GBP",
+   "quote": "JOD",
+   "type": "monthly",
+   "value": 0.954
+  },
+  {
+   "base": "GBP",
+   "quote": "JPY",
+   "type": "monthly",
+   "value": 208.5932
+  },
+  {
+   "base": "GBP",
+   "quote": "KES",
+   "type": "monthly",
+   "value": 174.3866
+  },
+  {
+   "base": "GBP",
+   "quote": "KGS",
+   "type": "monthly",
+   "value": 117.6862
+  },
+  {
+   "base": "GBP",
+   "quote": "KHR",
+   "type": "monthly",
+   "value": 5449.4543
+  },
+  {
+   "base": "GBP",
+   "quote": "KMF",
+   "type": "monthly",
+   "value": 573.899
+  },
+  {
+   "base": "GBP",
+   "quote": "KRW",
+   "type": "monthly",
+   "value": 1840.29
+  },
+  {
+   "base": "GBP",
+   "quote": "KWD",
+   "type": "monthly",
+   "value": 0.4151
+  },
+  {
+   "base": "GBP",
+   "quote": "KYD",
+   "type": "monthly",
+   "value": 1.1191
+  },
+  {
+   "base": "GBP",
+   "quote": "KZT",
+   "type": "monthly",
+   "value": 599.9257
+  },
+  {
+   "base": "GBP",
+   "quote": "LAK",
+   "type": "monthly",
+   "value": 30129.4728
+  },
+  {
+   "base": "GBP",
+   "quote": "LBP",
+   "type": "monthly",
+   "value": 120673.0108
+  },
+  {
+   "base": "GBP",
+   "quote": "LKR",
+   "type": "monthly",
+   "value": 445.892
+  },
+  {
+   "base": "GBP",
+   "quote": "LRD",
+   "type": "monthly",
+   "value": 233.529
+  },
+  {
+   "base": "GBP",
+   "quote": "LSL",
+   "type": "monthly",
+   "value": 21.895
+  },
+  {
+   "base": "GBP",
+   "quote": "LYD",
+   "type": "monthly",
+   "value": 8.5487
+  },
+  {
+   "base": "GBP",
+   "quote": "MAD",
+   "type": "monthly",
+   "value": 12.7113
+  },
+  {
+   "base": "GBP",
+   "quote": "MDL",
+   "type": "monthly",
+   "value": 23.4579
+  },
+  {
+   "base": "GBP",
+   "quote": "MGA",
+   "type": "monthly",
+   "value": 5876.2364
+  },
+  {
+   "base": "GBP",
+   "quote": "MKD",
+   "type": "monthly",
+   "value": 71.7669
+  },
+  {
+   "base": "GBP",
+   "quote": "MMK",
+   "type": "monthly",
+   "value": 2825.3238
+  },
+  {
+   "base": "GBP",
+   "quote": "MNT",
+   "type": "monthly",
+   "value": 4842.1776
+  },
+  {
+   "base": "GBP",
+   "quote": "MOP",
+   "type": "monthly",
+   "value": 10.8729
+  },
+  {
+   "base": "GBP",
+   "quote": "MRU",
+   "type": "monthly",
+   "value": 53.8073
+  },
+  {
+   "base": "GBP",
+   "quote": "MUR",
+   "type": "monthly",
+   "value": 63.5894
+  },
+  {
+   "base": "GBP",
+   "quote": "MVR",
+   "type": "monthly",
+   "value": 20.7825
+  },
+  {
+   "base": "GBP",
+   "quote": "MWK",
+   "type": "monthly",
+   "value": 2334.0767
+  },
+  {
+   "base": "GBP",
+   "quote": "MXN",
+   "type": "monthly",
+   "value": 23.0642
+  },
+  {
+   "base": "GBP",
+   "quote": "MYR",
+   "type": "monthly",
+   "value": 5.4702
+  },
+  {
+   "base": "GBP",
+   "quote": "MZN",
+   "type": "monthly",
+   "value": 85.9611
+  },
+  {
+   "base": "GBP",
+   "quote": "NGN",
+   "type": "monthly",
+   "value": 1785.5008
+  },
+  {
+   "base": "GBP",
+   "quote": "NIO",
+   "type": "monthly",
+   "value": 49.4252
+  },
+  {
+   "base": "GBP",
+   "quote": "NOK",
+   "type": "monthly",
+   "value": 12.5877
+  },
+  {
+   "base": "GBP",
+   "quote": "NPR",
+   "type": "monthly",
+   "value": 206.5897
+  },
+  {
+   "base": "GBP",
+   "quote": "NZD",
+   "type": "monthly",
+   "value": 2.3355
+  },
+  {
+   "base": "GBP",
+   "quote": "OMR",
+   "type": "monthly",
+   "value": 0.5179
+  },
+  {
+   "base": "GBP",
+   "quote": "PAB",
+   "type": "monthly",
+   "value": 1.3456
+  },
+  {
+   "base": "GBP",
+   "quote": "PEN",
+   "type": "monthly",
+   "value": 4.5155
+  },
+  {
+   "base": "GBP",
+   "quote": "PGK",
+   "type": "monthly",
+   "value": 6.053
+  },
+  {
+   "base": "GBP",
+   "quote": "PHP",
+   "type": "monthly",
+   "value": 84.4178
+  },
+  {
+   "base": "GBP",
+   "quote": "PKR",
+   "type": "monthly",
+   "value": 373.09
+  },
+  {
+   "base": "GBP",
+   "quote": "PLN",
+   "type": "monthly",
+   "value": 5.0717
+  },
+  {
+   "base": "GBP",
+   "quote": "PYG",
+   "type": "monthly",
+   "value": 8031.7881
+  },
+  {
+   "base": "GBP",
+   "quote": "QAR",
+   "type": "monthly",
+   "value": 4.898
+  },
+  {
+   "base": "GBP",
+   "quote": "RON",
+   "type": "monthly",
+   "value": 6.1399
+  },
+  {
+   "base": "GBP",
+   "quote": "RSD",
+   "type": "monthly",
+   "value": 136.9113
+  },
+  {
+   "base": "GBP",
+   "quote": "RUB",
+   "type": "monthly",
+   "value": 113.5653
+  },
+  {
+   "base": "GBP",
+   "quote": "RWF",
+   "type": "monthly",
+   "value": 1982.2241
+  },
+  {
+   "base": "GBP",
+   "quote": "SAR",
+   "type": "monthly",
+   "value": 5.046
+  },
+  {
+   "base": "GBP",
+   "quote": "SBD",
+   "type": "monthly",
+   "value": 10.7915
+  },
+  {
+   "base": "GBP",
+   "quote": "SCR",
+   "type": "monthly",
+   "value": 18.9675
+  },
+  {
+   "base": "GBP",
+   "quote": "SDG",
+   "type": "monthly",
+   "value": 807.6092
+  },
+  {
+   "base": "GBP",
+   "quote": "SEK",
+   "type": "monthly",
+   "value": 13.1652
+  },
+  {
+   "base": "GBP",
+   "quote": "SGD",
+   "type": "monthly",
+   "value": 1.7135
+  },
+  {
+   "base": "GBP",
+   "quote": "SLE",
+   "type": "monthly",
+   "value": 33.156
+  },
+  {
+   "base": "GBP",
+   "quote": "SOS",
+   "type": "monthly",
+   "value": 767.5204
+  },
+  {
+   "base": "GBP",
+   "quote": "SRD",
+   "type": "monthly",
+   "value": 50.7769
+  },
+  {
+   "base": "GBP",
+   "quote": "SVC",
+   "type": "monthly",
+   "value": 11.7741
+  },
+  {
+   "base": "GBP",
+   "quote": "SZL",
+   "type": "monthly",
+   "value": 21.895
+  },
+  {
+   "base": "GBP",
+   "quote": "THB",
+   "type": "monthly",
+   "value": 44.7505
+  },
+  {
+   "base": "GBP",
+   "quote": "TMT",
+   "type": "monthly",
+   "value": 4.723
+  },
+  {
+   "base": "GBP",
+   "quote": "TND",
+   "type": "monthly",
+   "value": 3.9398
+  },
+  {
+   "base": "GBP",
+   "quote": "TOP",
+   "type": "monthly",
+   "value": 3.2403
+  },
+  {
+   "base": "GBP",
+   "quote": "TRY",
+   "type": "monthly",
+   "value": 65.4654
+  },
+  {
+   "base": "GBP",
+   "quote": "TTD",
+   "type": "monthly",
+   "value": 9.1303
+  },
+  {
+   "base": "GBP",
+   "quote": "TWD",
+   "type": "monthly",
+   "value": 42.7656
+  },
+  {
+   "base": "GBP",
+   "quote": "TZS",
+   "type": "monthly",
+   "value": 3563.6663
+  },
+  {
+   "base": "GBP",
+   "quote": "UAH",
+   "type": "monthly",
+   "value": 60.0377
+  },
+  {
+   "base": "GBP",
+   "quote": "UGX",
+   "type": "monthly",
+   "value": 5258.803
+  },
+  {
+   "base": "GBP",
+   "quote": "USD",
+   "type": "monthly",
+   "value": 1.3456
+  },
+  {
+   "base": "GBP",
+   "quote": "UYU",
+   "type": "monthly",
+   "value": 54.1295
+  },
+  {
+   "base": "GBP",
+   "quote": "UZS",
+   "type": "monthly",
+   "value": 15857.7264
+  },
+  {
+   "base": "GBP",
+   "quote": "VES",
+   "type": "monthly",
+   "value": 1127.9302
+  },
+  {
+   "base": "GBP",
+   "quote": "VND",
+   "type": "monthly",
+   "value": 34977.9788
+  },
+  {
+   "base": "GBP",
+   "quote": "VUV",
+   "type": "monthly",
+   "value": 159.1798
+  },
+  {
+   "base": "GBP",
+   "quote": "WST",
+   "type": "monthly",
+   "value": 3.6911
+  },
+  {
+   "base": "GBP",
+   "quote": "XAF",
+   "type": "monthly",
+   "value": 765.1987
+  },
+  {
+   "base": "GBP",
+   "quote": "XCD",
+   "type": "monthly",
+   "value": 3.643
+  },
+  {
+   "base": "GBP",
+   "quote": "XOF",
+   "type": "monthly",
+   "value": 765.1987
+  },
+  {
+   "base": "GBP",
+   "quote": "XPF",
+   "type": "monthly",
+   "value": 139.205
+  },
+  {
+   "base": "GBP",
+   "quote": "YER",
+   "type": "monthly",
+   "value": 318.2852
+  },
+  {
+   "base": "GBP",
+   "quote": "ZAR",
+   "type": "monthly",
+   "value": 21.895
+  },
+  {
+   "base": "GBP",
+   "quote": "ZMW",
+   "type": "monthly",
+   "value": 26.4377
+  },
+  {
+   "base": "GBP",
+   "quote": "ZWG",
+   "type": "monthly",
+   "value": 36.1134
+  }
+ ],
+ "official_source": "https://www.trade-tariff.service.gov.uk/exchange_rates",
+ "page": "https://allratestoday.com/tax-authority-rates-api/hmrc/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

@@ -1,0 +1,608 @@
+{
+ "source": "bou",
+ "name": "Bank of Uganda",
+ "country": "Uganda",
+ "home_currency": "UGX",
+ "kind": "central_bank",
+ "date": "2026-09-11",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AED",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 1051.8308785494542
+  },
+  {
+   "base": "AED",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 1053.2208382782392
+  },
+  {
+   "base": "AED",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 1054.6107980070244
+  },
+  {
+   "base": "AUD",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 2771.6605520000003
+  },
+  {
+   "base": "AUD",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 2775.6349
+  },
+  {
+   "base": "AUD",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 2779.609248
+  },
+  {
+   "base": "BIF",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 1.2945149941363712
+  },
+  {
+   "base": "BIF",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 1.3050058414390464
+  },
+  {
+   "base": "BIF",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 1.3154966887417219
+  },
+  {
+   "base": "CAD",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 2791.9352507587805
+  },
+  {
+   "base": "CAD",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 2795.64963737621
+  },
+  {
+   "base": "CAD",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 2799.3640239936403
+  },
+  {
+   "base": "CHF",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 4753.882121323982
+  },
+  {
+   "base": "CHF",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 4760.327720765363
+  },
+  {
+   "base": "CHF",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 4766.773320206744
+  },
+  {
+   "base": "CNY",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 575.86525562677
+  },
+  {
+   "base": "CNY",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 576.6449500458766
+  },
+  {
+   "base": "CNY",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 577.4246444649832
+  },
+  {
+   "base": "DJF",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 21.638084570148415
+  },
+  {
+   "base": "DJF",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 21.724109852641774
+  },
+  {
+   "base": "DJF",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 21.810135135135138
+  },
+  {
+   "base": "DKK",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 600.1522330097088
+  },
+  {
+   "base": "DKK",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 600.938279212822
+  },
+  {
+   "base": "DKK",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 601.7243254159353
+  },
+  {
+   "base": "ETB",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 23.860645942248723
+  },
+  {
+   "base": "ETB",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 23.965856486537444
+  },
+  {
+   "base": "ETB",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 24.071067030826164
+  },
+  {
+   "base": "EUR",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 4485.886628
+  },
+  {
+   "base": "EUR",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 4492.079476
+  },
+  {
+   "base": "EUR",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 4498.272324
+  },
+  {
+   "base": "GBP",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 5224.197656
+  },
+  {
+   "base": "GBP",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 5231.539678
+  },
+  {
+   "base": "GBP",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 5238.8817
+  },
+  {
+   "base": "INR",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 40.36230672795654
+  },
+  {
+   "base": "INR",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 40.416656446205835
+  },
+  {
+   "base": "INR",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 40.471006164455126
+  },
+  {
+   "base": "JPY",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 25.07776191094379
+  },
+  {
+   "base": "JPY",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 25.111032854206073
+  },
+  {
+   "base": "JPY",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 25.144303797468353
+  },
+  {
+   "base": "KES",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 29.810802469135805
+  },
+  {
+   "base": "KES",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 29.87248005991566
+  },
+  {
+   "base": "KES",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 29.934157650695518
+  },
+  {
+   "base": "KMF",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 9.072822487847263
+  },
+  {
+   "base": "KMF",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 9.106026419819628
+  },
+  {
+   "base": "KMF",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 9.139230351791992
+  },
+  {
+   "base": "KRW",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 2.8705550189464297
+  },
+  {
+   "base": "KRW",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 2.874804787606112
+  },
+  {
+   "base": "KRW",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 2.8790545562657943
+  },
+  {
+   "base": "KWD",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 12601.043705153295
+  },
+  {
+   "base": "KWD",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 12615.29198625777
+  },
+  {
+   "base": "KWD",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 12629.540267362245
+  },
+  {
+   "base": "LSL",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 238.97469521058463
+  },
+  {
+   "base": "LSL",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 239.3054619334289
+  },
+  {
+   "base": "LSL",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 239.63622865627318
+  },
+  {
+   "base": "MUR",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 81.99235993208829
+  },
+  {
+   "base": "MUR",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 82.3618356687353
+  },
+  {
+   "base": "MUR",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 82.73131140538231
+  },
+  {
+   "base": "MWK",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 2.2064420331239294
+  },
+  {
+   "base": "MWK",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 2.2314234561830895
+  },
+  {
+   "base": "MWK",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 2.2564048792422495
+  },
+  {
+   "base": "NOK",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 416.12149281059834
+  },
+  {
+   "base": "NOK",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 416.6937314316915
+  },
+  {
+   "base": "NOK",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 417.26597005278467
+  },
+  {
+   "base": "NZD",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 2252.7951879999996
+  },
+  {
+   "base": "NZD",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 2256.098036
+  },
+  {
+   "base": "NZD",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 2259.400884
+  },
+  {
+   "base": "RWF",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 2.6113416694829334
+  },
+  {
+   "base": "RWF",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 2.6236293240235353
+  },
+  {
+   "base": "RWF",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 2.6359169785641376
+  },
+  {
+   "base": "SAR",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 1028.8346825734982
+  },
+  {
+   "base": "SAR",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 1030.1936395557238
+  },
+  {
+   "base": "SAR",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 1031.5525965379495
+  },
+  {
+   "base": "SEK",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 399.1280811587016
+  },
+  {
+   "base": "SEK",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 399.6652928007005
+  },
+  {
+   "base": "SEK",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 400.2025044426995
+  },
+  {
+   "base": "SSP",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 0.6741755336724197
+  },
+  {
+   "base": "SSP",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 0.6853800969544112
+  },
+  {
+   "base": "SSP",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 0.6965846602364026
+  },
+  {
+   "base": "SZL",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 238.97469521058463
+  },
+  {
+   "base": "SZL",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 239.3054619334289
+  },
+  {
+   "base": "SZL",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 239.63622865627318
+  },
+  {
+   "base": "TZS",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 1.4497110694183866
+  },
+  {
+   "base": "TZS",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 1.4612585765342883
+  },
+  {
+   "base": "TZS",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 1.4728060836501902
+  },
+  {
+   "base": "USD",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 3863.48
+  },
+  {
+   "base": "USD",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 3868.48
+  },
+  {
+   "base": "USD",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 3873.48
+  },
+  {
+   "base": "XAU",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 16812937.7248
+  },
+  {
+   "base": "XAU",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 16835684.2622
+  },
+  {
+   "base": "XAU",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 16858430.7996
+  },
+  {
+   "base": "XDR",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 5306.3738756
+  },
+  {
+   "base": "XDR",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 5313.241225600001
+  },
+  {
+   "base": "XDR",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 5320.1085756
+  },
+  {
+   "base": "ZAR",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 238.9643484499864
+  },
+  {
+   "base": "ZAR",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 239.30844302576534
+  },
+  {
+   "base": "ZAR",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 239.65253760154428
+  },
+  {
+   "base": "ZWG",
+   "quote": "UGX",
+   "type": "buy",
+   "value": 140.05220039150294
+  },
+  {
+   "base": "ZWG",
+   "quote": "UGX",
+   "type": "reference",
+   "value": 145.3264477824732
+  },
+  {
+   "base": "ZWG",
+   "quote": "UGX",
+   "type": "sell",
+   "value": 150.60069517344346
+  }
+ ],
+ "official_source": "https://bou.or.ug/",
+ "page": "https://allratestoday.com/central-bank-rates-api/bou/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

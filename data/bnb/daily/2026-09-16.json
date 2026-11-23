@@ -1,0 +1,188 @@
+{
+ "source": "bnb",
+ "name": "Bulgarian National Bank",
+ "country": "Bulgaria",
+ "home_currency": "EUR",
+ "kind": "central_bank",
+ "date": "2026-09-16",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "EUR",
+   "quote": "AUD",
+   "type": "reference",
+   "value": 1.6176
+  },
+  {
+   "base": "EUR",
+   "quote": "BRL",
+   "type": "reference",
+   "value": 5.9368
+  },
+  {
+   "base": "EUR",
+   "quote": "CAD",
+   "type": "reference",
+   "value": 1.6082
+  },
+  {
+   "base": "EUR",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.9449
+  },
+  {
+   "base": "EUR",
+   "quote": "CNY",
+   "type": "reference",
+   "value": 7.738
+  },
+  {
+   "base": "EUR",
+   "quote": "CZK",
+   "type": "reference",
+   "value": 24.313
+  },
+  {
+   "base": "EUR",
+   "quote": "DKK",
+   "type": "reference",
+   "value": 7.4755
+  },
+  {
+   "base": "EUR",
+   "quote": "GBP",
+   "type": "reference",
+   "value": 0.8574
+  },
+  {
+   "base": "EUR",
+   "quote": "HKD",
+   "type": "reference",
+   "value": 9.0507
+  },
+  {
+   "base": "EUR",
+   "quote": "HUF",
+   "type": "reference",
+   "value": 364.45
+  },
+  {
+   "base": "EUR",
+   "quote": "IDR",
+   "type": "reference",
+   "value": 20386.17
+  },
+  {
+   "base": "EUR",
+   "quote": "ILS",
+   "type": "reference",
+   "value": 3.4971
+  },
+  {
+   "base": "EUR",
+   "quote": "INR",
+   "type": "reference",
+   "value": 110.714
+  },
+  {
+   "base": "EUR",
+   "quote": "ISK",
+   "type": "reference",
+   "value": 139.8
+  },
+  {
+   "base": "EUR",
+   "quote": "JPY",
+   "type": "reference",
+   "value": 178.88
+  },
+  {
+   "base": "EUR",
+   "quote": "KRW",
+   "type": "reference",
+   "value": 1578.03
+  },
+  {
+   "base": "EUR",
+   "quote": "MXN",
+   "type": "reference",
+   "value": 19.7723
+  },
+  {
+   "base": "EUR",
+   "quote": "MYR",
+   "type": "reference",
+   "value": 4.7152
+  },
+  {
+   "base": "EUR",
+   "quote": "NOK",
+   "type": "reference",
+   "value": 10.7885
+  },
+  {
+   "base": "EUR",
+   "quote": "NZD",
+   "type": "reference",
+   "value": 2.0021
+  },
+  {
+   "base": "EUR",
+   "quote": "PHP",
+   "type": "reference",
+   "value": 72.37
+  },
+  {
+   "base": "EUR",
+   "quote": "PLN",
+   "type": "reference",
+   "value": 4.3473
+  },
+  {
+   "base": "EUR",
+   "quote": "RON",
+   "type": "reference",
+   "value": 5.2629
+  },
+  {
+   "base": "EUR",
+   "quote": "SEK",
+   "type": "reference",
+   "value": 11.2875
+  },
+  {
+   "base": "EUR",
+   "quote": "SGD",
+   "type": "reference",
+   "value": 1.469
+  },
+  {
+   "base": "EUR",
+   "quote": "THB",
+   "type": "reference",
+   "value": 38.361
+  },
+  {
+   "base": "EUR",
+   "quote": "TRY",
+   "type": "reference",
+   "value": 56.136
+  },
+  {
+   "base": "EUR",
+   "quote": "USD",
+   "type": "reference",
+   "value": 1.1537
+  },
+  {
+   "base": "EUR",
+   "quote": "ZAR",
+   "type": "reference",
+   "value": 18.7684
+  }
+ ],
+ "official_source": "https://www.bnb.bg/Statistics/StExternalSector/StExchangeRates/StERForeignCurrencies/",
+ "page": "https://allratestoday.com/central-bank-rates-api/bnb/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

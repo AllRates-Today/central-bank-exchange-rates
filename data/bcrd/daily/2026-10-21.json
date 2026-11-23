@@ -1,0 +1,26 @@
+{
+ "source": "bcrd",
+ "name": "Banco Central de la República Dominicana",
+ "country": "Dominican Republic",
+ "home_currency": "DOP",
+ "kind": "central_bank",
+ "date": "2026-10-21",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "USD",
+   "quote": "DOP",
+   "type": "buy",
+   "value": 60.9812
+  },
+  {
+   "base": "USD",
+   "quote": "DOP",
+   "type": "sell",
+   "value": 61.3699
+  }
+ ],
+ "official_source": "https://cdn.bancentral.gov.do/documents/estadisticas/mercado-cambiario/documents/TASA_DOLAR_REFERENCIA_MC.xlsx",
+ "page": "https://allratestoday.com/central-bank-rates-api/bcrd/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

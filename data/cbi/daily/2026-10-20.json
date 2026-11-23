@@ -1,0 +1,74 @@
+{
+ "source": "cbi",
+ "name": "Central Bank of Iceland",
+ "country": "Iceland",
+ "home_currency": "ISK",
+ "kind": "central_bank",
+ "date": "2026-10-20",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "CAD",
+   "quote": "ISK",
+   "type": "middle",
+   "value": 86.43
+  },
+  {
+   "base": "CHF",
+   "quote": "ISK",
+   "type": "middle",
+   "value": 147.45
+  },
+  {
+   "base": "DKK",
+   "quote": "ISK",
+   "type": "middle",
+   "value": 18.222
+  },
+  {
+   "base": "EUR",
+   "quote": "ISK",
+   "type": "middle",
+   "value": 136.2
+  },
+  {
+   "base": "GBP",
+   "quote": "ISK",
+   "type": "middle",
+   "value": 162.09
+  },
+  {
+   "base": "JPY",
+   "quote": "ISK",
+   "type": "middle",
+   "value": 0.768
+  },
+  {
+   "base": "NOK",
+   "quote": "ISK",
+   "type": "middle",
+   "value": 12.941
+  },
+  {
+   "base": "SEK",
+   "quote": "ISK",
+   "type": "middle",
+   "value": 12.245
+  },
+  {
+   "base": "USD",
+   "quote": "ISK",
+   "type": "middle",
+   "value": 121.44
+  },
+  {
+   "base": "XDR",
+   "quote": "ISK",
+   "type": "middle",
+   "value": 164.55
+  }
+ ],
+ "official_source": "https://sedlabanki.is/xmltimeseries/Default.aspx",
+ "page": "https://allratestoday.com/central-bank-rates-api/cbi/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

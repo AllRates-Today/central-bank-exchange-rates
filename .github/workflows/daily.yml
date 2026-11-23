@@ -9,6 +9,8 @@ concurrency: refresh
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    env:
+      DATA_DIR: ${{ github.workspace }}/store   # data/ in this repo only holds the 'moved' notices
     steps:
       - uses: actions/checkout@v4
       # Since 2026-11-23 the data lives in a private store repo, not here: the
@@ -18,7 +20,7 @@ jobs:
         with:
           repository: AllRates-Today/central-bank-rates-store
           ssh-key: ${{ secrets.STORE_DEPLOY_KEY }}
-          path: data
+          path: store
       - uses: actions/setup-node@v4
         with: { node-version: 22 }
       - run: node scripts/update.mjs
@@ -26,7 +28,7 @@ jobs:
           ALLRATES_API_KEY: ${{ secrets.ALLRATES_API_KEY }}
       - name: Commit if anything changed
         run: |
-          cd data
+          cd store
           git config user.name "rates-bot"
           git config user.email "rates-bot@users.noreply.github.com"
           git add -A

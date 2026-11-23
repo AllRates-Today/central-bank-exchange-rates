@@ -1,0 +1,158 @@
+{
+ "source": "bmu",
+ "name": "Bank of Mauritius",
+ "country": "Mauritius",
+ "home_currency": "MUR",
+ "kind": "central_bank",
+ "date": "2026-09-08",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AUD",
+   "quote": "MUR",
+   "type": "tt_buy",
+   "value": 33.8861
+  },
+  {
+   "base": "AUD",
+   "quote": "MUR",
+   "type": "tt_sell",
+   "value": 35.6317
+  },
+  {
+   "base": "CAD",
+   "quote": "MUR",
+   "type": "tt_buy",
+   "value": 33.7085
+  },
+  {
+   "base": "CAD",
+   "quote": "MUR",
+   "type": "tt_sell",
+   "value": 35.5681
+  },
+  {
+   "base": "CHF",
+   "quote": "MUR",
+   "type": "tt_buy",
+   "value": 57.0489
+  },
+  {
+   "base": "CHF",
+   "quote": "MUR",
+   "type": "tt_sell",
+   "value": 58.7525
+  },
+  {
+   "base": "CNY",
+   "quote": "MUR",
+   "type": "tt_buy",
+   "value": 6.9269
+  },
+  {
+   "base": "CNY",
+   "quote": "MUR",
+   "type": "tt_sell",
+   "value": 7.5111
+  },
+  {
+   "base": "EUR",
+   "quote": "MUR",
+   "type": "tt_buy",
+   "value": 53.6748
+  },
+  {
+   "base": "EUR",
+   "quote": "MUR",
+   "type": "tt_sell",
+   "value": 55.2807
+  },
+  {
+   "base": "GBP",
+   "quote": "MUR",
+   "type": "tt_buy",
+   "value": 62.5179
+  },
+  {
+   "base": "GBP",
+   "quote": "MUR",
+   "type": "tt_sell",
+   "value": 64.3851
+  },
+  {
+   "base": "INR",
+   "quote": "MUR",
+   "type": "tt_buy",
+   "value": 0.4957
+  },
+  {
+   "base": "INR",
+   "quote": "MUR",
+   "type": "tt_sell",
+   "value": 0.5293
+  },
+  {
+   "base": "JPY",
+   "quote": "MUR",
+   "type": "tt_buy",
+   "value": 0.30104
+  },
+  {
+   "base": "JPY",
+   "quote": "MUR",
+   "type": "tt_sell",
+   "value": 0.310061
+  },
+  {
+   "base": "NZD",
+   "quote": "MUR",
+   "type": "tt_buy",
+   "value": 27.2372
+  },
+  {
+   "base": "NZD",
+   "quote": "MUR",
+   "type": "tt_sell",
+   "value": 28.5952
+  },
+  {
+   "base": "SGD",
+   "quote": "MUR",
+   "type": "tt_buy",
+   "value": 36.7462
+  },
+  {
+   "base": "SGD",
+   "quote": "MUR",
+   "type": "tt_sell",
+   "value": 38.5874
+  },
+  {
+   "base": "USD",
+   "quote": "MUR",
+   "type": "tt_buy",
+   "value": 46.1749
+  },
+  {
+   "base": "USD",
+   "quote": "MUR",
+   "type": "tt_sell",
+   "value": 47.5521
+  },
+  {
+   "base": "ZAR",
+   "quote": "MUR",
+   "type": "tt_buy",
+   "value": 2.9203
+  },
+  {
+   "base": "ZAR",
+   "quote": "MUR",
+   "type": "tt_sell",
+   "value": 3.1315
+  }
+ ],
+ "official_source": "https://www.bom.mu/markets/foreign-exchange/consolidated-indicative-exchange-rates",
+ "page": "https://allratestoday.com/central-bank-rates-api/bmu/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

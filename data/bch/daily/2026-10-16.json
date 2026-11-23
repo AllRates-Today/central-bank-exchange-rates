@@ -1,0 +1,20 @@
+{
+ "source": "bch",
+ "name": "Banco Central de Honduras",
+ "country": "Honduras",
+ "home_currency": "HNL",
+ "kind": "central_bank",
+ "date": "2026-10-16",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "USD",
+   "quote": "HNL",
+   "type": "reference",
+   "value": 26.891
+  }
+ ],
+ "official_source": "https://www.bch.hn/",
+ "page": "https://allratestoday.com/central-bank-rates-api/bch/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

@@ -1,0 +1,230 @@
+{
+ "source": "nbt",
+ "name": "National Bank of Tajikistan",
+ "country": "Tajikistan",
+ "home_currency": "TJS",
+ "kind": "central_bank",
+ "date": "2026-09-26",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AED",
+   "quote": "TJS",
+   "type": "reference",
+   "value": 2.5164
+  },
+  {
+   "base": "AFN",
+   "quote": "TJS",
+   "type": "reference",
+   "value": 0.14231
+  },
+  {
+   "base": "AMD",
+   "quote": "TJS",
+   "type": "reference",
+   "value": 0.025533999999999998
+  },
+  {
+   "base": "AUD",
+   "quote": "TJS",
+   "type": "reference",
+   "value": 6.5007
+  },
+  {
+   "base": "AZN",
+   "quote": "TJS",
+   "type": "reference",
+   "value": 5.4372
+  },
+  {
+   "base": "BYN",
+   "quote": "TJS",
+   "type": "reference",
+   "value": 3.0673
+  },
+  {
+   "base": "CAD",
+   "quote": "TJS",
+   "type": "reference",
+   "value": 6.5346
+  },
+  {
+   "base": "CHF",
+   "quote": "TJS",
+   "type": "reference",
+   "value": 11.1552
+  },
+  {
+   "base": "CNY",
+   "quote": "TJS",
+   "type": "reference",
+   "value": 1.375
+  },
+  {
+   "base": "DKK",
+   "quote": "TJS",
+   "type": "reference",
+   "value": 1.41
+  },
+  {
+   "base": "EUR",
+   "quote": "TJS",
+   "type": "reference",
+   "value": 10.5419
+  },
+  {
+   "base": "GBP",
+   "quote": "TJS",
+   "type": "reference",
+   "value": 12.2509
+  },
+  {
+   "base": "GEL",
+   "quote": "TJS",
+   "type": "reference",
+   "value": 3.5255
+  },
+  {
+   "base": "INR",
+   "quote": "TJS",
+   "type": "reference",
+   "value": 0.09646
+  },
+  {
+   "base": "IRR",
+   "quote": "TJS",
+   "type": "reference",
+   "value": 0.0000067
+  },
+  {
+   "base": "ISK",
+   "quote": "TJS",
+   "type": "reference",
+   "value": 0.07708000000000001
+  },
+  {
+   "base": "JPY",
+   "quote": "TJS",
+   "type": "reference",
+   "value": 0.05865
+  },
+  {
+   "base": "KGS",
+   "quote": "TJS",
+   "type": "reference",
+   "value": 0.10569999999999999
+  },
+  {
+   "base": "KRW",
+   "quote": "TJS",
+   "type": "reference",
+   "value": 0.006822
+  },
+  {
+   "base": "KWD",
+   "quote": "TJS",
+   "type": "reference",
+   "value": 30.0348
+  },
+  {
+   "base": "KZT",
+   "quote": "TJS",
+   "type": "reference",
+   "value": 0.02092
+  },
+  {
+   "base": "MDL",
+   "quote": "TJS",
+   "type": "reference",
+   "value": 0.5201
+  },
+  {
+   "base": "MYR",
+   "quote": "TJS",
+   "type": "reference",
+   "value": 2.2666
+  },
+  {
+   "base": "NOK",
+   "quote": "TJS",
+   "type": "reference",
+   "value": 0.972
+  },
+  {
+   "base": "PKR",
+   "quote": "TJS",
+   "type": "reference",
+   "value": 0.033339999999999995
+  },
+  {
+   "base": "PLN",
+   "quote": "TJS",
+   "type": "reference",
+   "value": 2.4107
+  },
+  {
+   "base": "RUB",
+   "quote": "TJS",
+   "type": "reference",
+   "value": 0.1097
+  },
+  {
+   "base": "SAR",
+   "quote": "TJS",
+   "type": "reference",
+   "value": 2.4619
+  },
+  {
+   "base": "SEK",
+   "quote": "TJS",
+   "type": "reference",
+   "value": 0.9331
+  },
+  {
+   "base": "SGD",
+   "quote": "TJS",
+   "type": "reference",
+   "value": 7.2359
+  },
+  {
+   "base": "THB",
+   "quote": "TJS",
+   "type": "reference",
+   "value": 0.2771
+  },
+  {
+   "base": "TMT",
+   "quote": "TJS",
+   "type": "reference",
+   "value": 2.6409
+  },
+  {
+   "base": "TRY",
+   "quote": "TJS",
+   "type": "reference",
+   "value": 0.1888
+  },
+  {
+   "base": "UAH",
+   "quote": "TJS",
+   "type": "reference",
+   "value": 0.2067
+  },
+  {
+   "base": "USD",
+   "quote": "TJS",
+   "type": "reference",
+   "value": 9.2432
+  },
+  {
+   "base": "UZS",
+   "quote": "TJS",
+   "type": "reference",
+   "value": 0.000781
+  }
+ ],
+ "official_source": "https://nbt.tj/en/kurs/kurs.php",
+ "page": "https://allratestoday.com/central-bank-rates-api/nbt/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

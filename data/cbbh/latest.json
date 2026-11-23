@@ -1,0 +1,17 @@
+{
+ "error": "moved",
+ "code": "data_moved_to_free_account",
+ "moved_on": "2026-11-23",
+ "message": "This file no longer holds rates. The Central Bank of Bosnia and Herzegovina table, and every other source, is now served to registered users only. Create a free AllRatesToday account (one minute, no card) at https://allratestoday.com/register/?utm_source=github&utm_medium=moved_notice&utm_campaign=central-bank-exchange-rates, copy the API key from your dashboard, then call https://allratestoday.com/api/v1/central-bank/cbbh/latest with the header 'Authorization: Bearer YOUR_KEY'. The response has the same rates list as this file used to have (base, quote, type, value), with the date in rate_date, refreshed four times a day.",
+ "source": "cbbh",
+ "name": "Central Bank of Bosnia and Herzegovina",
+ "country": "Bosnia and Herzegovina",
+ "register_url": "https://allratestoday.com/register/?utm_source=github&utm_medium=moved_notice&utm_campaign=central-bank-exchange-rates",
+ "api_url": "https://allratestoday.com/api/v1/central-bank/cbbh/latest",
+ "example": "curl -H \"Authorization: Bearer YOUR_KEY\" https://allratestoday.com/api/v1/central-bank/cbbh/latest",
+ "history": "Full history back to 1914, one CSV per institution: https://huggingface.co/datasets/AllRatesToday/central-bank-exchange-rates (log in to Hugging Face and paste your free AllRatesToday key into the Get access form; approved within about 5 minutes).",
+ "docs": "https://allratestoday.com/docs/?utm_source=github&utm_medium=moved_notice&utm_campaign=central-bank-exchange-rates",
+ "page": "https://allratestoday.com/central-bank-rates-api/cbbh/",
+ "why": "We need to know who relies on the data so we can support it, tell users about source changes and outages, and keep it free.",
+ "help": "support@allratestoday.com"
+}

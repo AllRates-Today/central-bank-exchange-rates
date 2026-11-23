@@ -1,0 +1,224 @@
+{
+ "source": "imf",
+ "name": "International Monetary Fund",
+ "country": "International",
+ "home_currency": "USD",
+ "kind": "central_bank",
+ "date": "2026-11-12",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AED",
+   "quote": "XDR",
+   "type": "reference",
+   "value": 0.201811
+  },
+  {
+   "base": "AUD",
+   "quote": "XDR",
+   "type": "reference",
+   "value": 0.507022
+  },
+  {
+   "base": "BND",
+   "quote": "XDR",
+   "type": "reference",
+   "value": 0.576727
+  },
+  {
+   "base": "BRL",
+   "quote": "XDR",
+   "type": "reference",
+   "value": 0.132026
+  },
+  {
+   "base": "BWP",
+   "quote": "XDR",
+   "type": "reference",
+   "value": 0.0549194
+  },
+  {
+   "base": "CHF",
+   "quote": "XDR",
+   "type": "reference",
+   "value": 0.890765
+  },
+  {
+   "base": "CLP",
+   "quote": "XDR",
+   "type": "reference",
+   "value": 0.000752828
+  },
+  {
+   "base": "CNY",
+   "quote": "XDR",
+   "type": "reference",
+   "value": 0.111134
+  },
+  {
+   "base": "CZK",
+   "quote": "XDR",
+   "type": "reference",
+   "value": 0.0336673
+  },
+  {
+   "base": "DKK",
+   "quote": "XDR",
+   "type": "reference",
+   "value": 0.109864
+  },
+  {
+   "base": "DZD",
+   "quote": "XDR",
+   "type": "reference",
+   "value": 0.00542477
+  },
+  {
+   "base": "EUR",
+   "quote": "XDR",
+   "type": "reference",
+   "value": 0.821271
+  },
+  {
+   "base": "GBP",
+   "quote": "XDR",
+   "type": "reference",
+   "value": 0.98362
+  },
+  {
+   "base": "ILS",
+   "quote": "XDR",
+   "type": "reference",
+   "value": 0.232263
+  },
+  {
+   "base": "INR",
+   "quote": "XDR",
+   "type": "reference",
+   "value": 0.00790436
+  },
+  {
+   "base": "JPY",
+   "quote": "XDR",
+   "type": "reference",
+   "value": 0.00464323
+  },
+  {
+   "base": "KRW",
+   "quote": "XDR",
+   "type": "reference",
+   "value": 0.000554464
+  },
+  {
+   "base": "KWD",
+   "quote": "XDR",
+   "type": "reference",
+   "value": 2.40166
+  },
+  {
+   "base": "MUR",
+   "quote": "XDR",
+   "type": "reference",
+   "value": 0.0153725
+  },
+  {
+   "base": "MXN",
+   "quote": "XDR",
+   "type": "reference",
+   "value": 0.0398066
+  },
+  {
+   "base": "MYR",
+   "quote": "XDR",
+   "type": "reference",
+   "value": 0.181477
+  },
+  {
+   "base": "NOK",
+   "quote": "XDR",
+   "type": "reference",
+   "value": 0.07775
+  },
+  {
+   "base": "NZD",
+   "quote": "XDR",
+   "type": "reference",
+   "value": 0.412192
+  },
+  {
+   "base": "OMR",
+   "quote": "XDR",
+   "type": "reference",
+   "value": 1.92757
+  },
+  {
+   "base": "PEN",
+   "quote": "XDR",
+   "type": "reference",
+   "value": 0.217538
+  },
+  {
+   "base": "PHP",
+   "quote": "XDR",
+   "type": "reference",
+   "value": 0.0117289
+  },
+  {
+   "base": "PLN",
+   "quote": "XDR",
+   "type": "reference",
+   "value": 0.186801
+  },
+  {
+   "base": "QAR",
+   "quote": "XDR",
+   "type": "reference",
+   "value": 0.203613
+  },
+  {
+   "base": "SAR",
+   "quote": "XDR",
+   "type": "reference",
+   "value": 0.197641
+  },
+  {
+   "base": "SEK",
+   "quote": "XDR",
+   "type": "reference",
+   "value": 0.0742371
+  },
+  {
+   "base": "SGD",
+   "quote": "XDR",
+   "type": "reference",
+   "value": 0.576727
+  },
+  {
+   "base": "THB",
+   "quote": "XDR",
+   "type": "reference",
+   "value": 0.0219432
+  },
+  {
+   "base": "TTD",
+   "quote": "XDR",
+   "type": "reference",
+   "value": 0.109695
+  },
+  {
+   "base": "USD",
+   "quote": "XDR",
+   "type": "reference",
+   "value": 0.741152
+  },
+  {
+   "base": "UYU",
+   "quote": "XDR",
+   "type": "reference",
+   "value": 0.0182599
+  }
+ ],
+ "official_source": "https://www.imf.org/external/np/fin/data/param_rms_mth.aspx",
+ "page": "https://allratestoday.com/central-bank-rates-api/imf/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

@@ -1,0 +1,50 @@
+{
+ "source": "boz",
+ "name": "Bank of Zambia",
+ "country": "Zambia",
+ "home_currency": "ZMW",
+ "kind": "central_bank",
+ "date": "2026-11-19",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "CNY",
+   "quote": "ZMW",
+   "type": "buy",
+   "value": 3.0804
+  },
+  {
+   "base": "CNY",
+   "quote": "ZMW",
+   "type": "middle",
+   "value": 3.0842
+  },
+  {
+   "base": "CNY",
+   "quote": "ZMW",
+   "type": "sell",
+   "value": 3.0881
+  },
+  {
+   "base": "USD",
+   "quote": "ZMW",
+   "type": "buy",
+   "value": 20.5331
+  },
+  {
+   "base": "USD",
+   "quote": "ZMW",
+   "type": "middle",
+   "value": 20.5581
+  },
+  {
+   "base": "USD",
+   "quote": "ZMW",
+   "type": "sell",
+   "value": 20.5831
+  }
+ ],
+ "official_source": "https://www.boz.zm/financial-markets/exchange-rates",
+ "page": "https://allratestoday.com/central-bank-rates-api/boz/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

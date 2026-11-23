@@ -1,0 +1,128 @@
+{
+ "source": "cbtt",
+ "name": "Central Bank of Trinidad and Tobago",
+ "country": "Trinidad and Tobago",
+ "home_currency": "TTD",
+ "kind": "central_bank",
+ "date": "2026-09-08",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "BBD",
+   "quote": "TTD",
+   "type": "buy",
+   "value": 3.1034
+  },
+  {
+   "base": "BBD",
+   "quote": "TTD",
+   "type": "sell",
+   "value": 3.6717
+  },
+  {
+   "base": "CAD",
+   "quote": "TTD",
+   "type": "buy",
+   "value": 4.8741
+  },
+  {
+   "base": "CAD",
+   "quote": "TTD",
+   "type": "sell",
+   "value": 5.2679
+  },
+  {
+   "base": "CHF",
+   "quote": "TTD",
+   "type": "sell",
+   "value": 9.0349
+  },
+  {
+   "base": "EUR",
+   "quote": "TTD",
+   "type": "buy",
+   "value": 8.5534
+  },
+  {
+   "base": "EUR",
+   "quote": "TTD",
+   "type": "sell",
+   "value": 8.614
+  },
+  {
+   "base": "GBP",
+   "quote": "TTD",
+   "type": "buy",
+   "value": 9.3066
+  },
+  {
+   "base": "GBP",
+   "quote": "TTD",
+   "type": "sell",
+   "value": 9.9621
+  },
+  {
+   "base": "GYD",
+   "quote": "TTD",
+   "type": "buy",
+   "value": 0.0315
+  },
+  {
+   "base": "GYD",
+   "quote": "TTD",
+   "type": "sell",
+   "value": 0.0329
+  },
+  {
+   "base": "JMD",
+   "quote": "TTD",
+   "type": "buy",
+   "value": 0.0412
+  },
+  {
+   "base": "JMD",
+   "quote": "TTD",
+   "type": "sell",
+   "value": 0.043
+  },
+  {
+   "base": "JPY",
+   "quote": "TTD",
+   "type": "buy",
+   "value": 0.0434
+  },
+  {
+   "base": "JPY",
+   "quote": "TTD",
+   "type": "sell",
+   "value": 0.0468
+  },
+  {
+   "base": "USD",
+   "quote": "TTD",
+   "type": "buy",
+   "value": 6.7039
+  },
+  {
+   "base": "USD",
+   "quote": "TTD",
+   "type": "sell",
+   "value": 6.799
+  },
+  {
+   "base": "XCD",
+   "quote": "TTD",
+   "type": "buy",
+   "value": 2.4233
+  },
+  {
+   "base": "XCD",
+   "quote": "TTD",
+   "type": "sell",
+   "value": 2.6273
+  }
+ ],
+ "official_source": "https://www.central-bank.org.tt/exchange-rates-daily/",
+ "page": "https://allratestoday.com/central-bank-rates-api/cbtt/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

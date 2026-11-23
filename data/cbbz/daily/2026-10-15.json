@@ -1,0 +1,62 @@
+{
+ "source": "cbbz",
+ "name": "Central Bank of Belize",
+ "country": "Belize",
+ "home_currency": "BZD",
+ "kind": "central_bank",
+ "date": "2026-10-15",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "CAD",
+   "quote": "BZD",
+   "type": "buy",
+   "value": 1.3867
+  },
+  {
+   "base": "CAD",
+   "quote": "BZD",
+   "type": "sell",
+   "value": 1.4289
+  },
+  {
+   "base": "EUR",
+   "quote": "BZD",
+   "type": "buy",
+   "value": 2.2084
+  },
+  {
+   "base": "EUR",
+   "quote": "BZD",
+   "type": "sell",
+   "value": 2.2756
+  },
+  {
+   "base": "GBP",
+   "quote": "BZD",
+   "type": "buy",
+   "value": 2.6106
+  },
+  {
+   "base": "GBP",
+   "quote": "BZD",
+   "type": "sell",
+   "value": 2.6902
+  },
+  {
+   "base": "USD",
+   "quote": "BZD",
+   "type": "buy",
+   "value": 2
+  },
+  {
+   "base": "USD",
+   "quote": "BZD",
+   "type": "sell",
+   "value": 2.0175
+  }
+ ],
+ "official_source": "https://www.centralbank.org.bz/home/statistics/rates/exchange-rates",
+ "page": "https://allratestoday.com/central-bank-rates-api/cbbz/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

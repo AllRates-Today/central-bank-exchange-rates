@@ -1,0 +1,116 @@
+{
+ "source": "rbnz",
+ "name": "Reserve Bank of New Zealand",
+ "country": "New Zealand",
+ "home_currency": "NZD",
+ "kind": "central_bank",
+ "date": "2026-09-07",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "NZD",
+   "quote": "AUD",
+   "type": "reference",
+   "value": 0.81485
+  },
+  {
+   "base": "NZD",
+   "quote": "CAD",
+   "type": "reference",
+   "value": 0.8121
+  },
+  {
+   "base": "NZD",
+   "quote": "CNY",
+   "type": "reference",
+   "value": 3.93915
+  },
+  {
+   "base": "NZD",
+   "quote": "EUR",
+   "type": "reference",
+   "value": 0.5054
+  },
+  {
+   "base": "NZD",
+   "quote": "GBP",
+   "type": "reference",
+   "value": 0.43435
+  },
+  {
+   "base": "NZD",
+   "quote": "HKD",
+   "type": "reference",
+   "value": 4.60155
+  },
+  {
+   "base": "NZD",
+   "quote": "IDR",
+   "type": "reference",
+   "value": 10347.051
+  },
+  {
+   "base": "NZD",
+   "quote": "INR",
+   "type": "reference",
+   "value": 55.45985
+  },
+  {
+   "base": "NZD",
+   "quote": "JPY",
+   "type": "reference",
+   "value": 91.57695
+  },
+  {
+   "base": "NZD",
+   "quote": "KRW",
+   "type": "reference",
+   "value": 788.2361
+  },
+  {
+   "base": "NZD",
+   "quote": "MYR",
+   "type": "reference",
+   "value": 2.3749
+  },
+  {
+   "base": "NZD",
+   "quote": "PHP",
+   "type": "reference",
+   "value": 36.8221
+  },
+  {
+   "base": "NZD",
+   "quote": "SGD",
+   "type": "reference",
+   "value": 0.7438
+  },
+  {
+   "base": "NZD",
+   "quote": "THB",
+   "type": "reference",
+   "value": 19.32955
+  },
+  {
+   "base": "NZD",
+   "quote": "TWD",
+   "type": "reference",
+   "value": 18.54285
+  },
+  {
+   "base": "NZD",
+   "quote": "USD",
+   "type": "reference",
+   "value": 0.5869
+  },
+  {
+   "base": "NZD",
+   "quote": "VND",
+   "type": "reference",
+   "value": 15294.615
+  }
+ ],
+ "official_source": "https://www.rbnz.govt.nz/statistics/series/exchange-and-interest-rates/exchange-rates-and-the-trade-weighted-index",
+ "page": "https://allratestoday.com/central-bank-rates-api/rbnz/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

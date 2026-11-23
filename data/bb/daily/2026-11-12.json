@@ -1,0 +1,152 @@
+{
+ "source": "bb",
+ "name": "Bangladesh Bank",
+ "country": "Bangladesh",
+ "home_currency": "BDT",
+ "kind": "central_bank",
+ "date": "2026-11-12",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AUD",
+   "quote": "BDT",
+   "type": "buy",
+   "value": 85.4038
+  },
+  {
+   "base": "AUD",
+   "quote": "BDT",
+   "type": "sell",
+   "value": 85.4288
+  },
+  {
+   "base": "BDT",
+   "quote": "LKR",
+   "type": "buy",
+   "value": 2.6641
+  },
+  {
+   "base": "BDT",
+   "quote": "LKR",
+   "type": "sell",
+   "value": 2.6649
+  },
+  {
+   "base": "CAD",
+   "quote": "BDT",
+   "type": "buy",
+   "value": 87.5193
+  },
+  {
+   "base": "CAD",
+   "quote": "BDT",
+   "type": "sell",
+   "value": 87.5377
+  },
+  {
+   "base": "CNH",
+   "quote": "BDT",
+   "type": "buy",
+   "value": 18.6911
+  },
+  {
+   "base": "CNH",
+   "quote": "BDT",
+   "type": "sell",
+   "value": 18.6928
+  },
+  {
+   "base": "EUR",
+   "quote": "BDT",
+   "type": "buy",
+   "value": 138.3353
+  },
+  {
+   "base": "EUR",
+   "quote": "BDT",
+   "type": "sell",
+   "value": 138.3602
+  },
+  {
+   "base": "GBP",
+   "quote": "BDT",
+   "type": "buy",
+   "value": 165.668
+  },
+  {
+   "base": "GBP",
+   "quote": "BDT",
+   "type": "sell",
+   "value": 165.7054
+  },
+  {
+   "base": "INR",
+   "quote": "BDT",
+   "type": "buy",
+   "value": 1.3314
+  },
+  {
+   "base": "INR",
+   "quote": "BDT",
+   "type": "sell",
+   "value": 1.3315
+  },
+  {
+   "base": "JPY",
+   "quote": "BDT",
+   "type": "buy",
+   "value": 0.7807
+  },
+  {
+   "base": "JPY",
+   "quote": "BDT",
+   "type": "sell",
+   "value": 0.7808
+  },
+  {
+   "base": "SEK",
+   "quote": "BDT",
+   "type": "buy",
+   "value": 12.5104
+  },
+  {
+   "base": "SEK",
+   "quote": "BDT",
+   "type": "sell",
+   "value": 12.5142
+  },
+  {
+   "base": "SGD",
+   "quote": "BDT",
+   "type": "buy",
+   "value": 97.1119
+  },
+  {
+   "base": "SGD",
+   "quote": "BDT",
+   "type": "sell",
+   "value": 97.1649
+  },
+  {
+   "base": "USD",
+   "quote": "BDT",
+   "type": "buy",
+   "value": 124.75
+  },
+  {
+   "base": "USD",
+   "quote": "BDT",
+   "type": "reference",
+   "value": 124.75
+  },
+  {
+   "base": "USD",
+   "quote": "BDT",
+   "type": "sell",
+   "value": 124.75
+  }
+ ],
+ "official_source": "https://www.bb.org.bd/en/index.php/econdata/exchangerate",
+ "page": "https://allratestoday.com/central-bank-rates-api/bb/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

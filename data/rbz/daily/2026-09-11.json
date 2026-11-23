@@ -1,0 +1,176 @@
+{
+ "source": "rbz",
+ "name": "Reserve Bank of Zimbabwe",
+ "country": "Zimbabwe",
+ "home_currency": "ZWG",
+ "kind": "central_bank",
+ "date": "2026-09-11",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AUD",
+   "quote": "ZWG",
+   "type": "buy",
+   "value": 18.6195
+  },
+  {
+   "base": "AUD",
+   "quote": "ZWG",
+   "type": "middle",
+   "value": 19.0983
+  },
+  {
+   "base": "AUD",
+   "quote": "ZWG",
+   "type": "sell",
+   "value": 19.577
+  },
+  {
+   "base": "BWP",
+   "quote": "ZWG",
+   "type": "buy",
+   "value": 1.8398
+  },
+  {
+   "base": "BWP",
+   "quote": "ZWG",
+   "type": "middle",
+   "value": 1.9061
+  },
+  {
+   "base": "BWP",
+   "quote": "ZWG",
+   "type": "sell",
+   "value": 1.9724
+  },
+  {
+   "base": "CHF",
+   "quote": "ZWG",
+   "type": "buy",
+   "value": 31.9562
+  },
+  {
+   "base": "CHF",
+   "quote": "ZWG",
+   "type": "middle",
+   "value": 32.7818
+  },
+  {
+   "base": "CHF",
+   "quote": "ZWG",
+   "type": "sell",
+   "value": 33.6073
+  },
+  {
+   "base": "EUR",
+   "quote": "ZWG",
+   "type": "buy",
+   "value": 30.1732
+  },
+  {
+   "base": "EUR",
+   "quote": "ZWG",
+   "type": "middle",
+   "value": 30.9482
+  },
+  {
+   "base": "EUR",
+   "quote": "ZWG",
+   "type": "sell",
+   "value": 31.7232
+  },
+  {
+   "base": "GBP",
+   "quote": "ZWG",
+   "type": "buy",
+   "value": 35.1055
+  },
+  {
+   "base": "GBP",
+   "quote": "ZWG",
+   "type": "middle",
+   "value": 36.007
+  },
+  {
+   "base": "GBP",
+   "quote": "ZWG",
+   "type": "sell",
+   "value": 36.9085
+  },
+  {
+   "base": "NZD",
+   "quote": "ZWG",
+   "type": "buy",
+   "value": 15.1425
+  },
+  {
+   "base": "NZD",
+   "quote": "ZWG",
+   "type": "middle",
+   "value": 15.5335
+  },
+  {
+   "base": "NZD",
+   "quote": "ZWG",
+   "type": "sell",
+   "value": 15.9244
+  },
+  {
+   "base": "USD",
+   "quote": "ZWG",
+   "type": "buy",
+   "value": 25.9868
+  },
+  {
+   "base": "USD",
+   "quote": "ZWG",
+   "type": "middle",
+   "value": 26.6531
+  },
+  {
+   "base": "USD",
+   "quote": "ZWG",
+   "type": "sell",
+   "value": 27.3194
+  },
+  {
+   "base": "XAU",
+   "quote": "ZWG",
+   "type": "buy",
+   "value": 112722.6824
+  },
+  {
+   "base": "XAU",
+   "quote": "ZWG",
+   "type": "middle",
+   "value": 115629.4135
+  },
+  {
+   "base": "XAU",
+   "quote": "ZWG",
+   "type": "sell",
+   "value": 118536.1446
+  },
+  {
+   "base": "XDR",
+   "quote": "ZWG",
+   "type": "buy",
+   "value": 36.6072
+  },
+  {
+   "base": "XDR",
+   "quote": "ZWG",
+   "type": "middle",
+   "value": 36.6072
+  },
+  {
+   "base": "XDR",
+   "quote": "ZWG",
+   "type": "sell",
+   "value": 36.6072
+  }
+ ],
+ "official_source": "https://www.rbz.co.zw/index.php/research/markets/exchange-rates",
+ "page": "https://allratestoday.com/central-bank-rates-api/rbz/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

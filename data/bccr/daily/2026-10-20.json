@@ -1,0 +1,32 @@
+{
+ "source": "bccr",
+ "name": "Banco Central de Costa Rica",
+ "country": "Costa Rica",
+ "home_currency": "CRC",
+ "kind": "central_bank",
+ "date": "2026-10-20",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "EUR",
+   "quote": "CRC",
+   "type": "reference",
+   "value": 509.48
+  },
+  {
+   "base": "USD",
+   "quote": "CRC",
+   "type": "buy",
+   "value": 448.07
+  },
+  {
+   "base": "USD",
+   "quote": "CRC",
+   "type": "sell",
+   "value": 453.56
+  }
+ ],
+ "official_source": "https://api.hacienda.go.cr/indicadores/tc",
+ "page": "https://allratestoday.com/central-bank-rates-api/bccr/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

@@ -1,0 +1,98 @@
+{
+ "source": "cbbd",
+ "name": "Central Bank of Barbados",
+ "country": "Barbados",
+ "home_currency": "BBD",
+ "kind": "central_bank",
+ "date": "2026-10-29",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "BZD",
+   "quote": "BBD",
+   "type": "buy",
+   "value": 0.99688
+  },
+  {
+   "base": "BZD",
+   "quote": "BBD",
+   "type": "sell",
+   "value": 1.00313
+  },
+  {
+   "base": "CAD",
+   "quote": "BBD",
+   "type": "buy",
+   "value": 1.41709
+  },
+  {
+   "base": "CAD",
+   "quote": "BBD",
+   "type": "sell",
+   "value": 1.44947
+  },
+  {
+   "base": "EUR",
+   "quote": "BBD",
+   "type": "buy",
+   "value": 2.21855
+  },
+  {
+   "base": "EUR",
+   "quote": "BBD",
+   "type": "sell",
+   "value": 2.26439
+  },
+  {
+   "base": "GBP",
+   "quote": "BBD",
+   "type": "buy",
+   "value": 2.64924
+  },
+  {
+   "base": "GBP",
+   "quote": "BBD",
+   "type": "sell",
+   "value": 2.70398
+  },
+  {
+   "base": "GYD",
+   "quote": "BBD",
+   "type": "buy",
+   "value": 0.00954
+  },
+  {
+   "base": "GYD",
+   "quote": "BBD",
+   "type": "sell",
+   "value": 0.0096
+  },
+  {
+   "base": "USD",
+   "quote": "BBD",
+   "type": "buy",
+   "value": 1.99
+  },
+  {
+   "base": "USD",
+   "quote": "BBD",
+   "type": "sell",
+   "value": 2.02768
+  },
+  {
+   "base": "XCD",
+   "quote": "BBD",
+   "type": "buy",
+   "value": 0.73843
+  },
+  {
+   "base": "XCD",
+   "quote": "BBD",
+   "type": "sell",
+   "value": 0.74306
+  }
+ ],
+ "official_source": "https://www.centralbank.org.bb/exchange-rates",
+ "page": "https://allratestoday.com/central-bank-rates-api/cbbd/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

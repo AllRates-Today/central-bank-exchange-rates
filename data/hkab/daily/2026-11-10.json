@@ -1,0 +1,410 @@
+{
+ "source": "hkab",
+ "name": "Hong Kong Association of Banks (HKAB)",
+ "country": "Hong Kong",
+ "home_currency": "HKD",
+ "kind": "bank_association",
+ "date": "2026-11-10",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AUD",
+   "quote": "HKD",
+   "type": "middle",
+   "value": 5.42925
+  },
+  {
+   "base": "AUD",
+   "quote": "HKD",
+   "type": "sell",
+   "value": 5.5095
+  },
+  {
+   "base": "AUD",
+   "quote": "HKD",
+   "type": "tt_buy",
+   "value": 5.349
+  },
+  {
+   "base": "BND",
+   "quote": "HKD",
+   "type": "middle",
+   "value": 6.13325
+  },
+  {
+   "base": "BND",
+   "quote": "HKD",
+   "type": "sell",
+   "value": 6.198
+  },
+  {
+   "base": "BND",
+   "quote": "HKD",
+   "type": "tt_buy",
+   "value": 6.0685
+  },
+  {
+   "base": "CAD",
+   "quote": "HKD",
+   "type": "middle",
+   "value": 5.55475
+  },
+  {
+   "base": "CAD",
+   "quote": "HKD",
+   "type": "sell",
+   "value": 5.636
+  },
+  {
+   "base": "CAD",
+   "quote": "HKD",
+   "type": "tt_buy",
+   "value": 5.4735
+  },
+  {
+   "base": "CHF",
+   "quote": "HKD",
+   "type": "middle",
+   "value": 9.57125
+  },
+  {
+   "base": "CHF",
+   "quote": "HKD",
+   "type": "sell",
+   "value": 9.654
+  },
+  {
+   "base": "CHF",
+   "quote": "HKD",
+   "type": "tt_buy",
+   "value": 9.4885
+  },
+  {
+   "base": "CNY",
+   "quote": "HKD",
+   "type": "middle",
+   "value": 1.175
+  },
+  {
+   "base": "CNY",
+   "quote": "HKD",
+   "type": "sell",
+   "value": 1.1875
+  },
+  {
+   "base": "CNY",
+   "quote": "HKD",
+   "type": "tt_buy",
+   "value": 1.1625
+  },
+  {
+   "base": "DKK",
+   "quote": "HKD",
+   "type": "middle",
+   "value": 1.17725
+  },
+  {
+   "base": "DKK",
+   "quote": "HKD",
+   "type": "sell",
+   "value": 1.192
+  },
+  {
+   "base": "DKK",
+   "quote": "HKD",
+   "type": "tt_buy",
+   "value": 1.1625
+  },
+  {
+   "base": "EUR",
+   "quote": "HKD",
+   "type": "middle",
+   "value": 8.80175
+  },
+  {
+   "base": "EUR",
+   "quote": "HKD",
+   "type": "sell",
+   "value": 8.9095
+  },
+  {
+   "base": "EUR",
+   "quote": "HKD",
+   "type": "tt_buy",
+   "value": 8.694
+  },
+  {
+   "base": "GBP",
+   "quote": "HKD",
+   "type": "middle",
+   "value": 10.54
+  },
+  {
+   "base": "GBP",
+   "quote": "HKD",
+   "type": "sell",
+   "value": 10.62
+  },
+  {
+   "base": "GBP",
+   "quote": "HKD",
+   "type": "tt_buy",
+   "value": 10.46
+  },
+  {
+   "base": "INR",
+   "quote": "HKD",
+   "type": "middle",
+   "value": 0.08325
+  },
+  {
+   "base": "INR",
+   "quote": "HKD",
+   "type": "sell",
+   "value": 0.09
+  },
+  {
+   "base": "INR",
+   "quote": "HKD",
+   "type": "tt_buy",
+   "value": 0.0765
+  },
+  {
+   "base": "JPY",
+   "quote": "HKD",
+   "type": "middle",
+   "value": 0.0496525
+  },
+  {
+   "base": "JPY",
+   "quote": "HKD",
+   "type": "sell",
+   "value": 0.050655
+  },
+  {
+   "base": "JPY",
+   "quote": "HKD",
+   "type": "tt_buy",
+   "value": 0.04865
+  },
+  {
+   "base": "KRW",
+   "quote": "HKD",
+   "type": "middle",
+   "value": 0.0058425
+  },
+  {
+   "base": "KRW",
+   "quote": "HKD",
+   "type": "sell",
+   "value": 0.006095
+  },
+  {
+   "base": "KRW",
+   "quote": "HKD",
+   "type": "tt_buy",
+   "value": 0.00559
+  },
+  {
+   "base": "MYR",
+   "quote": "HKD",
+   "type": "middle",
+   "value": 1.93225
+  },
+  {
+   "base": "MYR",
+   "quote": "HKD",
+   "type": "sell",
+   "value": 1.9585
+  },
+  {
+   "base": "MYR",
+   "quote": "HKD",
+   "type": "tt_buy",
+   "value": 1.906
+  },
+  {
+   "base": "NOK",
+   "quote": "HKD",
+   "type": "middle",
+   "value": 0.83375
+  },
+  {
+   "base": "NOK",
+   "quote": "HKD",
+   "type": "sell",
+   "value": 0.8475
+  },
+  {
+   "base": "NOK",
+   "quote": "HKD",
+   "type": "tt_buy",
+   "value": 0.82
+  },
+  {
+   "base": "NZD",
+   "quote": "HKD",
+   "type": "middle",
+   "value": 4.41775
+  },
+  {
+   "base": "NZD",
+   "quote": "HKD",
+   "type": "sell",
+   "value": 4.481
+  },
+  {
+   "base": "NZD",
+   "quote": "HKD",
+   "type": "tt_buy",
+   "value": 4.3545
+  },
+  {
+   "base": "PHP",
+   "quote": "HKD",
+   "type": "middle",
+   "value": 0.12425
+  },
+  {
+   "base": "PHP",
+   "quote": "HKD",
+   "type": "sell",
+   "value": 0.1285
+  },
+  {
+   "base": "PHP",
+   "quote": "HKD",
+   "type": "tt_buy",
+   "value": 0.12
+  },
+  {
+   "base": "PKR",
+   "quote": "HKD",
+   "type": "middle",
+   "value": 0.02825
+  },
+  {
+   "base": "PKR",
+   "quote": "HKD",
+   "type": "sell",
+   "value": 0.031
+  },
+  {
+   "base": "PKR",
+   "quote": "HKD",
+   "type": "tt_buy",
+   "value": 0.0255
+  },
+  {
+   "base": "SEK",
+   "quote": "HKD",
+   "type": "middle",
+   "value": 0.80025
+  },
+  {
+   "base": "SEK",
+   "quote": "HKD",
+   "type": "sell",
+   "value": 0.813
+  },
+  {
+   "base": "SEK",
+   "quote": "HKD",
+   "type": "tt_buy",
+   "value": 0.7875
+  },
+  {
+   "base": "SGD",
+   "quote": "HKD",
+   "type": "middle",
+   "value": 6.13325
+  },
+  {
+   "base": "SGD",
+   "quote": "HKD",
+   "type": "sell",
+   "value": 6.1955
+  },
+  {
+   "base": "SGD",
+   "quote": "HKD",
+   "type": "tt_buy",
+   "value": 6.071
+  },
+  {
+   "base": "THB",
+   "quote": "HKD",
+   "type": "middle",
+   "value": 0.23475
+  },
+  {
+   "base": "THB",
+   "quote": "HKD",
+   "type": "sell",
+   "value": 0.2385
+  },
+  {
+   "base": "THB",
+   "quote": "HKD",
+   "type": "tt_buy",
+   "value": 0.231
+  },
+  {
+   "base": "TWD",
+   "quote": "HKD",
+   "type": "middle",
+   "value": 0.23925
+  },
+  {
+   "base": "TWD",
+   "quote": "HKD",
+   "type": "sell",
+   "value": 0.243
+  },
+  {
+   "base": "TWD",
+   "quote": "HKD",
+   "type": "tt_buy",
+   "value": 0.2355
+  },
+  {
+   "base": "USD",
+   "quote": "HKD",
+   "type": "middle",
+   "value": 7.84225
+  },
+  {
+   "base": "USD",
+   "quote": "HKD",
+   "type": "sell",
+   "value": 7.8725
+  },
+  {
+   "base": "USD",
+   "quote": "HKD",
+   "type": "tt_buy",
+   "value": 7.812
+  },
+  {
+   "base": "ZAR",
+   "quote": "HKD",
+   "type": "middle",
+   "value": 0.47875
+  },
+  {
+   "base": "ZAR",
+   "quote": "HKD",
+   "type": "sell",
+   "value": 0.491
+  },
+  {
+   "base": "ZAR",
+   "quote": "HKD",
+   "type": "tt_buy",
+   "value": 0.4665
+  }
+ ],
+ "official_source": "https://www.hkab.org.hk/en/rates/exchange-rates",
+ "page": "https://allratestoday.com/central-bank-rates-api/hkab/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

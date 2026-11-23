@@ -1,0 +1,134 @@
+{
+ "source": "sarsrex",
+ "name": "SARS customs rates of exchange",
+ "country": "South Africa",
+ "home_currency": "ZAR",
+ "kind": "tax_authority",
+ "date": "2026-11-23",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "ZAR",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.207497
+  },
+  {
+   "base": "ZAR",
+   "quote": "AUD",
+   "type": "reference",
+   "value": 0.08385
+  },
+  {
+   "base": "ZAR",
+   "quote": "BRL",
+   "type": "reference",
+   "value": 0.336099
+  },
+  {
+   "base": "ZAR",
+   "quote": "BWP",
+   "type": "reference",
+   "value": 0.78235
+  },
+  {
+   "base": "ZAR",
+   "quote": "CAD",
+   "type": "reference",
+   "value": 0.08025
+  },
+  {
+   "base": "ZAR",
+   "quote": "CHF",
+   "type": "reference",
+   "value": 0.0468
+  },
+  {
+   "base": "ZAR",
+   "quote": "CNY",
+   "type": "reference",
+   "value": 0.376536
+  },
+  {
+   "base": "ZAR",
+   "quote": "DKK",
+   "type": "reference",
+   "value": 0.38055
+  },
+  {
+   "base": "ZAR",
+   "quote": "EUR",
+   "type": "reference",
+   "value": 0.051267
+  },
+  {
+   "base": "ZAR",
+   "quote": "GBP",
+   "type": "reference",
+   "value": 0.042953
+  },
+  {
+   "base": "ZAR",
+   "quote": "HKD",
+   "type": "reference",
+   "value": 0.4377
+  },
+  {
+   "base": "ZAR",
+   "quote": "INR",
+   "type": "reference",
+   "value": 5.24421
+  },
+  {
+   "base": "ZAR",
+   "quote": "JPY",
+   "type": "reference",
+   "value": 8.89885
+  },
+  {
+   "base": "ZAR",
+   "quote": "MWK",
+   "type": "reference",
+   "value": 94.1281
+  },
+  {
+   "base": "ZAR",
+   "quote": "NOK",
+   "type": "reference",
+   "value": 0.54415
+  },
+  {
+   "base": "ZAR",
+   "quote": "NZD",
+   "type": "reference",
+   "value": 0.10115
+  },
+  {
+   "base": "ZAR",
+   "quote": "RUB",
+   "type": "reference",
+   "value": 4.607204
+  },
+  {
+   "base": "ZAR",
+   "quote": "SEK",
+   "type": "reference",
+   "value": 0.57145
+  },
+  {
+   "base": "ZAR",
+   "quote": "THB",
+   "type": "reference",
+   "value": 1.921521
+  },
+  {
+   "base": "ZAR",
+   "quote": "USD",
+   "type": "reference",
+   "value": 0.056497
+  }
+ ],
+ "official_source": "https://tools.sars.gov.za/rex/rates/MultipleDefault.aspx",
+ "page": "https://allratestoday.com/tax-authority-rates-api/sarsrex/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

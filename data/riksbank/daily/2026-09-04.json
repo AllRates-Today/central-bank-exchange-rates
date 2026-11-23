@@ -1,0 +1,188 @@
+{
+ "source": "riksbank",
+ "name": "Sveriges Riksbank",
+ "country": "Sweden",
+ "home_currency": "SEK",
+ "kind": "central_bank",
+ "date": "2026-09-04",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AUD",
+   "quote": "SEK",
+   "type": "middle",
+   "value": 6.88019
+  },
+  {
+   "base": "BRL",
+   "quote": "SEK",
+   "type": "middle",
+   "value": 1.86861
+  },
+  {
+   "base": "CAD",
+   "quote": "SEK",
+   "type": "middle",
+   "value": 6.92137
+  },
+  {
+   "base": "CHF",
+   "quote": "SEK",
+   "type": "middle",
+   "value": 11.80276
+  },
+  {
+   "base": "CNY",
+   "quote": "SEK",
+   "type": "middle",
+   "value": 1.42325
+  },
+  {
+   "base": "CZK",
+   "quote": "SEK",
+   "type": "middle",
+   "value": 0.45891
+  },
+  {
+   "base": "DKK",
+   "quote": "SEK",
+   "type": "middle",
+   "value": 1.48508
+  },
+  {
+   "base": "EUR",
+   "quote": "SEK",
+   "type": "middle",
+   "value": 11.1005
+  },
+  {
+   "base": "GBP",
+   "quote": "SEK",
+   "type": "middle",
+   "value": 12.92289
+  },
+  {
+   "base": "HKD",
+   "quote": "SEK",
+   "type": "middle",
+   "value": 1.21823
+  },
+  {
+   "base": "HUF",
+   "quote": "SEK",
+   "type": "middle",
+   "value": 0.03056
+  },
+  {
+   "base": "IDR",
+   "quote": "SEK",
+   "type": "middle",
+   "value": 0.00054
+  },
+  {
+   "base": "ILS",
+   "quote": "SEK",
+   "type": "middle",
+   "value": 3.17575
+  },
+  {
+   "base": "INR",
+   "quote": "SEK",
+   "type": "middle",
+   "value": 0.10108
+  },
+  {
+   "base": "ISK",
+   "quote": "SEK",
+   "type": "middle",
+   "value": 0.07884
+  },
+  {
+   "base": "JPY",
+   "quote": "SEK",
+   "type": "middle",
+   "value": 0.06113
+  },
+  {
+   "base": "KRW",
+   "quote": "SEK",
+   "type": "middle",
+   "value": 0.00707
+  },
+  {
+   "base": "MXN",
+   "quote": "SEK",
+   "type": "middle",
+   "value": 0.5652
+  },
+  {
+   "base": "MYR",
+   "quote": "SEK",
+   "type": "middle",
+   "value": 2.36156
+  },
+  {
+   "base": "NOK",
+   "quote": "SEK",
+   "type": "middle",
+   "value": 1.02749
+  },
+  {
+   "base": "NZD",
+   "quote": "SEK",
+   "type": "middle",
+   "value": 5.61908
+  },
+  {
+   "base": "PHP",
+   "quote": "SEK",
+   "type": "middle",
+   "value": 0.15245
+  },
+  {
+   "base": "PLN",
+   "quote": "SEK",
+   "type": "middle",
+   "value": 2.57266
+  },
+  {
+   "base": "RON",
+   "quote": "SEK",
+   "type": "middle",
+   "value": 2.11317
+  },
+  {
+   "base": "SGD",
+   "quote": "SEK",
+   "type": "middle",
+   "value": 7.53905
+  },
+  {
+   "base": "THB",
+   "quote": "SEK",
+   "type": "middle",
+   "value": 0.29013
+  },
+  {
+   "base": "TRY",
+   "quote": "SEK",
+   "type": "middle",
+   "value": 0.19717
+  },
+  {
+   "base": "USD",
+   "quote": "SEK",
+   "type": "middle",
+   "value": 9.55128
+  },
+  {
+   "base": "ZAR",
+   "quote": "SEK",
+   "type": "middle",
+   "value": 0.59818
+  }
+ ],
+ "official_source": "https://api.riksbank.se/swea/v1",
+ "page": "https://allratestoday.com/central-bank-rates-api/riksbank/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

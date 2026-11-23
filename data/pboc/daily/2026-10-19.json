@@ -1,0 +1,164 @@
+{
+ "source": "pboc",
+ "name": "People's Bank of China (CFETS)",
+ "country": "China",
+ "home_currency": "CNY",
+ "kind": "central_bank",
+ "date": "2026-10-19",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AUD",
+   "quote": "CNY",
+   "type": "reference",
+   "value": 4.67
+  },
+  {
+   "base": "CAD",
+   "quote": "CNY",
+   "type": "reference",
+   "value": 4.7452
+  },
+  {
+   "base": "CHF",
+   "quote": "CNY",
+   "type": "reference",
+   "value": 8.1377
+  },
+  {
+   "base": "CNY",
+   "quote": "AED",
+   "type": "reference",
+   "value": 0.54792
+  },
+  {
+   "base": "CNY",
+   "quote": "DKK",
+   "type": "reference",
+   "value": 0.9937
+  },
+  {
+   "base": "CNY",
+   "quote": "HUF",
+   "type": "reference",
+   "value": 48.226
+  },
+  {
+   "base": "CNY",
+   "quote": "KRW",
+   "type": "reference",
+   "value": 199.47
+  },
+  {
+   "base": "CNY",
+   "quote": "MOP",
+   "type": "reference",
+   "value": 1.2031
+  },
+  {
+   "base": "CNY",
+   "quote": "MXN",
+   "type": "reference",
+   "value": 2.749
+  },
+  {
+   "base": "CNY",
+   "quote": "MYR",
+   "type": "reference",
+   "value": 0.60803
+  },
+  {
+   "base": "CNY",
+   "quote": "NOK",
+   "type": "reference",
+   "value": 1.4076
+  },
+  {
+   "base": "CNY",
+   "quote": "PLN",
+   "type": "reference",
+   "value": 0.58039
+  },
+  {
+   "base": "CNY",
+   "quote": "RUB",
+   "type": "reference",
+   "value": 12.4537
+  },
+  {
+   "base": "CNY",
+   "quote": "SAR",
+   "type": "reference",
+   "value": 0.55982
+  },
+  {
+   "base": "CNY",
+   "quote": "SEK",
+   "type": "reference",
+   "value": 1.4797
+  },
+  {
+   "base": "CNY",
+   "quote": "THB",
+   "type": "reference",
+   "value": 4.9925
+  },
+  {
+   "base": "CNY",
+   "quote": "TRY",
+   "type": "reference",
+   "value": 7.38509
+  },
+  {
+   "base": "CNY",
+   "quote": "ZAR",
+   "type": "reference",
+   "value": 2.4555
+  },
+  {
+   "base": "EUR",
+   "quote": "CNY",
+   "type": "reference",
+   "value": 7.5237
+  },
+  {
+   "base": "GBP",
+   "quote": "CNY",
+   "type": "reference",
+   "value": 8.9362
+  },
+  {
+   "base": "HKD",
+   "quote": "CNY",
+   "type": "reference",
+   "value": 0.85642
+  },
+  {
+   "base": "JPY",
+   "quote": "CNY",
+   "type": "reference",
+   "value": 0.04248
+  },
+  {
+   "base": "NZD",
+   "quote": "CNY",
+   "type": "reference",
+   "value": 3.7901
+  },
+  {
+   "base": "SGD",
+   "quote": "CNY",
+   "type": "reference",
+   "value": 5.241
+  },
+  {
+   "base": "USD",
+   "quote": "CNY",
+   "type": "reference",
+   "value": 6.7208
+  }
+ ],
+ "official_source": "https://www.chinamoney.com.cn/english/bmkcpr/",
+ "page": "https://allratestoday.com/central-bank-rates-api/pboc/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

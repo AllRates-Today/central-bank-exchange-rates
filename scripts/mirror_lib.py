@@ -17,7 +17,7 @@ Both mirrors get the same treatment:
 import datetime as dt, glob, json, os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DATA = os.path.join(ROOT, "data")
+DATA = os.environ.get("DATA_DIR") or os.path.join(ROOT, "data")  # private store checkout in the refresh job
 LAG_DAYS = 2
 SITE = "https://allratestoday.com"
 GITHUB = "https://github.com/AllRates-Today/central-bank-exchange-rates"

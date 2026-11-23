@@ -1,0 +1,374 @@
+{
+ "source": "cbl",
+ "name": "Central Bank of Libya",
+ "country": "Libya",
+ "home_currency": "LYD",
+ "kind": "central_bank",
+ "date": "2026-10-04",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AED",
+   "quote": "LYD",
+   "type": "buy",
+   "value": 1.743
+  },
+  {
+   "base": "AED",
+   "quote": "LYD",
+   "type": "middle",
+   "value": 1.7474
+  },
+  {
+   "base": "AED",
+   "quote": "LYD",
+   "type": "sell",
+   "value": 1.7517
+  },
+  {
+   "base": "AUD",
+   "quote": "LYD",
+   "type": "buy",
+   "value": 4.4529
+  },
+  {
+   "base": "AUD",
+   "quote": "LYD",
+   "type": "middle",
+   "value": 4.4641
+  },
+  {
+   "base": "AUD",
+   "quote": "LYD",
+   "type": "sell",
+   "value": 4.4752
+  },
+  {
+   "base": "CAD",
+   "quote": "LYD",
+   "type": "buy",
+   "value": 4.4919
+  },
+  {
+   "base": "CAD",
+   "quote": "LYD",
+   "type": "middle",
+   "value": 4.5031
+  },
+  {
+   "base": "CAD",
+   "quote": "LYD",
+   "type": "sell",
+   "value": 4.5144
+  },
+  {
+   "base": "CHF",
+   "quote": "LYD",
+   "type": "buy",
+   "value": 7.7239
+  },
+  {
+   "base": "CHF",
+   "quote": "LYD",
+   "type": "middle",
+   "value": 7.7433
+  },
+  {
+   "base": "CHF",
+   "quote": "LYD",
+   "type": "sell",
+   "value": 7.7626
+  },
+  {
+   "base": "CNY",
+   "quote": "LYD",
+   "type": "buy",
+   "value": 0.9547
+  },
+  {
+   "base": "CNY",
+   "quote": "LYD",
+   "type": "middle",
+   "value": 0.9571
+  },
+  {
+   "base": "CNY",
+   "quote": "LYD",
+   "type": "sell",
+   "value": 0.9594
+  },
+  {
+   "base": "DKK",
+   "quote": "LYD",
+   "type": "buy",
+   "value": 0.9636
+  },
+  {
+   "base": "DKK",
+   "quote": "LYD",
+   "type": "middle",
+   "value": 0.9661
+  },
+  {
+   "base": "DKK",
+   "quote": "LYD",
+   "type": "sell",
+   "value": 0.9685
+  },
+  {
+   "base": "DZD",
+   "quote": "LYD",
+   "type": "buy",
+   "value": 0.047799999999999995
+  },
+  {
+   "base": "DZD",
+   "quote": "LYD",
+   "type": "middle",
+   "value": 0.048
+  },
+  {
+   "base": "DZD",
+   "quote": "LYD",
+   "type": "sell",
+   "value": 0.0481
+  },
+  {
+   "base": "EUR",
+   "quote": "LYD",
+   "type": "buy",
+   "value": 7.2029
+  },
+  {
+   "base": "EUR",
+   "quote": "LYD",
+   "type": "middle",
+   "value": 7.221
+  },
+  {
+   "base": "EUR",
+   "quote": "LYD",
+   "type": "sell",
+   "value": 7.239
+  },
+  {
+   "base": "GBP",
+   "quote": "LYD",
+   "type": "buy",
+   "value": 8.4755
+  },
+  {
+   "base": "GBP",
+   "quote": "LYD",
+   "type": "middle",
+   "value": 8.4968
+  },
+  {
+   "base": "GBP",
+   "quote": "LYD",
+   "type": "sell",
+   "value": 8.518
+  },
+  {
+   "base": "JPY",
+   "quote": "LYD",
+   "type": "buy",
+   "value": 0.0406
+  },
+  {
+   "base": "JPY",
+   "quote": "LYD",
+   "type": "middle",
+   "value": 0.0407
+  },
+  {
+   "base": "JPY",
+   "quote": "LYD",
+   "type": "sell",
+   "value": 0.0408
+  },
+  {
+   "base": "MAD",
+   "quote": "LYD",
+   "type": "buy",
+   "value": 0.6444
+  },
+  {
+   "base": "MAD",
+   "quote": "LYD",
+   "type": "middle",
+   "value": 0.646
+  },
+  {
+   "base": "MAD",
+   "quote": "LYD",
+   "type": "sell",
+   "value": 0.6476
+  },
+  {
+   "base": "MRU",
+   "quote": "LYD",
+   "type": "buy",
+   "value": 0.16
+  },
+  {
+   "base": "MRU",
+   "quote": "LYD",
+   "type": "middle",
+   "value": 0.16
+  },
+  {
+   "base": "MRU",
+   "quote": "LYD",
+   "type": "sell",
+   "value": 0.161
+  },
+  {
+   "base": "NOK",
+   "quote": "LYD",
+   "type": "buy",
+   "value": 0.6655
+  },
+  {
+   "base": "NOK",
+   "quote": "LYD",
+   "type": "middle",
+   "value": 0.6672
+  },
+  {
+   "base": "NOK",
+   "quote": "LYD",
+   "type": "sell",
+   "value": 0.6689
+  },
+  {
+   "base": "RUB",
+   "quote": "LYD",
+   "type": "buy",
+   "value": 0.0764
+  },
+  {
+   "base": "RUB",
+   "quote": "LYD",
+   "type": "middle",
+   "value": 0.0764
+  },
+  {
+   "base": "RUB",
+   "quote": "LYD",
+   "type": "sell",
+   "value": 0.0764
+  },
+  {
+   "base": "SAR",
+   "quote": "LYD",
+   "type": "buy",
+   "value": 1.7051
+  },
+  {
+   "base": "SAR",
+   "quote": "LYD",
+   "type": "middle",
+   "value": 1.7094
+  },
+  {
+   "base": "SAR",
+   "quote": "LYD",
+   "type": "sell",
+   "value": 1.7136
+  },
+  {
+   "base": "SEK",
+   "quote": "LYD",
+   "type": "buy",
+   "value": 0.6376
+  },
+  {
+   "base": "SEK",
+   "quote": "LYD",
+   "type": "middle",
+   "value": 0.6392
+  },
+  {
+   "base": "SEK",
+   "quote": "LYD",
+   "type": "sell",
+   "value": 0.6408
+  },
+  {
+   "base": "TND",
+   "quote": "LYD",
+   "type": "buy",
+   "value": 2.1397
+  },
+  {
+   "base": "TND",
+   "quote": "LYD",
+   "type": "middle",
+   "value": 2.1451
+  },
+  {
+   "base": "TND",
+   "quote": "LYD",
+   "type": "sell",
+   "value": 2.1505
+  },
+  {
+   "base": "TRY",
+   "quote": "LYD",
+   "type": "buy",
+   "value": 0.1304
+  },
+  {
+   "base": "TRY",
+   "quote": "LYD",
+   "type": "middle",
+   "value": 0.1307
+  },
+  {
+   "base": "TRY",
+   "quote": "LYD",
+   "type": "sell",
+   "value": 0.1311
+  },
+  {
+   "base": "USD",
+   "quote": "LYD",
+   "type": "buy",
+   "value": 6.402
+  },
+  {
+   "base": "USD",
+   "quote": "LYD",
+   "type": "middle",
+   "value": 6.418
+  },
+  {
+   "base": "USD",
+   "quote": "LYD",
+   "type": "sell",
+   "value": 6.4341
+  },
+  {
+   "base": "XOF",
+   "quote": "LYD",
+   "type": "buy",
+   "value": 0.011
+  },
+  {
+   "base": "XOF",
+   "quote": "LYD",
+   "type": "middle",
+   "value": 0.011
+  },
+  {
+   "base": "XOF",
+   "quote": "LYD",
+   "type": "sell",
+   "value": 0.011
+  }
+ ],
+ "official_source": "https://cbl.gov.ly/currency-exchange-rates/",
+ "page": "https://allratestoday.com/central-bank-rates-api/cbl/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

@@ -1,0 +1,74 @@
+{
+ "source": "cbj",
+ "name": "Central Bank of Jordan",
+ "country": "Jordan",
+ "home_currency": "JOD",
+ "kind": "central_bank",
+ "date": "2026-10-25",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "CHF",
+   "quote": "JOD",
+   "type": "buy",
+   "value": 0.85756
+  },
+  {
+   "base": "CHF",
+   "quote": "JOD",
+   "type": "sell",
+   "value": 0.8667
+  },
+  {
+   "base": "EUR",
+   "quote": "JOD",
+   "type": "buy",
+   "value": 0.7919
+  },
+  {
+   "base": "EUR",
+   "quote": "JOD",
+   "type": "sell",
+   "value": 0.79705
+  },
+  {
+   "base": "GBP",
+   "quote": "JOD",
+   "type": "buy",
+   "value": 0.94596
+  },
+  {
+   "base": "GBP",
+   "quote": "JOD",
+   "type": "sell",
+   "value": 0.95197
+  },
+  {
+   "base": "JPY",
+   "quote": "JOD",
+   "type": "buy",
+   "value": 0.004505
+  },
+  {
+   "base": "JPY",
+   "quote": "JOD",
+   "type": "sell",
+   "value": 0.0045489
+  },
+  {
+   "base": "USD",
+   "quote": "JOD",
+   "type": "buy",
+   "value": 0.708
+  },
+  {
+   "base": "USD",
+   "quote": "JOD",
+   "type": "sell",
+   "value": 0.71
+  }
+ ],
+ "official_source": "https://www.cbj.gov.jo/en/Pages/foreignexchangerates",
+ "page": "https://allratestoday.com/central-bank-rates-api/cbj/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

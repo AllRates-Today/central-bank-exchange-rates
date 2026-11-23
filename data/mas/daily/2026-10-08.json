@@ -1,0 +1,140 @@
+{
+ "source": "mas",
+ "name": "Monetary Authority of Singapore",
+ "country": "Singapore",
+ "home_currency": "SGD",
+ "kind": "central_bank",
+ "date": "2026-10-08",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AED",
+   "quote": "SGD",
+   "type": "reference",
+   "value": 0.34850000000000003
+  },
+  {
+   "base": "AUD",
+   "quote": "SGD",
+   "type": "reference",
+   "value": 0.8905
+  },
+  {
+   "base": "CAD",
+   "quote": "SGD",
+   "type": "reference",
+   "value": 0.8976000000000001
+  },
+  {
+   "base": "CHF",
+   "quote": "SGD",
+   "type": "reference",
+   "value": 1.5371000000000001
+  },
+  {
+   "base": "CNY",
+   "quote": "SGD",
+   "type": "reference",
+   "value": 0.191
+  },
+  {
+   "base": "EUR",
+   "quote": "SGD",
+   "type": "reference",
+   "value": 1.4343
+  },
+  {
+   "base": "GBP",
+   "quote": "SGD",
+   "type": "reference",
+   "value": 1.6912
+  },
+  {
+   "base": "HKD",
+   "quote": "SGD",
+   "type": "reference",
+   "value": 0.1631
+  },
+  {
+   "base": "IDR",
+   "quote": "SGD",
+   "type": "reference",
+   "value": 0.00007156
+  },
+  {
+   "base": "INR",
+   "quote": "SGD",
+   "type": "reference",
+   "value": 0.013238000000000002
+  },
+  {
+   "base": "JPY",
+   "quote": "SGD",
+   "type": "reference",
+   "value": 0.008095999999999999
+  },
+  {
+   "base": "KRW",
+   "quote": "SGD",
+   "type": "reference",
+   "value": 0.000957
+  },
+  {
+   "base": "MYR",
+   "quote": "SGD",
+   "type": "reference",
+   "value": 0.3132
+  },
+  {
+   "base": "NZD",
+   "quote": "SGD",
+   "type": "reference",
+   "value": 0.7173
+  },
+  {
+   "base": "PHP",
+   "quote": "SGD",
+   "type": "reference",
+   "value": 0.020388000000000003
+  },
+  {
+   "base": "QAR",
+   "quote": "SGD",
+   "type": "reference",
+   "value": 0.35109999999999997
+  },
+  {
+   "base": "SAR",
+   "quote": "SGD",
+   "type": "reference",
+   "value": 0.341
+  },
+  {
+   "base": "THB",
+   "quote": "SGD",
+   "type": "reference",
+   "value": 0.038063
+  },
+  {
+   "base": "TWD",
+   "quote": "SGD",
+   "type": "reference",
+   "value": 0.040121000000000004
+  },
+  {
+   "base": "USD",
+   "quote": "SGD",
+   "type": "reference",
+   "value": 1.2801
+  },
+  {
+   "base": "VND",
+   "quote": "SGD",
+   "type": "reference",
+   "value": 0.000049300000000000006
+  }
+ ],
+ "official_source": "https://eservices.mas.gov.sg/Statistics/msb/ExchangeRates.aspx",
+ "page": "https://allratestoday.com/central-bank-rates-api/mas/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

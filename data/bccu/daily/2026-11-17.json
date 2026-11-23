@@ -1,0 +1,248 @@
+{
+ "source": "bccu",
+ "name": "Banco Central de Cuba",
+ "country": "Cuba",
+ "home_currency": "CUP",
+ "kind": "central_bank",
+ "date": "2026-11-17",
+ "cadence": "daily",
+ "rates": [
+  {
+   "base": "AUD",
+   "quote": "CUP",
+   "type": "official",
+   "value": 16.2
+  },
+  {
+   "base": "AUD",
+   "quote": "CUP",
+   "type": "public",
+   "value": 81
+  },
+  {
+   "base": "AUD",
+   "quote": "CUP",
+   "type": "special",
+   "value": 561.6
+  },
+  {
+   "base": "CAD",
+   "quote": "CUP",
+   "type": "official",
+   "value": 16.78439
+  },
+  {
+   "base": "CAD",
+   "quote": "CUP",
+   "type": "public",
+   "value": 83.92195
+  },
+  {
+   "base": "CAD",
+   "quote": "CUP",
+   "type": "special",
+   "value": 581.85887
+  },
+  {
+   "base": "CHF",
+   "quote": "CUP",
+   "type": "official",
+   "value": 28.58674
+  },
+  {
+   "base": "CHF",
+   "quote": "CUP",
+   "type": "public",
+   "value": 142.93371
+  },
+  {
+   "base": "CHF",
+   "quote": "CUP",
+   "type": "special",
+   "value": 991.00709
+  },
+  {
+   "base": "CNY",
+   "quote": "CUP",
+   "type": "official",
+   "value": 3.60095
+  },
+  {
+   "base": "CNY",
+   "quote": "CUP",
+   "type": "public",
+   "value": 18.00477
+  },
+  {
+   "base": "CNY",
+   "quote": "CUP",
+   "type": "special",
+   "value": 124.83308
+  },
+  {
+   "base": "DKK",
+   "quote": "CUP",
+   "type": "official",
+   "value": 3.53474
+  },
+  {
+   "base": "DKK",
+   "quote": "CUP",
+   "type": "public",
+   "value": 17.6737
+  },
+  {
+   "base": "DKK",
+   "quote": "CUP",
+   "type": "special",
+   "value": 122.53765
+  },
+  {
+   "base": "EUR",
+   "quote": "CUP",
+   "type": "official",
+   "value": 26.424
+  },
+  {
+   "base": "EUR",
+   "quote": "CUP",
+   "type": "public",
+   "value": 132.12
+  },
+  {
+   "base": "EUR",
+   "quote": "CUP",
+   "type": "special",
+   "value": 916.032
+  },
+  {
+   "base": "GBP",
+   "quote": "CUP",
+   "type": "official",
+   "value": 31.6704
+  },
+  {
+   "base": "GBP",
+   "quote": "CUP",
+   "type": "public",
+   "value": 158.352
+  },
+  {
+   "base": "GBP",
+   "quote": "CUP",
+   "type": "special",
+   "value": 1097.9072
+  },
+  {
+   "base": "JPY",
+   "quote": "CUP",
+   "type": "official",
+   "value": 0.150366443022
+  },
+  {
+   "base": "JPY",
+   "quote": "CUP",
+   "type": "public",
+   "value": 0.751834476122
+  },
+  {
+   "base": "JPY",
+   "quote": "CUP",
+   "type": "special",
+   "value": 5.21267723103
+  },
+  {
+   "base": "MXN",
+   "quote": "CUP",
+   "type": "official",
+   "value": 1.28835
+  },
+  {
+   "base": "MXN",
+   "quote": "CUP",
+   "type": "public",
+   "value": 6.44176
+  },
+  {
+   "base": "MXN",
+   "quote": "CUP",
+   "type": "special",
+   "value": 44.66287
+  },
+  {
+   "base": "NOK",
+   "quote": "CUP",
+   "type": "official",
+   "value": 2.49343
+  },
+  {
+   "base": "NOK",
+   "quote": "CUP",
+   "type": "public",
+   "value": 12.46714
+  },
+  {
+   "base": "NOK",
+   "quote": "CUP",
+   "type": "special",
+   "value": 86.43886
+  },
+  {
+   "base": "RUB",
+   "quote": "CUP",
+   "type": "official",
+   "value": 0.29089
+  },
+  {
+   "base": "RUB",
+   "quote": "CUP",
+   "type": "public",
+   "value": 1.45445
+  },
+  {
+   "base": "RUB",
+   "quote": "CUP",
+   "type": "special",
+   "value": 10.08416
+  },
+  {
+   "base": "SEK",
+   "quote": "CUP",
+   "type": "official",
+   "value": 2.38185
+  },
+  {
+   "base": "SEK",
+   "quote": "CUP",
+   "type": "public",
+   "value": 11.90925
+  },
+  {
+   "base": "SEK",
+   "quote": "CUP",
+   "type": "special",
+   "value": 82.57081
+  },
+  {
+   "base": "USD",
+   "quote": "CUP",
+   "type": "official",
+   "value": 24
+  },
+  {
+   "base": "USD",
+   "quote": "CUP",
+   "type": "public",
+   "value": 120
+  },
+  {
+   "base": "USD",
+   "quote": "CUP",
+   "type": "special",
+   "value": 832
+  }
+ ],
+ "official_source": "https://www.bc.gob.cu/tasas-de-cambio",
+ "page": "https://allratestoday.com/central-bank-rates-api/bccu/",
+ "license": "CC BY-NC 4.0 — non-commercial use with attribution: AllRatesToday, https://allratestoday.com"
+}

@@ -2,7 +2,9 @@ import { mkdirSync, existsSync, readFileSync, writeFileSync, readdirSync } from 
 import { join } from 'node:path';
 
 export const ROOT = new URL('../', import.meta.url).pathname;
-export const DATA = join(ROOT, 'data');
+// The real tables live in the private store repo (checked out by the refresh
+// job and pointed at with DATA_DIR); data/ here holds only the 'moved' notices.
+export const DATA = process.env.DATA_DIR ?? join(ROOT, 'data');
 export const CSV_HEADER = 'date,base,quote,type,value';
 
 export function bankDir(code) {
