@@ -106,7 +106,7 @@ json.dump({
         f"(exact URL per institution in sources.json, field official_source), e.g. ECB {st['sources']['ecb']['official_source']}, "
         f"Federal Reserve H.10 {st['sources']['fed']['official_source']}, Bank of England {st['sources']['boe']['official_source']}. "
         f"Collected daily by the AllRatesToday ingest pipeline, cross-checked across banks for unit and direction errors, "
-        f"and published with per-day snapshots at {M.GITHUB}; this mirror lags that source by {M.LAG_DAYS} days."
+        f"and served live by the AllRatesToday API with a free key; this mirror lags it by {M.LAG_DAYS} days."
     ),
     "expectedUpdateFrequency": "daily",
 }, open(f"{work}/dataset-metadata.json", "w"), indent=1)

@@ -54,7 +54,7 @@ def build(work, utm_source, csv_path):
         "attribution": f"AllRatesToday, {SITE}",
         "license": "CC-BY-NC-4.0",
         "api": link("/central-bank-rates-api/", utm_source),
-        "live_data": GITHUB,
+        "live_data": f"{SITE}/central-bank-rates-api/",
         "lag_days": LAG_DAYS,
         "note": f"Mirror ends {cut}. Current tables, per-date lookups and publication calendars are on the API.",
     }
@@ -113,8 +113,8 @@ Please register for a free AllRatesToday account before using this data: {SITE}/
 This mirror ends {cut} (it lags the live source by {LAG_DAYS} days).
 Today's tables, per-date lookups, publication calendars and JSON/CSV/XML/XLSX output:
   {attribution['api']}
-Live files, refreshed four times a day, with per-day snapshots (no key):
-  {GITHUB}
+Free API key (register once, then the same tables live):
+  {SITE}/register/
 Underlying figures are public publications of the institutions named in sources.json.
 """)
     return stats
@@ -154,7 +154,7 @@ This dataset is collected and maintained by [AllRatesToday]({L('/')}), a currenc
 | Need | Where |
 |---|---|
 | A free API key for the live data | [Register]({L('/register/')}) |
-| Today's tables, four refreshes a day, JSON/CSV over a CDN, no key | [GitHub source repository]({GITHUB}) |
+| Today's tables, four refreshes a day, with the same free key | [Central bank rates API]({L('/central-bank-rates-api/')}) |
 | Rate on a given date with holiday fallback, time series, pair resolution, publication calendars, CSV/XML/XLSX | [Central bank rates API]({L('/central-bank-rates-api/')}) |
 | Real-time mid-market rates for 160+ currencies alongside the official ones | [Exchange rate API]({L('/exchange-rate-api/')}) |
 | Per-institution page with the live table, cadence and FAQ | `{SITE}/central-bank-rates-api/<code>/` (tax authorities: `{SITE}/tax-authority-rates-api/<code>/`) |

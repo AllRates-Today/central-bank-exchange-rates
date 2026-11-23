@@ -57,7 +57,7 @@ configs:
 
 # Central Bank Exchange Rates
 
-Official exchange rates published by **{st['banks']} central banks and {st['taxes']} tax and customs authorities**, as one CSV per institution: {st['total']:,} rows, the oldest series from {st['oldest'][:4]}, latest table in this mirror {st['latest']}. Collected and published by [AllRatesToday]({M.link('/central-bank-rates-api/', UTM)}) and refreshed daily from the GitHub source repository [AllRates-Today/central-bank-exchange-rates]({M.GITHUB}).
+Official exchange rates published by **{st['banks']} central banks and {st['taxes']} tax and customs authorities**, as one CSV per institution: {st['total']:,} rows, the oldest series from {st['oldest'][:4]}, latest table in this mirror {st['latest']}. Collected and published by [AllRatesToday]({M.link('/central-bank-rates-api/', UTM)}), refreshed daily from the same pipeline as the live API.
 
 Every row is the figure the institution itself published for that date: the ECB euro reference rate, the Federal Reserve H.10 table, the Bank of England spot rates, RBI reference rates, PBoC central parity, HMRC monthly rates for VAT, US Treasury quarterly rates, and a hundred more. These are the rates that invoices, tax filings, customs declarations, transfer pricing and audits require, as opposed to market rates.
 
@@ -65,7 +65,7 @@ Every row is the figure the institution itself published for that date: the ECB 
 
 ## Access
 
-Downloading needs two free accounts: a Hugging Face login, and an AllRatesToday account whose API key you paste into the **Get access** form above ([register here]({M.link('/register/', UTM)}), the key is on your dashboard). Requests are checked every 5 minutes: a valid key is approved within about 5 minutes, an invalid key is rejected. Rejected by mistake? Email support@allratestoday.com with your Hugging Face username and key. In code, run `huggingface-cli login` once (or set `HF_TOKEN`) and `load_dataset`, `pd.read_csv("hf://...")`, Polars and DuckDB all work. The same tables are on the [GitHub source repository]({M.GITHUB}) and the [API]({M.link('/central-bank-rates-api/', UTM)}) as well.
+Downloading needs two free accounts: a Hugging Face login, and an AllRatesToday account whose API key you paste into the **Get access** form above ([register here]({M.link('/register/', UTM)}), the key is on your dashboard). Requests are checked every 5 minutes: a valid key is approved within about 5 minutes, an invalid key is rejected. Rejected by mistake? Email support@allratestoday.com with your Hugging Face username and key. In code, run `huggingface-cli login` once (or set `HF_TOKEN`) and `load_dataset`, `pd.read_csv("hf://...")`, Polars and DuckDB all work. The same tables are on the [API]({M.link('/central-bank-rates-api/', UTM)}) with the same free key.
 
 ## Schema
 
